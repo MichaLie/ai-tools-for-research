@@ -1,7 +1,7 @@
 name: Claude Code
 category: code-assistants
 provider: Anthropic
-url: https://claude.ai/
+url: https://www.anthropic.com/claude-code
 description: Terminal-based agentic coding tool for code generation, debugging, and
   repository-wide modifications through natural language. CLAUDE.md configuration
   for project conventions. Tool Search Tool reduces context by 37%.

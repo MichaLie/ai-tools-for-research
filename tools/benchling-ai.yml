@@ -1,0 +1,13 @@
+name: Benchling AI
+category: data-analysis
+provider: Benchling
+url: https://www.benchling.com/ai
+description: 'ELN-grounded AI for the lab: Deep Research, Compose, Ask and Data Entry
+  agents convert protocols, PDFs and instrument outputs into structured notebook entries
+  and query internal data + public literature with citations. Includes AlphaFold 2,
+  Chai-1 and Boltz-2 models. Free for academic users (.edu).'
+access: unknown
+domain: life-sciences
+status: active
+added: 2026-05
+last_verified: null

@@ -1,7 +1,7 @@
 name: AIVA
 category: autonomous-research-agents
 provider: AIVA Portal
-url: https://chat.aivaportal.com/landing
+url: https://aivaportal.com/
 description: Conversational AI platform for genomics enabling natural language queries
   on genomic data. Integrates LLMs for analysis, literature search, and evidence-based
   clinical interpretations from sequencing data.

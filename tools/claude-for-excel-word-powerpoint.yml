@@ -1,0 +1,13 @@
+name: Claude for Excel / Word / PowerPoint
+category: office-suite-ai-integrations
+provider: Anthropic
+url: https://www.anthropic.com/claude/excel
+description: Native sidebar add-ins for Excel, Word and PowerPoint (GA May 7, 2026;
+  Outlook in public beta). Carries full conversation context across apps, reads templates/slide
+  masters, generates native charts and tracked changes in Word. Install via Microsoft
+  AppSource; included with paid Claude plans.
+access: unknown
+domain: general
+status: active
+added: 2026-05
+last_verified: null

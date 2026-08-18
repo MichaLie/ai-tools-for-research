@@ -1,7 +1,7 @@
 name: Cursor
 category: code-assistants
 provider: Anysphere
-url: https://cursor.sh/
+url: https://cursor.com/
 description: AI-first code editor (VS Code fork) with natural language code generation
   and Tab completion. Cursor 2.0 supports 8 parallel AI agents on same task. Valued
   at $9.9B with full VS Code extension compatibility.

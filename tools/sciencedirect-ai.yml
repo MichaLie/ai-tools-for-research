@@ -1,0 +1,13 @@
+name: ScienceDirect AI
+category: publisher-database-ai-assistants
+provider: Elsevier
+url: https://www.elsevier.com/products/sciencedirect/sciencedirect-ai
+description: Workflow companion across millions of full-text peer-reviewed articles
+  and book chapters. Reading Assistant chats with a document and links claims to exact
+  source passages; Compare Experiments builds side-by-side tables of goals, methods
+  and results across selected papers. Also available on PDFs in Mendeley via LeapSpace.
+access: unknown
+domain: general
+status: active
+added: 2026-05
+last_verified: null

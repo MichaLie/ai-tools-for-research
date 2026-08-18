@@ -1,7 +1,7 @@
 name: Kosmos
 category: autonomous-research-agents
 provider: Edison Scientific
-url: https://platform.edisonscientific.com/
+url: https://edisonscientific.com/
 description: AI scientist running autonomous 12-hour discovery campaigns with parallel
   data analysis and literature search. Executes ~42,000 lines of code and reads 1,500
   papers per run. Validated discoveries in metabolomics, neuroscience, and genetics.

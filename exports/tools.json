@@ -4,6 +4,9 @@
   "general-purpose-ai-assistants": {
    "title": "General-Purpose AI Assistants"
   },
+  "office-suite-ai-integrations": {
+   "title": "Office Suite AI Integrations"
+  },
   "ai-powered-search-engines": {
    "title": "AI-Powered Search Engines"
   },
@@ -13,29 +16,29 @@
   "literature-discovery-analysis": {
    "title": "Literature Discovery & Analysis"
   },
+  "publisher-database-ai-assistants": {
+   "title": "Publisher & Database AI Assistants"
+  },
   "citation-networks-reference-management": {
    "title": "Citation Networks & Reference Management"
   },
-  "grounded-knowledge": {
-   "title": "Grounded Knowledge"
+  "grounded-knowledge-specialized-databases": {
+   "title": "Grounded Knowledge & Specialized Databases"
   },
   "data-analysis": {
    "title": "Data Analysis"
   },
-  "browser-automation-agents": {
-   "title": "Browser Automation Agents"
-  },
   "autonomous-research-agents": {
    "title": "Autonomous Research Agents"
   },
-  "writing-assistants": {
-   "title": "Writing Assistants"
+  "browser-automation-agents": {
+   "title": "Browser Automation Agents"
   },
-  "translation": {
-   "title": "Translation"
+  "writing-translation": {
+   "title": "Writing & Translation"
   },
-  "ai-manuscript-review": {
-   "title": "AI Manuscript Review"
+  "ai-manuscript-review-disclosure": {
+   "title": "AI Manuscript Review & Disclosure"
   },
   "visual-presentation-creation": {
    "title": "Visual & Presentation Creation"
@@ -46,11 +49,8 @@
   "code-assistants": {
    "title": "Code Assistants"
   },
-  "research-ideation-collaboration": {
-   "title": "Research Ideation & Collaboration"
-  },
-  "ai-disclosure-statement-generator": {
-   "title": "AI Disclosure Statement Generator"
+  "ideation-grant-funding": {
+   "title": "Ideation & Grant Funding"
   }
  },
  "tools": [
@@ -135,7 +135,7 @@
   {
    "name": "LM Council",
    "category": "general-purpose-ai-assistants",
-   "url": "https://lmcouncil.ai/",
+   "url": "https://lmcouncil.com/",
    "description": "Multi-model consensus tool that queries multiple AI models simultaneously (GPT-5, Claude, Gemini, Grok), with anonymous peer review and ranking. Reduces individual model biases through collective evaluation.",
    "access": "unknown",
    "domain": "general",
@@ -158,10 +158,36 @@
    "slug": "microsoft-copilot"
   },
   {
+   "name": "Claude for Excel / Word / PowerPoint",
+   "category": "office-suite-ai-integrations",
+   "provider": "Anthropic",
+   "url": "https://www.anthropic.com/claude/excel",
+   "description": "Native sidebar add-ins for Excel, Word and PowerPoint (GA May 7, 2026; Outlook in public beta). Carries full conversation context across apps, reads templates/slide masters, generates native charts and tracked changes in Word. Install via Microsoft AppSource; included with paid Claude plans.",
+   "access": "unknown",
+   "domain": "general",
+   "status": "active",
+   "added": "2026-05",
+   "last_verified": null,
+   "slug": "claude-for-excel-word-powerpoint"
+  },
+  {
+   "name": "Microsoft 365 Copilot — Agent Mode",
+   "category": "office-suite-ai-integrations",
+   "provider": "Microsoft",
+   "url": "https://www.microsoft.com/microsoft-365/copilot",
+   "description": "Agent Mode is now GA in Word, Excel and PowerPoint (April 2026): Copilot takes multi-step, app-native actions on documents, spreadsheets and decks. Users can choose Claude or ChatGPT as the underlying model. Included with Microsoft 365 Copilot, Premium, Personal and Family plans.",
+   "access": "unknown",
+   "domain": "general",
+   "status": "active",
+   "added": "2026-05",
+   "last_verified": null,
+   "slug": "microsoft-365-copilot-agent-mode"
+  },
+  {
    "name": "Perplexity",
    "category": "ai-powered-search-engines",
    "provider": "Perplexity AI",
-   "url": "https://perplexity.ai/",
+   "url": "https://www.perplexity.ai/",
    "description": "Answer engine with Deep Research achieving 93.9% factuality accuracy. Academic focus mode prioritizes peer-reviewed sources. Generates reports with inline citations in under 3 minutes.",
    "access": "unknown",
    "domain": "general",
@@ -182,6 +208,19 @@
    "added": "2026-02",
    "last_verified": null,
    "slug": "you-com"
+  },
+  {
+   "name": "AlphaEvolve + ERA",
+   "category": "deep-research-agents",
+   "provider": "Google DeepMind",
+   "url": "https://labs.google/science",
+   "description": "Agentic 'research engine' that auto-generates and scores thousands of code variations in parallel for computational experiments. ERA (Empirical Research Assistance) outperformed the U.S. CDC's COVID-19 hospitalization forecasting ensemble; results published in Nature (May 19, 2026).",
+   "access": "unknown",
+   "domain": "general",
+   "status": "active",
+   "added": "2026-05",
+   "last_verified": null,
+   "slug": "alphaevolve-era"
   },
   {
    "name": "ChatGPT Deep Research",
@@ -213,7 +252,7 @@
    "name": "Falcon Deep Research",
    "category": "deep-research-agents",
    "provider": "FutureHouse",
-   "url": "https://platform.edisonscientific.com/",
+   "url": "https://www.futurehouse.org/",
    "description": "Specialized AI for deep literature synthesis from FutureHouse (nonprofit AI biology lab), hosted on Edison Scientific platform. Surveys extensive scientific databases to compile comprehensive reviews. Outperforms PhD-level researchers in head-to-head literature search accuracy benchmarks.",
    "access": "unknown",
    "domain": "general",
@@ -221,6 +260,19 @@
    "added": "2026-02",
    "last_verified": null,
    "slug": "falcon-deep-research"
+  },
+  {
+   "name": "Gemini Co-Scientist",
+   "category": "deep-research-agents",
+   "provider": "Google DeepMind",
+   "url": "https://labs.google/science",
+   "description": "Part of the Gemini for Science suite launched at Google I/O on May 19, 2026 (Nature-validated). A multi-agent 'idea tournament' generates, debates and scores hypotheses with clickable citations to primary sources. Stanford used it to identify Vorinostat as a candidate for liver fibrosis (Nature, May 2026).",
+   "access": "unknown",
+   "domain": "general",
+   "status": "active",
+   "added": "2026-05",
+   "last_verified": null,
+   "slug": "gemini-co-scientist"
   },
   {
    "name": "Gemini Deep Research",
@@ -265,7 +317,7 @@
    "name": "AnswerThis",
    "category": "literature-discovery-analysis",
    "provider": "AnswerThis.io",
-   "url": "https://app.answerthis.io/",
+   "url": "https://answerthis.io/",
    "description": "Generates literature reviews from 250M academic papers with line-by-line citations. Features Research Gap Finder, citation maps, and Zotero/Mendeley integration. Reports 50% average productivity increase.",
    "access": "unknown",
    "domain": "general",
@@ -299,6 +351,32 @@
    "added": "2026-02",
    "last_verified": null,
    "slug": "elicit"
+  },
+  {
+   "name": "GXL",
+   "category": "literature-discovery-analysis",
+   "provider": "GXL",
+   "url": "https://gxl.ai/",
+   "description": "Deep biomedical literature index covering 8M+ papers across bioRxiv, medRxiv and PubMed Central, including figures, tables and supplemental data. Used to pull specific assay precedents, figures and supplements directly into research workflows (e.g. Benchling notebooks via MCP).",
+   "access": "unknown",
+   "domain": "life-sciences",
+   "status": "active",
+   "added": "2026-05",
+   "last_verified": null,
+   "slug": "gxl"
+  },
+  {
+   "name": "Literature Insights (Gemini for Science)",
+   "category": "literature-discovery-analysis",
+   "provider": "Google (with NotebookLM)",
+   "url": "https://labs.google/science",
+   "description": "Chat interface over scientific literature that builds structured tables with custom searchable attributes for side-by-side comparison and generates reports, slide decks, infographics and audio/video overviews. Helps identify research gaps across a curated corpus.",
+   "access": "unknown",
+   "domain": "general",
+   "status": "active",
+   "added": "2026-05",
+   "last_verified": null,
+   "slug": "literature-insights-gemini-for-science"
   },
   {
    "name": "SciSpace (Typeset)",
@@ -340,6 +418,71 @@
    "slug": "semantic-scholar"
   },
   {
+   "name": "JSTOR AI Research Tool",
+   "category": "publisher-database-ai-assistants",
+   "provider": "Ithaka (JSTOR)",
+   "url": "https://about.jstor.org/research-tool/",
+   "description": "Free to JSTOR-participating institutions. Surfaces key points and arguments from articles, book chapters and research reports; recommends related topics and content; supports natural-language Q&A grounded in the document with inline references. Particularly strong for humanities, arts and social sciences.",
+   "access": "unknown",
+   "domain": "general",
+   "status": "active",
+   "added": "2026-05",
+   "last_verified": null,
+   "slug": "jstor-ai-research-tool"
+  },
+  {
+   "name": "Nature Research Assistant",
+   "category": "publisher-database-ai-assistants",
+   "provider": "Springer Nature",
+   "url": "https://natureresearchassistant.com/",
+   "description": "AI assistant (beta) built on a peer-reviewed academic corpus to help researchers read, contextualise and write research papers. Generates summaries, supports chat over papers, and provides detailed figure descriptions with audio playback. Built with researchers; aimed at trustworthy, integrity-preserving use.",
+   "access": "unknown",
+   "domain": "general",
+   "status": "active",
+   "added": "2026-05",
+   "last_verified": null,
+   "slug": "nature-research-assistant"
+  },
+  {
+   "name": "ScienceDirect AI",
+   "category": "publisher-database-ai-assistants",
+   "provider": "Elsevier",
+   "url": "https://www.elsevier.com/products/sciencedirect/sciencedirect-ai",
+   "description": "Workflow companion across millions of full-text peer-reviewed articles and book chapters. Reading Assistant chats with a document and links claims to exact source passages; Compare Experiments builds side-by-side tables of goals, methods and results across selected papers. Also available on PDFs in Mendeley via LeapSpace.",
+   "access": "unknown",
+   "domain": "general",
+   "status": "active",
+   "added": "2026-05",
+   "last_verified": null,
+   "slug": "sciencedirect-ai"
+  },
+  {
+   "name": "Scopus AI / AI Discovery",
+   "category": "publisher-database-ai-assistants",
+   "provider": "Elsevier",
+   "url": "https://www.elsevier.com/products/scopus/scopus-ai",
+   "description": "GenAI research assistant integrated into Scopus, drawing on 27,000+ journals from 7,000+ publishers. Delivers referenced summaries, concept maps, emerging themes, foundational papers, and downloadable Deep Research agentic reports. RAG architecture grounded only in curated Scopus content to minimise hallucinations.",
+   "access": "unknown",
+   "domain": "general",
+   "status": "active",
+   "added": "2026-05",
+   "last_verified": null,
+   "slug": "scopus-ai-ai-discovery"
+  },
+  {
+   "name": "Web of Science Research Assistant",
+   "category": "publisher-database-ai-assistants",
+   "provider": "Clarivate",
+   "url": "https://clarivate.com/academia-government/scientific-and-academic-research/research-discovery-and-referencing/web-of-science/web-of-science-research-assistant/",
+   "description": "Agentic AI assistant grounded in 120+ years of Web of Science Core Collection data. Task-based guides (Topic Explorer, Find a Journal, Literature Review 2.0) walk researchers through multi-step workflows with interactive visualisations and referenced responses. Natural language search in multiple languages.",
+   "access": "unknown",
+   "domain": "general",
+   "status": "active",
+   "added": "2026-05",
+   "last_verified": null,
+   "slug": "web-of-science-research-assistant"
+  },
+  {
    "name": "Litmaps",
    "category": "citation-networks-reference-management",
    "provider": "Litmaps",
@@ -356,7 +499,7 @@
    "name": "ResearchRabbit",
    "category": "citation-networks-reference-management",
    "provider": "ResearchRabbit",
-   "url": "https://researchrabbitapp.com/",
+   "url": "https://www.researchrabbit.ai/",
    "description": "AI-powered paper discovery through citation chains and semantic similarity, presenting results as visual network maps. Free Zotero two-way sync; finds related research that keyword searches miss.",
    "access": "unknown",
    "domain": "general",
@@ -380,7 +523,7 @@
   },
   {
    "name": "NotebookLM",
-   "category": "grounded-knowledge",
+   "category": "grounded-knowledge-specialized-databases",
    "provider": "Google Labs",
    "url": "https://notebooklm.google.com/",
    "description": "Virtual research assistant analyzing up to 50 sources (500K words each). Features Deep Research integration, automatic citations, and unique AI-generated podcast summaries. Pro tier offers 500 notebooks with 300 sources each.",
@@ -390,6 +533,19 @@
    "added": "2026-02",
    "last_verified": null,
    "slug": "notebooklm"
+  },
+  {
+   "name": "Benchling AI",
+   "category": "data-analysis",
+   "provider": "Benchling",
+   "url": "https://www.benchling.com/ai",
+   "description": "ELN-grounded AI for the lab: Deep Research, Compose, Ask and Data Entry agents convert protocols, PDFs and instrument outputs into structured notebook entries and query internal data + public literature with citations. Includes AlphaFold 2, Chai-1 and Boltz-2 models. Free for academic users (.edu).",
+   "access": "unknown",
+   "domain": "life-sciences",
+   "status": "active",
+   "added": "2026-05",
+   "last_verified": null,
+   "slug": "benchling-ai"
   },
   {
    "name": "ChatGPT Code Interpreter",
@@ -431,49 +587,10 @@
    "slug": "julius"
   },
   {
-   "name": "ChatGPT Atlas",
-   "category": "browser-automation-agents",
-   "provider": "OpenAI",
-   "url": "https://chatgpt.com/",
-   "description": "AI-native Chromium browser with sidebar ChatGPT assistant maintaining context across all open tabs. Agent Mode completes full workflows (competitive research, event planning) while you work on other tasks. Currently macOS only.",
-   "access": "unknown",
-   "domain": "general",
-   "status": "active",
-   "added": "2026-02",
-   "last_verified": null,
-   "slug": "chatgpt-atlas"
-  },
-  {
-   "name": "Claude for Chrome",
-   "category": "browser-automation-agents",
-   "provider": "Anthropic",
-   "url": "https://claude.ai/",
-   "description": "Chrome extension enabling Claude to read, click, and navigate web content. Features workflow recording to teach custom processes and integrates with Claude Code for terminal-to-browser workflows. Pro/Max/Teams/Enterprise.",
-   "access": "unknown",
-   "domain": "general",
-   "status": "active",
-   "added": "2026-02",
-   "last_verified": null,
-   "slug": "claude-for-chrome"
-  },
-  {
-   "name": "Comet",
-   "category": "browser-automation-agents",
-   "provider": "Perplexity AI",
-   "url": "https://perplexity.ai/",
-   "description": "AI-powered Chromium browser with Background Assistants completing multiple research tasks asynchronously. Highlights any text for instant explanations; Email Assistant handles scheduling and drafts (Max subscribers).",
-   "access": "unknown",
-   "domain": "general",
-   "status": "active",
-   "added": "2026-02",
-   "last_verified": null,
-   "slug": "comet"
-  },
-  {
    "name": "AIVA",
    "category": "autonomous-research-agents",
    "provider": "AIVA Portal",
-   "url": "https://chat.aivaportal.com/landing",
+   "url": "https://aivaportal.com/",
    "description": "Conversational AI platform for genomics enabling natural language queries on genomic data. Integrates LLMs for analysis, literature search, and evidence-based clinical interpretations from sequencing data.",
    "access": "unknown",
    "domain": "life-sciences",
@@ -486,7 +603,7 @@
    "name": "BIOS / BioAgents",
    "category": "autonomous-research-agents",
    "provider": "Bio Protocol",
-   "url": "https://chat.bio.xyz/",
+   "url": "https://bio.tools/",
    "description": "Multi-agent system ranked #1 on BixBench for biological analysis. Combines literature analysis with data scientist agents for autonomous deep research in biological sciences. Supports decentralized science funding mechanisms.",
    "access": "unknown",
    "domain": "life-sciences",
@@ -499,7 +616,7 @@
    "name": "Faraday",
    "category": "autonomous-research-agents",
    "provider": "Ascent Bio",
-   "url": "https://platform.ascentbio.ai/faraday",
+   "url": "https://www.ascent.bio/",
    "description": "AI scientist for drug discovery, building knowledge corpus from files, databases, and tools. Specializes in molecule design and targeted protein degradation therapeutics with end-to-end traceability.",
    "access": "unknown",
    "domain": "life-sciences",
@@ -512,7 +629,7 @@
    "name": "Heureka",
    "category": "autonomous-research-agents",
    "provider": "Heureka Labs",
-   "url": "https://www.heurekalabs.co/",
+   "url": "https://heureka.ai/",
    "description": "AI Research Companion (ARC) for hypothesis generation, experiment design, and data analysis through natural conversation. QuartzReport delivers automated analysis with publication-ready figures.",
    "access": "unknown",
    "domain": "general",
@@ -525,7 +642,7 @@
    "name": "K-Dense",
    "category": "autonomous-research-agents",
    "provider": "Biostate AI",
-   "url": "https://www.k-dense.ai/",
+   "url": "https://biostate.ai/",
    "description": "Multi-agent system compressing research cycles from years to days. Harvard-validated: completed transcriptomic aging study in weeks vs. years. 29.2% BixBench accuracy (surpassing GPT-5's 22.9%) with hallucination elimination.",
    "access": "unknown",
    "domain": "life-sciences",
@@ -538,7 +655,7 @@
    "name": "Kosmos",
    "category": "autonomous-research-agents",
    "provider": "Edison Scientific",
-   "url": "https://platform.edisonscientific.com/",
+   "url": "https://edisonscientific.com/",
    "description": "AI scientist running autonomous 12-hour discovery campaigns with parallel data analysis and literature search. Executes ~42,000 lines of code and reads 1,500 papers per run. Validated discoveries in metabolomics, neuroscience, and genetics.",
    "access": "unknown",
    "domain": "general",
@@ -574,10 +691,62 @@
    "slug": "potato"
   },
   {
+   "name": "ChatGPT Atlas",
+   "category": "browser-automation-agents",
+   "provider": "OpenAI",
+   "url": "https://chatgpt.com/atlas",
+   "description": "AI-native Chromium browser with sidebar ChatGPT assistant maintaining context across all open tabs. Agent Mode completes full workflows (competitive research, event planning) while you work on other tasks. Currently macOS only.",
+   "access": "unknown",
+   "domain": "general",
+   "status": "active",
+   "added": "2026-02",
+   "last_verified": null,
+   "slug": "chatgpt-atlas"
+  },
+  {
+   "name": "Claude for Chrome",
+   "category": "browser-automation-agents",
+   "provider": "Anthropic",
+   "url": "https://www.anthropic.com/news/claude-for-chrome",
+   "description": "Chrome extension enabling Claude to read, click, and navigate web content. Features workflow recording to teach custom processes and integrates with Claude Code for terminal-to-browser workflows. Pro/Max/Teams/Enterprise.",
+   "access": "unknown",
+   "domain": "general",
+   "status": "active",
+   "added": "2026-02",
+   "last_verified": null,
+   "slug": "claude-for-chrome"
+  },
+  {
+   "name": "Comet",
+   "category": "browser-automation-agents",
+   "provider": "Perplexity AI",
+   "url": "https://comet.perplexity.ai/",
+   "description": "AI-powered Chromium browser with Background Assistants completing multiple research tasks asynchronously. Highlights any text for instant explanations; Email Assistant handles scheduling and drafts (Max subscribers).",
+   "access": "unknown",
+   "domain": "general",
+   "status": "active",
+   "added": "2026-02",
+   "last_verified": null,
+   "slug": "comet"
+  },
+  {
+   "name": "DeepL",
+   "category": "writing-translation",
+   "provider": "DeepL SE",
+   "url": "https://www.deepl.com/",
+   "description": "AI translation service renowned for contextually accurate translations, particularly strong for European languages. Pro glossary feature maintains consistent terminology across academic fields. 73% rate translations as more contextually accurate than alternatives.",
+   "access": "unknown",
+   "domain": "general",
+   "status": "active",
+   "added": "2026-02",
+   "last_verified": null,
+   "slug": "deepl"
+  },
+  {
    "name": "Deepwriter AI",
-   "category": "writing-assistants",
+   "category": "writing-translation",
    "provider": "Deepwriter",
-   "url": "https://docs.deepwriter.com/",
+   "url": "https://www.deepwriter.com/",
    "description": "Multi-agent writing system with Abraxas reasoning engine maintaining coherence across 275+ page documents. Real-time web searches, PDF analysis, and automatic citation management. Outputs editable LaTeX.",
    "access": "unknown",
    "domain": "general",
@@ -588,7 +757,7 @@
   },
   {
    "name": "FormatMyPaper",
-   "category": "writing-assistants",
+   "category": "writing-translation",
    "provider": "FormatMyPaper",
    "url": "https://formatmypaper.com/",
    "description": "Automates manuscript formatting for journal submission. Users paste paper and select target journal; AI handles formatting according to specific requirements. Claims 10+ hours saved per submission.",
@@ -601,7 +770,7 @@
   },
   {
    "name": "Grammarly",
-   "category": "writing-assistants",
+   "category": "writing-translation",
    "provider": "Grammarly, Inc.",
    "url": "https://www.grammarly.com/",
    "description": "AI writing assistant with grammar checking, plagiarism detection (16B+ web pages), and academic tone detection trained on scholarly writing. 2025 AI agents help find credible sources and check originality.",
@@ -614,7 +783,7 @@
   },
   {
    "name": "Jenni",
-   "category": "writing-assistants",
+   "category": "writing-translation",
    "provider": "Jenni AI",
    "url": "https://jenni.ai/",
    "description": "Integrated research, reference, and writing workspace with AI autocomplete maintaining paragraph-level coherence. Auto-generates citations in 1,700+ styles with direct links to source PDFs.",
@@ -627,7 +796,7 @@
   },
   {
    "name": "Paperpal",
-   "category": "writing-assistants",
+   "category": "writing-translation",
    "provider": "Cactus Communications",
    "url": "https://paperpal.com/",
    "description": "Academic writing AI trained on 250M+ research papers. AI Research Finder returns summarized answers with insertable citations. Offers 30+ pre-submission journal checks aligned with publisher guidelines.",
@@ -640,7 +809,7 @@
   },
   {
    "name": "QuillBot",
-   "category": "writing-assistants",
+   "category": "writing-translation",
    "provider": "Course Hero",
    "url": "https://quillbot.com/",
    "description": "Paraphrasing tool with dedicated Academic mode maintaining scholarly language. Features context-preserving rewrites, citation generator (APA, MLA, Chicago), and QuillBot Flow unified workspace.",
@@ -652,23 +821,62 @@
    "slug": "quillbot"
   },
   {
-   "name": "DeepL",
-   "category": "translation",
-   "provider": "DeepL SE",
-   "url": "https://www.deepl.com/translator",
-   "description": "AI translation service renowned for contextually accurate translations, particularly strong for European languages. Pro glossary feature maintains consistent terminology across academic fields. 73% rate translations as more contextually accurate than alternatives.",
+   "name": "Enago AI Disclosure",
+   "category": "ai-manuscript-review-disclosure",
+   "provider": "Enago",
+   "url": "https://www.enago.com/",
+   "description": "Generate an AI Disclosure Statement for your manuscript that you can use while submitting your manuscript to a publisher.",
    "access": "unknown",
    "domain": "general",
    "status": "active",
    "added": "2026-02",
    "last_verified": null,
-   "slug": "deepl"
+   "slug": "enago-ai-disclosure"
+  },
+  {
+   "name": "Manusights",
+   "category": "ai-manuscript-review-disclosure",
+   "provider": "Manusights",
+   "url": "https://manusights.com/",
+   "description": "Pre-submission manuscript diagnostic with free readiness scan plus $29 paid report. Verifies citations against live databases and analyses figures. Anthropic Privacy Partner with zero-retention processing.",
+   "access": "unknown",
+   "domain": "general",
+   "status": "active",
+   "added": "2026-05",
+   "last_verified": null,
+   "slug": "manusights"
+  },
+  {
+   "name": "Proofig + PubShield",
+   "category": "ai-manuscript-review-disclosure",
+   "provider": "Proofig AI / iThenticate",
+   "url": "https://www.proofig.com/",
+   "description": "Image integrity AI (Proofig) paired with iThenticate text-similarity screening via PubShield. Brings figure-duplication detection and plagiarism checks into a single pre-publication workflow used by publishers and institutions.",
+   "access": "unknown",
+   "domain": "general",
+   "status": "active",
+   "added": "2026-05",
+   "last_verified": null,
+   "slug": "proofig-pubshield"
+  },
+  {
+   "name": "Prophy",
+   "category": "ai-manuscript-review-disclosure",
+   "provider": "Prophy",
+   "url": "https://www.prophy.science/",
+   "description": "Semantic reviewer-matching system used by editors to find subject-matter referees for a submitted manuscript. Goes beyond keyword search by mapping a paper to a deep author/topic embedding space.",
+   "access": "unknown",
+   "domain": "general",
+   "status": "active",
+   "added": "2026-05",
+   "last_verified": null,
+   "slug": "prophy"
   },
   {
    "name": "q.e.d.",
-   "category": "ai-manuscript-review",
+   "category": "ai-manuscript-review-disclosure",
    "provider": "QED Science",
-   "url": "https://www.qedscience.com/",
+   "url": "https://qed.science/",
    "description": "Critical Thinking AI analyzing manuscripts by breaking them into constituent claims, identifying logical gaps, and comparing against hundreds of papers for novelty assessment. Used by scientists at 1,000+ institutions.",
    "access": "unknown",
    "domain": "general",
@@ -679,7 +887,7 @@
   },
   {
    "name": "Review-it",
-   "category": "ai-manuscript-review",
+   "category": "ai-manuscript-review-disclosure",
    "provider": "Review-it AI",
    "url": "https://review-it.ai/",
    "description": "AI peer review tool for manuscript evaluation and screening. Part of growing ecosystem as 50%+ of researchers now use AI during peer review, primarily for surface-level tasks and gap identification.",
@@ -692,7 +900,7 @@
   },
   {
    "name": "Reviewer3",
-   "category": "ai-manuscript-review",
+   "category": "ai-manuscript-review-disclosure",
    "provider": "Reviewer3",
    "url": "https://reviewer3.com/",
    "description": "AI peer review platform generating evaluations based on EQUATOR guidelines and journal-specific requirements. Multiple specialized reviewers examine study design, results, and limitations with PDF-anchored feedback.",
@@ -705,7 +913,7 @@
   },
   {
    "name": "Stanford Agentic Reviewer",
-   "category": "ai-manuscript-review",
+   "category": "ai-manuscript-review-disclosure",
    "provider": "Stanford ML Group",
    "url": "https://paperreview.ai/",
    "description": "Free AI peer review system by Andrew Ng's team providing rapid, actionable feedback. Grounds reviews in latest arXiv research; correlation with human reviewers (0.42) matches inter-human agreement (0.41).",
@@ -772,7 +980,7 @@
    "name": "4o Image Generation",
    "category": "scientific-image-generation",
    "provider": "OpenAI",
-   "url": "https://chatgpt.com/",
+   "url": "https://openai.com/index/introducing-4o-image-generation/",
    "description": "Native GPT-4o image generation with accurate text rendering, scientific visualization with explanatory annotations, and infographic generation. 87% photographic convincingness vs. DALL-E 3's 62%.",
    "access": "unknown",
    "domain": "general",
@@ -811,7 +1019,7 @@
    "name": "Claude Code",
    "category": "code-assistants",
    "provider": "Anthropic",
-   "url": "https://claude.ai/",
+   "url": "https://www.anthropic.com/claude-code",
    "description": "Terminal-based agentic coding tool for code generation, debugging, and repository-wide modifications through natural language. CLAUDE.md configuration for project conventions. Tool Search Tool reduces context by 37%.",
    "access": "unknown",
    "domain": "general",
@@ -837,7 +1045,7 @@
    "name": "Cursor",
    "category": "code-assistants",
    "provider": "Anysphere",
-   "url": "https://cursor.sh/",
+   "url": "https://cursor.com/",
    "description": "AI-first code editor (VS Code fork) with natural language code generation and Tab completion. Cursor 2.0 supports 8 parallel AI agents on same task. Valued at $9.9B with full VS Code extension compatibility.",
    "access": "unknown",
    "domain": "general",
@@ -860,10 +1068,75 @@
    "slug": "github-copilot"
   },
   {
+   "name": "Google Antigravity",
+   "category": "code-assistants",
+   "provider": "Google",
+   "url": "https://antigravity.google/",
+   "description": "Agent-first development platform from Google that lets AI agents take actions across an IDE, terminal and browser. Hosts Science Skills for connecting research workflows to 30+ life-science databases. Launched alongside Gemini for Science (May 2026).",
+   "access": "unknown",
+   "domain": "general",
+   "status": "active",
+   "added": "2026-05",
+   "last_verified": null,
+   "slug": "google-antigravity"
+  },
+  {
+   "name": "Grantable",
+   "category": "ideation-grant-funding",
+   "provider": "Grantable",
+   "url": "https://grantable.co/",
+   "description": "Chat-first AI 'coworker' that remembers your organisation, past proposals and funder context. Built-in prospecting via GrantGraph (11M+ data points from 990 filings, public records and web research) covering 130,000+ funders. Pricing from $24/month.",
+   "access": "unknown",
+   "domain": "general",
+   "status": "active",
+   "added": "2026-05",
+   "last_verified": null,
+   "slug": "grantable"
+  },
+  {
+   "name": "GrantBoost",
+   "category": "ideation-grant-funding",
+   "provider": "GrantBoost",
+   "url": "https://grantboost.com/",
+   "description": "Template-based AI grant writing for nonprofit and research grants. Pick a grant type, fill in organisational details and the AI drafts proposal sections. Works best for common, well-known grant categories. Pricing from $19.99/month.",
+   "access": "unknown",
+   "domain": "general",
+   "status": "active",
+   "added": "2026-05",
+   "last_verified": null,
+   "slug": "grantboost"
+  },
+  {
+   "name": "Granted AI",
+   "category": "ideation-grant-funding",
+   "provider": "Granted AI",
+   "url": "https://grantedai.com/",
+   "description": "Full-lifecycle grant platform: discovery across 85,000+ grants from 144 sources, funder research over 133,000+ foundations, AI-coached drafting from uploaded RFPs, simulated committee review and compliance checks. Free tier available; paid plans from $29/month.",
+   "access": "unknown",
+   "domain": "general",
+   "status": "active",
+   "added": "2026-05",
+   "last_verified": null,
+   "slug": "granted-ai"
+  },
+  {
+   "name": "Instrumentl",
+   "category": "ideation-grant-funding",
+   "provider": "Instrumentl",
+   "url": "https://www.instrumentl.com/",
+   "description": "Grant discovery, tracking and lightweight proposal support with a database of 400,000+ active funding opportunities. Strong for academic researchers and larger nonprofits managing complex grant portfolios. Plans from ~$179/month (billed annually).",
+   "access": "unknown",
+   "domain": "general",
+   "status": "active",
+   "added": "2026-05",
+   "last_verified": null,
+   "slug": "instrumentl"
+  },
+  {
    "name": "Research Kick",
-   "category": "research-ideation-collaboration",
+   "category": "ideation-grant-funding",
    "provider": "Research Kick",
-   "url": "https://www.researchkick.com/",
+   "url": "https://researchkick.com/",
    "description": "AI research ideation tool identifying research gaps across 1B+ papers from Semantic Scholar, Google Scholar, Scite, and PubMed. GPT-4o with proprietary reasoning to prevent hallucinations. Used by 2,000+ academics.",
    "access": "unknown",
    "domain": "general",
@@ -871,18 +1144,6 @@
    "added": "2026-02",
    "last_verified": null,
    "slug": "research-kick"
-  },
-  {
-   "name": "Enago",
-   "category": "ai-disclosure-statement-generator",
-   "url": "https://www.enago.com/ai-disclosure-statement-generator",
-   "description": "Generate an AI Disclosure Statement for your manuscript that you can use while submitting your manuscript to a publisher",
-   "access": "unknown",
-   "domain": "general",
-   "status": "active",
-   "added": "2026-02",
-   "last_verified": null,
-   "slug": "enago"
   }
  ]
 }

@@ -1,0 +1,13 @@
+name: Gemini Co-Scientist
+category: deep-research-agents
+provider: Google DeepMind
+url: https://labs.google/science
+description: Part of the Gemini for Science suite launched at Google I/O on May 19,
+  2026 (Nature-validated). A multi-agent 'idea tournament' generates, debates and
+  scores hypotheses with clickable citations to primary sources. Stanford used it
+  to identify Vorinostat as a candidate for liver fibrosis (Nature, May 2026).
+access: unknown
+domain: general
+status: active
+added: 2026-05
+last_verified: null

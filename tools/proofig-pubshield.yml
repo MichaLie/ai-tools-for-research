@@ -1,0 +1,12 @@
+name: Proofig + PubShield
+category: ai-manuscript-review-disclosure
+provider: Proofig AI / iThenticate
+url: https://www.proofig.com/
+description: Image integrity AI (Proofig) paired with iThenticate text-similarity
+  screening via PubShield. Brings figure-duplication detection and plagiarism checks
+  into a single pre-publication workflow used by publishers and institutions.
+access: unknown
+domain: general
+status: active
+added: 2026-05
+last_verified: null

@@ -1,0 +1,13 @@
+name: GXL
+category: literature-discovery-analysis
+provider: GXL
+url: https://gxl.ai/
+description: Deep biomedical literature index covering 8M+ papers across bioRxiv,
+  medRxiv and PubMed Central, including figures, tables and supplemental data. Used
+  to pull specific assay precedents, figures and supplements directly into research
+  workflows (e.g. Benchling notebooks via MCP).
+access: unknown
+domain: life-sciences
+status: active
+added: 2026-05
+last_verified: null

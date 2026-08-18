@@ -1,5 +1,5 @@
 name: NotebookLM
-category: grounded-knowledge
+category: grounded-knowledge-specialized-databases
 provider: Google Labs
 url: https://notebooklm.google.com/
 description: Virtual research assistant analyzing up to 50 sources (500K words each).

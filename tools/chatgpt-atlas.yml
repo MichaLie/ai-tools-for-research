@@ -1,7 +1,7 @@
 name: ChatGPT Atlas
 category: browser-automation-agents
 provider: OpenAI
-url: https://chatgpt.com/
+url: https://chatgpt.com/atlas
 description: AI-native Chromium browser with sidebar ChatGPT assistant maintaining
   context across all open tabs. Agent Mode completes full workflows (competitive research,
   event planning) while you work on other tasks. Currently macOS only.

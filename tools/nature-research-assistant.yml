@@ -1,0 +1,13 @@
+name: Nature Research Assistant
+category: publisher-database-ai-assistants
+provider: Springer Nature
+url: https://natureresearchassistant.com/
+description: AI assistant (beta) built on a peer-reviewed academic corpus to help
+  researchers read, contextualise and write research papers. Generates summaries,
+  supports chat over papers, and provides detailed figure descriptions with audio
+  playback. Built with researchers; aimed at trustworthy, integrity-preserving use.
+access: unknown
+domain: general
+status: active
+added: 2026-05
+last_verified: null

@@ -1,0 +1,13 @@
+name: Literature Insights (Gemini for Science)
+category: literature-discovery-analysis
+provider: Google (with NotebookLM)
+url: https://labs.google/science
+description: Chat interface over scientific literature that builds structured tables
+  with custom searchable attributes for side-by-side comparison and generates reports,
+  slide decks, infographics and audio/video overviews. Helps identify research gaps
+  across a curated corpus.
+access: unknown
+domain: general
+status: active
+added: 2026-05
+last_verified: null

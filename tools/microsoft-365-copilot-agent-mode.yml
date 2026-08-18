@@ -1,0 +1,13 @@
+name: Microsoft 365 Copilot — Agent Mode
+category: office-suite-ai-integrations
+provider: Microsoft
+url: https://www.microsoft.com/microsoft-365/copilot
+description: 'Agent Mode is now GA in Word, Excel and PowerPoint (April 2026): Copilot
+  takes multi-step, app-native actions on documents, spreadsheets and decks. Users
+  can choose Claude or ChatGPT as the underlying model. Included with Microsoft 365
+  Copilot, Premium, Personal and Family plans.'
+access: unknown
+domain: general
+status: active
+added: 2026-05
+last_verified: null

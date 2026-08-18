@@ -1,0 +1,13 @@
+name: AlphaEvolve + ERA
+category: deep-research-agents
+provider: Google DeepMind
+url: https://labs.google/science
+description: Agentic 'research engine' that auto-generates and scores thousands of
+  code variations in parallel for computational experiments. ERA (Empirical Research
+  Assistance) outperformed the U.S. CDC's COVID-19 hospitalization forecasting ensemble;
+  results published in Nature (May 19, 2026).
+access: unknown
+domain: general
+status: active
+added: 2026-05
+last_verified: null

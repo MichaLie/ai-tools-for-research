@@ -1,7 +1,7 @@
 name: 4o Image Generation
 category: scientific-image-generation
 provider: OpenAI
-url: https://chatgpt.com/
+url: https://openai.com/index/introducing-4o-image-generation/
 description: Native GPT-4o image generation with accurate text rendering, scientific
   visualization with explanatory annotations, and infographic generation. 87% photographic
   convincingness vs. DALL-E 3's 62%.
