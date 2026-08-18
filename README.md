@@ -263,7 +263,7 @@ Tasks grouped by research-lifecycle stage:
 
 *The task: analyze data conversationally — upload, ask, get code and plots back.*
 
-🔎 Going deeper: [Coding & Data Agents index (privacy-first, 60 entries)](https://michalie.github.io/research-coding-agents-wiki/)
+**Going deeper:** [Coding & Data Agents index (privacy-first, 60 entries)](https://michalie.github.io/research-coding-agents-wiki/) →
 
 | Tool | Provider | Access | Description |
 |---|---|---|---|
@@ -283,7 +283,7 @@ Tasks grouped by research-lifecycle stage:
 
 *The task: hand an agent a research question and let it plan, execute and report autonomously.*
 
-🔎 Going deeper: [Autonomous Science Agents index (438 entries)](https://michalie.github.io/autonomous-stem-agents-wiki/)
+**Going deeper:** [Autonomous Science Agents index (438 entries)](https://michalie.github.io/autonomous-stem-agents-wiki/) →
 
 | Tool | Provider | Access | Description |
 |---|---|---|---|
@@ -306,7 +306,7 @@ Tasks grouped by research-lifecycle stage:
 
 *The task: write and debug research code with an AI pair programmer or agent.*
 
-🔎 Going deeper: [Coding & Data Agents index (privacy-first, 60 entries)](https://michalie.github.io/research-coding-agents-wiki/)
+**Going deeper:** [Coding & Data Agents index (privacy-first, 60 entries)](https://michalie.github.io/research-coding-agents-wiki/) →
 
 | Tool | Provider | Access | Description |
 |---|---|---|---|

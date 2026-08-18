@@ -32,22 +32,30 @@
     }
   }
   * { box-sizing: border-box; }
+  :root { --serif: "Charter", "Iowan Old Style", Georgia, "Times New Roman", serif; }
   body { margin: 0; background: var(--bg); color: var(--ink);
          font: 15px/1.5 -apple-system, "Segoe UI", system-ui, sans-serif; }
-  header { padding: 2.2rem 1.2rem 1.2rem; max-width: 62rem; margin: 0 auto; }
-  h1 { margin: 0 0 .2rem; font-size: 1.5rem; letter-spacing: -.01em; }
-  .sub { color: var(--muted); margin: 0 0 1.1rem; }
+  header { padding: 2.4rem 1.2rem 1.4rem; max-width: 62rem; margin: 0 auto;
+           border-bottom: 4px double var(--line); }
+  h1 { margin: 0 0 .15rem; font: 700 2rem/1.15 var(--serif); letter-spacing: 0; }
+  .sub { color: var(--muted); margin: 0 0 1.1rem; font-size: .88rem;
+         letter-spacing: .04em; text-transform: uppercase; }
   .controls { display: flex; flex-wrap: wrap; gap: .5rem; align-items: center; }
   input[type=search], select {
     background: var(--panel); color: var(--ink); border: 1px solid var(--line);
-    border-radius: .55rem; padding: .5rem .7rem; font: inherit;
+    border-radius: 2px; padding: .5rem .7rem; font: inherit;
   }
   input[type=search] { flex: 1 1 14rem; }
   .count { color: var(--muted); font-size: .85rem; margin-left: auto; }
   main { max-width: 62rem; margin: 0 auto; padding: 0 1.2rem 4rem; }
-  h2.cat { font-size: 1.02rem; margin: 1.8rem 0 .15rem; padding-bottom: .3rem;
-           border-bottom: 1px solid var(--line); }
-  h2.cat small { color: var(--muted); font-weight: 400; }
+  h2.cat { font: 700 1.12rem/1.3 var(--serif); margin: 1.8rem 0 .15rem;
+           padding-bottom: .3rem; border-bottom: 1px solid var(--line); }
+  h2.cat small { color: var(--muted); font-weight: 400;
+                 font-family: -apple-system, "Segoe UI", system-ui, sans-serif;
+                 font-size: .78rem; }
+  .idx { font-family: -apple-system, "Segoe UI", system-ui, sans-serif;
+         font-size: .72rem; font-weight: 400; color: var(--muted);
+         letter-spacing: .06em; margin-right: .45rem; vertical-align: .12em; }
   .intro { max-width: 46rem; font-size: .9rem; line-height: 1.55; color: var(--muted);
            margin: 0 0 .4rem; }
   .intro strong, .intro .date { color: var(--ink); }
@@ -68,7 +76,7 @@
             gap: .45rem; }
   .brick { display: flex; flex-direction: column; gap: .12rem; text-align: left;
            background: var(--panel); border: 1px solid var(--line);
-           border-left: 3px solid var(--st); border-radius: .55rem;
+           border-left: 3px solid var(--st); border-radius: 2px;
            padding: .5rem .65rem; cursor: pointer; font: inherit; color: var(--ink); }
   .brick:hover { border-color: var(--st); }
   .brick[aria-pressed="true"] { outline: 2px solid var(--st); outline-offset: -1px; }
@@ -76,23 +84,25 @@
   .b-n { font-size: .72rem; color: var(--muted); }
   .stage-rule { margin: 2.3rem 0 -.9rem; }
   .blurb { color: var(--muted); font-style: italic; margin: 0 0 .3rem; font-size: .9rem; }
-  a.deep { display: inline-block; font-size: .85rem; color: var(--accent);
+  a.deep { display: inline-block; font-size: .72rem; letter-spacing: .07em;
+           text-transform: uppercase; color: var(--accent);
            text-decoration: none; margin: 0 0 .6rem; }
-  a.deep:hover { text-decoration: underline; }
+  a.deep:hover { text-decoration: underline; text-underline-offset: 3px; }
   details.more { margin: .1rem 0 .9rem; }
   details.more summary { cursor: pointer; color: var(--muted); font-size: .85rem;
                          padding: .25rem 0; user-select: none; }
   details.more .tool { opacity: .88; }
   .tool { background: var(--panel); border: 1px solid var(--line);
-          border-radius: .7rem; padding: .7rem .9rem; margin: 0 0 .5rem; }
-  .row1 { display: flex; flex-wrap: wrap; gap: .45rem; align-items: baseline; }
-  .tool a.name { color: var(--accent); font-weight: 600; text-decoration: none; }
-  .tool a.name:hover { text-decoration: underline; }
+          border-radius: 2px; padding: .7rem .9rem; margin: 0 0 .5rem; }
+  .row1 { display: flex; flex-wrap: wrap; gap: .55rem; align-items: baseline; }
+  .tool a.name { color: var(--ink); font: 600 1.02rem var(--serif);
+                 text-decoration: none; }
+  .tool a.name:hover { text-decoration: underline; text-underline-offset: 3px; }
   .prov { color: var(--muted); font-size: .85rem; }
-  .badge { font-size: .72rem; padding: .1rem .5rem; border-radius: 99px;
-           background: var(--chip); color: var(--muted); white-space: nowrap; }
-  .badge.free, .badge.freemium { background: var(--accent); color: var(--accent-ink); }
-  .badge.review { background: transparent; border: 1px solid var(--flag); color: var(--flag); }
+  .badge { font-size: .68rem; letter-spacing: .08em; text-transform: uppercase;
+           color: var(--muted); white-space: nowrap; }
+  .badge.free, .badge.freemium { color: var(--accent); }
+  .badge.review { color: var(--flag); }
   .desc { margin: .25rem 0 0; color: var(--ink); }
   .empty { color: var(--muted); padding: 2rem 0; text-align: center; }
   footer { max-width: 62rem; margin: 0 auto; padding: 0 1.2rem 2.5rem;
@@ -137,6 +147,8 @@ for (const [slug, meta] of Object.entries(DATA.categories)) {
   cat.appendChild(o);
 }
 const esc = s => (s || "").replace(/[&<>"]/g, c => ({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[c]));
+const CATNUM = Object.fromEntries(Object.keys(DATA.categories)
+  .map((s, i) => [s, String(i + 1).padStart(2, "0")]));
 const card = t => `<div class="tool"><div class="row1">
       <a class="name" href="${esc(t.url)}" target="_blank" rel="noopener">${esc(t.name)}</a>
       ${t.provider ? `<span class="prov">${esc(t.provider)}</span>` : ""}
@@ -163,10 +175,10 @@ function render() {
       lastStage = meta.stage;
       html += `<div class="stage-rule" style="--st:var(--st-${esc(meta.stage)})">${esc(DATA.stages[meta.stage].title)}</div>`;
     }
-    html += `<h2 class="cat">${esc(meta.title)} <small>· ${inCat.length}</small></h2>`;
+    html += `<h2 class="cat"><span class="idx">${CATNUM[slug]}</span>${esc(meta.title)} <small>· ${inCat.length}</small></h2>`;
     if (meta.blurb) html += `<p class="blurb">${esc(meta.blurb)}</p>`;
     if (meta.deep_dive) html += `<a class="deep" href="${esc(meta.deep_dive.url)}"
-      target="_blank" rel="noopener">🔎 Going deeper: ${esc(meta.deep_dive.title)} ↗</a>`;
+      target="_blank" rel="noopener">Going deeper: ${esc(meta.deep_dive.title)} →</a>`;
     html += core.map(card).join("");
     if (ext.length) html += `<details class="more"${filtering ? " open" : ""}>
       <summary>More tools for this task (${ext.length})</summary>${ext.map(card).join("")}</details>`;
