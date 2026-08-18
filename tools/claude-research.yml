@@ -1,0 +1,12 @@
+name: Claude Research
+category: deep-research-agents
+provider: Anthropic
+url: https://claude.ai/
+description: Claude's research capability with PubMed integration and extended thinking
+  for complex scientific analysis. Part of Claude for Life Sciences suite with specialized
+  biomedical tool integrations.
+access: unknown
+domain: general
+status: active
+added: 2026-02
+last_verified: null

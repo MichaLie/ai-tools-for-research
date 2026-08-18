@@ -1,0 +1,12 @@
+name: Claude Code Interpreter
+category: data-analysis
+provider: Anthropic
+url: https://claude.ai/
+description: Server-side container environment for Python/Node.js execution, data
+  manipulation, and visualization. Integrates with Model Context Protocol (MCP) for
+  connecting to external data sources and tools.
+access: unknown
+domain: general
+status: active
+added: 2026-02
+last_verified: null

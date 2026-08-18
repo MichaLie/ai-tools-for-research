@@ -1,0 +1,13 @@
+name: Falcon Deep Research
+category: deep-research-agents
+provider: FutureHouse
+url: https://platform.edisonscientific.com/
+description: Specialized AI for deep literature synthesis from FutureHouse (nonprofit
+  AI biology lab), hosted on Edison Scientific platform. Surveys extensive scientific
+  databases to compile comprehensive reviews. Outperforms PhD-level researchers in
+  head-to-head literature search accuracy benchmarks.
+access: unknown
+domain: general
+status: active
+added: 2026-02
+last_verified: null

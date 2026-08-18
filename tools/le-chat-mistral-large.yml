@@ -1,0 +1,12 @@
+name: Le Chat (Mistral Large)
+category: general-purpose-ai-assistants
+provider: Mistral AI
+url: https://chat.mistral.ai/
+description: Multilingual AI with Deep Research mode, 256K context window, and Projects
+  for organizing research workspaces. Offers on-premises data connectors for institutions
+  with strict data governance requirements.
+access: unknown
+domain: general
+status: active
+added: 2026-02
+last_verified: null

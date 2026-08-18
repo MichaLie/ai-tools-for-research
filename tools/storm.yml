@@ -1,0 +1,12 @@
+name: STORM
+category: deep-research-agents
+provider: Stanford OVAL Lab
+url: https://storm.genie.stanford.edu/
+description: LLM system generating Wikipedia-style articles with citations from scratch.
+  Simulates multi-perspective expert conversations, achieving 99% factual accuracy.
+  Co-STORM extension enables human-AI collaborative research.
+access: unknown
+domain: general
+status: active
+added: 2026-02
+last_verified: null

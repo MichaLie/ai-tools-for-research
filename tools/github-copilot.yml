@@ -1,0 +1,12 @@
+name: GitHub Copilot
+category: code-assistants
+provider: GitHub (Microsoft)
+url: https://github.com/features/copilot
+description: AI pair programmer providing real-time code suggestions in VS Code, JetBrains,
+  Eclipse, and Xcode. Agent mode for multi-file changes with test validation; contributes
+  46% of code for active users. Accelerates coding by 55%.
+access: unknown
+domain: general
+status: active
+added: 2026-02
+last_verified: null

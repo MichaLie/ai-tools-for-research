@@ -1,0 +1,12 @@
+name: AlphaXiv
+category: literature-discovery-analysis
+provider: AlphaXiv
+url: https://www.alphaxiv.org/
+description: Interactive platform transforming arXiv preprints with paragraph-level
+  commenting, AI-powered Q&A (Mistral OCR + Claude), and SOTA benchmark leaderboards.
+  Backed by Sebastian Thrun and Yann LeCun.
+access: unknown
+domain: general
+status: active
+added: 2026-02
+last_verified: null

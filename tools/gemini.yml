@@ -1,0 +1,12 @@
+name: Gemini
+category: general-purpose-ai-assistants
+provider: Google DeepMind
+url: https://gemini.google.com/
+description: Multimodal AI with 1M token context, Deep Research mode analyzing 100+
+  sources, and integration with Google Workspace. Supports PDFs, images, audio, and
+  video analysis for comprehensive research workflows.
+access: unknown
+domain: general
+status: active
+added: 2026-02
+last_verified: null

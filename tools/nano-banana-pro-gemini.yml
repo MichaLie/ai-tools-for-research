@@ -1,0 +1,12 @@
+name: Nano Banana Pro (Gemini)
+category: scientific-image-generation
+provider: Google DeepMind
+url: https://gemini.google.com/
+description: State-of-the-art image generation with legible text in multiple languages,
+  up to 4K resolution, and real-time Google Search integration for accurate diagrams
+  and educational visuals. SynthID watermarked.
+access: unknown
+domain: general
+status: active
+added: 2026-02
+last_verified: null

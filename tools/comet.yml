@@ -1,0 +1,12 @@
+name: Comet
+category: browser-automation-agents
+provider: Perplexity AI
+url: https://perplexity.ai/
+description: AI-powered Chromium browser with Background Assistants completing multiple
+  research tasks asynchronously. Highlights any text for instant explanations; Email
+  Assistant handles scheduling and drafts (Max subscribers).
+access: unknown
+domain: general
+status: active
+added: 2026-02
+last_verified: null

@@ -1,0 +1,12 @@
+name: Microsoft Copilot
+category: general-purpose-ai-assistants
+provider: Microsoft
+url: https://copilot.microsoft.com/
+description: AI assistant integrated with Microsoft 365, featuring Researcher agent
+  for grant proposals and policy analysis, and Analyst agent with Python execution
+  for data queries. Academic pricing available at $18/user/month.
+access: unknown
+domain: general
+status: active
+added: 2026-02
+last_verified: null

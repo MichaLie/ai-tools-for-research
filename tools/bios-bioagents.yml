@@ -1,0 +1,12 @@
+name: BIOS / BioAgents
+category: autonomous-research-agents
+provider: Bio Protocol
+url: https://chat.bio.xyz/
+description: 'Multi-agent system ranked #1 on BixBench for biological analysis. Combines
+  literature analysis with data scientist agents for autonomous deep research in biological
+  sciences. Supports decentralized science funding mechanisms.'
+access: unknown
+domain: life-sciences
+status: active
+added: 2026-02
+last_verified: null

@@ -1,0 +1,11 @@
+name: LM Council
+category: general-purpose-ai-assistants
+url: https://lmcouncil.ai/
+description: Multi-model consensus tool that queries multiple AI models simultaneously
+  (GPT-5, Claude, Gemini, Grok), with anonymous peer review and ranking. Reduces individual
+  model biases through collective evaluation.
+access: unknown
+domain: general
+status: active
+added: 2026-02
+last_verified: null

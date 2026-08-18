@@ -1,0 +1,12 @@
+name: Litmaps
+category: citation-networks-reference-management
+provider: Litmaps
+url: https://www.litmaps.com/
+description: Interactive citation network visualizations showing papers by publication
+  year and citation relationships. Automated monitoring alerts when new relevant papers
+  are published. Integrates OpenAlex, Semantic Scholar, and Crossref.
+access: unknown
+domain: general
+status: active
+added: 2026-02
+last_verified: null

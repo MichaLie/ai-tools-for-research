@@ -1,0 +1,12 @@
+name: FormatMyPaper
+category: writing-assistants
+provider: FormatMyPaper
+url: https://formatmypaper.com/
+description: Automates manuscript formatting for journal submission. Users paste paper
+  and select target journal; AI handles formatting according to specific requirements.
+  Claims 10+ hours saved per submission.
+access: unknown
+domain: general
+status: active
+added: 2026-02
+last_verified: null

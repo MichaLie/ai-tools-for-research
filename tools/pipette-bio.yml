@@ -1,0 +1,12 @@
+name: Pipette.bio
+category: autonomous-research-agents
+provider: Pipette.bio
+url: https://pipette.bio/
+description: Bioinformatics AI agent for genomics, transcriptomics, and proteomics
+  analysis through conversation (no coding). Supports RNA-seq, single-cell, ChIP/ATAC-seq,
+  variant calling, and GWAS. Free during beta.
+access: unknown
+domain: life-sciences
+status: active
+added: 2026-02
+last_verified: null

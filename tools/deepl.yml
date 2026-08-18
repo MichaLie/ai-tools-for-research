@@ -1,0 +1,13 @@
+name: DeepL
+category: translation
+provider: DeepL SE
+url: https://www.deepl.com/translator
+description: AI translation service renowned for contextually accurate translations,
+  particularly strong for European languages. Pro glossary feature maintains consistent
+  terminology across academic fields. 73% rate translations as more contextually accurate
+  than alternatives.
+access: unknown
+domain: general
+status: active
+added: 2026-02
+last_verified: null

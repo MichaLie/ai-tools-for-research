@@ -1,0 +1,12 @@
+name: NotebookLM
+category: grounded-knowledge
+provider: Google Labs
+url: https://notebooklm.google.com/
+description: Virtual research assistant analyzing up to 50 sources (500K words each).
+  Features Deep Research integration, automatic citations, and unique AI-generated
+  podcast summaries. Pro tier offers 500 notebooks with 300 sources each.
+access: unknown
+domain: general
+status: active
+added: 2026-02
+last_verified: null

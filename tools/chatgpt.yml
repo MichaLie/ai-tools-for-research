@@ -1,0 +1,12 @@
+name: ChatGPT
+category: general-purpose-ai-assistants
+provider: OpenAI
+url: https://chatgpt.com/
+description: Conversational AI with Deep Research for multi-step synthesis of 100+
+  sources, Code Interpreter for Python-based data analysis, and advanced reasoning.
+  ChatGPT Plus includes image generation (4o) and file analysis capabilities.
+access: unknown
+domain: general
+status: active
+added: 2026-02
+last_verified: null

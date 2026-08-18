@@ -1,0 +1,12 @@
+name: Deepwriter AI
+category: writing-assistants
+provider: Deepwriter
+url: https://docs.deepwriter.com/
+description: Multi-agent writing system with Abraxas reasoning engine maintaining
+  coherence across 275+ page documents. Real-time web searches, PDF analysis, and
+  automatic citation management. Outputs editable LaTeX.
+access: unknown
+domain: general
+status: active
+added: 2026-02
+last_verified: null

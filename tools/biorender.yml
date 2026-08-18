@@ -1,0 +1,13 @@
+name: BioRender
+category: scientific-image-generation
+provider: BioRender
+url: https://www.biorender.com/
+description: Web-based scientific illustration platform with 40,000+ peer-reviewed
+  icons and 5,000+ templates for life sciences. 3D protein visualization with PDB
+  integration. Exports at 600 DPI for journal standards. Premium required for publication
+  rights.
+access: unknown
+domain: life-sciences
+status: active
+added: 2026-02
+last_verified: null

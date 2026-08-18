@@ -1,0 +1,12 @@
+name: K-Dense
+category: autonomous-research-agents
+provider: Biostate AI
+url: https://www.k-dense.ai/
+description: 'Multi-agent system compressing research cycles from years to days. Harvard-validated:
+  completed transcriptomic aging study in weeks vs. years. 29.2% BixBench accuracy
+  (surpassing GPT-5''s 22.9%) with hallucination elimination.'
+access: unknown
+domain: life-sciences
+status: active
+added: 2026-02
+last_verified: null

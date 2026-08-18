@@ -1,0 +1,12 @@
+name: Potato
+category: autonomous-research-agents
+provider: Potato AI
+url: https://potato.ai/
+description: AI research assistant for experiment design and execution in life sciences.
+  In use at Stanford, MIT, Caltech, UC Berkeley, Scripps, and Harvard. RAG with scientific
+  literature including Wiley publications.
+access: unknown
+domain: general
+status: active
+added: 2026-02
+last_verified: null
