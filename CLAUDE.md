@@ -69,13 +69,19 @@ Passing the gate earns *existence* (`tier: extended`). A **core** slot — the p
 shown by default — is earned separately:
 
 - A category holds **at most 6 active core tools** (enforced by `validate.py`).
-- A tool earns core by being the **community-standard choice** (evidence: university
-  library AI guides, publisher/journal policies, methods-section mentions, community
-  surveys — cite the evidence in `notes`) **or** by representing a **distinct approach**
-  to the task not already covered by another core tool. Two same-shaped competitors
-  never both hold core slots; the better-adopted one does.
+- **The unit of diversity is the use case, not the category slot.** A tool that is
+  the *sole representative of a real academic use case* holds a core slot by default,
+  regardless of its market size (e.g. journal-reformatting, AI-disclosure generation).
+  The catalog's thesis is task coverage; demoting a sole representative deletes a task
+  from the palette.
+- Among tools sharing a use case, core goes to the **community-standard choice**
+  (evidence: university library AI guides, publisher/journal policies, methods-section
+  mentions, community surveys — cite the evidence in `notes`). Two same-shaped
+  competitors never both hold core slots; the better-adopted one does.
 - **Promoting a tool to core in a full category means naming which core tool it
   displaces** (to extended). Propose the swap to Michaela; never silently demote.
+  Exception: if the category holds more than 6 *genuinely distinct use cases*, the
+  category is too coarse — propose splitting it instead of demoting a task.
 - Where a `deep_dive` index exists for the category, keep core minimal (2–3 exemplars
   that teach what the category *is*) — depth belongs in the index, not here.
 

@@ -8,6 +8,8 @@ description: Automates manuscript formatting for journal submission. Users paste
 access: unknown
 domain: general
 status: active
-tier: extended
+tier: core
 added: 2026-02
 last_verified: '2026-08-18'
+notes: 'Core as sole representative of the journal-reformatting use case (Michaela,
+  2026-08-18): no other tool in the catalog covers submission-requirements formatting.'

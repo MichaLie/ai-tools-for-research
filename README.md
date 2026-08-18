@@ -220,16 +220,16 @@ The goal is **task diversity, not exhaustiveness**: each category shows a small,
 | Tool | Provider | Access | Description |
 |---|---|---|---|
 | [DeepL](https://www.deepl.com/en/translator) | DeepL SE | Freemium | AI translation service renowned for contextually accurate translations, particularly strong for European languages. Pro glossary feature maintains consistent terminology across academic fields. 73% rate translations as more contextually accurate than alternatives. |
+| [FormatMyPaper](https://formatmypaper.com/) | FormatMyPaper | — | Automates manuscript formatting for journal submission. Users paste paper and select target journal; AI handles formatting according to specific requirements. Claims 10+ hours saved per submission. |
 | [Grammarly](https://www.grammarly.com/) | Superhuman | Freemium | AI writing assistant with grammar checking, plagiarism detection (16B+ web pages), and academic tone detection trained on scholarly writing. 2025 AI agents help find credible sources and check originality. |
 | [Jenni](https://jenni.ai/) | Jenni AI | Freemium | Integrated research, reference, and writing workspace with AI autocomplete maintaining paragraph-level coherence. Auto-generates citations in 1,700+ styles with direct links to source PDFs. |
 | [Paperpal](https://paperpal.com/) | Cactus Communications | Freemium | Academic writing AI trained on 250M+ research papers. AI Research Finder returns summarized answers with insertable citations. Offers 30+ pre-submission journal checks aligned with publisher guidelines. |
 
-<details><summary>More tools for this task (3)</summary>
+<details><summary>More tools for this task (2)</summary>
 
 | Tool | Provider | Access | Description |
 |---|---|---|---|
 | [Deepwriter AI](https://deepwriter.com/) | Deepwriter | Freemium | Multi-agent writing system with Abraxas reasoning engine maintaining coherence across 275+ page documents. Real-time web searches, PDF analysis, and automatic citation management. Outputs editable LaTeX. |
-| [FormatMyPaper](https://formatmypaper.com/) | FormatMyPaper | — | Automates manuscript formatting for journal submission. Users paste paper and select target journal; AI handles formatting according to specific requirements. Claims 10+ hours saved per submission. |
 | [QuillBot](https://quillbot.com/) | Learneo | Freemium | Paraphrasing tool with dedicated Academic mode maintaining scholarly language. Features context-preserving rewrites, citation generator (APA, MLA, Chicago), and QuillBot Flow unified workspace. |
 
 </details>
