@@ -4,6 +4,14 @@ Curated catalog of AI tools that are genuinely usable in academic research.
 Maintained by Michaela Liegertová; Claude Code performs updates under the rules below.
 These rules are binding for every session working in this repo.
 
+**Purpose: task diversity, not exhaustiveness.** The catalog shows the *palette* of
+research tasks AI can augment — each category is a task, holding a small, deliberately
+varied set of tools the academic community actually uses. It is the breadth layer;
+depth lives in Michaela's companion indexes at https://michalie.github.io/ (Biological
+Foundation Models, Autonomous Science Agents, Coding & Data Agents), linked per
+category via `deep_dive` in `categories.yml`. Never grow a category here to compete
+with a deep index — add exemplars, link out for the rest.
+
 ## Data flow
 
 ```
@@ -31,6 +39,7 @@ then `python3 scripts/build.py`, and commit source + regenerated outputs togethe
 | `access` | yes | `free` \| `freemium` \| `paid` \| `institutional` \| `waitlist` \| `unknown` |
 | `domain` | yes | `general` \| `life-sciences` |
 | `status` | yes | `active` \| `candidate` \| `needs-review` \| `deprecated` \| `acquired` |
+| `tier` | yes | `core` (in the palette, shown by default) \| `extended` (collapsed under "more tools") |
 | `added` | yes | `"YYYY-MM"` — when it entered the catalog |
 | `last_verified` | yes | `"YYYY-MM-DD"` of the last successful verification, or `null` |
 | `notes` | no | maintenance notes, epitaphs for deprecated tools, teaching remarks |
@@ -53,6 +62,22 @@ A tool enters (or stays) `active` only if it passes **all five**:
 
 When Michaela asks to add a tool that fails the gate, say which criterion fails and why,
 then follow her decision — she can overrule.
+
+## Core slots (the anti-bloat ratchet)
+
+Passing the gate earns *existence* (`tier: extended`). A **core** slot — the palette
+shown by default — is earned separately:
+
+- A category holds **at most 6 active core tools** (enforced by `validate.py`).
+- A tool earns core by being the **community-standard choice** (evidence: university
+  library AI guides, publisher/journal policies, methods-section mentions, community
+  surveys — cite the evidence in `notes`) **or** by representing a **distinct approach**
+  to the task not already covered by another core tool. Two same-shaped competitors
+  never both hold core slots; the better-adopted one does.
+- **Promoting a tool to core in a full category means naming which core tool it
+  displaces** (to extended). Propose the swap to Michaela; never silently demote.
+- Where a `deep_dive` index exists for the category, keep core minimal (2–3 exemplars
+  that teach what the category *is*) — depth belongs in the index, not here.
 
 ## Procedures
 

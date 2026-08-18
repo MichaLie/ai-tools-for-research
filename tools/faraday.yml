@@ -8,6 +8,7 @@ description: AI scientist for drug discovery, building knowledge corpus from fil
 access: unknown
 domain: life-sciences
 status: active
+tier: extended
 added: 2026-02
 last_verified: '2026-08-18'
 notes: '[sweep 2026-08-18] ascent.bio rendered empty; live site is ascentbio.ai (fetched):

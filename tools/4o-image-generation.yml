@@ -8,6 +8,7 @@ description: Native GPT-4o image generation with accurate text rendering, scient
 access: freemium
 domain: general
 status: needs-review
+tier: extended
 added: 2026-02
 last_verified: '2026-08-18'
 notes: '[sweep 2026-08-18] description flagged: Announcement page exists (openai.com

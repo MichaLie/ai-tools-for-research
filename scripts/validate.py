@@ -8,11 +8,14 @@ import yaml
 
 ROOT = Path(__file__).resolve().parent.parent
 
-REQUIRED = ["name", "category", "url", "description", "access", "domain", "status", "added"]
+REQUIRED = ["name", "category", "url", "description", "access", "domain", "status",
+            "tier", "added"]
 OPTIONAL = ["provider", "last_verified", "notes"]
 ACCESS = {"free", "freemium", "paid", "institutional", "waitlist", "unknown"}
 DOMAIN = {"general", "life-sciences"}
 STATUS = {"active", "candidate", "needs-review", "deprecated", "acquired"}
+TIER = {"core", "extended"}
+MAX_CORE_PER_CATEGORY = 6
 
 
 def main() -> int:
@@ -43,6 +46,8 @@ def main() -> int:
             errors.append(f"{where}: domain '{t.get('domain')}' not one of {sorted(DOMAIN)}")
         if t.get("status") not in STATUS:
             errors.append(f"{where}: status '{t.get('status')}' not one of {sorted(STATUS)}")
+        if t.get("tier") not in TIER:
+            errors.append(f"{where}: tier '{t.get('tier')}' not one of {sorted(TIER)}")
         if t.get("added") and not re.fullmatch(r"\d{4}-\d{2}", str(t["added"])):
             errors.append(f"{where}: added '{t['added']}' is not YYYY-MM")
         lv = t.get("last_verified")
@@ -61,6 +66,16 @@ def main() -> int:
             # flag it so the next sweep tries to find more specific URLs
             warnings.append(f"{where}: shares url with {seen_urls[url]} ({url})")
         seen_urls[url] = f.name
+
+    core_counts = {}
+    for f in files:
+        t = yaml.safe_load(f.read_text())
+        if t.get("tier") == "core" and t.get("status") == "active":
+            core_counts[t.get("category")] = core_counts.get(t.get("category"), 0) + 1
+    for cat, n in sorted(core_counts.items()):
+        if n > MAX_CORE_PER_CATEGORY:
+            errors.append(f"category '{cat}' has {n} active core tools"
+                          f" (max {MAX_CORE_PER_CATEGORY}) — one must be displaced")
 
     for w in warnings:
         print("warn:", w)

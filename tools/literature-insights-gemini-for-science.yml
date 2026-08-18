@@ -9,6 +9,7 @@ description: Chat interface over scientific literature that builds structured ta
 access: waitlist
 domain: general
 status: candidate
+tier: extended
 added: 2026-05
 last_verified: '2026-08-18'
 notes: '[sweep 2026-08-18] Fetched labs.google/science: Literature Insights listed,

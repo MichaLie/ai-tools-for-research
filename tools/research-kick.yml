@@ -8,6 +8,7 @@ description: AI research ideation tool identifying research gaps across 1B+ pape
 access: paid
 domain: general
 status: active
+tier: core
 added: 2026-02
 last_verified: '2026-08-18'
 notes: '[sweep 2026-08-18] description flagged: Both catalog URLs redirect to chatacademia.com;

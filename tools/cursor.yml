@@ -8,6 +8,7 @@ description: AI-first code editor (VS Code fork) with natural language code gene
 access: freemium
 domain: general
 status: active
+tier: core
 added: 2026-02
 last_verified: '2026-08-18'
 notes: '[sweep 2026-08-18] description flagged: Fetched cursor.com and /pricing: free

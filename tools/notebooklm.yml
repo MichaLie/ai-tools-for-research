@@ -8,6 +8,7 @@ description: Virtual research assistant analyzing up to 50 sources (500K words e
 access: freemium
 domain: general
 status: active
+tier: core
 added: 2026-02
 last_verified: '2026-08-18'
 notes: '[sweep 2026-08-18] description flagged: Renamed Gemini Notebook (Wikipedia:

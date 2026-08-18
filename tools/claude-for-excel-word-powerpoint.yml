@@ -9,6 +9,7 @@ description: Native sidebar add-ins for Excel, Word and PowerPoint (GA May 7, 20
 access: paid
 domain: general
 status: active
+tier: core
 added: 2026-05
 last_verified: '2026-08-18'
 notes: '[sweep 2026-08-18] anthropic.com/claude/excel is 404. Official page fetched:

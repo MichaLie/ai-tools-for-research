@@ -8,6 +8,7 @@ description: Semantic reviewer-matching system used by editors to find subject-m
 access: unknown
 domain: general
 status: active
+tier: core
 added: 2026-05
 last_verified: '2026-08-18'
 notes: '[sweep 2026-08-18] prophy.science 301s to prophy.ai, which bot-blocks fetchers

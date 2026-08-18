@@ -8,5 +8,6 @@ description: Free AI peer review system by Andrew Ng's team providing rapid, act
 access: free
 domain: general
 status: active
+tier: core
 added: 2026-02
 last_verified: '2026-08-18'

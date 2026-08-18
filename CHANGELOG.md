@@ -24,3 +24,12 @@ ChatGPT Atlas deprecated (discontinued 2026-08); 6 tools now `candidate`
 Nature Research Assistant, Potato); 4 `needs-review` for Michaela's decision
 (Falcon→Edison Literature rename, You.com enterprise pivot, Le Chat→Vibe
 rename, 4o Image Generation superseded).
+
+## Unreleased — task-palette restructure 2026-08-18
+
+Reframed the catalog around task diversity: new `tier` field (46 core / 38
+extended), max 6 active core tools per category (validator-enforced), category
+blurbs phrased as tasks, and deep-dive links to the companion michalie.github.io
+indexes (Autonomous Science Agents, Coding & Data Agents) so this catalog stays
+the breadth layer. README and site now lead with the core palette; extended
+tools collapse under "More tools for this task."

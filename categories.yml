@@ -1,34 +1,62 @@
 general-purpose-ai-assistants:
   title: General-Purpose AI Assistants
+  blurb: 'The task: an everyday thinking partner — drafting, summarizing, coding help, quick
+    analysis at any stage of research.'
 office-suite-ai-integrations:
   title: Office Suite AI Integrations
+  blurb: 'The task: AI inside the documents, spreadsheets and slides you already work in.'
 ai-powered-search-engines:
   title: AI-Powered Search Engines
+  blurb: 'The task: ask the web a question and get a sourced answer instead of a list of links.'
 deep-research-agents:
   title: Deep Research Agents
+  blurb: 'The task: delegate a multi-hour literature synthesis and get back a cited report.'
 literature-discovery-analysis:
   title: Literature Discovery & Analysis
+  blurb: 'The task: find, screen and synthesize papers beyond what you can read yourself.'
 publisher-database-ai-assistants:
   title: Publisher & Database AI Assistants
+  blurb: 'The task: interrogate the curated scholarly databases your library already licenses.'
 citation-networks-reference-management:
   title: Citation Networks & Reference Management
+  blurb: 'The task: map citation networks and keep your reference library organized.'
 grounded-knowledge-specialized-databases:
   title: Grounded Knowledge & Specialized Databases
+  blurb: 'The task: chat with your own sources — grounded answers from documents you trust.'
 data-analysis:
   title: Data Analysis
+  blurb: 'The task: analyze data conversationally — upload, ask, get code and plots back.'
+  deep_dive:
+    title: Coding & Data Agents index (privacy-first, 60 entries)
+    url: https://michalie.github.io/research-coding-agents-wiki/
 autonomous-research-agents:
   title: Autonomous Research Agents
+  blurb: 'The task: hand an agent a research question and let it plan, execute and report autonomously.'
+  deep_dive:
+    title: Autonomous Science Agents index (438 entries)
+    url: https://michalie.github.io/autonomous-stem-agents-wiki/
 browser-automation-agents:
   title: Browser Automation Agents
+  blurb: 'The task: let AI operate the browser — forms, portals, repetitive web work.'
 writing-translation:
   title: Writing & Translation
+  blurb: 'The task: draft, polish and translate scholarly text.'
 ai-manuscript-review-disclosure:
   title: AI Manuscript Review & Disclosure
+  blurb: 'The task: stress-test a manuscript before submission — reviews, integrity checks,
+    AI disclosure.'
 visual-presentation-creation:
   title: Visual & Presentation Creation
+  blurb: 'The task: turn text into diagrams, posters and slide decks.'
 scientific-image-generation:
   title: Scientific Image Generation
+  blurb: 'The task: generate scientific illustrations and publication figures.'
 code-assistants:
   title: Code Assistants
+  blurb: 'The task: write and debug research code with an AI pair programmer or agent.'
+  deep_dive:
+    title: Coding & Data Agents index (privacy-first, 60 entries)
+    url: https://michalie.github.io/research-coding-agents-wiki/
 ideation-grant-funding:
   title: Ideation & Grant Funding
+  blurb: 'The task: find the gap, find the call, draft the proposal.'

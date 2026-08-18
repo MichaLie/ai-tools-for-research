@@ -9,5 +9,6 @@ description: GenAI research assistant integrated into Scopus, drawing on 27,000+
 access: institutional
 domain: general
 status: active
+tier: core
 added: 2026-05
 last_verified: '2026-08-18'

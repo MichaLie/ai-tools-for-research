@@ -2,55 +2,84 @@
  "title": "AI Tools for Scientific Research",
  "categories": {
   "general-purpose-ai-assistants": {
-   "title": "General-Purpose AI Assistants"
+   "title": "General-Purpose AI Assistants",
+   "blurb": "The task: an everyday thinking partner — drafting, summarizing, coding help, quick analysis at any stage of research."
   },
   "office-suite-ai-integrations": {
-   "title": "Office Suite AI Integrations"
+   "title": "Office Suite AI Integrations",
+   "blurb": "The task: AI inside the documents, spreadsheets and slides you already work in."
   },
   "ai-powered-search-engines": {
-   "title": "AI-Powered Search Engines"
+   "title": "AI-Powered Search Engines",
+   "blurb": "The task: ask the web a question and get a sourced answer instead of a list of links."
   },
   "deep-research-agents": {
-   "title": "Deep Research Agents"
+   "title": "Deep Research Agents",
+   "blurb": "The task: delegate a multi-hour literature synthesis and get back a cited report."
   },
   "literature-discovery-analysis": {
-   "title": "Literature Discovery & Analysis"
+   "title": "Literature Discovery & Analysis",
+   "blurb": "The task: find, screen and synthesize papers beyond what you can read yourself."
   },
   "publisher-database-ai-assistants": {
-   "title": "Publisher & Database AI Assistants"
+   "title": "Publisher & Database AI Assistants",
+   "blurb": "The task: interrogate the curated scholarly databases your library already licenses."
   },
   "citation-networks-reference-management": {
-   "title": "Citation Networks & Reference Management"
+   "title": "Citation Networks & Reference Management",
+   "blurb": "The task: map citation networks and keep your reference library organized."
   },
   "grounded-knowledge-specialized-databases": {
-   "title": "Grounded Knowledge & Specialized Databases"
+   "title": "Grounded Knowledge & Specialized Databases",
+   "blurb": "The task: chat with your own sources — grounded answers from documents you trust."
   },
   "data-analysis": {
-   "title": "Data Analysis"
+   "title": "Data Analysis",
+   "blurb": "The task: analyze data conversationally — upload, ask, get code and plots back.",
+   "deep_dive": {
+    "title": "Coding & Data Agents index (privacy-first, 60 entries)",
+    "url": "https://michalie.github.io/research-coding-agents-wiki/"
+   }
   },
   "autonomous-research-agents": {
-   "title": "Autonomous Research Agents"
+   "title": "Autonomous Research Agents",
+   "blurb": "The task: hand an agent a research question and let it plan, execute and report autonomously.",
+   "deep_dive": {
+    "title": "Autonomous Science Agents index (438 entries)",
+    "url": "https://michalie.github.io/autonomous-stem-agents-wiki/"
+   }
   },
   "browser-automation-agents": {
-   "title": "Browser Automation Agents"
+   "title": "Browser Automation Agents",
+   "blurb": "The task: let AI operate the browser — forms, portals, repetitive web work."
   },
   "writing-translation": {
-   "title": "Writing & Translation"
+   "title": "Writing & Translation",
+   "blurb": "The task: draft, polish and translate scholarly text."
   },
   "ai-manuscript-review-disclosure": {
-   "title": "AI Manuscript Review & Disclosure"
+   "title": "AI Manuscript Review & Disclosure",
+   "blurb": "The task: stress-test a manuscript before submission — reviews, integrity checks, AI disclosure."
   },
   "visual-presentation-creation": {
-   "title": "Visual & Presentation Creation"
+   "title": "Visual & Presentation Creation",
+   "blurb": "The task: turn text into diagrams, posters and slide decks."
   },
   "scientific-image-generation": {
-   "title": "Scientific Image Generation"
+   "title": "Scientific Image Generation",
+   "blurb": "The task: generate scientific illustrations and publication figures."
   },
   "code-assistants": {
-   "title": "Code Assistants"
+   "title": "Code Assistants",
+   "blurb": "The task: write and debug research code with an AI pair programmer or agent.",
+   "deep_dive": {
+    "title": "Coding & Data Agents index (privacy-first, 60 entries)",
+    "url": "https://michalie.github.io/research-coding-agents-wiki/"
+   }
   },
   "ideation-grant-funding": {
-   "title": "Ideation & Grant Funding"
+   "title": "Ideation & Grant Funding",
+   "blurb": "The task: find the gap, find the call, draft the proposal."
   }
  },
  "tools": [
@@ -63,6 +92,7 @@
    "access": "freemium",
    "domain": "general",
    "status": "active",
+   "tier": "core",
    "added": "2026-02",
    "last_verified": "2026-08-18",
    "slug": "chatgpt"
@@ -76,6 +106,7 @@
    "access": "freemium",
    "domain": "general",
    "status": "active",
+   "tier": "core",
    "added": "2026-02",
    "last_verified": "2026-08-18",
    "slug": "claude"
@@ -89,6 +120,7 @@
    "access": "freemium",
    "domain": "general",
    "status": "active",
+   "tier": "core",
    "added": "2026-02",
    "last_verified": "2026-08-18",
    "slug": "gemini"
@@ -102,6 +134,7 @@
    "access": "free",
    "domain": "general",
    "status": "active",
+   "tier": "extended",
    "added": "2026-02",
    "last_verified": "2026-08-18",
    "slug": "google-ai-studio"
@@ -115,6 +148,7 @@
    "access": "freemium",
    "domain": "general",
    "status": "active",
+   "tier": "extended",
    "added": "2026-02",
    "last_verified": "2026-08-18",
    "slug": "grok"
@@ -128,6 +162,7 @@
    "access": "unknown",
    "domain": "general",
    "status": "needs-review",
+   "tier": "extended",
    "added": "2026-02",
    "last_verified": null,
    "notes": "[sweep 2026-08-18] description flagged: Le Chat renamed to Vibe May 28 2026 (help.mistral.ai confirms; same URL, accounts carried over). Vibe pricing: Pro $14.99, Team $24.99, Enterprise. Free tier post-rename not confirmed. Name/description outdated.",
@@ -141,6 +176,7 @@
    "access": "freemium",
    "domain": "general",
    "status": "active",
+   "tier": "extended",
    "added": "2026-02",
    "last_verified": "2026-08-18",
    "notes": "[sweep 2026-08-18] lmcouncil.com DNS-dead; lmcouncil.ai live ('Compare Frontier AI Systems Side-by-Side'). Multi-model councils with free and Pro tiers confirmed; terms say solo developer, unnamed. Anonymous peer-review claim not confirmed on-site.",
@@ -155,6 +191,7 @@
    "access": "freemium",
    "domain": "general",
    "status": "active",
+   "tier": "core",
    "added": "2026-02",
    "last_verified": "2026-08-18",
    "notes": "[sweep 2026-08-18] description flagged: URL is consumer Copilot (free; Copilot Pro discontinued Oct 2025, folded into M365 Premium $19.99). Description actually describes Microsoft 365 Copilot: Researcher/Analyst agents and $18 academic pricing verified as M365 Copilot features.",
@@ -169,6 +206,7 @@
    "access": "paid",
    "domain": "general",
    "status": "active",
+   "tier": "core",
    "added": "2026-05",
    "last_verified": "2026-08-18",
    "notes": "[sweep 2026-08-18] anthropic.com/claude/excel is 404. Official page fetched: product is branded 'Claude for Microsoft 365'. GA May 7 2026, Outlook beta, AppSource install, all-paid-plans access all confirmed.",
@@ -183,6 +221,7 @@
    "access": "paid",
    "domain": "general",
    "status": "active",
+   "tier": "core",
    "added": "2026-05",
    "last_verified": "2026-08-18",
    "slug": "microsoft-365-copilot-agent-mode"
@@ -196,6 +235,7 @@
    "access": "freemium",
    "domain": "general",
    "status": "active",
+   "tier": "core",
    "added": "2026-02",
    "last_verified": "2026-08-18",
    "slug": "perplexity"
@@ -209,6 +249,7 @@
    "access": "paid",
    "domain": "general",
    "status": "needs-review",
+   "tier": "extended",
    "added": "2026-02",
    "last_verified": null,
    "notes": "[sweep 2026-08-18] description flagged: Fetched you.com twice: now an enterprise/developer API platform (Search, Contents, Research, Finance APIs); no ARI or consumer answer engine mentioned. 2026 reporting confirms pivot; consumer plans gone. Usage-billed with one-time trial credits.",
@@ -223,6 +264,7 @@
    "access": "waitlist",
    "domain": "general",
    "status": "candidate",
+   "tier": "extended",
    "added": "2026-05",
    "last_verified": "2026-08-18",
    "notes": "[sweep 2026-08-18] Fetched labs.google/science and research.google ERA blog. 'Computational Discovery' built with AlphaEvolve+ERA; ERA Nature paper May 19 2026 and CDC-forecasting claim confirmed. Access via 'Express interest' / gradual trusted-tester rollout.",
@@ -237,6 +279,7 @@
    "access": "freemium",
    "domain": "general",
    "status": "active",
+   "tier": "core",
    "added": "2026-02",
    "last_verified": "2026-08-18",
    "slug": "chatgpt-deep-research"
@@ -250,6 +293,7 @@
    "access": "paid",
    "domain": "general",
    "status": "active",
+   "tier": "core",
    "added": "2026-02",
    "last_verified": "2026-08-18",
    "notes": "[sweep 2026-08-18] description flagged: anthropic.com/news/research now 308-redirects to claude.com/blog/research (fetched): Research on Max/Team/Enterprise. Research is a general Claude feature, not part of Life Sciences; that suite is now superseded by 'Claude Science' (public beta).",
@@ -264,6 +308,7 @@
    "access": "freemium",
    "domain": "general",
    "status": "needs-review",
+   "tier": "extended",
    "added": "2026-02",
    "last_verified": null,
    "notes": "[sweep 2026-08-18] description flagged: Falcon branding absent from futurehouse.org and edisonscientific.com (both fetched). Successor is 'Edison Literature' (PaperQA3, announced 2026-02-18) on platform.edisonscientific.com; academics get ~20 free calls/day. Edison Scientific spun out of FutureHouse Nov 2025.",
@@ -278,6 +323,7 @@
    "access": "waitlist",
    "domain": "general",
    "status": "candidate",
+   "tier": "extended",
    "added": "2026-05",
    "last_verified": "2026-08-18",
    "notes": "[sweep 2026-08-18] description flagged: Fetched labs.google/science and blog.google I/O 2026 post: Co-Scientist Nature paper confirmed, but Stanford liver-fibrosis/Vorinostat result was published in Advanced Science, not Nature. Access via 'Express interest' waitlist. Google-branded (blog.google/labs.google), not DeepMind.",
@@ -292,6 +338,7 @@
    "access": "freemium",
    "domain": "general",
    "status": "active",
+   "tier": "core",
    "added": "2026-02",
    "last_verified": "2026-08-18",
    "slug": "gemini-deep-research"
@@ -305,6 +352,7 @@
    "access": "free",
    "domain": "general",
    "status": "active",
+   "tier": "core",
    "added": "2026-02",
    "last_verified": "2026-08-18",
    "slug": "storm"
@@ -318,6 +366,7 @@
    "access": "free",
    "domain": "general",
    "status": "active",
+   "tier": "extended",
    "added": "2026-02",
    "last_verified": "2026-08-18",
    "slug": "alphaxiv"
@@ -331,6 +380,7 @@
    "access": "freemium",
    "domain": "general",
    "status": "active",
+   "tier": "extended",
    "added": "2026-02",
    "last_verified": "2026-08-18",
    "slug": "answerthis"
@@ -344,6 +394,7 @@
    "access": "freemium",
    "domain": "general",
    "status": "active",
+   "tier": "core",
    "added": "2026-02",
    "last_verified": "2026-08-18",
    "slug": "consensus"
@@ -357,6 +408,7 @@
    "access": "freemium",
    "domain": "general",
    "status": "active",
+   "tier": "core",
    "added": "2026-02",
    "last_verified": "2026-08-18",
    "slug": "elicit"
@@ -370,6 +422,7 @@
    "access": "unknown",
    "domain": "life-sciences",
    "status": "active",
+   "tier": "extended",
    "added": "2026-05",
    "last_verified": "2026-08-18",
    "slug": "gxl"
@@ -383,6 +436,7 @@
    "access": "waitlist",
    "domain": "general",
    "status": "candidate",
+   "tier": "extended",
    "added": "2026-05",
    "last_verified": "2026-08-18",
    "notes": "[sweep 2026-08-18] Fetched labs.google/science: Literature Insights listed, built with Gemini Notebook; tables, reports, slide decks, infographics confirmed. Access is 'Express interest' only — no open availability. Audio/video overviews not confirmed.",
@@ -397,6 +451,7 @@
    "access": "freemium",
    "domain": "general",
    "status": "active",
+   "tier": "core",
    "added": "2026-02",
    "last_verified": "2026-08-18",
    "notes": "[sweep 2026-08-18] typeset.io 301-redirects to scispace.com, which bot-blocks fetcher. 2026 pricing reviews and official pricing page (scispace.com/typeset-pricing/) confirm active freemium product: free tier, Premium $12/mo, team plans.",
@@ -411,6 +466,7 @@
    "access": "paid",
    "domain": "general",
    "status": "active",
+   "tier": "core",
    "added": "2026-02",
    "last_verified": "2026-08-18",
    "slug": "scite"
@@ -424,6 +480,7 @@
    "access": "free",
    "domain": "general",
    "status": "active",
+   "tier": "core",
    "added": "2026-02",
    "last_verified": "2026-08-18",
    "slug": "semantic-scholar"
@@ -437,6 +494,7 @@
    "access": "institutional",
    "domain": "general",
    "status": "active",
+   "tier": "core",
    "added": "2026-05",
    "last_verified": "2026-08-18",
    "slug": "jstor-ai-research-tool"
@@ -450,6 +508,7 @@
    "access": "waitlist",
    "domain": "general",
    "status": "candidate",
+   "tier": "extended",
    "added": "2026-05",
    "last_verified": "2026-08-18",
    "notes": "[sweep 2026-08-18] Fetched site: Springer Nature confirmed, still beta; new users must join waiting list, no pricing disclosed. Summaries, paper chat, figure descriptions with audio all confirmed on page.",
@@ -464,6 +523,7 @@
    "access": "paid",
    "domain": "general",
    "status": "active",
+   "tier": "extended",
    "added": "2026-05",
    "last_verified": "2026-08-18",
    "slug": "sciencedirect-ai"
@@ -477,6 +537,7 @@
    "access": "institutional",
    "domain": "general",
    "status": "active",
+   "tier": "core",
    "added": "2026-05",
    "last_verified": "2026-08-18",
    "slug": "scopus-ai-ai-discovery"
@@ -490,6 +551,7 @@
    "access": "institutional",
    "domain": "general",
    "status": "active",
+   "tier": "core",
    "added": "2026-05",
    "last_verified": "2026-08-18",
    "slug": "web-of-science-research-assistant"
@@ -503,6 +565,7 @@
    "access": "freemium",
    "domain": "general",
    "status": "active",
+   "tier": "extended",
    "added": "2026-02",
    "last_verified": "2026-08-18",
    "slug": "litmaps"
@@ -516,6 +579,7 @@
    "access": "freemium",
    "domain": "general",
    "status": "active",
+   "tier": "core",
    "added": "2026-02",
    "last_verified": "2026-08-18",
    "slug": "researchrabbit"
@@ -529,6 +593,7 @@
    "access": "free",
    "domain": "general",
    "status": "active",
+   "tier": "core",
    "added": "2026-02",
    "last_verified": "2026-08-18",
    "slug": "zotero"
@@ -542,6 +607,7 @@
    "access": "freemium",
    "domain": "general",
    "status": "active",
+   "tier": "core",
    "added": "2026-02",
    "last_verified": "2026-08-18",
    "notes": "[sweep 2026-08-18] description flagged: Renamed Gemini Notebook (Wikipedia: July 16, 2026); notebooklm.google 301s to notebook.google, app login at notebook.google.com. Free plus paid Plus tier confirmed; '500 notebooks Pro tier' and 50-source limits unverified.",
@@ -556,6 +622,7 @@
    "access": "freemium",
    "domain": "life-sciences",
    "status": "active",
+   "tier": "core",
    "added": "2026-05",
    "last_verified": "2026-08-18",
    "slug": "benchling-ai"
@@ -569,6 +636,7 @@
    "access": "freemium",
    "domain": "general",
    "status": "active",
+   "tier": "core",
    "added": "2026-02",
    "last_verified": "2026-08-18",
    "slug": "chatgpt-code-interpreter"
@@ -582,6 +650,7 @@
    "access": "paid",
    "domain": "general",
    "status": "active",
+   "tier": "extended",
    "added": "2026-02",
    "last_verified": "2026-08-18",
    "slug": "claude-code-interpreter"
@@ -595,6 +664,7 @@
    "access": "freemium",
    "domain": "general",
    "status": "active",
+   "tier": "core",
    "added": "2026-02",
    "last_verified": "2026-08-18",
    "slug": "julius"
@@ -608,6 +678,7 @@
    "access": "unknown",
    "domain": "life-sciences",
    "status": "active",
+   "tier": "extended",
    "added": "2026-02",
    "last_verified": "2026-08-18",
    "slug": "aiva"
@@ -621,6 +692,7 @@
    "access": "free",
    "domain": "life-sciences",
    "status": "active",
+   "tier": "core",
    "added": "2026-02",
    "last_verified": "2026-08-18",
    "notes": "[sweep 2026-08-18] bio.tools is ELIXIR's registry, unrelated. Real product: BIOS landing ai.bio.xyz, app chat.bio.xyz (free tier, API). Landing now pitches protein-binder design from a prompt; BixBench/deep-research framing from their blog.",
@@ -635,6 +707,7 @@
    "access": "unknown",
    "domain": "life-sciences",
    "status": "active",
+   "tier": "extended",
    "added": "2026-02",
    "last_verified": "2026-08-18",
    "notes": "[sweep 2026-08-18] ascent.bio rendered empty; live site is ascentbio.ai (fetched): Faraday AI scientist, 40+ institutions, signup via accounts.platform.ascentbio.ai. platform.ascentbio.ai/faraday showed 'down for maintenance'. No pricing found; public beta per blog.",
@@ -649,6 +722,7 @@
    "access": "unknown",
    "domain": "general",
    "status": "active",
+   "tier": "extended",
    "added": "2026-02",
    "last_verified": "2026-08-18",
    "notes": "[sweep 2026-08-18] description flagged: heureka.ai DNS-dead. heurekalabs.co live: Heureka Bench desktop app with ARC agent and Archimedes model, direct Mac/Windows downloads, 'no subscription'. QuartzReport not mentioned anywhere; pricing page could not be retrieved.",
@@ -663,6 +737,7 @@
    "access": "freemium",
    "domain": "life-sciences",
    "status": "active",
+   "tier": "extended",
    "added": "2026-02",
    "last_verified": "2026-08-18",
    "notes": "[sweep 2026-08-18] biostate.ai is parent company page; it states 'K-Dense is a Biostate AI spinout'. k-dense.ai/pricing fetched: free instant tier, runs capped $9-29, Plus $199/mo, academics 90% off Team. BixBench/Harvard claims match launch coverage.",
@@ -677,6 +752,7 @@
    "access": "paid",
    "domain": "general",
    "status": "active",
+   "tier": "core",
    "added": "2026-02",
    "last_verified": "2026-08-18",
    "slug": "kosmos"
@@ -690,6 +766,7 @@
    "access": "freemium",
    "domain": "life-sciences",
    "status": "active",
+   "tier": "extended",
    "added": "2026-02",
    "last_verified": "2026-08-18",
    "notes": "[sweep 2026-08-18] description flagged: Homepage and pricing page fetched: conversational bioinformatics agent confirmed; free intro credits, packs $25-100, team plans $49-99/seat/mo. 'Free during beta' in description is outdated — paid pricing is live.",
@@ -704,6 +781,7 @@
    "access": "waitlist",
    "domain": "general",
    "status": "candidate",
+   "tier": "extended",
    "added": "2026-02",
    "last_verified": "2026-08-18",
    "notes": "[sweep 2026-08-18] potato.ai fetched: first product 'The Optimizer' opening for early access with selected teams; beta request page; app at app.potatodemo.com. University list mostly matches; Harvard and Wiley RAG not confirmed on current page.",
@@ -718,6 +796,7 @@
    "access": "unknown",
    "domain": "general",
    "status": "deprecated",
+   "tier": "extended",
    "added": "2026-02",
    "last_verified": "2026-08-18",
    "notes": "Discontinued by OpenAI around 2026-08-09; the standalone Atlas browser was folded into the ChatGPT desktop app. Kept for the historical record.",
@@ -732,6 +811,7 @@
    "access": "paid",
    "domain": "general",
    "status": "active",
+   "tier": "core",
    "added": "2026-02",
    "last_verified": "2026-08-18",
    "slug": "claude-for-chrome"
@@ -745,6 +825,7 @@
    "access": "freemium",
    "domain": "general",
    "status": "active",
+   "tier": "core",
    "added": "2026-02",
    "last_verified": "2026-08-18",
    "slug": "comet"
@@ -758,6 +839,7 @@
    "access": "freemium",
    "domain": "general",
    "status": "active",
+   "tier": "core",
    "added": "2026-02",
    "last_verified": "2026-08-18",
    "slug": "deepl"
@@ -771,6 +853,7 @@
    "access": "freemium",
    "domain": "general",
    "status": "active",
+   "tier": "extended",
    "added": "2026-02",
    "last_verified": "2026-08-18",
    "slug": "deepwriter-ai"
@@ -784,6 +867,7 @@
    "access": "unknown",
    "domain": "general",
    "status": "active",
+   "tier": "extended",
    "added": "2026-02",
    "last_verified": "2026-08-18",
    "slug": "formatmypaper"
@@ -797,6 +881,7 @@
    "access": "freemium",
    "domain": "general",
    "status": "active",
+   "tier": "core",
    "added": "2026-02",
    "last_verified": "2026-08-18",
    "slug": "grammarly"
@@ -810,6 +895,7 @@
    "access": "freemium",
    "domain": "general",
    "status": "active",
+   "tier": "core",
    "added": "2026-02",
    "last_verified": "2026-08-18",
    "slug": "jenni"
@@ -823,6 +909,7 @@
    "access": "freemium",
    "domain": "general",
    "status": "active",
+   "tier": "core",
    "added": "2026-02",
    "last_verified": "2026-08-18",
    "slug": "paperpal"
@@ -836,6 +923,7 @@
    "access": "freemium",
    "domain": "general",
    "status": "active",
+   "tier": "extended",
    "added": "2026-02",
    "last_verified": "2026-08-18",
    "slug": "quillbot"
@@ -849,6 +937,7 @@
    "access": "free",
    "domain": "general",
    "status": "active",
+   "tier": "core",
    "added": "2026-02",
    "last_verified": "2026-08-18",
    "notes": "[sweep 2026-08-18] Listed URL is Enago homepage; dedicated generator page fetched and confirmed (form, statement delivered as PDF via email). No payment step shown; 'free' not explicitly stated on page.",
@@ -863,6 +952,7 @@
    "access": "freemium",
    "domain": "general",
    "status": "active",
+   "tier": "extended",
    "added": "2026-05",
    "last_verified": "2026-08-18",
    "notes": "[sweep 2026-08-18] description flagged: Homepage fetched: free Readiness Scan + paid Full Review now $39 (description says $29) + human Expert tier. Citation verification, figure analysis, Anthropic privacy/no-training claims confirmed; signup open.",
@@ -877,6 +967,7 @@
    "access": "institutional",
    "domain": "general",
    "status": "active",
+   "tier": "core",
    "added": "2026-05",
    "last_verified": "2026-08-18",
    "slug": "proofig-pubshield"
@@ -890,6 +981,7 @@
    "access": "unknown",
    "domain": "general",
    "status": "active",
+   "tier": "core",
    "added": "2026-05",
    "last_verified": "2026-08-18",
    "notes": "[sweep 2026-08-18] prophy.science 301s to prophy.ai, which bot-blocks fetchers (403). blog.prophy.ai and search confirm Referee Finder for publishers/funders, ~96M profiles, Editorial Manager integration. Pricing/access not visible anywhere fetched.",
@@ -904,6 +996,7 @@
    "access": "freemium",
    "domain": "general",
    "status": "active",
+   "tier": "extended",
    "added": "2026-02",
    "last_verified": "2026-08-18",
    "slug": "q-e-d"
@@ -917,6 +1010,7 @@
    "access": "paid",
    "domain": "general",
    "status": "active",
+   "tier": "extended",
    "added": "2026-02",
    "last_verified": "2026-08-18",
    "slug": "review-it"
@@ -930,6 +1024,7 @@
    "access": "paid",
    "domain": "general",
    "status": "active",
+   "tier": "extended",
    "added": "2026-02",
    "last_verified": "2026-08-18",
    "slug": "reviewer3"
@@ -943,6 +1038,7 @@
    "access": "free",
    "domain": "general",
    "status": "active",
+   "tier": "core",
    "added": "2026-02",
    "last_verified": "2026-08-18",
    "slug": "stanford-agentic-reviewer"
@@ -956,6 +1052,7 @@
    "access": "paid",
    "domain": "general",
    "status": "active",
+   "tier": "extended",
    "added": "2026-02",
    "last_verified": "2026-08-18",
    "slug": "beautiful-ai"
@@ -969,6 +1066,7 @@
    "access": "freemium",
    "domain": "general",
    "status": "active",
+   "tier": "core",
    "added": "2026-02",
    "last_verified": "2026-08-18",
    "slug": "gamma"
@@ -982,6 +1080,7 @@
    "access": "freemium",
    "domain": "general",
    "status": "active",
+   "tier": "core",
    "added": "2026-02",
    "last_verified": "2026-08-18",
    "slug": "napkin"
@@ -995,6 +1094,7 @@
    "access": "freemium",
    "domain": "general",
    "status": "active",
+   "tier": "extended",
    "added": "2026-02",
    "last_verified": "2026-08-18",
    "slug": "notebooklm-slide-decks"
@@ -1008,6 +1108,7 @@
    "access": "freemium",
    "domain": "general",
    "status": "needs-review",
+   "tier": "extended",
    "added": "2026-02",
    "last_verified": "2026-08-18",
    "notes": "[sweep 2026-08-18] description flagged: Announcement page exists (openai.com blocks fetch; confirmed via search). Superseded: ChatGPT Images 2.0 / GPT Image 2 replaced 4o image gen as ChatGPT's image model on 2026-04-21. Entry should be updated.",
@@ -1022,6 +1123,7 @@
    "access": "freemium",
    "domain": "life-sciences",
    "status": "active",
+   "tier": "core",
    "added": "2026-02",
    "last_verified": "2026-08-18",
    "slug": "biorender"
@@ -1035,6 +1137,7 @@
    "access": "paid",
    "domain": "general",
    "status": "active",
+   "tier": "extended",
    "added": "2026-02",
    "last_verified": "2026-08-18",
    "slug": "nano-banana-pro-gemini"
@@ -1048,6 +1151,7 @@
    "access": "paid",
    "domain": "general",
    "status": "active",
+   "tier": "core",
    "added": "2026-02",
    "last_verified": "2026-08-18",
    "slug": "claude-code"
@@ -1061,6 +1165,7 @@
    "access": "paid",
    "domain": "general",
    "status": "active",
+   "tier": "extended",
    "added": "2026-02",
    "last_verified": "2026-08-18",
    "slug": "codex"
@@ -1074,6 +1179,7 @@
    "access": "freemium",
    "domain": "general",
    "status": "active",
+   "tier": "core",
    "added": "2026-02",
    "last_verified": "2026-08-18",
    "notes": "[sweep 2026-08-18] description flagged: Fetched cursor.com and /pricing: free Hobby tier, Pro $20/mo. SpaceX's $60B acquisition of Anysphere closed 2026-08-14 (CNBC, site itself) — the '$9.9B valuation' claim is now wrong.",
@@ -1088,6 +1194,7 @@
    "access": "freemium",
    "domain": "general",
    "status": "active",
+   "tier": "core",
    "added": "2026-02",
    "last_verified": "2026-08-18",
    "slug": "github-copilot"
@@ -1101,6 +1208,7 @@
    "access": "free",
    "domain": "general",
    "status": "active",
+   "tier": "extended",
    "added": "2026-05",
    "last_verified": "2026-08-18",
    "slug": "google-antigravity"
@@ -1114,6 +1222,7 @@
    "access": "freemium",
    "domain": "general",
    "status": "active",
+   "tier": "extended",
    "added": "2026-05",
    "last_verified": "2026-08-18",
    "slug": "grantable"
@@ -1127,6 +1236,7 @@
    "access": "paid",
    "domain": "general",
    "status": "active",
+   "tier": "extended",
    "added": "2026-05",
    "last_verified": "2026-08-18",
    "notes": "[sweep 2026-08-18] grantboost.com is a parked GoDaddy for-sale domain; live product at grantboost.io. Plans $32/$49/$66/mo (no free tier seen; '$19.99' stale). Academic fit: site explicitly lists universities/research institutions seeking federal grants.",
@@ -1141,6 +1251,7 @@
    "access": "freemium",
    "domain": "general",
    "status": "active",
+   "tier": "core",
    "added": "2026-05",
    "last_verified": "2026-08-18",
    "slug": "granted-ai"
@@ -1154,6 +1265,7 @@
    "access": "paid",
    "domain": "general",
    "status": "active",
+   "tier": "core",
    "added": "2026-05",
    "last_verified": "2026-08-18",
    "slug": "instrumentl"
@@ -1167,6 +1279,7 @@
    "access": "paid",
    "domain": "general",
    "status": "active",
+   "tier": "core",
    "added": "2026-02",
    "last_verified": "2026-08-18",
    "notes": "[sweep 2026-08-18] description flagged: Both catalog URLs redirect to chatacademia.com; founder (Mushtaq Bilal) confirmed rebrand of Research Kick Chat to ChatAcademia. Description stale: old name, GPT-4o claim. Now $15-45/mo plans, free trial, 8+ databases, grant search.",

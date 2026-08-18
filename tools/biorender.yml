@@ -9,5 +9,6 @@ description: Web-based scientific illustration platform with 40,000+ peer-review
 access: freemium
 domain: life-sciences
 status: active
+tier: core
 added: 2026-02
 last_verified: '2026-08-18'

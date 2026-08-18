@@ -8,6 +8,7 @@ description: All-in-one research platform with 280M papers, semantic search, Cha
 access: freemium
 domain: general
 status: active
+tier: core
 added: 2026-02
 last_verified: '2026-08-18'
 notes: '[sweep 2026-08-18] typeset.io 301-redirects to scispace.com, which bot-blocks

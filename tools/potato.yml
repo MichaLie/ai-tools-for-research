@@ -8,6 +8,7 @@ description: AI research assistant for experiment design and execution in life s
 access: waitlist
 domain: general
 status: candidate
+tier: extended
 added: 2026-02
 last_verified: '2026-08-18'
 notes: '[sweep 2026-08-18] potato.ai fetched: first product ''The Optimizer'' opening

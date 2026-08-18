@@ -9,6 +9,7 @@ description: Agentic 'research engine' that auto-generates and scores thousands 
 access: waitlist
 domain: general
 status: candidate
+tier: extended
 added: 2026-05
 last_verified: '2026-08-18'
 notes: '[sweep 2026-08-18] Fetched labs.google/science and research.google ERA blog.

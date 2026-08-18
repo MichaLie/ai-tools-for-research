@@ -8,6 +8,7 @@ description: 'Multi-agent system ranked #1 on BixBench for biological analysis. 
 access: free
 domain: life-sciences
 status: active
+tier: core
 added: 2026-02
 last_verified: '2026-08-18'
 notes: '[sweep 2026-08-18] bio.tools is ELIXIR''s registry, unrelated. Real product:

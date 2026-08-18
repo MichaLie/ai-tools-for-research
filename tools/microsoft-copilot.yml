@@ -8,6 +8,7 @@ description: AI assistant integrated with Microsoft 365, featuring Researcher ag
 access: freemium
 domain: general
 status: active
+tier: core
 added: 2026-02
 last_verified: '2026-08-18'
 notes: '[sweep 2026-08-18] description flagged: URL is consumer Copilot (free; Copilot
