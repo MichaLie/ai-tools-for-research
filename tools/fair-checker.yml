@@ -1,0 +1,18 @@
+name: FAIR-Checker
+category: data-management-fair
+provider: Institut Français de Bioinformatique (IFB) / ELIXIR France
+url: https://fair-checker.france-bioinformatique.fr/
+description: Assesses FAIRness of a web resource or dataset by extracting its metadata
+  and validating it against DataCite, OpenAIRE, Wikidata, Linked Open Vocabularies,
+  and Bioschemas community profiles, to help providers improve resource quality.
+access: free
+domain: general
+status: active
+tier: extended
+added: 2026-08
+last_verified: '2026-08-18'
+notes: '[grok-gap-hunt 2026-08-18, independently verified] Report discrepancy: Minor:
+  report''s ''SPARQL/SHACL'' and ''OLS, BioPortal'' specifics not visible on the fetched
+  homepage text; semantic-web validation against DataCite/OpenAIRE/Wikidata/LOV/Bioschemas
+  confirmed. Free, source code MIT-licensed, IFB PIA2 11-INBS-0013 funding confirmed.
+  Life-science provider but tool is domain-agnostic, hence domain: general.'

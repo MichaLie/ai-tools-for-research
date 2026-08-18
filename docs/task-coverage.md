@@ -1,14 +1,14 @@
 # Task-coverage map — AI Tools for Scientific Research
 
-Generated 2026-08-18 from the catalog data (150 tools, 29 task categories; every
-tool verified against the live web on this date). Purpose of this document: input
-for external gap-hunting — which academic/research tasks augmentable by AI are
-NOT yet represented below?
+Generated 2026-08-18 (post gap-hunt integration) from the catalog data:
+176 tools, 35 task categories, every tool verified against the
+live web on this date. Purpose: input for external gap-hunting — which
+academic/research tasks augmentable by AI are NOT yet represented below?
 
-Scope rules of the catalog: research workflow only — teaching/grading and general
-office admin are deliberately excluded. Depth areas covered by companion indexes
-(not this catalog): biological foundation models, autonomous science agents at
-scale, privacy-first coding/data agents (https://michalie.github.io/).
+Scope rules: research workflow only — teaching/grading and general office admin
+are deliberately excluded. Depth areas covered by companion indexes (not this
+catalog): biological foundation models, autonomous science agents at scale,
+privacy-first coding/data agents (https://michalie.github.io/).
 
 ## Covered task types
 
@@ -48,7 +48,7 @@ Task: let AI operate the browser — forms, portals, repetitive web work.
 ### Writing & Translation (7 tools)
 Task: draft, polish and translate scholarly text.
 
-### AI Manuscript Review & Disclosure (10 tools)
+### AI Manuscript Review & Disclosure (11 tools)
 Task: stress-test a manuscript before submission — reviews, integrity checks, AI disclosure.
 Specific use cases already covered:
 - Preregistration-vs-paper consistency checking — automating a review step editors demonstrably skip; nothing else in or near the catalog does this
@@ -66,7 +66,7 @@ Task: write and debug research code with an AI pair programmer or agent.
 ### Ideation & Grant Funding (5 tools)
 Task: find the gap, find the call, draft the proposal.
 
-### Transcription & Qualitative Analysis (6 tools)
+### Transcription & Qualitative Analysis (8 tools)
 Task: turn interviews and focus groups into text, then into coded themes — with sensitive data kept safe.
 Specific use cases already covered:
 - GDPR-safe transcription of sensitive interview data — nothing leaves the machine, with transcript conventions (pauses, overlap, disfluencies) built for qualitative social research
@@ -76,7 +76,7 @@ Specific use cases already covered:
 - AI-conducted voice interviews — an avatar interviewer collects qualitative data autonomously, then the same platform analyzes it; no other vetted tool covers AI-led data collection
 - Zero-cost, transparent AI-assisted qualitative coding — inspectable prompts plus a free EU academic LLM backend (Blablador) that stores no data; supports REFI-QDA exchange with commercial CAQDAS
 
-### Systematic Review & Evidence Synthesis (6 tools)
+### Systematic Review & Evidence Synthesis (10 tools)
 Task: screen thousands of abstracts, extract evidence, and keep a review living — PRISMA-style.
 Specific use cases already covered:
 - AI-suggested extraction designed for the living-review-to-guideline pipeline (GRADE ecosystem via Evidence Prime)
@@ -84,7 +84,7 @@ Specific use cases already covered:
 - living systematic reviews with auto-updating searches plus publishable interactive synthesis visualizations
 - transparent, simulatable machine-learning screening you can audit and run offline — the only open-source option with a validation/simulation framework
 
-### OCR & Document Digitization (6 tools)
+### OCR & Document Digitization (7 tools)
 Task: turn handwriting, archives, equations and PDFs into editable, analyzable text and LaTeX.
 Specific use cases already covered:
 - STEM-specific OCR — equations, handwritten math, and chemical structures to compilable LaTeX; sole representative of the 'get this formula out of a PDF' task
@@ -122,7 +122,7 @@ Specific use cases already covered:
 - Sentence-level feedback calibrated to published-paper conventions rather than general English; corrections applied directly within LaTeX source code
 - Batch proofreading of a whole .tex manuscript outside any editor, with tracked-changes Word output co-authors can review — bridges LaTeX and Word-based collaborators
 
-### Survey & Experiment Design (5 tools)
+### Survey & Experiment Design (6 tools)
 Task: design instruments and experiments well before collecting a single data point — including simulated piloting.
 Specific use cases already covered:
 - Programmatic pretesting of survey instruments and factorial experiments on simulated respondents before spending real participants, with a built-in AI-to-human validation bridge
@@ -175,14 +175,33 @@ Task: pick the right venue — open-access options, fit, and legitimacy.
 Specific use cases already covered:
 - manuscript-driven open-access journal selection (no journal-selection tool in catalog)
 
-## Edges already checked and found EMPTY (2026-08-18) — expansion candidates
+### Instrument Data Interpretation (2 tools)
+Task: turn raw instrument output into identifications — what is this peak, this spectrum, this unknown.
 
-- AI power analysis / sample-size planning (nothing beyond a bioRxiv preprint)
-- Press-release drafting for research (no dedicated gate-passing tool)
-- Laboratory instrument-data interpretation (enterprise-only offerings so far)
-- Scientific-figure alt-text generation, NIH-biosketch/CV generators,
-  AI conference matching, reviewer-response letter helpers (prototypes or thin
-  wrappers only)
+### Data Management & FAIR (4 tools)
+Task: funder-compliant, machine-actionable data management plans and FAIR checks on what you deposit.
+
+### Bioimage Analysis (3 tools)
+Task: segment, classify and count in your own microscopy and histology — cells, nuclei, whole slides.
+
+### Behavioral Video Analysis (3 tools)
+Task: track animals and quantify behavior from your own videos — markerless pose, identities, ethograms.
+
+### De-identification & Data Sharing (4 tools)
+Task: anonymize tables and transcripts so data can be shared or sent to a cloud model — with formal guarantees, GDPR in mind.
+
+### Impact & Policy Tracking (1 tool)
+Task: show where your work landed beyond academia — policy documents, impact cases.
+
+## Edges checked and still EMPTY (reconfirmed 2026-08-18, two hunts)
+
+- Press-release drafting for a paper — and EurekAlert's guidelines now ban
+  AI-generated text outright, so this edge stays empty on purpose
+- AI conference matching (upload paper, get ranked live CFPs)
+- Journal-ready figure alt-text from a paper PDF (FigurA11y is not production)
+- Narrative CV builders (UKRI R4RI / Horizon / NWO templates only)
+- NIH biosketch: one live indie product exists but fails the recommendable-
+  to-students gate (unnamed organization); SciENcv itself is not AI
 
 ## What a proposed addition must satisfy
 

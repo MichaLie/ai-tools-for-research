@@ -1,0 +1,18 @@
+name: SLEAP
+category: behavioral-video-analysis
+provider: Talmo Lab, Salk Institute
+url: https://sleap.ai/
+description: 'Multi-animal pose estimation and identity tracking from video: GUI labeling
+  with human-in-the-loop training, deep-learning inference at up to 600+ FPS, PyTorch
+  backend since v1.5.'
+access: free
+domain: life-sciences
+status: active
+tier: extended
+added: 2026-08
+last_verified: '2026-08-18'
+notes: '[grok-gap-hunt 2026-08-18, independently verified] Report discrepancy: Report''s
+  ''PyTorch 1.5+'' is ambiguous wording: it is SLEAP v1.5+ that switched to a PyTorch
+  backend, not PyTorch version 1.5. Provider correct (Pereira''s Talmo Lab, now at
+  Salk). BSD-3-Clause-Clear. v1.6.5 released 2026-08-11. Originally Princeton (Murthy/Shaevitz
+  labs), now Salk; NIH BRAIN funded.'

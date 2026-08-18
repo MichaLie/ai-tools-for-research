@@ -1,0 +1,19 @@
+name: Textwash
+category: data-deidentification
+provider: 'Bennett Kleinberg + jocapps GmbH (OSS original: Kleinberg, Tilburg/UCL)'
+url: https://www.textwash.eu/
+description: Removes personal data from interviews, documents, and logs using a small
+  on-device AI model (16 configurable entity types, contextual not keyword-based),
+  in English, German, Dutch, French, Spanish, Italian. Free GPL-3.0 Python CLI covers
+  English and Dutch.
+access: unknown
+domain: general
+status: active
+tier: core
+added: 2026-08
+last_verified: '2026-08-18'
+notes: '[grok-gap-hunt 2026-08-18, independently verified] Report discrepancy: None
+  on price/trial/languages. Minor additions: Pro also offers cloud API and browser
+  workspace beyond on-device mode; OSS CLI supports only EN/NL, not all six languages.
+  $130/yr student tier and $330/yr standard confirmed on textwash.eu; GitHub repo
+  confirmed GPL-3.0, offline, points to textwash.eu as commercial successor.'

@@ -1,0 +1,16 @@
+name: idtracker.ai
+category: behavioral-video-analysis
+provider: de Polavieja lab, Champalimaud Foundation
+url: https://idtracker.ai/
+description: Tracks up to 100 unmarked animals in laboratory videos while preserving
+  individual identities, using deep-learning identification networks; free open-source
+  GUI and Python tools.
+access: free
+domain: life-sciences
+status: active
+tier: core
+added: 2026-08
+last_verified: '2026-08-18'
+notes: '[grok-gap-hunt 2026-08-18, independently verified] GPLv3+. Latest stable 6.0.14
+  released 2026-04-07 (GitLab API; 6.0.15a0 pre-release 2026-04-30). eLife 2026 paper
+  DOI 10.7554/eLife.107602 linked on site.'

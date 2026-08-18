@@ -1,0 +1,19 @@
+name: Montreal Forced Aligner
+category: transcription-qualitative-analysis
+provider: Montreal Corpus Tools (Michael McAuliffe et al.)
+url: https://github.com/MontrealCorpusTools/Montreal-Forced-Aligner
+description: 'Command-line forced aligner built on Kaldi: time-aligns transcripts
+  to audio at word and phone level using pretrained or self-trained acoustic models.
+  MIT-licensed; installed via conda-forge; v3.0 cited (2026).'
+access: free
+domain: general
+status: active
+tier: extended
+added: 2026-08
+last_verified: '2026-08-18'
+notes: '[grok-gap-hunt 2026-08-18, independently verified] Report discrepancy: Report
+  URL (montrealcorpustools.github.io) is live but is a dated v1-era landing page (standalone
+  executables, no conda mention). Current install is conda-forge per GitHub README,
+  which names montreal-forced-aligner.readthedocs.io as docs home (not fetched). Repo
+  active: ~900 commits on main, MIT license, v3.0 citation dated 2026. Report''s ''conda/PyPI''
+  access claim confirmed for conda-forge.'

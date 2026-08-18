@@ -1,0 +1,16 @@
+name: Amnesia
+category: data-deidentification
+provider: OpenAIRE / ATHENA Research Center
+url: https://amnesia.openaire.eu/
+description: Anonymizes tabular datasets with formal k-anonymity and km-anonymity
+  guarantees via a graphical interface, so shared data no longer counts as personal
+  data under GDPR. Runs entirely on-premise; REST API available.
+access: unknown
+domain: general
+status: active
+tier: core
+added: 2026-08
+last_verified: '2026-08-18'
+notes: '[grok-gap-hunt 2026-08-18, independently verified] Both homepage and about
+  page fetched 2026-08-18; k-/km-anonymity, on-premise operation, demo-only caveat
+  all confirmed.'

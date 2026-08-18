@@ -1,0 +1,16 @@
+name: Sage Policy Profiles
+category: impact-policy-tracking
+provider: Sage (powered by Overton)
+url: https://policyprofiles.sagepub.com/
+description: Shows where your publications are cited in government policy documents
+  via Overton's index; export, visualize, and share the matches. A matcher added 2026
+  surfaces up to three personalized policy-engagement opportunities monthly.
+access: free
+domain: general
+status: active
+tier: core
+added: 2026-08
+last_verified: '2026-08-18'
+notes: '[grok-gap-hunt 2026-08-18, independently verified] Free + Overton confirmed
+  on fetched sagepub.com press release (2023-12-07) and Feb 2026 blog; product homepage
+  is JS-thin and names only Sage. 26,000+ users claimed.'

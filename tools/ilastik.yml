@@ -1,0 +1,16 @@
+name: ilastik
+category: bioimage-analysis
+provider: Kreshuk lab, EMBL
+url: https://www.ilastik.org/
+description: 'Interactive machine-learning toolkit for bioimage analysis: train pixel
+  and object classifiers with brush strokes to segment, classify, track, and count
+  cells in 2D/3D. No deep-learning expertise required.'
+access: free
+domain: life-sciences
+status: active
+tier: core
+added: 2026-08
+last_verified: '2026-08-18'
+notes: '[grok-gap-hunt 2026-08-18, independently verified] GPL v2+ with linking exception.
+  v1.4.2 released 2026-05-28, exactly as report states. EMBL/Kreshuk-lab affiliation
+  confirmed on /about page.'

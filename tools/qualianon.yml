@@ -1,0 +1,19 @@
+name: QualiAnon
+category: data-deidentification
+provider: Qualiservice research data center, University of Bremen (with TU Munich
+  and PANGAEA)
+url: https://github.com/pangaea-data-publisher/qualianon
+description: Anonymizes or pseudonymizes qualitative text data such as interview transcripts,
+  with user-controlled replacements and separation of identifiers, original data,
+  and edited materials — the German FDZ (Qualiservice) archival workflow.
+access: unknown
+domain: general
+status: active
+tier: extended
+added: 2026-08
+last_verified: '2026-08-18'
+notes: '[grok-gap-hunt 2026-08-18, independently verified] Report discrepancy: None
+  material. v1.5.0 (2025) confirmed. ''Deliberately semi-automatic'' phrasing not
+  verbatim on fetched pages, but consistent with the stated user-controlled replacement
+  design. GitHub repo and qualiservice.org tools page both fetched 2026-08-18; provider,
+  version, and free-OSS status confirmed.'

@@ -107,3 +107,26 @@ patents-tech-transfer:
 journal-selection-publishing:
   title: Journal Selection & Publishing
   blurb: 'The task: pick the right venue — open-access options, fit, and legitimacy.'
+instrument-data-interpretation:
+  title: Instrument Data Interpretation
+  blurb: 'The task: turn raw instrument output into identifications — what is this peak, this
+    spectrum, this unknown.'
+data-management-fair:
+  title: Data Management & FAIR
+  blurb: 'The task: funder-compliant, machine-actionable data management plans and FAIR checks
+    on what you deposit.'
+bioimage-analysis:
+  title: Bioimage Analysis
+  blurb: 'The task: segment, classify and count in your own microscopy and histology — cells,
+    nuclei, whole slides.'
+behavioral-video-analysis:
+  title: Behavioral Video Analysis
+  blurb: 'The task: track animals and quantify behavior from your own videos — markerless pose,
+    identities, ethograms.'
+data-deidentification:
+  title: De-identification & Data Sharing
+  blurb: 'The task: anonymize tables and transcripts so data can be shared or sent to a cloud
+    model — with formal guarantees, GDPR in mind.'
+impact-policy-tracking:
+  title: Impact & Policy Tracking
+  blurb: 'The task: show where your work landed beyond academia — policy documents, impact cases.'

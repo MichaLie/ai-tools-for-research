@@ -1,0 +1,19 @@
+name: WebPlotDigitizer
+category: ocr-document-digitization
+provider: Automeris LLC (Ankit Rohatgi)
+url: https://automeris.io/
+description: 'Extracts numerical x/y data from published chart images: calibrate axes
+  (incl. log), digitize points manually or with computer-vision assist, export data.
+  Sign-up required; frontend open source (AGPL v3), v5.2.'
+access: free
+domain: general
+status: active
+tier: core
+added: 2026-08
+last_verified: '2026-08-18'
+notes: '[grok-gap-hunt 2026-08-18, independently verified] Report discrepancy: Report
+  labels access ''freemium''; no public paid tier or pricing page found this session
+  (automeris.io/pricing is 404; docs and GitHub list no plans). README calls WPD free,
+  donation-supported. ''Freemium'' is UNVERIFIED. AI Assist free-tier availability
+  COULD NOT be verified: not in docs, no pricing anywhere public. GitHub confirms
+  AI Assist is closed-source Automeris cloud.'

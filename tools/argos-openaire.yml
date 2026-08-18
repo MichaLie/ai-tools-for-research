@@ -1,0 +1,16 @@
+name: ARGOS (OpenAIRE)
+category: data-management-fair
+provider: OpenAIRE
+url: https://argos.openaire.eu/portal/
+description: Creates data and software management plans from funder and institutional
+  templates, produces machine-actionable DMPs, and publishes finished plans to Zenodo.
+  OpenAIRE service integrated with EOSC; free for individual researchers.
+access: freemium
+domain: general
+status: active
+tier: core
+added: 2026-08
+last_verified: '2026-08-18'
+notes: '[grok-gap-hunt 2026-08-18, independently verified] Subscriptions page confirms
+  0 EUR researcher tier (incl. Zenodo publishing) plus paid org tiers 1200/4200+/5000+
+  EUR-yr. Distinct from Scitility Argos retraction screener.'

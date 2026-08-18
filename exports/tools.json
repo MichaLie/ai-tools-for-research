@@ -128,6 +128,30 @@
   "journal-selection-publishing": {
    "title": "Journal Selection & Publishing",
    "blurb": "The task: pick the right venue — open-access options, fit, and legitimacy."
+  },
+  "instrument-data-interpretation": {
+   "title": "Instrument Data Interpretation",
+   "blurb": "The task: turn raw instrument output into identifications — what is this peak, this spectrum, this unknown."
+  },
+  "data-management-fair": {
+   "title": "Data Management & FAIR",
+   "blurb": "The task: funder-compliant, machine-actionable data management plans and FAIR checks on what you deposit."
+  },
+  "bioimage-analysis": {
+   "title": "Bioimage Analysis",
+   "blurb": "The task: segment, classify and count in your own microscopy and histology — cells, nuclei, whole slides."
+  },
+  "behavioral-video-analysis": {
+   "title": "Behavioral Video Analysis",
+   "blurb": "The task: track animals and quantify behavior from your own videos — markerless pose, identities, ethograms."
+  },
+  "data-deidentification": {
+   "title": "De-identification & Data Sharing",
+   "blurb": "The task: anonymize tables and transcripts so data can be shared or sent to a cloud model — with formal guarantees, GDPR in mind."
+  },
+  "impact-policy-tracking": {
+   "title": "Impact & Policy Tracking",
+   "blurb": "The task: show where your work landed beyond academia — policy documents, impact cases."
   }
  },
  "tools": [
@@ -1051,6 +1075,21 @@
    "slug": "q-e-d"
   },
   {
+   "name": "RefereeBio",
+   "category": "ai-manuscript-review-disclosure",
+   "provider": "RefereeBio (no legal entity named on site)",
+   "url": "https://refereebio.com/",
+   "description": "Simulates pre-submission peer review of life-science manuscripts: three reviewer critiques, statistical-methods audit, journal-fit ranking across 150+ journals. Revision-check compares a revised manuscript against reviewer comments and drafts point-by-point rebuttals.",
+   "access": "freemium",
+   "domain": "life-sciences",
+   "status": "candidate",
+   "tier": "extended",
+   "added": "2026-08",
+   "last_verified": "2026-08-18",
+   "notes": "[grok-gap-hunt 2026-08-18, independently verified] All section-10 claims confirmed on homepage (free Starter month: 3 reviews/3 revision checks/3 edits, no card; AI-provider clause). No legal entity or team named; keep candidate.",
+   "slug": "refereebio"
+  },
+  {
    "name": "RegCheck",
    "category": "ai-manuscript-review-disclosure",
    "provider": "Psychology of Digitalisation group, University of Bern (SNSF-funded)",
@@ -1425,6 +1464,21 @@
    "slug": "maxqda-ai-assist"
   },
   {
+   "name": "Montreal Forced Aligner",
+   "category": "transcription-qualitative-analysis",
+   "provider": "Montreal Corpus Tools (Michael McAuliffe et al.)",
+   "url": "https://github.com/MontrealCorpusTools/Montreal-Forced-Aligner",
+   "description": "Command-line forced aligner built on Kaldi: time-aligns transcripts to audio at word and phone level using pretrained or self-trained acoustic models. MIT-licensed; installed via conda-forge; v3.0 cited (2026).",
+   "access": "free",
+   "domain": "general",
+   "status": "active",
+   "tier": "extended",
+   "added": "2026-08",
+   "last_verified": "2026-08-18",
+   "notes": "[grok-gap-hunt 2026-08-18, independently verified] Report discrepancy: Report URL (montrealcorpustools.github.io) is live but is a dated v1-era landing page (standalone executables, no conda mention). Current install is conda-forge per GitHub README, which names montreal-forced-aligner.readthedocs.io as docs home (not fetched). Repo active: ~900 commits on main, MIT license, v3.0 citation dated 2026. Report's 'conda/PyPI' access claim confirmed for conda-forge.",
+   "slug": "montreal-forced-aligner"
+  },
+  {
    "name": "noScribe",
    "category": "transcription-qualitative-analysis",
    "provider": "Kai Dröge (open-source, GPL-3.0)",
@@ -1455,6 +1509,21 @@
    "slug": "qualcoder"
   },
   {
+   "name": "WebMAUS",
+   "category": "transcription-qualitative-analysis",
+   "provider": "Bavarian Archive for Speech Signals (BAS), LMU Munich / CLARIN",
+   "url": "https://clarin.phonetik.uni-muenchen.de/BASWebServices/interface/WebMAUSGeneral",
+   "description": "Web service for forced alignment: upload audio plus transcript, receive phone- and word-level time-aligned Praat TextGrid output. Munich Automatic Segmentation (MAUS) engine within the BAS/CLARIN speech-tools suite.",
+   "access": "free",
+   "domain": "general",
+   "status": "active",
+   "tier": "extended",
+   "added": "2026-08",
+   "last_verified": "2026-08-18",
+   "notes": "[grok-gap-hunt 2026-08-18, independently verified] Report discrepancy: Report's 'free academic' terms and 'ELAN tiers' output not explicitly stated on any page fetched this session; TextGrid output and CLARIN research-infrastructure hosting confirmed (clarin-d.net, oralhistory.eu, bas.uni-muenchen.de). Interface URL is a live Angular shell listing BAS services; capability and provider confirmed via BAS MAUS page and CLARIN-D service page.",
+   "slug": "webmaus"
+  },
+  {
    "name": "ASReview",
    "category": "systematic-review-evidence-synthesis",
    "provider": "Utrecht University (open source)",
@@ -1468,6 +1537,21 @@
    "last_verified": "2026-08-18",
    "notes": "[discovery 2026-08-18] Unique use case: transparent, simulatable machine-learning screening you can audit and run offline — the only open-source option with a validation/simulation framework Adoption: Europe PMC: 313 Methods-section mentions; site reports 638k+ installations; v2.0 released, actively maintained on GitHub Single-reviewer paradigm by default (Crowdscreen adds collaboration); local install required, which is a feature for GDPR but a hurdle for novices.",
    "slug": "asreview"
+  },
+  {
+   "name": "citationchaser",
+   "category": "systematic-review-evidence-synthesis",
+   "provider": "Neal R. Haddaway (with M.J. Grainger, C.T. Gray)",
+   "url": "https://estech.shinyapps.io/citationchaser/",
+   "description": "Forward and backward citation chasing via the Lens.org API: input known relevant articles, retrieve everything they reference and everything citing them, and download all lists as RIS for systematic-review identification.",
+   "access": "free",
+   "domain": "general",
+   "status": "active",
+   "tier": "core",
+   "added": "2026-08",
+   "last_verified": "2026-08-18",
+   "notes": "[grok-gap-hunt 2026-08-18, independently verified] Shiny app, free, no login seen. Lens.org aggregates PubMed, PMC, CrossRef, Microsoft Academic Graph, CORE. Matches report exactly.",
+   "slug": "citationchaser"
   },
   {
    "name": "Covidence",
@@ -1530,6 +1614,36 @@
    "slug": "nested-knowledge"
   },
   {
+   "name": "Polyglot (TERA)",
+   "category": "systematic-review-evidence-synthesis",
+   "provider": "Institute for Evidence-Based Healthcare (IEBH), Bond University",
+   "url": "https://tera-tools.com/",
+   "description": "Translates a PubMed or Ovid MEDLINE search string into syntax for Embase, CINAHL, PsycINFO, Scopus, Web of Science, Cochrane and more. Part of Bond IEBH's TERA evidence-synthesis suite (SearchRefiner, Deduplicator, Screenatron, Disputatron).",
+   "access": "freemium",
+   "domain": "life-sciences",
+   "status": "active",
+   "tier": "core",
+   "added": "2026-08",
+   "last_verified": "2026-08-18",
+   "notes": "[grok-gap-hunt 2026-08-18, independently verified] Report discrepancy: Report left TERA pricing unverified. Partially resolved: TERA homepage (rendered in browser) shows 'Sign up free'; IEBH's own sr-accelerator.com states SRA was replaced by TERA and 'The Polyglot search translator will remain available'; UT Austin libguide states SRA 'will move to a paid product on October 31, 2025... only the Polyglot Search translator will remain free'. So freemium: free account plus paid subscriptions. Subscription tiers/prices sit behind login (/subscribe and /help/subscriptions return 404/error anonymously) — exact free-tier limits still unverified. tera-tools.com 403s plain fetches; renders in browser. Legacy polyglot.sr-accelerator.com works free, no login, 14+ database targets. Footer @IEBH/TERA v1.15.1.",
+   "slug": "polyglot-tera"
+  },
+  {
+   "name": "PubReMiner",
+   "category": "systematic-review-evidence-synthesis",
+   "provider": "Jan Koster, AMC (Amsterdam UMC)",
+   "url": "https://hgserver2.amc.nl/cgi-bin/miner/miner2.cgi",
+   "description": "Runs a PubMed query and returns frequency tables of journals, authors and words in the result set — for refining search terms, finding active experts, or choosing a target journal.",
+   "access": "free",
+   "domain": "life-sciences",
+   "status": "active",
+   "tier": "extended",
+   "added": "2026-08",
+   "last_verified": "2026-08-18",
+   "notes": "[grok-gap-hunt 2026-08-18, independently verified] Report discrepancy: None substantive. Page credits 'Jan Koster, AMC' (report says Amsterdam UMC — AMC merged into it). Fetched page summary listed word/author/journal tables; MeSH-frequency column not explicitly confirmed this session. Reachable and functional today, but page shows v1.31 with changelog ending 2014 — dated interface, maintenance appears stalled.",
+   "slug": "pubreminer"
+  },
+  {
    "name": "Rayyan",
    "category": "systematic-review-evidence-synthesis",
    "provider": "Rayyan Systems, Inc.",
@@ -1543,6 +1657,21 @@
    "last_verified": "2026-08-18",
    "notes": "[discovery 2026-08-18] Adoption: Europe PMC: 16,910 articles mention Rayyan in Methods sections; listed in King's College London systematic-review libguide GDPR/ISO 27001 claimed on site. New ResearchPilot AI features not independently evaluated; free-tier limits vs paid not itemized.",
    "slug": "rayyan"
+  },
+  {
+   "name": "Yale MeSH Analyzer",
+   "category": "systematic-review-evidence-synthesis",
+   "provider": "Harvey Cushing/John Hay Whitney Medical Library, Yale University",
+   "url": "https://mesh.med.yale.edu/",
+   "description": "Paste up to 20 PMIDs to get a side-by-side grid of each article's MeSH headings, subheadings, major-topic flags and author keywords; exports Excel or HTML for building search strategies.",
+   "access": "free",
+   "domain": "life-sciences",
+   "status": "active",
+   "tier": "extended",
+   "added": "2026-08",
+   "last_verified": "2026-08-18",
+   "notes": "[grok-gap-hunt 2026-08-18, independently verified] No login. Placeholder confirms 20-PMID cap. Footer version dated May 07, 2026 — actively maintained.",
+   "slug": "yale-mesh-analyzer"
   },
   {
    "name": "eScriptorium",
@@ -1633,6 +1762,21 @@
    "last_verified": "2026-08-18",
    "notes": "[discovery 2026-08-18] Unique use case: Training a custom HTR model on one archive's specific handwriting, then batch-transcribing the collection — the standard platform for this in digital humanities Adoption: Dedicated LibGuide at Università Cattolica del Sacro Cuore (unicatt.libguides.com/OCR-HTR/transkribus); ubiquitous in DH projects; used as the HTR baseline in the Humphries et al. 2024 arXiv paper Credit system: free 50 credits/month (~50 pages); Scholar €99/year. EU cooperative, states GDPR compliance. Strong EU/students story.",
    "slug": "transkribus"
+  },
+  {
+   "name": "WebPlotDigitizer",
+   "category": "ocr-document-digitization",
+   "provider": "Automeris LLC (Ankit Rohatgi)",
+   "url": "https://automeris.io/",
+   "description": "Extracts numerical x/y data from published chart images: calibrate axes (incl. log), digitize points manually or with computer-vision assist, export data. Sign-up required; frontend open source (AGPL v3), v5.2.",
+   "access": "free",
+   "domain": "general",
+   "status": "active",
+   "tier": "core",
+   "added": "2026-08",
+   "last_verified": "2026-08-18",
+   "notes": "[grok-gap-hunt 2026-08-18, independently verified] Report discrepancy: Report labels access 'freemium'; no public paid tier or pricing page found this session (automeris.io/pricing is 404; docs and GitHub list no plans). README calls WPD free, donation-supported. 'Freemium' is UNVERIFIED. AI Assist free-tier availability COULD NOT be verified: not in docs, no pricing anywhere public. GitHub confirms AI Assist is closed-source Automeris cloud.",
+   "slug": "webplotdigitizer"
   },
   {
    "name": "LitSuggest",
@@ -1902,6 +2046,21 @@
    "last_verified": "2026-08-18",
    "notes": "[discovery 2026-08-18] Unique use case: Machine-critiqued animal-experiment design producing reports that Wellcome encourages and NIH can request with grant applications Adoption: 16,000+ registered users since 2015; NC3Rs pages document Wellcome and NIH uptake of EDA reports in funding applications Automated critique is rule-based expert-system style, not generative LLM; include as AI-adjacent design assistant. Uniquely strong academic legitimacy for this area.",
    "slug": "nc3rs-experimental-design-assistant"
+  },
+  {
+   "name": "PowerGPT",
+   "category": "survey-experiment-design",
+   "provider": "UTHealth Houston (McWilliams School of Biomedical Informatics) + UPenn Perelman School of Medicine (PennCIL)",
+   "url": "https://power-gpt.net/",
+   "description": "Conversational power-analysis assistant wired to statistical engines: guides test selection and computes a priori sample size for t-tests, ANOVA, proportions, chi-square, Cox, logrank. Free, pick your institution or 'Other Institutions'; no login.",
+   "access": "free",
+   "domain": "general",
+   "status": "candidate",
+   "tier": "extended",
+   "added": "2026-08",
+   "last_verified": "2026-08-18",
+   "notes": "[grok-gap-hunt 2026-08-18, independently verified] CONFIRMED: no privacy policy, ToS, or data-handling statement on homepage or /others (footer = contacts only) -> candidate. '0 daily users' still shown. arXiv:2509.12471 real, matches (94.1% vs 55.4%).",
+   "slug": "powergpt"
   },
   {
    "name": "Protocol Builder",
@@ -2322,6 +2481,261 @@
    "last_verified": "2026-08-18",
    "notes": "[discovery 2026-08-18] Unique use case: manuscript-driven open-access journal selection (no journal-selection tool in catalog) Adoption: SLUB Dresden library service page; DOAJ blog feature dated 2026-07-08 confirming monthly data updates; institutions can host custom instances Open source, German library-run, privacy-friendly — strong EU/GDPR fit. Landing page is a JS app; capability details verified via DOAJ/TIB pages.",
    "slug": "b-son"
+  },
+  {
+   "name": "MetFrag",
+   "category": "instrument-data-interpretation",
+   "provider": "IPB Halle (Leibniz Institute of Plant Biochemistry)",
+   "url": "https://msbi.ipb-halle.de/MetFrag/",
+   "description": "In-silico fragmentation for identifying metabolite MS/MS spectra: paste a peak list, screen candidates from PubChem, KEGG, HMDB, LipidMaps, ChEBI, COCONUT and more. Free web tool, no login.",
+   "access": "free",
+   "domain": "life-sciences",
+   "status": "active",
+   "tier": "extended",
+   "added": "2026-08",
+   "last_verified": "2026-08-18",
+   "notes": "[grok-gap-hunt 2026-08-18, independently verified] Report discrepancy: None substantive. Page footer credits IPB Halle; the report's de.NBI attribution was not visible on the fetched page. Server 403s generic fetchers (WebFetch failed); loads fine with a browser user agent. Databases incl. PubChem/HMDB/LIPID MAPS confirmed in UI.",
+   "slug": "metfrag"
+  },
+  {
+   "name": "SIRIUS",
+   "category": "instrument-data-interpretation",
+   "provider": "Böcker group (FSU Jena) + Bright Giant GmbH",
+   "url": "https://github.com/sirius-ms/sirius",
+   "description": "Identifies small molecules from LC-MS/MS data: molecular formula annotation, CSI:FingerID structure ranking, CANOPUS compound-class prediction, MSNovelist de-novo structures. Desktop app (Win/Mac/Linux); web services free for academics via institutional email.",
+   "access": "free",
+   "domain": "life-sciences",
+   "status": "active",
+   "tier": "core",
+   "added": "2026-08",
+   "last_verified": "2026-08-18",
+   "notes": "[grok-gap-hunt 2026-08-18, independently verified] v6.3.12 (2026-07-30) confirmed on GitHub. Licensing docs confirm auto-granted academic accounts; commercial licenses via Bright Giant. All report claims held.",
+   "slug": "sirius"
+  },
+  {
+   "name": "ARGOS (OpenAIRE)",
+   "category": "data-management-fair",
+   "provider": "OpenAIRE",
+   "url": "https://argos.openaire.eu/portal/",
+   "description": "Creates data and software management plans from funder and institutional templates, produces machine-actionable DMPs, and publishes finished plans to Zenodo. OpenAIRE service integrated with EOSC; free for individual researchers.",
+   "access": "freemium",
+   "domain": "general",
+   "status": "active",
+   "tier": "core",
+   "added": "2026-08",
+   "last_verified": "2026-08-18",
+   "notes": "[grok-gap-hunt 2026-08-18, independently verified] Subscriptions page confirms 0 EUR researcher tier (incl. Zenodo publishing) plus paid org tiers 1200/4200+/5000+ EUR-yr. Distinct from Scitility Argos retraction screener.",
+   "slug": "argos-openaire"
+  },
+  {
+   "name": "Data Stewardship Wizard",
+   "category": "data-management-fair",
+   "provider": "ELIXIR CZ / Czech Technical University in Prague",
+   "url": "https://ds-wizard.org/",
+   "description": "Builds collaborative, machine-actionable data management plans via guided knowledge-model questionnaires, with FAIR guidance, versioning, and funder-compliant exports including Horizon Europe. Open-source ELIXIR Recommended Interoperability Resource.",
+   "access": "free",
+   "domain": "general",
+   "status": "active",
+   "tier": "core",
+   "added": "2026-08",
+   "last_verified": "2026-08-18",
+   "notes": "[grok-gap-hunt 2026-08-18, independently verified] Homepage confirms ELIXIR CZ, CTU Prague, OSS (GitHub/Docker Hub). Specific 'ELIXIR cloud + Czech instances' hosting not itemized on homepage; Codevence Solutions named as partner.",
+   "slug": "data-stewardship-wizard"
+  },
+  {
+   "name": "F-UJI",
+   "category": "data-management-fair",
+   "provider": "PANGAEA (Devaraju & Huber), developed under FAIRsFAIR (H2020 grant 831558)",
+   "url": "https://www.f-uji.net/",
+   "description": "Scores a published dataset's FAIRness from its identifier, programmatically evaluating the actual harvested metadata against the FAIRsFAIR data object assessment metrics, via web interface and web service.",
+   "access": "free",
+   "domain": "general",
+   "status": "active",
+   "tier": "core",
+   "added": "2026-08",
+   "last_verified": "2026-08-18",
+   "notes": "[grok-gap-hunt 2026-08-18, independently verified] Homepage self-describes as web service to 'programatically assess' FAIRness, supporting the API claim; explicit API docs and pricing statement not on the fetched page. Source on GitHub.",
+   "slug": "f-uji"
+  },
+  {
+   "name": "FAIR-Checker",
+   "category": "data-management-fair",
+   "provider": "Institut Français de Bioinformatique (IFB) / ELIXIR France",
+   "url": "https://fair-checker.france-bioinformatique.fr/",
+   "description": "Assesses FAIRness of a web resource or dataset by extracting its metadata and validating it against DataCite, OpenAIRE, Wikidata, Linked Open Vocabularies, and Bioschemas community profiles, to help providers improve resource quality.",
+   "access": "free",
+   "domain": "general",
+   "status": "active",
+   "tier": "extended",
+   "added": "2026-08",
+   "last_verified": "2026-08-18",
+   "notes": "[grok-gap-hunt 2026-08-18, independently verified] Report discrepancy: Minor: report's 'SPARQL/SHACL' and 'OLS, BioPortal' specifics not visible on the fetched homepage text; semantic-web validation against DataCite/OpenAIRE/Wikidata/LOV/Bioschemas confirmed. Free, source code MIT-licensed, IFB PIA2 11-INBS-0013 funding confirmed. Life-science provider but tool is domain-agnostic, hence domain: general.",
+   "slug": "fair-checker"
+  },
+  {
+   "name": "Cellpose",
+   "category": "bioimage-analysis",
+   "provider": "Stringer & Pachitariu labs, HHMI (MouseLand)",
+   "url": "https://www.cellpose.org/",
+   "description": "Generalist deep-learning instance segmentation of cells and nuclei in microscopy images, with human-in-the-loop training on your own channels; Cellpose-SAM model, GUI, free web demo, and Python API.",
+   "access": "free",
+   "domain": "life-sciences",
+   "status": "active",
+   "tier": "core",
+   "added": "2026-08",
+   "last_verified": "2026-08-18",
+   "notes": "[grok-gap-hunt 2026-08-18, independently verified] LICENSE: BSD-3-Clause, copyright HHMI (README also says GPL v3 - inconsistent). Models/dataset CC-BY-NC. v4.2.1.1 released 2026-06-14.",
+   "slug": "cellpose"
+  },
+  {
+   "name": "ilastik",
+   "category": "bioimage-analysis",
+   "provider": "Kreshuk lab, EMBL",
+   "url": "https://www.ilastik.org/",
+   "description": "Interactive machine-learning toolkit for bioimage analysis: train pixel and object classifiers with brush strokes to segment, classify, track, and count cells in 2D/3D. No deep-learning expertise required.",
+   "access": "free",
+   "domain": "life-sciences",
+   "status": "active",
+   "tier": "core",
+   "added": "2026-08",
+   "last_verified": "2026-08-18",
+   "notes": "[grok-gap-hunt 2026-08-18, independently verified] GPL v2+ with linking exception. v1.4.2 released 2026-05-28, exactly as report states. EMBL/Kreshuk-lab affiliation confirmed on /about page.",
+   "slug": "ilastik"
+  },
+  {
+   "name": "QuPath",
+   "category": "bioimage-analysis",
+   "provider": "Pete Bankhead group, University of Edinburgh",
+   "url": "https://qupath.github.io/",
+   "description": "Open-source desktop software for whole-slide image and digital pathology analysis: annotate gigapixel microscopy images, detect and classify cells, and script reproducible batch analyses.",
+   "access": "free",
+   "domain": "life-sciences",
+   "status": "active",
+   "tier": "core",
+   "added": "2026-08",
+   "last_verified": "2026-08-18",
+   "notes": "[grok-gap-hunt 2026-08-18, independently verified] Report discrepancy: Report's 'StarDist / Cellpose inside the viewer' claim not confirmed on fetched pages (homepage and README do not mention these extensions); rest matches, v0.7.0 confirmed. GPLv3. v0.7.0 released 2026-03-02 (GitHub API). Wellcome Trust and CZI funding named in README.",
+   "slug": "qupath"
+  },
+  {
+   "name": "DeepLabCut",
+   "category": "behavioral-video-analysis",
+   "provider": "Mathis Group & Mathis Lab, EPFL",
+   "url": "https://deeplabcut.github.io/DeepLabCut/README.html",
+   "description": "Markerless pose estimation for animal behavior: train deep-learning keypoint models on your own videos or apply pretrained SuperAnimal foundation models; single- and multi-animal, PyTorch backend.",
+   "access": "free",
+   "domain": "life-sciences",
+   "status": "active",
+   "tier": "core",
+   "added": "2026-08",
+   "last_verified": "2026-08-18",
+   "notes": "[grok-gap-hunt 2026-08-18, independently verified] LGPL-3.0. v3.0.1 released 2026-07-28. mlabofai.org/deeplabcut landing live; unpublished SuperAnimal models non-commercial, matching report.",
+   "slug": "deeplabcut"
+  },
+  {
+   "name": "idtracker.ai",
+   "category": "behavioral-video-analysis",
+   "provider": "de Polavieja lab, Champalimaud Foundation",
+   "url": "https://idtracker.ai/",
+   "description": "Tracks up to 100 unmarked animals in laboratory videos while preserving individual identities, using deep-learning identification networks; free open-source GUI and Python tools.",
+   "access": "free",
+   "domain": "life-sciences",
+   "status": "active",
+   "tier": "core",
+   "added": "2026-08",
+   "last_verified": "2026-08-18",
+   "notes": "[grok-gap-hunt 2026-08-18, independently verified] GPLv3+. Latest stable 6.0.14 released 2026-04-07 (GitLab API; 6.0.15a0 pre-release 2026-04-30). eLife 2026 paper DOI 10.7554/eLife.107602 linked on site.",
+   "slug": "idtracker-ai"
+  },
+  {
+   "name": "SLEAP",
+   "category": "behavioral-video-analysis",
+   "provider": "Talmo Lab, Salk Institute",
+   "url": "https://sleap.ai/",
+   "description": "Multi-animal pose estimation and identity tracking from video: GUI labeling with human-in-the-loop training, deep-learning inference at up to 600+ FPS, PyTorch backend since v1.5.",
+   "access": "free",
+   "domain": "life-sciences",
+   "status": "active",
+   "tier": "extended",
+   "added": "2026-08",
+   "last_verified": "2026-08-18",
+   "notes": "[grok-gap-hunt 2026-08-18, independently verified] Report discrepancy: Report's 'PyTorch 1.5+' is ambiguous wording: it is SLEAP v1.5+ that switched to a PyTorch backend, not PyTorch version 1.5. Provider correct (Pereira's Talmo Lab, now at Salk). BSD-3-Clause-Clear. v1.6.5 released 2026-08-11. Originally Princeton (Murthy/Shaevitz labs), now Salk; NIH BRAIN funded.",
+   "slug": "sleap"
+  },
+  {
+   "name": "Amnesia",
+   "category": "data-deidentification",
+   "provider": "OpenAIRE / ATHENA Research Center",
+   "url": "https://amnesia.openaire.eu/",
+   "description": "Anonymizes tabular datasets with formal k-anonymity and km-anonymity guarantees via a graphical interface, so shared data no longer counts as personal data under GDPR. Runs entirely on-premise; REST API available.",
+   "access": "unknown",
+   "domain": "general",
+   "status": "active",
+   "tier": "core",
+   "added": "2026-08",
+   "last_verified": "2026-08-18",
+   "notes": "[grok-gap-hunt 2026-08-18, independently verified] Both homepage and about page fetched 2026-08-18; k-/km-anonymity, on-premise operation, demo-only caveat all confirmed.",
+   "slug": "amnesia"
+  },
+  {
+   "name": "Presidio",
+   "category": "data-deidentification",
+   "provider": "Data Privacy Stack (community-owned; originally Microsoft)",
+   "url": "https://presidio.dataprivacystack.org/",
+   "description": "Detects and anonymizes PII (names, credit cards, SSNs, and custom entities) in text and images via configurable NER/regex pipelines that run locally. MIT-licensed; originally built at Microsoft, now community-maintained under Data Privacy Stack.",
+   "access": "unknown",
+   "domain": "general",
+   "status": "active",
+   "tier": "extended",
+   "added": "2026-08",
+   "last_verified": "2026-08-18",
+   "notes": "[grok-gap-hunt 2026-08-18, independently verified] Report discrepancy: None — the ex-Microsoft transition claim is confirmed by two independent sources: the docs site states Presidio is transitioning to a community-owned project, and github.com/microsoft/presidio now resolves to data-privacy-stack/presidio with a 'moving to a new home' README notice and presidio@dataprivacystack.org contact. Repo active, not archived (10.5k stars, ongoing commits); Hugging Face demo space exists and shows Running status.",
+   "slug": "presidio"
+  },
+  {
+   "name": "QualiAnon",
+   "category": "data-deidentification",
+   "provider": "Qualiservice research data center, University of Bremen (with TU Munich and PANGAEA)",
+   "url": "https://github.com/pangaea-data-publisher/qualianon",
+   "description": "Anonymizes or pseudonymizes qualitative text data such as interview transcripts, with user-controlled replacements and separation of identifiers, original data, and edited materials — the German FDZ (Qualiservice) archival workflow.",
+   "access": "unknown",
+   "domain": "general",
+   "status": "active",
+   "tier": "extended",
+   "added": "2026-08",
+   "last_verified": "2026-08-18",
+   "notes": "[grok-gap-hunt 2026-08-18, independently verified] Report discrepancy: None material. v1.5.0 (2025) confirmed. 'Deliberately semi-automatic' phrasing not verbatim on fetched pages, but consistent with the stated user-controlled replacement design. GitHub repo and qualiservice.org tools page both fetched 2026-08-18; provider, version, and free-OSS status confirmed.",
+   "slug": "qualianon"
+  },
+  {
+   "name": "Textwash",
+   "category": "data-deidentification",
+   "provider": "Bennett Kleinberg + jocapps GmbH (OSS original: Kleinberg, Tilburg/UCL)",
+   "url": "https://www.textwash.eu/",
+   "description": "Removes personal data from interviews, documents, and logs using a small on-device AI model (16 configurable entity types, contextual not keyword-based), in English, German, Dutch, French, Spanish, Italian. Free GPL-3.0 Python CLI covers English and Dutch.",
+   "access": "unknown",
+   "domain": "general",
+   "status": "active",
+   "tier": "core",
+   "added": "2026-08",
+   "last_verified": "2026-08-18",
+   "notes": "[grok-gap-hunt 2026-08-18, independently verified] Report discrepancy: None on price/trial/languages. Minor additions: Pro also offers cloud API and browser workspace beyond on-device mode; OSS CLI supports only EN/NL, not all six languages. $130/yr student tier and $330/yr standard confirmed on textwash.eu; GitHub repo confirmed GPL-3.0, offline, points to textwash.eu as commercial successor.",
+   "slug": "textwash"
+  },
+  {
+   "name": "Sage Policy Profiles",
+   "category": "impact-policy-tracking",
+   "provider": "Sage (powered by Overton)",
+   "url": "https://policyprofiles.sagepub.com/",
+   "description": "Shows where your publications are cited in government policy documents via Overton's index; export, visualize, and share the matches. A matcher added 2026 surfaces up to three personalized policy-engagement opportunities monthly.",
+   "access": "free",
+   "domain": "general",
+   "status": "active",
+   "tier": "core",
+   "added": "2026-08",
+   "last_verified": "2026-08-18",
+   "notes": "[grok-gap-hunt 2026-08-18, independently verified] Free + Overton confirmed on fetched sagepub.com press release (2023-12-07) and Feb 2026 blog; product homepage is JS-thin and names only Sage. 26,000+ users claimed.",
+   "slug": "sage-policy-profiles"
   }
  ]
 }

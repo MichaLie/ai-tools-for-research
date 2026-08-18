@@ -1,0 +1,17 @@
+name: Data Stewardship Wizard
+category: data-management-fair
+provider: ELIXIR CZ / Czech Technical University in Prague
+url: https://ds-wizard.org/
+description: Builds collaborative, machine-actionable data management plans via guided
+  knowledge-model questionnaires, with FAIR guidance, versioning, and funder-compliant
+  exports including Horizon Europe. Open-source ELIXIR Recommended Interoperability
+  Resource.
+access: free
+domain: general
+status: active
+tier: core
+added: 2026-08
+last_verified: '2026-08-18'
+notes: '[grok-gap-hunt 2026-08-18, independently verified] Homepage confirms ELIXIR
+  CZ, CTU Prague, OSS (GitHub/Docker Hub). Specific ''ELIXIR cloud + Czech instances''
+  hosting not itemized on homepage; Codevence Solutions named as partner.'

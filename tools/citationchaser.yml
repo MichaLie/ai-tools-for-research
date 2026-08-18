@@ -1,0 +1,16 @@
+name: citationchaser
+category: systematic-review-evidence-synthesis
+provider: Neal R. Haddaway (with M.J. Grainger, C.T. Gray)
+url: https://estech.shinyapps.io/citationchaser/
+description: 'Forward and backward citation chasing via the Lens.org API: input known
+  relevant articles, retrieve everything they reference and everything citing them,
+  and download all lists as RIS for systematic-review identification.'
+access: free
+domain: general
+status: active
+tier: core
+added: 2026-08
+last_verified: '2026-08-18'
+notes: '[grok-gap-hunt 2026-08-18, independently verified] Shiny app, free, no login
+  seen. Lens.org aggregates PubMed, PMC, CrossRef, Microsoft Academic Graph, CORE.
+  Matches report exactly.'

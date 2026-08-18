@@ -1,0 +1,16 @@
+name: Cellpose
+category: bioimage-analysis
+provider: Stringer & Pachitariu labs, HHMI (MouseLand)
+url: https://www.cellpose.org/
+description: Generalist deep-learning instance segmentation of cells and nuclei in
+  microscopy images, with human-in-the-loop training on your own channels; Cellpose-SAM
+  model, GUI, free web demo, and Python API.
+access: free
+domain: life-sciences
+status: active
+tier: core
+added: 2026-08
+last_verified: '2026-08-18'
+notes: '[grok-gap-hunt 2026-08-18, independently verified] LICENSE: BSD-3-Clause,
+  copyright HHMI (README also says GPL v3 - inconsistent). Models/dataset CC-BY-NC.
+  v4.2.1.1 released 2026-06-14.'

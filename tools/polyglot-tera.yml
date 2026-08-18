@@ -1,0 +1,23 @@
+name: Polyglot (TERA)
+category: systematic-review-evidence-synthesis
+provider: Institute for Evidence-Based Healthcare (IEBH), Bond University
+url: https://tera-tools.com/
+description: Translates a PubMed or Ovid MEDLINE search string into syntax for Embase,
+  CINAHL, PsycINFO, Scopus, Web of Science, Cochrane and more. Part of Bond IEBH's
+  TERA evidence-synthesis suite (SearchRefiner, Deduplicator, Screenatron, Disputatron).
+access: freemium
+domain: life-sciences
+status: active
+tier: core
+added: 2026-08
+last_verified: '2026-08-18'
+notes: '[grok-gap-hunt 2026-08-18, independently verified] Report discrepancy: Report
+  left TERA pricing unverified. Partially resolved: TERA homepage (rendered in browser)
+  shows ''Sign up free''; IEBH''s own sr-accelerator.com states SRA was replaced by
+  TERA and ''The Polyglot search translator will remain available''; UT Austin libguide
+  states SRA ''will move to a paid product on October 31, 2025... only the Polyglot
+  Search translator will remain free''. So freemium: free account plus paid subscriptions.
+  Subscription tiers/prices sit behind login (/subscribe and /help/subscriptions return
+  404/error anonymously) — exact free-tier limits still unverified. tera-tools.com
+  403s plain fetches; renders in browser. Legacy polyglot.sr-accelerator.com works
+  free, no login, 14+ database targets. Footer @IEBH/TERA v1.15.1.'

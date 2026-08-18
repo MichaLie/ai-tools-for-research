@@ -1,0 +1,17 @@
+name: SIRIUS
+category: instrument-data-interpretation
+provider: Böcker group (FSU Jena) + Bright Giant GmbH
+url: https://github.com/sirius-ms/sirius
+description: 'Identifies small molecules from LC-MS/MS data: molecular formula annotation,
+  CSI:FingerID structure ranking, CANOPUS compound-class prediction, MSNovelist de-novo
+  structures. Desktop app (Win/Mac/Linux); web services free for academics via institutional
+  email.'
+access: free
+domain: life-sciences
+status: active
+tier: core
+added: 2026-08
+last_verified: '2026-08-18'
+notes: '[grok-gap-hunt 2026-08-18, independently verified] v6.3.12 (2026-07-30) confirmed
+  on GitHub. Licensing docs confirm auto-granted academic accounts; commercial licenses
+  via Bright Giant. All report claims held.'

@@ -46,3 +46,15 @@ RegCheck joined AI Manuscript Review & Disclosure (now 6/6 core). Notable
 rejections: RobotReviewer (dead), Researcher app (closed 2024), LabTwin
 (dead), Roundtable (dead), Turnitin/GPTZero AI detection (reliability),
 Scholarcy (gate-3 fail). Catalog: 150 tools / 29 task categories.
+
+## Unreleased — Grok gap-hunt integration 2026-08-18
+
+External gap report (docs/task-coverage-gaps-2026-08-18.md) independently
+re-verified by 6 agents; 26 tools integrated, +6 categories: Instrument Data
+Interpretation, Data Management & FAIR, Bioimage Analysis, Behavioral Video
+Analysis, De-identification & Data Sharing, Impact & Policy Tracking.
+Search-strategy construction added as use cases under Systematic Review
+(Polyglot, citationchaser core — 6/6); forced alignment under Transcription.
+PowerGPT and RefereeBio enter as candidates (no privacy policy / early
+access). BioSketch Builder rejected on the recommendable-gate. Catalog:
+176 tools / 35 task categories.

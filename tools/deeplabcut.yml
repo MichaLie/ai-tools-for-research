@@ -1,0 +1,16 @@
+name: DeepLabCut
+category: behavioral-video-analysis
+provider: Mathis Group & Mathis Lab, EPFL
+url: https://deeplabcut.github.io/DeepLabCut/README.html
+description: 'Markerless pose estimation for animal behavior: train deep-learning
+  keypoint models on your own videos or apply pretrained SuperAnimal foundation models;
+  single- and multi-animal, PyTorch backend.'
+access: free
+domain: life-sciences
+status: active
+tier: core
+added: 2026-08
+last_verified: '2026-08-18'
+notes: '[grok-gap-hunt 2026-08-18, independently verified] LGPL-3.0. v3.0.1 released
+  2026-07-28. mlabofai.org/deeplabcut landing live; unpublished SuperAnimal models
+  non-commercial, matching report.'

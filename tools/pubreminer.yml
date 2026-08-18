@@ -1,0 +1,19 @@
+name: PubReMiner
+category: systematic-review-evidence-synthesis
+provider: Jan Koster, AMC (Amsterdam UMC)
+url: https://hgserver2.amc.nl/cgi-bin/miner/miner2.cgi
+description: Runs a PubMed query and returns frequency tables of journals, authors
+  and words in the result set — for refining search terms, finding active experts,
+  or choosing a target journal.
+access: free
+domain: life-sciences
+status: active
+tier: extended
+added: 2026-08
+last_verified: '2026-08-18'
+notes: '[grok-gap-hunt 2026-08-18, independently verified] Report discrepancy: None
+  substantive. Page credits ''Jan Koster, AMC'' (report says Amsterdam UMC — AMC merged
+  into it). Fetched page summary listed word/author/journal tables; MeSH-frequency
+  column not explicitly confirmed this session. Reachable and functional today, but
+  page shows v1.31 with changelog ending 2014 — dated interface, maintenance appears
+  stalled.'

@@ -4,7 +4,7 @@ A curated, verified catalog of AI tools that are genuinely usable in academic
 research — maintained by [Michaela Liegertová](https://www.ujep.cz/), updated with
 each course edition.
 
-**136 tools** across **29 categories** · last verification pass: 2026-08-18
+**160 tools** across **35 categories** · last verification pass: 2026-08-18
 
 The goal is **task diversity, not exhaustiveness**: each category shows a small, deliberately varied palette of tools the academic community actually uses (*core*), with further options collapsed underneath (*extended*). For depth in specific areas, see the companion [AI for Science indexes](https://michalie.github.io/) — Biological Foundation Models, Autonomous Science Agents, and privacy-first Coding & Data Agents.
 
@@ -29,9 +29,9 @@ The goal is **task diversity, not exhaustiveness**: each category shows a small,
 - [Scientific Image Generation](#scientific-image-generation) (3)
 - [Code Assistants](#code-assistants) (5)
 - [Ideation & Grant Funding](#ideation-grant-funding) (5)
-- [Transcription & Qualitative Analysis](#transcription-qualitative-analysis) (6)
-- [Systematic Review & Evidence Synthesis](#systematic-review-evidence-synthesis) (5)
-- [OCR & Document Digitization](#ocr-document-digitization) (5)
+- [Transcription & Qualitative Analysis](#transcription-qualitative-analysis) (8)
+- [Systematic Review & Evidence Synthesis](#systematic-review-evidence-synthesis) (9)
+- [OCR & Document Digitization](#ocr-document-digitization) (6)
 - [Staying Current](#staying-current) (5)
 - [Conference Prep — Posters & Talk Practice](#conference-prep-—-posters-talk-practice) (5)
 - [LaTeX & Academic Language](#latex-academic-language) (5)
@@ -41,6 +41,12 @@ The goal is **task diversity, not exhaustiveness**: each category shows a small,
 - [Lab Bench & Protocols](#lab-bench-protocols) (4)
 - [Patents & Tech Transfer](#patents-tech-transfer) (5)
 - [Journal Selection & Publishing](#journal-selection-publishing) (1)
+- [Instrument Data Interpretation](#instrument-data-interpretation) (2)
+- [Data Management & FAIR](#data-management-fair) (4)
+- [Bioimage Analysis](#bioimage-analysis) (3)
+- [Behavioral Video Analysis](#behavioral-video-analysis) (3)
+- [De-identification & Data Sharing](#de-identification-data-sharing) (4)
+- [Impact & Policy Tracking](#impact-policy-tracking) (1)
 
 ## General-Purpose AI Assistants
 
@@ -356,12 +362,14 @@ The goal is **task diversity, not exhaustiveness**: each category shows a small,
 | [noScribe](https://noscribe.de/en/) | Kai Dröge (open-source, GPL-3.0) | Free | Transcribes interview audio fully offline on the researcher's own computer using Whisper plus pyannote speaker diarization; marks pauses, overlaps and filler words per qualitative-research conventions; includes an audio-aligned correction editor. ~60 languages; Windows/macOS/Linux. |
 | [QualCoder](https://qualcoder.org/) | Colin Curtain (open-source, LGPLv3) | Free | Free open-source CAQDAS (text, PDF, image, audio, video coding) with AI-assisted coding and AI chat over data. Uniquely, the underlying prompts are visible and editable; backends include OpenAI GPT-4 or Blablador, the Helmholtz Society's free no-data-stored academic LLM service. |
 
-<details><summary>More tools for this task (2)</summary>
+<details><summary>More tools for this task (4)</summary>
 
 | Tool | Provider | Access | Description |
 |---|---|---|---|
 | [Amberscript](https://www.amberscript.com/en/business-solutions-use-cases/transcription-services-qualitative-research/) | Amberscript (Netherlands) | Paid | Cloud transcription for research interviews: machine drafts in minutes (90+ languages, ~85% accuracy) or human-verified transcripts (>99%, 18+ languages) with NDA-bound transcribers. Data stored only in Western Europe; GDPR, ISO 27001/9001. Word/TXT export, speech-to-text API. |
 | [aTrain](https://business-analytics.uni-graz.at/en/research/atrain/) | University of Graz (BANDAS Center) | Free | Offline transcription of speech recordings with speaker detection (faster-whisper, 57 languages); exports transcripts with clickable timestamps directly importable into ATLAS.ti and MAXQDA. Installs from the Microsoft Store; no data ever sent to the internet. |
+| [Montreal Forced Aligner](https://github.com/MontrealCorpusTools/Montreal-Forced-Aligner) | Montreal Corpus Tools (Michael McAuliffe et al.) | Free | Command-line forced aligner built on Kaldi: time-aligns transcripts to audio at word and phone level using pretrained or self-trained acoustic models. MIT-licensed; installed via conda-forge; v3.0 cited (2026). |
+| [WebMAUS](https://clarin.phonetik.uni-muenchen.de/BASWebServices/interface/WebMAUSGeneral) | Bavarian Archive for Speech Signals (BAS), LMU Munich / CLARIN | Free | Web service for forced alignment: upload audio plus transcript, receive phone- and word-level time-aligned Praat TextGrid output. Munich Automatic Segmentation (MAUS) engine within the BAS/CLARIN speech-tools suite. |
 
 </details>
 
@@ -372,15 +380,19 @@ The goal is **task diversity, not exhaustiveness**: each category shows a small,
 | Tool | Provider | Access | Description |
 |---|---|---|---|
 | [ASReview](https://asreview.nl/) | Utrecht University (open source) | Free | Runs active-learning screening locally: the model learns from your include/exclude decisions and reorders remaining records, with simulation mode to benchmark savings on your own dataset. Fully open source; data never leaves your machine. |
+| [citationchaser](https://estech.shinyapps.io/citationchaser/) | Neal R. Haddaway (with M.J. Grainger, C.T. Gray) | Free | Forward and backward citation chasing via the Lens.org API: input known relevant articles, retrieve everything they reference and everything citing them, and download all lists as RIS for systematic-review identification. |
 | [Covidence](https://www.covidence.org/) | Covidence (not-for-profit, Cochrane partnership) | Institutional | Manages the full PRISMA pipeline in one workspace: import, dedupe, dual screening, full-text review, data extraction, and quality assessment, with team roles and export to analysis. De-facto standard licensed by many university libraries. |
 | [Nested Knowledge](https://nested-knowledge.com/) | Nested Knowledge, Inc. | Freemium | Combines screening (Robot Screener), smart tagging, meta-analytical extraction, and PRISMA reporting with living-review updates: searches re-run automatically and interactive evidence maps and synthesis visualizations stay current and shareable. |
+| [Polyglot (TERA)](https://tera-tools.com/) | Institute for Evidence-Based Healthcare (IEBH), Bond University | Freemium | Translates a PubMed or Ovid MEDLINE search string into syntax for Embase, CINAHL, PsycINFO, Scopus, Web of Science, Cochrane and more. Part of Bond IEBH's TERA evidence-synthesis suite (SearchRefiner, Deduplicator, Screenatron, Disputatron). |
 | [Rayyan](https://www.rayyan.ai/) | Rayyan Systems, Inc. | Freemium | Screen titles/abstracts in blinded reviewer pairs with AI relevance ranking, resolve up to 200k duplicates, run risk-of-bias assessment, and auto-generate PRISMA flow diagrams; free tier covers core screening. |
 
-<details><summary>More tools for this task (1)</summary>
+<details><summary>More tools for this task (3)</summary>
 
 | Tool | Provider | Access | Description |
 |---|---|---|---|
 | [DistillerSR](https://www.distillersr.com/) | DistillerSR Inc. (Evidence Partners) | Paid | Runs audit-trailed literature reviews at regulatory grade: AI reranking of references, automatic study classifiers, generative extraction linked back to source text, and error-checking of human screening decisions, all with traceable human-in-the-loop validation. |
+| [PubReMiner](https://hgserver2.amc.nl/cgi-bin/miner/miner2.cgi) | Jan Koster, AMC (Amsterdam UMC) | Free | Runs a PubMed query and returns frequency tables of journals, authors and words in the result set — for refining search terms, finding active experts, or choosing a target journal. |
+| [Yale MeSH Analyzer](https://mesh.med.yale.edu/) | Harvey Cushing/John Hay Whitney Medical Library, Yale University | Free | Paste up to 20 PMIDs to get a side-by-side grid of each article's MeSH headings, subheadings, major-topic flags and author keywords; exports Excel or HTML for building search strategies. |
 
 </details>
 
@@ -393,6 +405,7 @@ The goal is **task diversity, not exhaustiveness**: each category shows a small,
 | [Marker](https://github.com/datalab-to/marker) | Datalab | Free | Open-source pipeline converting PDF, DOCX, PPTX, EPUB, and images to Markdown, JSON, or HTML with equations, tables, and reading order preserved — for building searchable or LLM-ready corpora from paper collections; runs locally. |
 | [Mathpix](https://mathpix.com/) | Mathpix Inc. | Freemium | Screenshot-to-LaTeX OCR: converts images of equations, handwriting, chemistry structures, tables, and full PDFs into LaTeX, Markdown, DOCX, or CSV via the Snip desktop tool and editor. One keyboard shortcut turns any on-screen formula into paste-ready code. |
 | [Transkribus](https://www.transkribus.org/pricing) | READ-COOP SCE (European cooperative, Austria) | Freemium | Uploads scans of handwritten or printed historical documents and gets searchable transcriptions; trains custom recognition models for a specific hand, script, or language; recognizes tables and form fields. |
+| [WebPlotDigitizer](https://automeris.io/) | Automeris LLC (Ankit Rohatgi) | Free | Extracts numerical x/y data from published chart images: calibrate axes (incl. log), digitize points manually or with computer-vision assist, export data. Sign-up required; frontend open source (AGPL v3), v5.2. |
 
 <details><summary>More tools for this task (2)</summary>
 
@@ -562,6 +575,93 @@ The goal is **task diversity, not exhaustiveness**: each category shows a small,
 |---|---|---|---|
 | [B!SON](https://service.tib.eu/bison/) | TIB Hannover & SLUB Dresden | Free | Paste a manuscript's title, abstract, and references; machine-learning similarity against DOAJ article and citation data ranks quality-assured open-access journals publishing similar work, with transparent per-journal reasoning and an open API. |
 
+## Instrument Data Interpretation
+
+*The task: turn raw instrument output into identifications — what is this peak, this spectrum, this unknown.*
+
+| Tool | Provider | Access | Description |
+|---|---|---|---|
+| [SIRIUS](https://github.com/sirius-ms/sirius) | Böcker group (FSU Jena) + Bright Giant GmbH | Free | Identifies small molecules from LC-MS/MS data: molecular formula annotation, CSI:FingerID structure ranking, CANOPUS compound-class prediction, MSNovelist de-novo structures. Desktop app (Win/Mac/Linux); web services free for academics via institutional email. |
+
+<details><summary>More tools for this task (1)</summary>
+
+| Tool | Provider | Access | Description |
+|---|---|---|---|
+| [MetFrag](https://msbi.ipb-halle.de/MetFrag/) | IPB Halle (Leibniz Institute of Plant Biochemistry) | Free | In-silico fragmentation for identifying metabolite MS/MS spectra: paste a peak list, screen candidates from PubChem, KEGG, HMDB, LipidMaps, ChEBI, COCONUT and more. Free web tool, no login. |
+
+</details>
+
+## Data Management & FAIR
+
+*The task: funder-compliant, machine-actionable data management plans and FAIR checks on what you deposit.*
+
+| Tool | Provider | Access | Description |
+|---|---|---|---|
+| [ARGOS (OpenAIRE)](https://argos.openaire.eu/portal/) | OpenAIRE | Freemium | Creates data and software management plans from funder and institutional templates, produces machine-actionable DMPs, and publishes finished plans to Zenodo. OpenAIRE service integrated with EOSC; free for individual researchers. |
+| [Data Stewardship Wizard](https://ds-wizard.org/) | ELIXIR CZ / Czech Technical University in Prague | Free | Builds collaborative, machine-actionable data management plans via guided knowledge-model questionnaires, with FAIR guidance, versioning, and funder-compliant exports including Horizon Europe. Open-source ELIXIR Recommended Interoperability Resource. |
+| [F-UJI](https://www.f-uji.net/) | PANGAEA (Devaraju & Huber), developed under FAIRsFAIR (H2020 grant 831558) | Free | Scores a published dataset's FAIRness from its identifier, programmatically evaluating the actual harvested metadata against the FAIRsFAIR data object assessment metrics, via web interface and web service. |
+
+<details><summary>More tools for this task (1)</summary>
+
+| Tool | Provider | Access | Description |
+|---|---|---|---|
+| [FAIR-Checker](https://fair-checker.france-bioinformatique.fr/) | Institut Français de Bioinformatique (IFB) / ELIXIR France | Free | Assesses FAIRness of a web resource or dataset by extracting its metadata and validating it against DataCite, OpenAIRE, Wikidata, Linked Open Vocabularies, and Bioschemas community profiles, to help providers improve resource quality. |
+
+</details>
+
+## Bioimage Analysis
+
+*The task: segment, classify and count in your own microscopy and histology — cells, nuclei, whole slides.*
+
+| Tool | Provider | Access | Description |
+|---|---|---|---|
+| [Cellpose](https://www.cellpose.org/) | Stringer & Pachitariu labs, HHMI (MouseLand) | Free | Generalist deep-learning instance segmentation of cells and nuclei in microscopy images, with human-in-the-loop training on your own channels; Cellpose-SAM model, GUI, free web demo, and Python API. |
+| [ilastik](https://www.ilastik.org/) | Kreshuk lab, EMBL | Free | Interactive machine-learning toolkit for bioimage analysis: train pixel and object classifiers with brush strokes to segment, classify, track, and count cells in 2D/3D. No deep-learning expertise required. |
+| [QuPath](https://qupath.github.io/) | Pete Bankhead group, University of Edinburgh | Free | Open-source desktop software for whole-slide image and digital pathology analysis: annotate gigapixel microscopy images, detect and classify cells, and script reproducible batch analyses. |
+
+## Behavioral Video Analysis
+
+*The task: track animals and quantify behavior from your own videos — markerless pose, identities, ethograms.*
+
+| Tool | Provider | Access | Description |
+|---|---|---|---|
+| [DeepLabCut](https://deeplabcut.github.io/DeepLabCut/README.html) | Mathis Group & Mathis Lab, EPFL | Free | Markerless pose estimation for animal behavior: train deep-learning keypoint models on your own videos or apply pretrained SuperAnimal foundation models; single- and multi-animal, PyTorch backend. |
+| [idtracker.ai](https://idtracker.ai/) | de Polavieja lab, Champalimaud Foundation | Free | Tracks up to 100 unmarked animals in laboratory videos while preserving individual identities, using deep-learning identification networks; free open-source GUI and Python tools. |
+
+<details><summary>More tools for this task (1)</summary>
+
+| Tool | Provider | Access | Description |
+|---|---|---|---|
+| [SLEAP](https://sleap.ai/) | Talmo Lab, Salk Institute | Free | Multi-animal pose estimation and identity tracking from video: GUI labeling with human-in-the-loop training, deep-learning inference at up to 600+ FPS, PyTorch backend since v1.5. |
+
+</details>
+
+## De-identification & Data Sharing
+
+*The task: anonymize tables and transcripts so data can be shared or sent to a cloud model — with formal guarantees, GDPR in mind.*
+
+| Tool | Provider | Access | Description |
+|---|---|---|---|
+| [Amnesia](https://amnesia.openaire.eu/) | OpenAIRE / ATHENA Research Center | — | Anonymizes tabular datasets with formal k-anonymity and km-anonymity guarantees via a graphical interface, so shared data no longer counts as personal data under GDPR. Runs entirely on-premise; REST API available. |
+| [Textwash](https://www.textwash.eu/) | Bennett Kleinberg + jocapps GmbH (OSS original: Kleinberg, Tilburg/UCL) | — | Removes personal data from interviews, documents, and logs using a small on-device AI model (16 configurable entity types, contextual not keyword-based), in English, German, Dutch, French, Spanish, Italian. Free GPL-3.0 Python CLI covers English and Dutch. |
+
+<details><summary>More tools for this task (2)</summary>
+
+| Tool | Provider | Access | Description |
+|---|---|---|---|
+| [Presidio](https://presidio.dataprivacystack.org/) | Data Privacy Stack (community-owned; originally Microsoft) | — | Detects and anonymizes PII (names, credit cards, SSNs, and custom entities) in text and images via configurable NER/regex pipelines that run locally. MIT-licensed; originally built at Microsoft, now community-maintained under Data Privacy Stack. |
+| [QualiAnon](https://github.com/pangaea-data-publisher/qualianon) | Qualiservice research data center, University of Bremen (with TU Munich and PANGAEA) | — | Anonymizes or pseudonymizes qualitative text data such as interview transcripts, with user-controlled replacements and separation of identifiers, original data, and edited materials — the German FDZ (Qualiservice) archival workflow. |
+
+</details>
+
+## Impact & Policy Tracking
+
+*The task: show where your work landed beyond academia — policy documents, impact cases.*
+
+| Tool | Provider | Access | Description |
+|---|---|---|---|
+| [Sage Policy Profiles](https://policyprofiles.sagepub.com/) | Sage (powered by Overton) | Free | Shows where your publications are cited in government policy documents via Overton's index; export, visualize, and share the matches. A matcher added 2026 surfaces up to three personalized policy-engagement opportunities monthly. |
+
 ## Watchlist
 
 Captured but not yet vetted against the admission gate.
@@ -571,9 +671,11 @@ Captured but not yet vetted against the admission gate.
 - [Literature Insights (Gemini for Science)](https://labs.google/science) — [sweep 2026-08-18] Fetched labs.google/science: Literature Insights listed, built with Gemini Notebook; tables, reports, slide decks, infographics confirmed. Access is 'Express interest' only — no open availability. Audio/video overviews not confirmed.
 - [Nature Research Assistant](https://natureresearchassistant.com/) — [sweep 2026-08-18] Fetched site: Springer Nature confirmed, still beta; new users must join waiting list, no pricing disclosed. Summaries, paper chat, figure descriptions with audio all confirmed on page.
 - [Potato](https://potato.ai/) — [sweep 2026-08-18] potato.ai fetched: first product 'The Optimizer' opening for early access with selected teams; beta request page; app at app.potatodemo.com. University list mostly matches; Harvard and Wiley RAG not confirmed on current page.
+- [RefereeBio](https://refereebio.com/) — [grok-gap-hunt 2026-08-18, independently verified] All section-10 claims confirmed on homepage (free Starter month: 3 reviews/3 revision checks/3 edits, no card; AI-provider clause). No legal entity or team named; keep candidate.
 - [Laser AI](https://www.laser.ai/) — [discovery 2026-08-18] Unique use case: AI-suggested extraction designed for the living-review-to-guideline pipeline (GRADE ecosystem via Evidence Prime) Adoption: Site lists McMaster University and IQWiG (German HTA agency) among clients; no independent Methods-mention count obtainable (name too ambiguous to query) Demo/contact-only access, plans from $3,000 — hence candidate. Extraction time-saving claims (53%) are vendor figures; HQ location not confirmed from fetched pages.
 - [Transcription Pearl](https://github.com/mhumphries2323/Transcription_Pearl) — [discovery 2026-08-18] Unique use case: Peer-review-backed LLM transcription workflow: the accompanying study found LLMs beat specialized HTR (Transkribus) on 18th/19th-c. English documents — the easter egg of this area Adoption: Companion paper published in Historical Methods (2025, DOI 10.1080/01615440.2025.2500309) and arXiv:2411.03340; GitHub repo public Beta; last commit Nov 2024 — maintenance uncertain. Requires own API keys and Python. CC BY-NC 4.0. Candidate until freshness confirmed.
 - [Paper2Video](https://github.com/showlab/Paper2Video) — [discovery 2026-08-18] Unique use case: Automatic pre-recorded conference-talk video generation from a paper — relevant for virtual conferences requiring submitted videos Adoption: NeurIPS 2025 SEA workshop acceptance; 2.4k GitHub stars MIT license but demanding: LaTeX sources as input, Gemini/OpenAI keys, ~48GB-VRAM GPU for talking head (lighter slides-only mode exists). Research-grade, not turnkey.
+- [PowerGPT](https://power-gpt.net/) — [grok-gap-hunt 2026-08-18, independently verified] CONFIRMED: no privacy policy, ToS, or data-handling statement on homepage or /others (footer = contacts only) -> candidate. '0 daily users' still shown. arXiv:2509.12471 real, matches (94.1% vs 55.4%).
 - [Protocol Builder](https://protocolbuilderpro.com/) — [discovery 2026-08-18] Unique use case: structured IRB protocol and consent-form authoring with compliance templates Adoption: Sold to IRBs and GME programs; BRANY is an established IRB/compliance services organization; site current (screenshots dated March 2026) Demo-only, no public pricing — hence candidate. US clinical-research centric; EU ethics-committee fit unverified.
 - [PaperTok](https://www.papertok.com) — [discovery 2026-08-18] Unique use case: Paper to short-form social video for public science communication Adoption: CHI 2026 paper (Barcelona, April 2026); TechXplore coverage June 2026 Academic prototype, live site with generate button; requires user's paid Google Gemini subscription. Privacy policy and durability unverified.
 - [RefCheckAI](https://sydney-informatics-hub.github.io/RefCheckAI/) — [discovery 2026-08-18] Unique use case: Semantic citation verification — whether the cited paper supports the claim, not merely whether the reference exists (scite shows citation context but does not classify your own manuscript's claims) Adoption: University-built (Sydney Informatics Hub, NCI/NVIDIA-supported CodeFest); model weights and training data published for download Early access — web app via registration/email only. Classification accuracy not independently benchmarked. CC BY-NC 4.0.
