@@ -15,6 +15,7 @@ ACCESS = {"free", "freemium", "paid", "institutional", "waitlist", "unknown"}
 DOMAIN = {"general", "life-sciences"}
 STATUS = {"active", "candidate", "needs-review", "deprecated", "acquired"}
 TIER = {"core", "extended"}
+STAGES = {"everyday", "discover", "plan", "collect", "write", "publish", "impact"}
 MAX_CORE_PER_CATEGORY = 6
 
 
@@ -23,6 +24,10 @@ def main() -> int:
     warnings = []
     categories = yaml.safe_load((ROOT / "categories.yml").read_text())
     cat_slugs = set(categories)
+    for cslug, cmeta in categories.items():
+        if cmeta.get("stage") not in STAGES:
+            errors.append(f"categories.yml: {cslug} stage '{cmeta.get('stage')}'"
+                          f" not one of {sorted(STAGES)}")
 
     seen_names, seen_urls = {}, {}
     files = sorted((ROOT / "tools").glob("*.yml"))

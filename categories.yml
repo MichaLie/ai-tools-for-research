@@ -2,131 +2,166 @@ general-purpose-ai-assistants:
   title: General-Purpose AI Assistants
   blurb: 'The task: an everyday thinking partner — drafting, summarizing, coding help, quick
     analysis at any stage of research.'
+  stage: everyday
 office-suite-ai-integrations:
   title: Office Suite AI Integrations
   blurb: 'The task: AI inside the documents, spreadsheets and slides you already work in.'
+  stage: everyday
+browser-automation-agents:
+  title: Browser Automation Agents
+  blurb: 'The task: let AI operate the browser — forms, portals, repetitive web work.'
+  stage: everyday
 ai-powered-search-engines:
   title: AI-Powered Search Engines
   blurb: 'The task: ask the web a question and get a sourced answer instead of a list of links.'
+  stage: discover
 deep-research-agents:
   title: Deep Research Agents
   blurb: 'The task: delegate a multi-hour literature synthesis and get back a cited report.'
+  stage: discover
 literature-discovery-analysis:
   title: Literature Discovery & Analysis
   blurb: 'The task: find, screen and synthesize papers beyond what you can read yourself.'
+  stage: discover
 publisher-database-ai-assistants:
   title: Publisher & Database AI Assistants
   blurb: 'The task: interrogate the curated scholarly databases your library already licenses.'
+  stage: discover
 citation-networks-reference-management:
   title: Citation Networks & Reference Management
   blurb: 'The task: map citation networks and keep your reference library organized.'
+  stage: discover
 grounded-knowledge-specialized-databases:
   title: Grounded Knowledge & Specialized Databases
   blurb: 'The task: chat with your own sources — grounded answers from documents you trust.'
+  stage: discover
+systematic-review-evidence-synthesis:
+  title: Systematic Review & Evidence Synthesis
+  blurb: 'The task: screen thousands of abstracts, extract evidence, and keep a review living
+    — PRISMA-style.'
+  stage: discover
+staying-current:
+  title: Staying Current
+  blurb: 'The task: keep up with new papers without reading feeds all day — trained, personalized
+    monitoring.'
+  stage: discover
+ideation-grant-funding:
+  title: Ideation & Grant Funding
+  blurb: 'The task: find the gap, find the call, draft the proposal.'
+  stage: plan
+survey-experiment-design:
+  title: Survey & Experiment Design
+  blurb: 'The task: design instruments and experiments well before collecting a single data
+    point — including simulated piloting.'
+  stage: plan
+data-management-fair:
+  title: Data Management & FAIR
+  blurb: 'The task: funder-compliant, machine-actionable data management plans and FAIR checks
+    on what you deposit.'
+  stage: plan
 data-analysis:
   title: Data Analysis
   blurb: 'The task: analyze data conversationally — upload, ask, get code and plots back.'
   deep_dive:
     title: Coding & Data Agents index (privacy-first, 60 entries)
     url: https://michalie.github.io/research-coding-agents-wiki/
+  stage: collect
 autonomous-research-agents:
   title: Autonomous Research Agents
   blurb: 'The task: hand an agent a research question and let it plan, execute and report autonomously.'
   deep_dive:
     title: Autonomous Science Agents index (438 entries)
     url: https://michalie.github.io/autonomous-stem-agents-wiki/
-browser-automation-agents:
-  title: Browser Automation Agents
-  blurb: 'The task: let AI operate the browser — forms, portals, repetitive web work.'
-writing-translation:
-  title: Writing & Translation
-  blurb: 'The task: draft, polish and translate scholarly text.'
-ai-manuscript-review-disclosure:
-  title: AI Manuscript Review & Disclosure
-  blurb: 'The task: stress-test a manuscript before submission — reviews, integrity checks,
-    AI disclosure.'
-visual-presentation-creation:
-  title: Visual & Presentation Creation
-  blurb: 'The task: turn text into diagrams, posters and slide decks.'
-scientific-image-generation:
-  title: Scientific Image Generation
-  blurb: 'The task: generate scientific illustrations and publication figures.'
+  stage: collect
 code-assistants:
   title: Code Assistants
   blurb: 'The task: write and debug research code with an AI pair programmer or agent.'
   deep_dive:
     title: Coding & Data Agents index (privacy-first, 60 entries)
     url: https://michalie.github.io/research-coding-agents-wiki/
-ideation-grant-funding:
-  title: Ideation & Grant Funding
-  blurb: 'The task: find the gap, find the call, draft the proposal.'
+  stage: collect
 transcription-qualitative-analysis:
   title: Transcription & Qualitative Analysis
   blurb: 'The task: turn interviews and focus groups into text, then into coded themes — with
     sensitive data kept safe.'
-systematic-review-evidence-synthesis:
-  title: Systematic Review & Evidence Synthesis
-  blurb: 'The task: screen thousands of abstracts, extract evidence, and keep a review living
-    — PRISMA-style.'
+  stage: collect
 ocr-document-digitization:
   title: OCR & Document Digitization
   blurb: 'The task: turn handwriting, archives, equations and PDFs into editable, analyzable
     text and LaTeX.'
-staying-current:
-  title: Staying Current
-  blurb: 'The task: keep up with new papers without reading feeds all day — trained, personalized
-    monitoring.'
-conference-prep:
-  title: Conference Prep — Posters & Talk Practice
-  blurb: 'The task: get from accepted paper to poster, slides rehearsed, and delivery polished.'
-latex-academic-language:
-  title: LaTeX & Academic Language
-  blurb: 'The task: AI inside the scholarly writing toolchain — LaTeX editing, published-language
-    feedback.'
-survey-experiment-design:
-  title: Survey & Experiment Design
-  blurb: 'The task: design instruments and experiments well before collecting a single data
-    point — including simulated piloting.'
-communication-accessibility:
-  title: Research Communication & Accessibility
-  blurb: 'The task: consume research by ear and communicate it beyond the paper — audio, podcast,
-    plain language.'
-integrity-screening-forensics:
-  title: Integrity Screening & Forensics
-  blurb: 'The task: screen the literature — and your own reference list — for fabrication, manipulation
-    and AI-generated text.'
+  stage: collect
 lab-bench-protocols:
   title: Lab Bench & Protocols
   blurb: 'The task: draft, troubleshoot and execute protocols at the bench — hands-free, robot-ready,
     reagent-smart.'
+  stage: collect
+instrument-data-interpretation:
+  title: Instrument Data Interpretation
+  blurb: 'The task: turn raw instrument output into identifications — what is this peak, this
+    spectrum, this unknown.'
+  stage: collect
+bioimage-analysis:
+  title: Bioimage Analysis
+  blurb: 'The task: segment, classify and count in your own microscopy and histology — cells,
+    nuclei, whole slides.'
+  stage: collect
+behavioral-video-analysis:
+  title: Behavioral Video Analysis
+  blurb: 'The task: track animals and quantify behavior from your own videos — markerless pose,
+    identities, ethograms.'
+  stage: collect
+data-deidentification:
+  title: De-identification & Data Sharing
+  blurb: 'The task: anonymize tables and transcripts so data can be shared or sent to a cloud
+    model — with formal guarantees, GDPR in mind.'
+  stage: collect
+writing-translation:
+  title: Writing & Translation
+  blurb: 'The task: draft, polish and translate scholarly text.'
+  stage: write
+visual-presentation-creation:
+  title: Visual & Presentation Creation
+  blurb: 'The task: turn text into diagrams, posters and slide decks.'
+  stage: write
+scientific-image-generation:
+  title: Scientific Image Generation
+  blurb: 'The task: generate scientific illustrations and publication figures.'
+  stage: write
+latex-academic-language:
+  title: LaTeX & Academic Language
+  blurb: 'The task: AI inside the scholarly writing toolchain — LaTeX editing, published-language
+    feedback.'
+  stage: write
+ai-manuscript-review-disclosure:
+  title: AI Manuscript Review & Disclosure
+  blurb: 'The task: stress-test a manuscript before submission — reviews, integrity checks,
+    AI disclosure.'
+  stage: publish
+integrity-screening-forensics:
+  title: Integrity Screening & Forensics
+  blurb: 'The task: screen the literature — and your own reference list — for fabrication, manipulation
+    and AI-generated text.'
+  stage: publish
+journal-selection-publishing:
+  title: Journal Selection & Publishing
+  blurb: 'The task: pick the right venue — open-access options, fit, and legitimacy.'
+  stage: publish
+conference-prep:
+  title: Conference Prep — Posters & Talk Practice
+  blurb: 'The task: get from accepted paper to poster, slides rehearsed, and delivery polished.'
+  stage: impact
+communication-accessibility:
+  title: Research Communication & Accessibility
+  blurb: 'The task: consume research by ear and communicate it beyond the paper — audio, podcast,
+    plain language.'
+  stage: impact
 patents-tech-transfer:
   title: Patents & Tech Transfer
   blurb: 'The task: prior-art checks, patent landscapes and invention disclosures. Caution:
     unfiled inventions are confidential — check your TTO''s policy before pasting disclosure
     text into third-party AI.'
-journal-selection-publishing:
-  title: Journal Selection & Publishing
-  blurb: 'The task: pick the right venue — open-access options, fit, and legitimacy.'
-instrument-data-interpretation:
-  title: Instrument Data Interpretation
-  blurb: 'The task: turn raw instrument output into identifications — what is this peak, this
-    spectrum, this unknown.'
-data-management-fair:
-  title: Data Management & FAIR
-  blurb: 'The task: funder-compliant, machine-actionable data management plans and FAIR checks
-    on what you deposit.'
-bioimage-analysis:
-  title: Bioimage Analysis
-  blurb: 'The task: segment, classify and count in your own microscopy and histology — cells,
-    nuclei, whole slides.'
-behavioral-video-analysis:
-  title: Behavioral Video Analysis
-  blurb: 'The task: track animals and quantify behavior from your own videos — markerless pose,
-    identities, ethograms.'
-data-deidentification:
-  title: De-identification & Data Sharing
-  blurb: 'The task: anonymize tables and transcripts so data can be shared or sent to a cloud
-    model — with formal guarantees, GDPR in mind.'
+  stage: impact
 impact-policy-tracking:
   title: Impact & Policy Tracking
   blurb: 'The task: show where your work landed beyond academia — policy documents, impact cases.'
+  stage: impact
