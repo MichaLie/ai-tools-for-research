@@ -48,6 +48,10 @@
   h2.cat { font-size: 1.02rem; margin: 1.8rem 0 .15rem; padding-bottom: .3rem;
            border-bottom: 1px solid var(--line); }
   h2.cat small { color: var(--muted); font-weight: 400; }
+  .intro { max-width: 46rem; font-size: .9rem; line-height: 1.55; color: var(--muted);
+           margin: 0 0 .4rem; }
+  .intro strong, .intro .date { color: var(--ink); }
+  .intro a { color: var(--accent); }
   #map { margin: 1.1rem 0 .5rem; }
   .stage-group { margin: 0 0 .7rem; }
   .stage-lab, .stage-rule {
@@ -99,6 +103,13 @@
 <header>
   <h1>AI Tools for Scientific Research</h1>
   <p class="sub">Curated &amp; verified for academic use · Michaela Liegertová</p>
+  <p class="intro"><strong>A map, not an encyclopedia.</strong> Each task shows a small,
+  deliberately varied selection of the tools academics actually use — breadth over
+  depth; for depth in specific areas, see the companion
+  <a href="https://michalie.github.io/" target="_blank" rel="noopener">AI for Science
+  indexes</a>. Every entry verified against the live web on <span class="date">18 August 2026</span>.
+  This territory expands and shifts by the week — if you don't find a tool for your
+  use case today, come back next week; the map will have moved.</p>
   <nav id="map" aria-label="Task map"></nav>
   <div class="controls">
     <input type="search" id="q" placeholder="Search tools, providers, descriptions…">
