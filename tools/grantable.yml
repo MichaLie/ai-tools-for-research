@@ -6,8 +6,8 @@ description: Chat-first AI 'coworker' that remembers your organisation, past pro
   and funder context. Built-in prospecting via GrantGraph (11M+ data points from 990
   filings, public records and web research) covering 130,000+ funders. Pricing from
   $24/month.
-access: unknown
+access: freemium
 domain: general
 status: active
 added: 2026-05
-last_verified: null
+last_verified: '2026-08-18'

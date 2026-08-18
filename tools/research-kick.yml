@@ -1,12 +1,16 @@
 name: Research Kick
 category: ideation-grant-funding
-provider: Research Kick
-url: https://researchkick.com/
+provider: ChatAcademia
+url: https://www.chatacademia.com/
 description: AI research ideation tool identifying research gaps across 1B+ papers
   from Semantic Scholar, Google Scholar, Scite, and PubMed. GPT-4o with proprietary
   reasoning to prevent hallucinations. Used by 2,000+ academics.
-access: unknown
+access: paid
 domain: general
 status: active
 added: 2026-02
-last_verified: null
+last_verified: '2026-08-18'
+notes: '[sweep 2026-08-18] description flagged: Both catalog URLs redirect to chatacademia.com;
+  founder (Mushtaq Bilal) confirmed rebrand of Research Kick Chat to ChatAcademia.
+  Description stale: old name, GPT-4o claim. Now $15-45/mo plans, free trial, 8+ databases,
+  grant search.'

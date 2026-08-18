@@ -1,7 +1,7 @@
 name: Prophy
 category: ai-manuscript-review-disclosure
 provider: Prophy
-url: https://www.prophy.science/
+url: https://www.prophy.ai/
 description: Semantic reviewer-matching system used by editors to find subject-matter
   referees for a submitted manuscript. Goes beyond keyword search by mapping a paper
   to a deep author/topic embedding space.
@@ -9,4 +9,8 @@ access: unknown
 domain: general
 status: active
 added: 2026-05
-last_verified: null
+last_verified: '2026-08-18'
+notes: '[sweep 2026-08-18] prophy.science 301s to prophy.ai, which bot-blocks fetchers
+  (403). blog.prophy.ai and search confirm Referee Finder for publishers/funders,
+  ~96M profiles, Editorial Manager integration. Pricing/access not visible anywhere
+  fetched.'

@@ -6,8 +6,12 @@ description: Specialized AI for deep literature synthesis from FutureHouse (nonp
   AI biology lab), hosted on Edison Scientific platform. Surveys extensive scientific
   databases to compile comprehensive reviews. Outperforms PhD-level researchers in
   head-to-head literature search accuracy benchmarks.
-access: unknown
+access: freemium
 domain: general
-status: active
+status: needs-review
 added: 2026-02
 last_verified: null
+notes: '[sweep 2026-08-18] description flagged: Falcon branding absent from futurehouse.org
+  and edisonscientific.com (both fetched). Successor is ''Edison Literature'' (PaperQA3,
+  announced 2026-02-18) on platform.edisonscientific.com; academics get ~20 free calls/day.
+  Edison Scientific spun out of FutureHouse Nov 2025.'

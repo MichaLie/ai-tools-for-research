@@ -1,12 +1,16 @@
 name: NotebookLM
 category: grounded-knowledge-specialized-databases
-provider: Google Labs
-url: https://notebooklm.google.com/
+provider: Google
+url: https://notebook.google/
 description: Virtual research assistant analyzing up to 50 sources (500K words each).
   Features Deep Research integration, automatic citations, and unique AI-generated
   podcast summaries. Pro tier offers 500 notebooks with 300 sources each.
-access: unknown
+access: freemium
 domain: general
 status: active
 added: 2026-02
-last_verified: null
+last_verified: '2026-08-18'
+notes: '[sweep 2026-08-18] description flagged: Renamed Gemini Notebook (Wikipedia:
+  July 16, 2026); notebooklm.google 301s to notebook.google, app login at notebook.google.com.
+  Free plus paid Plus tier confirmed; ''500 notebooks Pro tier'' and 50-source limits
+  unverified.'

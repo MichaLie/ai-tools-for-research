@@ -6,8 +6,12 @@ description: Agentic 'research engine' that auto-generates and scores thousands 
   code variations in parallel for computational experiments. ERA (Empirical Research
   Assistance) outperformed the U.S. CDC's COVID-19 hospitalization forecasting ensemble;
   results published in Nature (May 19, 2026).
-access: unknown
+access: waitlist
 domain: general
-status: active
+status: candidate
 added: 2026-05
-last_verified: null
+last_verified: '2026-08-18'
+notes: '[sweep 2026-08-18] Fetched labs.google/science and research.google ERA blog.
+  ''Computational Discovery'' built with AlphaEvolve+ERA; ERA Nature paper May 19
+  2026 and CDC-forecasting claim confirmed. Access via ''Express interest'' / gradual
+  trusted-tester rollout.'

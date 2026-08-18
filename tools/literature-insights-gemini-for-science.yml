@@ -1,13 +1,17 @@
 name: Literature Insights (Gemini for Science)
 category: literature-discovery-analysis
-provider: Google (with NotebookLM)
+provider: Google
 url: https://labs.google/science
 description: Chat interface over scientific literature that builds structured tables
   with custom searchable attributes for side-by-side comparison and generates reports,
   slide decks, infographics and audio/video overviews. Helps identify research gaps
   across a curated corpus.
-access: unknown
+access: waitlist
 domain: general
-status: active
+status: candidate
 added: 2026-05
-last_verified: null
+last_verified: '2026-08-18'
+notes: '[sweep 2026-08-18] Fetched labs.google/science: Literature Insights listed,
+  built with Gemini Notebook; tables, reports, slide decks, infographics confirmed.
+  Access is ''Express interest'' only — no open availability. Audio/video overviews
+  not confirmed.'

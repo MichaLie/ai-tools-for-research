@@ -1,7 +1,7 @@
 name: AIVA
 category: autonomous-research-agents
-provider: AIVA Portal
-url: https://aivaportal.com/
+provider: Mamidi Health
+url: https://chat.aivaportal.com/
 description: Conversational AI platform for genomics enabling natural language queries
   on genomic data. Integrates LLMs for analysis, literature search, and evidence-based
   clinical interpretations from sequencing data.
@@ -9,4 +9,4 @@ access: unknown
 domain: life-sciences
 status: active
 added: 2026-02
-last_verified: null
+last_verified: '2026-08-18'

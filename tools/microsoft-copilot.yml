@@ -5,8 +5,12 @@ url: https://copilot.microsoft.com/
 description: AI assistant integrated with Microsoft 365, featuring Researcher agent
   for grant proposals and policy analysis, and Analyst agent with Python execution
   for data queries. Academic pricing available at $18/user/month.
-access: unknown
+access: freemium
 domain: general
 status: active
 added: 2026-02
-last_verified: null
+last_verified: '2026-08-18'
+notes: '[sweep 2026-08-18] description flagged: URL is consumer Copilot (free; Copilot
+  Pro discontinued Oct 2025, folded into M365 Premium $19.99). Description actually
+  describes Microsoft 365 Copilot: Researcher/Analyst agents and $18 academic pricing
+  verified as M365 Copilot features.'

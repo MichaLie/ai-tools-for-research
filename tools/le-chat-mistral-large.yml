@@ -7,6 +7,9 @@ description: Multilingual AI with Deep Research mode, 256K context window, and P
   with strict data governance requirements.
 access: unknown
 domain: general
-status: active
+status: needs-review
 added: 2026-02
 last_verified: null
+notes: '[sweep 2026-08-18] description flagged: Le Chat renamed to Vibe May 28 2026
+  (help.mistral.ai confirms; same URL, accounts carried over). Vibe pricing: Pro $14.99,
+  Team $24.99, Enterprise. Free tier post-rename not confirmed. Name/description outdated.'

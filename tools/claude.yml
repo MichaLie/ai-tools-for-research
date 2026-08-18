@@ -5,8 +5,8 @@ url: https://claude.ai/
 description: Advanced AI assistant with 200K token context window, Code Interpreter,
   and Claude for Life Sciences integrations (Benchling, BioRender, PubMed, 10x Genomics).
   Excels at long-document analysis and nuanced scientific writing.
-access: unknown
+access: freemium
 domain: general
 status: active
 added: 2026-02
-last_verified: null
+last_verified: '2026-08-18'

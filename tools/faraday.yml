@@ -1,7 +1,7 @@
 name: Faraday
 category: autonomous-research-agents
 provider: Ascent Bio
-url: https://www.ascent.bio/
+url: https://www.ascentbio.ai/
 description: AI scientist for drug discovery, building knowledge corpus from files,
   databases, and tools. Specializes in molecule design and targeted protein degradation
   therapeutics with end-to-end traceability.
@@ -9,4 +9,8 @@ access: unknown
 domain: life-sciences
 status: active
 added: 2026-02
-last_verified: null
+last_verified: '2026-08-18'
+notes: '[sweep 2026-08-18] ascent.bio rendered empty; live site is ascentbio.ai (fetched):
+  Faraday AI scientist, 40+ institutions, signup via accounts.platform.ascentbio.ai.
+  platform.ascentbio.ai/faraday showed ''down for maintenance''. No pricing found;
+  public beta per blog.'

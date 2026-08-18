@@ -1,11 +1,14 @@
 name: Enago AI Disclosure
 category: ai-manuscript-review-disclosure
 provider: Enago
-url: https://www.enago.com/
+url: https://www.enago.com/ai-disclosure-statement-generator/
 description: Generate an AI Disclosure Statement for your manuscript that you can
   use while submitting your manuscript to a publisher.
-access: unknown
+access: free
 domain: general
 status: active
 added: 2026-02
-last_verified: null
+last_verified: '2026-08-18'
+notes: '[sweep 2026-08-18] Listed URL is Enago homepage; dedicated generator page
+  fetched and confirmed (form, statement delivered as PDF via email). No payment step
+  shown; ''free'' not explicitly stated on page.'

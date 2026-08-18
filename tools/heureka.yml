@@ -1,7 +1,7 @@
 name: Heureka
 category: autonomous-research-agents
 provider: Heureka Labs
-url: https://heureka.ai/
+url: https://www.heurekalabs.co/
 description: AI Research Companion (ARC) for hypothesis generation, experiment design,
   and data analysis through natural conversation. QuartzReport delivers automated
   analysis with publication-ready figures.
@@ -9,4 +9,8 @@ access: unknown
 domain: general
 status: active
 added: 2026-02
-last_verified: null
+last_verified: '2026-08-18'
+notes: '[sweep 2026-08-18] description flagged: heureka.ai DNS-dead. heurekalabs.co
+  live: Heureka Bench desktop app with ARC agent and Archimedes model, direct Mac/Windows
+  downloads, ''no subscription''. QuartzReport not mentioned anywhere; pricing page
+  could not be retrieved.'

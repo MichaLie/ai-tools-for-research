@@ -1,12 +1,12 @@
 name: ChatGPT Code Interpreter
 category: data-analysis
 provider: OpenAI
-url: https://chatgpt.com/
+url: https://help.openai.com/en/articles/8437071-code-interpreter
 description: Sandboxed Python environment within ChatGPT for data exploration, statistical
   analysis, and visualization. Supports up to 20 files (512MB each) with automatic
   error resolution and interactive chart generation.
-access: unknown
+access: freemium
 domain: general
 status: active
 added: 2026-02
-last_verified: null
+last_verified: '2026-08-18'

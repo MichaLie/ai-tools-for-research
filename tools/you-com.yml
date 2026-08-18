@@ -5,8 +5,12 @@ url: https://you.com/
 description: AI search with ARI (Advanced Research and Insights) agent scanning 400+
   sources simultaneously. Produces research reports with verified citations, interactive
   graphs, and visualizations. Named TIME's Best Inventions 2025.
-access: unknown
+access: paid
 domain: general
-status: active
+status: needs-review
 added: 2026-02
 last_verified: null
+notes: '[sweep 2026-08-18] description flagged: Fetched you.com twice: now an enterprise/developer
+  API platform (Search, Contents, Research, Finance APIs); no ARI or consumer answer
+  engine mentioned. 2026 reporting confirms pivot; consumer plans gone. Usage-billed
+  with one-time trial credits.'

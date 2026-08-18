@@ -1,12 +1,16 @@
 name: K-Dense
 category: autonomous-research-agents
-provider: Biostate AI
-url: https://biostate.ai/
+provider: K-Dense (Biostate AI spinout)
+url: https://www.k-dense.ai/
 description: 'Multi-agent system compressing research cycles from years to days. Harvard-validated:
   completed transcriptomic aging study in weeks vs. years. 29.2% BixBench accuracy
   (surpassing GPT-5''s 22.9%) with hallucination elimination.'
-access: unknown
+access: freemium
 domain: life-sciences
 status: active
 added: 2026-02
-last_verified: null
+last_verified: '2026-08-18'
+notes: '[sweep 2026-08-18] biostate.ai is parent company page; it states ''K-Dense
+  is a Biostate AI spinout''. k-dense.ai/pricing fetched: free instant tier, runs
+  capped $9-29, Plus $199/mo, academics 90% off Team. BixBench/Harvard claims match
+  launch coverage.'

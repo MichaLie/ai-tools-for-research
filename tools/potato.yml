@@ -5,8 +5,11 @@ url: https://potato.ai/
 description: AI research assistant for experiment design and execution in life sciences.
   In use at Stanford, MIT, Caltech, UC Berkeley, Scripps, and Harvard. RAG with scientific
   literature including Wiley publications.
-access: unknown
+access: waitlist
 domain: general
-status: active
+status: candidate
 added: 2026-02
-last_verified: null
+last_verified: '2026-08-18'
+notes: '[sweep 2026-08-18] potato.ai fetched: first product ''The Optimizer'' opening
+  for early access with selected teams; beta request page; app at app.potatodemo.com.
+  University list mostly matches; Harvard and Wiley RAG not confirmed on current page.'

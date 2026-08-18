@@ -1,12 +1,16 @@
 name: Claude Research
 category: deep-research-agents
 provider: Anthropic
-url: https://claude.ai/
+url: https://claude.com/blog/research
 description: Claude's research capability with PubMed integration and extended thinking
   for complex scientific analysis. Part of Claude for Life Sciences suite with specialized
   biomedical tool integrations.
-access: unknown
+access: paid
 domain: general
 status: active
 added: 2026-02
-last_verified: null
+last_verified: '2026-08-18'
+notes: '[sweep 2026-08-18] description flagged: anthropic.com/news/research now 308-redirects
+  to claude.com/blog/research (fetched): Research on Max/Team/Enterprise. Research
+  is a general Claude feature, not part of Life Sciences; that suite is now superseded
+  by ''Claude Science'' (public beta).'

@@ -1,12 +1,16 @@
 name: GrantBoost
 category: ideation-grant-funding
 provider: GrantBoost
-url: https://grantboost.com/
+url: https://www.grantboost.io/
 description: Template-based AI grant writing for nonprofit and research grants. Pick
   a grant type, fill in organisational details and the AI drafts proposal sections.
   Works best for common, well-known grant categories. Pricing from $19.99/month.
-access: unknown
+access: paid
 domain: general
 status: active
 added: 2026-05
-last_verified: null
+last_verified: '2026-08-18'
+notes: '[sweep 2026-08-18] grantboost.com is a parked GoDaddy for-sale domain; live
+  product at grantboost.io. Plans $32/$49/$66/mo (no free tier seen; ''$19.99'' stale).
+  Academic fit: site explicitly lists universities/research institutions seeking federal
+  grants.'

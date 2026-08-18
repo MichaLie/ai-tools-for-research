@@ -5,8 +5,8 @@ url: https://paperreview.ai/
 description: Free AI peer review system by Andrew Ng's team providing rapid, actionable
   feedback. Grounds reviews in latest arXiv research; correlation with human reviewers
   (0.42) matches inter-human agreement (0.41).
-access: unknown
+access: free
 domain: general
 status: active
 added: 2026-02
-last_verified: null
+last_verified: '2026-08-18'

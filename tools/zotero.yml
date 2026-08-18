@@ -1,12 +1,12 @@
 name: Zotero
 category: citation-networks-reference-management
-provider: Corporation for Digital Scholarship
+provider: Digital Scholar
 url: https://www.zotero.org/
 description: Free, open-source reference manager with browser integration and Word/LibreOffice/Google
   Docs plugins. AI plugins (Aria, Beaver) add GPT powered paper chat and agentic search
   with sentence-level citations.
-access: unknown
+access: free
 domain: general
 status: active
 added: 2026-02
-last_verified: null
+last_verified: '2026-08-18'

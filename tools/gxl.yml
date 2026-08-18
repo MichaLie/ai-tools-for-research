@@ -1,6 +1,6 @@
 name: GXL
 category: literature-discovery-analysis
-provider: GXL
+provider: GXL (Generative Expert Labs)
 url: https://gxl.ai/
 description: Deep biomedical literature index covering 8M+ papers across bioRxiv,
   medRxiv and PubMed Central, including figures, tables and supplemental data. Used
@@ -10,4 +10,4 @@ access: unknown
 domain: life-sciences
 status: active
 added: 2026-05
-last_verified: null
+last_verified: '2026-08-18'

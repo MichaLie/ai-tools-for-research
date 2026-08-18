@@ -6,8 +6,11 @@ description: AI assistant (beta) built on a peer-reviewed academic corpus to hel
   researchers read, contextualise and write research papers. Generates summaries,
   supports chat over papers, and provides detailed figure descriptions with audio
   playback. Built with researchers; aimed at trustworthy, integrity-preserving use.
-access: unknown
+access: waitlist
 domain: general
-status: active
+status: candidate
 added: 2026-05
-last_verified: null
+last_verified: '2026-08-18'
+notes: '[sweep 2026-08-18] Fetched site: Springer Nature confirmed, still beta; new
+  users must join waiting list, no pricing disclosed. Summaries, paper chat, figure
+  descriptions with audio all confirmed on page.'

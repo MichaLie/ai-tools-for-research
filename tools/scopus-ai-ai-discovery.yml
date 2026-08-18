@@ -6,8 +6,8 @@ description: GenAI research assistant integrated into Scopus, drawing on 27,000+
   from 7,000+ publishers. Delivers referenced summaries, concept maps, emerging themes,
   foundational papers, and downloadable Deep Research agentic reports. RAG architecture
   grounded only in curated Scopus content to minimise hallucinations.
-access: unknown
+access: institutional
 domain: general
 status: active
 added: 2026-05
-last_verified: null
+last_verified: '2026-08-18'

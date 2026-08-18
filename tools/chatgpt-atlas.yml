@@ -7,6 +7,8 @@ description: AI-native Chromium browser with sidebar ChatGPT assistant maintaini
   event planning) while you work on other tasks. Currently macOS only.
 access: unknown
 domain: general
-status: active
+status: deprecated
 added: 2026-02
-last_verified: null
+last_verified: '2026-08-18'
+notes: Discontinued by OpenAI around 2026-08-09; the standalone Atlas browser was
+  folded into the ChatGPT desktop app. Kept for the historical record.

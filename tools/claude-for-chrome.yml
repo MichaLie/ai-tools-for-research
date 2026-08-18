@@ -1,12 +1,12 @@
 name: Claude for Chrome
 category: browser-automation-agents
 provider: Anthropic
-url: https://www.anthropic.com/news/claude-for-chrome
+url: https://claude.com/blog/claude-for-chrome
 description: Chrome extension enabling Claude to read, click, and navigate web content.
   Features workflow recording to teach custom processes and integrates with Claude
   Code for terminal-to-browser workflows. Pro/Max/Teams/Enterprise.
-access: unknown
+access: paid
 domain: general
 status: active
 added: 2026-02
-last_verified: null
+last_verified: '2026-08-18'

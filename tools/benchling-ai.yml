@@ -6,8 +6,8 @@ description: 'ELN-grounded AI for the lab: Deep Research, Compose, Ask and Data 
   agents convert protocols, PDFs and instrument outputs into structured notebook entries
   and query internal data + public literature with citations. Includes AlphaFold 2,
   Chai-1 and Boltz-2 models. Free for academic users (.edu).'
-access: unknown
+access: freemium
 domain: life-sciences
 status: active
 added: 2026-05
-last_verified: null
+last_verified: '2026-08-18'

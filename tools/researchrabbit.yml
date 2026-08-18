@@ -1,12 +1,12 @@
 name: ResearchRabbit
 category: citation-networks-reference-management
-provider: ResearchRabbit
+provider: Litmaps
 url: https://www.researchrabbit.ai/
 description: AI-powered paper discovery through citation chains and semantic similarity,
   presenting results as visual network maps. Free Zotero two-way sync; finds related
   research that keyword searches miss.
-access: unknown
+access: freemium
 domain: general
 status: active
 added: 2026-02
-last_verified: null
+last_verified: '2026-08-18'

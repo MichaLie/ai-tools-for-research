@@ -5,8 +5,8 @@ url: https://openai.com/codex/
 description: Agentic coding platform operating in isolated cloud sandboxes with your
   GitHub repository. Writes features, fixes bugs, explains code, and creates pull
   requests. GPT-5.2-Codex includes vision for interpreting diagrams.
-access: unknown
+access: paid
 domain: general
 status: active
 added: 2026-02
-last_verified: null
+last_verified: '2026-08-18'

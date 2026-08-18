@@ -5,8 +5,12 @@ url: https://pipette.bio/
 description: Bioinformatics AI agent for genomics, transcriptomics, and proteomics
   analysis through conversation (no coding). Supports RNA-seq, single-cell, ChIP/ATAC-seq,
   variant calling, and GWAS. Free during beta.
-access: unknown
+access: freemium
 domain: life-sciences
 status: active
 added: 2026-02
-last_verified: null
+last_verified: '2026-08-18'
+notes: '[sweep 2026-08-18] description flagged: Homepage and pricing page fetched:
+  conversational bioinformatics agent confirmed; free intro credits, packs $25-100,
+  team plans $49-99/seat/mo. ''Free during beta'' in description is outdated — paid
+  pricing is live.'

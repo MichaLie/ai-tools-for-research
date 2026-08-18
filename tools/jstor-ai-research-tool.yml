@@ -1,13 +1,13 @@
 name: JSTOR AI Research Tool
 category: publisher-database-ai-assistants
 provider: Ithaka (JSTOR)
-url: https://about.jstor.org/research-tool/
+url: https://about.jstor.org/products/jstor-platform/features-and-tools/research-tool/
 description: Free to JSTOR-participating institutions. Surfaces key points and arguments
   from articles, book chapters and research reports; recommends related topics and
   content; supports natural-language Q&A grounded in the document with inline references.
   Particularly strong for humanities, arts and social sciences.
-access: unknown
+access: institutional
 domain: general
 status: active
 added: 2026-05
-last_verified: null
+last_verified: '2026-08-18'

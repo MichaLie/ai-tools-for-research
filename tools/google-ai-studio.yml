@@ -5,8 +5,8 @@ url: https://aistudio.google.com/
 description: Free browser-based platform for experimenting with Gemini models. Provides
   researchers direct API access to test prompts, build prototypes, and embed Deep
   Research capabilities into applications.
-access: unknown
+access: free
 domain: general
 status: active
 added: 2026-02
-last_verified: null
+last_verified: '2026-08-18'

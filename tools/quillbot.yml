@@ -1,12 +1,12 @@
 name: QuillBot
 category: writing-translation
-provider: Course Hero
+provider: Learneo
 url: https://quillbot.com/
 description: Paraphrasing tool with dedicated Academic mode maintaining scholarly
   language. Features context-preserving rewrites, citation generator (APA, MLA, Chicago),
   and QuillBot Flow unified workspace.
-access: unknown
+access: freemium
 domain: general
 status: active
 added: 2026-02
-last_verified: null
+last_verified: '2026-08-18'

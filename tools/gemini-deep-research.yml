@@ -1,12 +1,12 @@
 name: Gemini Deep Research
 category: deep-research-agents
-provider: Google DeepMind
-url: https://gemini.google.com/
+provider: Google
+url: https://gemini.google/overview/deep-research/
 description: Google's agentic research feature analyzing 100+ sources with 1M token
   context. Supports multimodal inputs including PDFs, images, audio, and video for
   comprehensive research synthesis.
-access: unknown
+access: freemium
 domain: general
 status: active
 added: 2026-02
-last_verified: null
+last_verified: '2026-08-18'
