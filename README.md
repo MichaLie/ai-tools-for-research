@@ -13,8 +13,8 @@ three areas (biological foundation models, autonomous science agents,
 privacy-first coding and data tools) I keep separate indexes at
 [michalie.github.io](https://michalie.github.io/).
 
-A searchable version of this list, with the task map up top, lives at
-[docs/index.html](docs/index.html).
+The searchable version, with the task map up top, is at
+**[michalie.github.io/ai-tools-for-research](https://michalie.github.io/ai-tools-for-research/)**.
 
 ## How the list works
 
