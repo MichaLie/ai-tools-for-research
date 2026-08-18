@@ -1,0 +1,20 @@
+name: NC3Rs Experimental Design Assistant
+category: survey-experiment-design
+provider: NC3Rs (UK)
+url: https://eda.nc3rs.org.uk/
+description: 'Free web tool where researchers diagram an in vivo experiment and receive
+  automated bespoke critique: statistical-method recommendations, randomization and
+  blinding support, sample-size calculation, and a shareable design report for funders
+  and ethical review.'
+access: free
+domain: life-sciences
+status: active
+tier: core
+added: 2026-08
+last_verified: '2026-08-18'
+notes: '[discovery 2026-08-18] Unique use case: Machine-critiqued animal-experiment
+  design producing reports that Wellcome encourages and NIH can request with grant
+  applications Adoption: 16,000+ registered users since 2015; NC3Rs pages document
+  Wellcome and NIH uptake of EDA reports in funding applications Automated critique
+  is rule-based expert-system style, not generative LLM; include as AI-adjacent design
+  assistant. Uniquely strong academic legitimacy for this area.'

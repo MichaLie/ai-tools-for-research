@@ -1,0 +1,20 @@
+name: Transkribus
+category: ocr-document-digitization
+provider: READ-COOP SCE (European cooperative, Austria)
+url: https://www.transkribus.org/pricing
+description: Uploads scans of handwritten or printed historical documents and gets
+  searchable transcriptions; trains custom recognition models for a specific hand,
+  script, or language; recognizes tables and form fields.
+access: freemium
+domain: general
+status: active
+tier: core
+added: 2026-08
+last_verified: '2026-08-18'
+notes: '[discovery 2026-08-18] Unique use case: Training a custom HTR model on one
+  archive''s specific handwriting, then batch-transcribing the collection — the standard
+  platform for this in digital humanities Adoption: Dedicated LibGuide at Università
+  Cattolica del Sacro Cuore (unicatt.libguides.com/OCR-HTR/transkribus); ubiquitous
+  in DH projects; used as the HTR baseline in the Humphries et al. 2024 arXiv paper
+  Credit system: free 50 credits/month (~50 pages); Scholar €99/year. EU cooperative,
+  states GDPR compliance. Strong EU/students story.'

@@ -1,0 +1,19 @@
+name: RegCheck
+category: ai-manuscript-review-disclosure
+provider: Psychology of Digitalisation group, University of Bern (SNSF-funded)
+url: https://regcheck.app/
+description: Upload a preregistration (or ClinicalTrials.gov link) plus the final
+  paper; an LLM compares them dimension-by-dimension and flags deviations, quoting
+  verbatim text from both documents so every judgement is checkable. Free, with API.
+access: free
+domain: general
+status: active
+tier: core
+added: 2026-08
+last_verified: '2026-08-18'
+notes: '[discovery 2026-08-18] Unique use case: Preregistration-vs-paper consistency
+  checking — automating a review step editors demonstrably skip; nothing else in or
+  near the catalog does this Adoption: arXiv paper 2601.13330 (Cummins et al.); featured
+  as a module in the scienceverse Metacheck manual Some modules marked coming soon.
+  Full texts are sent to the RegCheck server — consider before uploading unpublished
+  manuscripts.'

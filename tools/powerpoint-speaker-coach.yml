@@ -1,0 +1,19 @@
+name: PowerPoint Speaker Coach
+category: conference-prep
+provider: Microsoft
+url: https://support.microsoft.com/en-us/office/rehearse-your-slide-show-with-speaker-coach-cd7fc941-5c3b-498c-a225-83ef3f64f07b
+description: Rehearse a talk against your actual slide deck inside PowerPoint (web,
+  Windows, Mac, mobile); flags pacing, pitch, filler words, monotone delivery, and
+  reading text off slides, then produces a rehearsal report with statistics.
+access: free
+domain: general
+status: active
+tier: extended
+added: 2026-08
+last_verified: '2026-08-18'
+notes: '[discovery 2026-08-18] Unique use case: Delivery coaching bound to the actual
+  conference deck, inside software every university already licenses — zero new accounts
+  Adoption: Current Microsoft support documentation (fetched); UNC ITS ''Become a
+  better public speaker'' recommendation page seen in search results English-only
+  interface requirement for the coach; needs microphone and internet. Free preview
+  per Microsoft docs, but preview terms can change.'

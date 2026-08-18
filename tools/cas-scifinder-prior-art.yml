@@ -1,0 +1,21 @@
+name: CAS SciFinder Prior Art
+category: patents-tech-transfer
+provider: CAS (American Chemical Society)
+url: https://www.cas.org/resources/cas-insights/prior-art-search-and-analysis-scientific-ip-strategies
+description: 'Inside CAS SciFinder: paste 200+ characters of invention text (claims
+  or abstract) and AI algorithm streams return similar patents and non-patent literature
+  published before your priority date, drawing on CAS''s human-curated chemistry collection
+  including Markush structures.'
+access: institutional
+domain: life-sciences
+status: active
+tier: extended
+added: 2026-08
+last_verified: '2026-08-18'
+notes: '[discovery 2026-08-18] Unique use case: Chemistry-aware prior-art search over
+  curated substance/Markush indexing — inside a database most chemistry-active universities
+  already license, so no new procurement Adoption: Temple and Rutgers library AI-features
+  guides both list Prior Art Discovery as an AI feature of CAS SciFinder Requires
+  an institutional SciFinder subscription; direct product-help page returned 403,
+  feature confirmed via cas.org and two libguides. CAS Newton conversational AI is
+  a separate, newer layer.'

@@ -1,0 +1,21 @@
+name: The Lens
+category: patents-tech-transfer
+provider: The Lens Limited (Australian non-profit, formerly Cambia)
+url: https://about.lens.org/
+description: 'Links 155M+ patent records with 270M+ scholarly works: landscape dashboards,
+  patent-to-paper citation mapping, PatSeq search for DNA/protein sequences inside
+  patents, freedom-to-operate style filtering. Free personal accounts for academic
+  researchers (exports up to 50,000 records); institutional toolkit for universities.'
+access: freemium
+domain: general
+status: active
+tier: core
+added: 2026-08
+last_verified: '2026-08-18'
+notes: '[discovery 2026-08-18] Unique use case: Seeing which patents cite your own
+  papers, and finding biological sequences buried in patents (PatSeq) — the scholarly-patent
+  bridge no general assistant or single-corpus tool covers Adoption: Listed on WIPO
+  Inspire; peer-reviewed review article in PMC; explicit cost-free academic personal
+  accounts and Lens Equitable Access Program Ownership moved to non-profit The Lens
+  Limited June 2026. Strength is authoritative linked data, not generative AI — release
+  notes show few AI features; commercial individual use is $1,000/yr.'

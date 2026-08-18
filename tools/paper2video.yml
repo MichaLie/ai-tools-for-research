@@ -1,0 +1,18 @@
+name: Paper2Video
+category: conference-prep
+provider: Show Lab, NUS (open-source)
+url: https://github.com/showlab/Paper2Video
+description: 'Generates a complete conference presentation video from a paper: slides,
+  synchronized subtitles, synthesized narration, cursor movements, and optional talking-head
+  presenter from a reference photo and 10-second voice sample.'
+access: free
+domain: general
+status: candidate
+tier: extended
+added: 2026-08
+last_verified: '2026-08-18'
+notes: '[discovery 2026-08-18] Unique use case: Automatic pre-recorded conference-talk
+  video generation from a paper — relevant for virtual conferences requiring submitted
+  videos Adoption: NeurIPS 2025 SEA workshop acceptance; 2.4k GitHub stars MIT license
+  but demanding: LaTeX sources as input, Gemini/OpenAI keys, ~48GB-VRAM GPU for talking
+  head (lighter slides-only mode exists). Research-grade, not turnkey.'

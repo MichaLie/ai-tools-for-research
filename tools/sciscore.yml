@@ -1,0 +1,19 @@
+name: SciScore
+category: ai-manuscript-review-disclosure
+provider: SciCrunch, Inc.
+url: https://sciscore.com/
+description: Paste a methods section, get a 1-10 rigor score auditing blinding, randomization,
+  power analysis, and resource identifiability (antibodies, cell lines, RRIDs) against
+  NIH/ARRIVE guidelines. Ten free reports yearly via ORCID sign-in.
+access: freemium
+domain: life-sciences
+status: active
+tier: core
+added: 2026-08
+last_verified: '2026-08-18'
+notes: '[discovery 2026-08-18] Unique use case: Automated rigor-and-reporting audit
+  of your own methods section before submission — no other tool scores RRID identifiability
+  and NIH rigor criteria Adoption: Integrated into FASEB journal submission workflow
+  (Newswise/FASEB announcements); basis of the published Rigor and Transparency Index
+  (iScience 2020, PMC7644557) Anita Bandrowski (RRID initiative) is CEO — credible
+  lineage. Score reflects reporting completeness, not actual experimental quality.'

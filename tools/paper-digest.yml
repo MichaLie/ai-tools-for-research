@@ -1,0 +1,19 @@
+name: Paper Digest
+category: staying-current
+provider: Paper Digest (New York, US)
+url: https://www.paperdigest.org/daily-paper-digest/
+description: Daily email digest of new papers from arXiv, PubMed, bioRxiv, medRxiv
+  and ClinicalTrials.gov, filtered by user-set areas, keywords and authors, with a
+  machine-generated one-sentence summary per paper and impact-based ranking.
+access: freemium
+domain: general
+status: active
+tier: extended
+added: 2026-08
+last_verified: '2026-08-18'
+notes: '[discovery 2026-08-18] Unique use case: One digest covering journals, preprints
+  AND clinical-trial registrations, each item compressed to a single machine-written
+  highlight sentence Adoption: Listed in the Breda University of Applied Sciences
+  (BUas) libguide A–Z of AI tools; operating since 2018 Free tier covers arXiv/bioRxiv/medRxiv
+  digests; paid from $6.66/month (annual). Small company; GDPR posture unverified
+  (privacy policy PDF exists).'

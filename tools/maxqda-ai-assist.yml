@@ -1,0 +1,21 @@
+name: MAXQDA AI Assist
+category: transcription-qualitative-analysis
+provider: VERBI GmbH (Germany)
+url: https://www.maxqda.com/ai-assist
+description: 'AI add-on inside the MAXQDA CAQDAS: suggests codes and subcodes for
+  text passages with explanatory comments, summarizes documents and coded segments,
+  and answers questions about coded data with responses linked to text sections. Claims
+  zero data retention and EU-based processing.'
+access: institutional
+domain: general
+status: active
+tier: core
+added: 2026-08
+last_verified: '2026-08-18'
+notes: '[discovery 2026-08-18] Unique use case: AI code suggestions embedded in the
+  standard institutional coding workflow — keeps the audit trail and codebook of classic
+  CAQDAS while accelerating first-pass coding Adoption: MAXQDA appears across university
+  QDA libguides; multiple 2026 CAQDAS comparison articles cover AI Assist specifically
+  Requires a MAXQDA license (~$440/yr individual; commonly site-licensed); AI Assist
+  itself has free and premium tiers. ATLAS.ti and NVivo offer comparable AI - MAXQDA
+  chosen as exemplar.'

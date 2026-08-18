@@ -33,3 +33,16 @@ blurbs phrased as tasks, and deep-dive links to the companion michalie.github.io
 indexes (Autonomous Science Agents, Coding & Data Agents) so this catalog stays
 the breadth layer. README and site now lead with the core palette; extended
 tools collapse under "More tools for this task."
+
+## Unreleased — discovery sweep 2026-08-18 (task-map expansion)
+
+12 discovery agents mapped uncovered task areas. +66 tools, +12 categories:
+Transcription & Qualitative Analysis, Systematic Review & Evidence Synthesis,
+OCR & Document Digitization, Staying Current, Conference Prep, LaTeX &
+Academic Language, Survey & Experiment Design, Research Communication &
+Accessibility, Integrity Screening & Forensics, Lab Bench & Protocols,
+Patents & Tech Transfer, Journal Selection & Publishing. SciScore and
+RegCheck joined AI Manuscript Review & Disclosure (now 6/6 core). Notable
+rejections: RobotReviewer (dead), Researcher app (closed 2024), LabTwin
+(dead), Roundtable (dead), Turnitin/GPTZero AI detection (reliability),
+Scholarcy (gate-3 fail). Catalog: 150 tools / 29 task categories.

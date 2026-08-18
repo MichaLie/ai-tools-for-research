@@ -1,0 +1,21 @@
+name: Writefull
+category: latex-academic-language
+provider: Digital Science (sister company of Overleaf)
+url: https://www.writefull.com/
+description: Language feedback for scientific text from models trained on millions
+  of published journal articles, delivered inside Overleaf (edits in LaTeX source),
+  Word, or a standalone Revise uploader. Adds paraphrasing, abstract/title generation,
+  and TeXGPT table/equation code generation.
+access: freemium
+domain: general
+status: active
+tier: core
+added: 2026-08
+last_verified: '2026-08-18'
+notes: '[discovery 2026-08-18] Unique use case: Sentence-level feedback calibrated
+  to published-paper conventions rather than general English; corrections applied
+  directly within LaTeX source code Adoption: Multiple university libguides fetched
+  via search: Montclair State, CSIR (South Africa), Nazarbayev University; integrated
+  natively into Overleaf Premium ~$150/yr (June 2026 listing). Writefull Cite (flags
+  sentences needing a citation) is institution-license only. States texts are not
+  stored or used for training.'

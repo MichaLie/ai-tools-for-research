@@ -1,0 +1,19 @@
+name: statcheck
+category: integrity-screening-forensics
+provider: Michele Nuijten & Sacha Epskamp (Tilburg University)
+url: https://statcheck.io/
+description: Upload a PDF, DOCX, or HTML manuscript; it recomputes every APA-style
+  statistical result (t, F, r, chi-square, Z, Q) and flags p-values inconsistent with
+  the reported test statistic and degrees of freedom.
+access: free
+domain: general
+status: active
+tier: core
+added: 2026-08
+last_verified: '2026-08-18'
+notes: '[discovery 2026-08-18] Unique use case: recomputation-based consistency check
+  of reported statistics — a spellchecker for stats Adoption: Used in the review workflow
+  of Psychological Science and Journal of Experimental Social Psychology; R package
+  on CRAN; own Wikipedia entry Rule-based automation, not an LLM — flag if catalog
+  is strictly ''AI''. Requires APA-formatted stats; misses tables. v1.5.0 (2024).
+  Files not stored.'

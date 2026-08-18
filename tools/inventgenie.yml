@@ -1,0 +1,20 @@
+name: InventGenie
+category: patents-tech-transfer
+provider: InventGenie (Calgary, Canada)
+url: https://www.inventgenie.com/for-researchers
+description: 'Turns research papers, notes and technical input into structured invention-disclosure
+  building blocks: draft patent claims, specification text and figure suggestions,
+  formatted for tech-transfer review, with multi-inventor collaboration. Pay-per-draft
+  ($180) or monthly seat pricing; attorney review still required before filing.'
+access: paid
+domain: general
+status: candidate
+tier: extended
+added: 2026-08
+last_verified: '2026-08-18'
+notes: '[discovery 2026-08-18] Unique use case: AI drafting of the invention disclosure
+  itself, aimed explicitly at university researchers and tech transfer — the only
+  researcher-facing (not attorney-facing) drafting tool found Real but young company;
+  no independent academic adoption found; no free tier. Confidentiality caution: check
+  TTO policy before pasting unfiled invention details into third-party AI (UC Berkeley
+  OTL advises exactly this).'

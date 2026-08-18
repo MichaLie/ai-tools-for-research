@@ -1,0 +1,17 @@
+name: Rayyan
+category: systematic-review-evidence-synthesis
+provider: Rayyan Systems, Inc.
+url: https://www.rayyan.ai/
+description: Screen titles/abstracts in blinded reviewer pairs with AI relevance ranking,
+  resolve up to 200k duplicates, run risk-of-bias assessment, and auto-generate PRISMA
+  flow diagrams; free tier covers core screening.
+access: freemium
+domain: general
+status: active
+tier: core
+added: 2026-08
+last_verified: '2026-08-18'
+notes: '[discovery 2026-08-18] Adoption: Europe PMC: 16,910 articles mention Rayyan
+  in Methods sections; listed in King''s College London systematic-review libguide
+  GDPR/ISO 27001 claimed on site. New ResearchPilot AI features not independently
+  evaluated; free-tier limits vs paid not itemized.'

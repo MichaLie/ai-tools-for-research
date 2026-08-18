@@ -1,0 +1,20 @@
+name: Genemod
+category: lab-bench-protocols
+provider: Genemod
+url: https://genemod.net/
+description: ELN/LIMS/inventory platform with an embedded AI agent that drafts experiment
+  write-ups, registers samples, and updates inventory records from a single instruction,
+  every action audit-trailed; equipment and order management for academic departments.
+access: paid
+domain: life-sciences
+status: candidate
+tier: extended
+added: 2026-08
+last_verified: '2026-08-18'
+notes: '[discovery 2026-08-18] Unique use case: Conversational agent acting over lab
+  inventory and sample records (the inventory/ordering AI slot), or null if judged
+  too close to generic ELN AI Adoption: Capterra and FitGap listings; own academic-labs
+  pricing packages Weakest vetting: genemod.net pages repeatedly failed direct fetch
+  (oversized pages); AI-agent and pricing claims come from genemod.net snippets via
+  search. ~$199/month, 14-day trial, annual contract; no confirmed permanent free
+  tier.'

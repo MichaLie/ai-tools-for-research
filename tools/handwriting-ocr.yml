@@ -1,0 +1,19 @@
+name: Handwriting OCR
+category: ocr-document-digitization
+provider: Handwriting OCR Ltd (UK)
+url: https://www.handwritingocr.com/handwritten-laboratory-notes-ocr
+description: Uploads pages of contemporary handwriting — lab notebooks, field observation
+  sheets, questionnaires, cursive letters — and returns searchable editable text;
+  handles mixed hands, faded ink, and converts embedded equations to LaTeX.
+access: freemium
+domain: general
+status: active
+tier: extended
+added: 2026-08
+last_verified: '2026-08-18'
+notes: '[discovery 2026-08-18] Unique use case: Digitizing modern research handwriting
+  (lab notebooks, field notes) with an explicit no-training-on-your-data policy —
+  a privacy fit for unpublished data Adoption: Dedicated laboratory-notebook use-case
+  page; no libguide or paper citation found this session Free trial credits; pay-as-you-go
+  €15/100 pages. UK company, explicit no-model-training privacy claim; GDPR status
+  inferred, not verified this session.'

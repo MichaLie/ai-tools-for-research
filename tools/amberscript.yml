@@ -1,0 +1,21 @@
+name: Amberscript
+category: transcription-qualitative-analysis
+provider: Amberscript (Netherlands)
+url: https://www.amberscript.com/en/business-solutions-use-cases/transcription-services-qualitative-research/
+description: 'Cloud transcription for research interviews: machine drafts in minutes
+  (90+ languages, ~85% accuracy) or human-verified transcripts (>99%, 18+ languages)
+  with NDA-bound transcribers. Data stored only in Western Europe; GDPR, ISO 27001/9001.
+  Word/TXT export, speech-to-text API.'
+access: paid
+domain: general
+status: active
+tier: extended
+added: 2026-08
+last_verified: '2026-08-18'
+notes: '[discovery 2026-08-18] Unique use case: EU-hosted transcription with an optional
+  professional human-correction tier for verbatim accuracy — the step between DIY
+  Whisper and a transcription bureau Adoption: University of Barcelona case study
+  on sensitive-interview transcription (vendor-published, so partly marketing); cited
+  in a fetched arXiv paper''s methods as ''GDPR-compliant software Amberscript'' Per-minute
+  pricing not shown on page; human tier is quote-based. Free trial not confirmed this
+  session.'

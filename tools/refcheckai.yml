@@ -1,0 +1,20 @@
+name: RefCheckAI
+category: integrity-screening-forensics
+provider: Sydney Informatics Hub, University of Sydney
+url: https://sydney-informatics-hub.github.io/RefCheckAI/
+description: Checks whether each citation statement is actually supported by the cited
+  source, classifying claims as supported, partially supported, not supported, or
+  uncertain, with evidence snippets. Fine-tuned open Llama 3.1 model; free for non-commercial
+  use.
+access: free
+domain: general
+status: candidate
+tier: extended
+added: 2026-08
+last_verified: '2026-08-18'
+notes: '[discovery 2026-08-18] Unique use case: Semantic citation verification — whether
+  the cited paper supports the claim, not merely whether the reference exists (scite
+  shows citation context but does not classify your own manuscript''s claims) Adoption:
+  University-built (Sydney Informatics Hub, NCI/NVIDIA-supported CodeFest); model
+  weights and training data published for download Early access — web app via registration/email
+  only. Classification accuracy not independently benchmarked. CC BY-NC 4.0.'

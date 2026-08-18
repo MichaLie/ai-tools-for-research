@@ -1,0 +1,19 @@
+name: ASReview
+category: systematic-review-evidence-synthesis
+provider: Utrecht University (open source)
+url: https://asreview.nl/
+description: 'Runs active-learning screening locally: the model learns from your include/exclude
+  decisions and reorders remaining records, with simulation mode to benchmark savings
+  on your own dataset. Fully open source; data never leaves your machine.'
+access: free
+domain: general
+status: active
+tier: core
+added: 2026-08
+last_verified: '2026-08-18'
+notes: '[discovery 2026-08-18] Unique use case: transparent, simulatable machine-learning
+  screening you can audit and run offline — the only open-source option with a validation/simulation
+  framework Adoption: Europe PMC: 313 Methods-section mentions; site reports 638k+
+  installations; v2.0 released, actively maintained on GitHub Single-reviewer paradigm
+  by default (Crowdscreen adds collaboration); local install required, which is a
+  feature for GDPR but a hurdle for novices.'

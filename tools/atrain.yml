@@ -1,0 +1,21 @@
+name: aTrain
+category: transcription-qualitative-analysis
+provider: University of Graz (BANDAS Center)
+url: https://business-analytics.uni-graz.at/en/research/atrain/
+description: Offline transcription of speech recordings with speaker detection (faster-whisper,
+  57 languages); exports transcripts with clickable timestamps directly importable
+  into ATLAS.ti and MAXQDA. Installs from the Microsoft Store; no data ever sent to
+  the internet.
+access: free
+domain: general
+status: active
+tier: extended
+added: 2026-08
+last_verified: '2026-08-18'
+notes: '[discovery 2026-08-18] Unique use case: Offline transcription that hands off
+  straight into CAQDAS software with linked timestamps — audio playback from inside
+  the coding environment Adoption: Peer-reviewed methods paper (Journal of Behavioral
+  and Experimental Finance); listed in Temple University libguide and on McMaster
+  University research-resources pages Overlaps with noScribe on the local-transcription
+  task; differentiators are CAQDAS timestamp import and easy Windows Store install.
+  Mac support less prominent.'

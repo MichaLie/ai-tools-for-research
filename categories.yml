@@ -60,3 +60,50 @@ code-assistants:
 ideation-grant-funding:
   title: Ideation & Grant Funding
   blurb: 'The task: find the gap, find the call, draft the proposal.'
+transcription-qualitative-analysis:
+  title: Transcription & Qualitative Analysis
+  blurb: 'The task: turn interviews and focus groups into text, then into coded themes — with
+    sensitive data kept safe.'
+systematic-review-evidence-synthesis:
+  title: Systematic Review & Evidence Synthesis
+  blurb: 'The task: screen thousands of abstracts, extract evidence, and keep a review living
+    — PRISMA-style.'
+ocr-document-digitization:
+  title: OCR & Document Digitization
+  blurb: 'The task: turn handwriting, archives, equations and PDFs into editable, analyzable
+    text and LaTeX.'
+staying-current:
+  title: Staying Current
+  blurb: 'The task: keep up with new papers without reading feeds all day — trained, personalized
+    monitoring.'
+conference-prep:
+  title: Conference Prep — Posters & Talk Practice
+  blurb: 'The task: get from accepted paper to poster, slides rehearsed, and delivery polished.'
+latex-academic-language:
+  title: LaTeX & Academic Language
+  blurb: 'The task: AI inside the scholarly writing toolchain — LaTeX editing, published-language
+    feedback.'
+survey-experiment-design:
+  title: Survey & Experiment Design
+  blurb: 'The task: design instruments and experiments well before collecting a single data
+    point — including simulated piloting.'
+communication-accessibility:
+  title: Research Communication & Accessibility
+  blurb: 'The task: consume research by ear and communicate it beyond the paper — audio, podcast,
+    plain language.'
+integrity-screening-forensics:
+  title: Integrity Screening & Forensics
+  blurb: 'The task: screen the literature — and your own reference list — for fabrication, manipulation
+    and AI-generated text.'
+lab-bench-protocols:
+  title: Lab Bench & Protocols
+  blurb: 'The task: draft, troubleshoot and execute protocols at the bench — hands-free, robot-ready,
+    reagent-smart.'
+patents-tech-transfer:
+  title: Patents & Tech Transfer
+  blurb: 'The task: prior-art checks, patent landscapes and invention disclosures. Caution:
+    unfiled inventions are confidential — check your TTO''s policy before pasting disclosure
+    text into third-party AI.'
+journal-selection-publishing:
+  title: Journal Selection & Publishing
+  blurb: 'The task: pick the right venue — open-access options, fit, and legitimacy.'

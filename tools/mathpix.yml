@@ -1,0 +1,21 @@
+name: Mathpix
+category: ocr-document-digitization
+provider: Mathpix Inc.
+url: https://mathpix.com/
+description: 'Screenshot-to-LaTeX OCR: converts images of equations, handwriting,
+  chemistry structures, tables, and full PDFs into LaTeX, Markdown, DOCX, or CSV via
+  the Snip desktop tool and editor. One keyboard shortcut turns any on-screen formula
+  into paste-ready code.'
+access: freemium
+domain: general
+status: active
+tier: core
+added: 2026-08
+last_verified: '2026-08-18'
+notes: '[discovery 2026-08-18] Unique use case: STEM-specific OCR — equations, handwritten
+  math, and chemical structures to compilable LaTeX; sole representative of the ''get
+  this formula out of a PDF'' task Adoption: Referenced as the OCR component in a
+  2026 arXiv paper (mathematical forum platform, arXiv 2606.12976); long-standing
+  researcher testimonials on site Snip Pro from $4.99/mo; free tier exists but per-month
+  snip limits not confirmed this session. API is pay-as-you-go. No libguide sighting
+  confirmed.'

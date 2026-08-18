@@ -1,0 +1,18 @@
+name: PaperTok
+category: communication-accessibility
+provider: University of Washington Prosocial Computing Group
+url: https://www.papertok.com
+description: Generates roughly 45-second short-form explainer videos from an uploaded
+  paper PDF using Gemini; the researcher iteratively edits the script and visuals
+  before rendering, for TikTok/Reels-style science communication. Open-source codebase;
+  presented at CHI 2026.
+access: paid
+domain: general
+status: candidate
+tier: extended
+added: 2026-08
+last_verified: '2026-08-18'
+notes: '[discovery 2026-08-18] Unique use case: Paper to short-form social video for
+  public science communication Adoption: CHI 2026 paper (Barcelona, April 2026); TechXplore
+  coverage June 2026 Academic prototype, live site with generate button; requires
+  user''s paid Google Gemini subscription. Privacy policy and durability unverified.'

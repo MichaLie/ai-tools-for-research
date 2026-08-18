@@ -1,0 +1,19 @@
+name: Nested Knowledge
+category: systematic-review-evidence-synthesis
+provider: Nested Knowledge, Inc.
+url: https://nested-knowledge.com/
+description: 'Combines screening (Robot Screener), smart tagging, meta-analytical
+  extraction, and PRISMA reporting with living-review updates: searches re-run automatically
+  and interactive evidence maps and synthesis visualizations stay current and shareable.'
+access: freemium
+domain: general
+status: active
+tier: core
+added: 2026-08
+last_verified: '2026-08-18'
+notes: '[discovery 2026-08-18] Unique use case: living systematic reviews with auto-updating
+  searches plus publishable interactive synthesis visualizations Adoption: Europe
+  PMC: 204 Methods-section mentions; free tier and ~$20/user/month academic pricing
+  confirmed on provider''s blog Main site is JS-only (details verified via about.nested-knowledge.com
+  docs). Free tier limits collaboration; Smart features'' validation studies linked
+  but not assessed here.'

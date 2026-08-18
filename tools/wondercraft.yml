@@ -1,0 +1,18 @@
+name: Wondercraft
+category: communication-accessibility
+provider: Wondercraft Limited
+url: https://www.wondercraft.ai/tools/research-paper-to-podcast-generator
+description: Turns an uploaded paper or URL into a conversational podcast episode;
+  edit the script word-by-word, choose or clone voices, add team review flows, then
+  export WAV or publish toward Spotify and Apple Podcasts. Free tier includes starter
+  credits.
+access: freemium
+domain: general
+status: active
+tier: core
+added: 2026-08
+last_verified: '2026-08-18'
+notes: '[discovery 2026-08-18] Unique use case: Producing a publishable, edited outreach
+  podcast episode from a paper (vs. NotebookLM''s non-editable private overviews)
+  General podcast studio with a dedicated research-paper workflow; free 150 credits,
+  Creator $25/mo. Academic adoption unverified.'

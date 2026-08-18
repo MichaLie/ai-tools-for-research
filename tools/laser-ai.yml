@@ -1,0 +1,20 @@
+name: Laser AI
+category: systematic-review-evidence-synthesis
+provider: Evidence Prime (makers of GRADEpro)
+url: https://www.laser.ai/
+description: Extracts data from study PDFs by suggesting text passages and table values
+  for reviewer confirmation, deduplicates references, and standardizes screening with
+  reusable guides and vocabularies; built for living evidence synthesis feeding guideline
+  pipelines.
+access: paid
+domain: general
+status: candidate
+tier: extended
+added: 2026-08
+last_verified: '2026-08-18'
+notes: '[discovery 2026-08-18] Unique use case: AI-suggested extraction designed for
+  the living-review-to-guideline pipeline (GRADE ecosystem via Evidence Prime) Adoption:
+  Site lists McMaster University and IQWiG (German HTA agency) among clients; no independent
+  Methods-mention count obtainable (name too ambiguous to query) Demo/contact-only
+  access, plans from $3,000 — hence candidate. Extraction time-saving claims (53%)
+  are vendor figures; HQ location not confirmed from fetched pages.'

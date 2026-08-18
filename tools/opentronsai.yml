@@ -1,0 +1,19 @@
+name: OpentronsAI
+category: lab-bench-protocols
+provider: Opentrons
+url: https://opentrons.com/ai
+description: Generates executable, inspectable Python protocols for Opentrons liquid-handling
+  robots from a natural-language description of the experiment, with in-chat simulation,
+  verification, and deck-map visualization. Sign-up works even without owning a robot.
+access: free
+domain: life-sciences
+status: active
+tier: core
+added: 2026-08
+last_verified: '2026-08-18'
+notes: '[discovery 2026-08-18] Unique use case: Natural language to lab-robot protocol
+  code — the only bench-automation entry point a student can try without hardware
+  Adoption: Coverage in SelectScience, The Robot Report, SynBioBeta; Opentrons robots
+  are common in academic labs; RAG architecture over verified protocol library Page
+  does not explicitly say free forever — ''Sign up to try'' with no pricing shown.
+  Output only useful for labs with (or considering) Opentrons hardware.'

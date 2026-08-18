@@ -4,7 +4,7 @@ A curated, verified catalog of AI tools that are genuinely usable in academic
 research — maintained by [Michaela Liegertová](https://www.ujep.cz/), updated with
 each course edition.
 
-**78 tools** across **17 categories** · last verification pass: 2026-08-18
+**136 tools** across **29 categories** · last verification pass: 2026-08-18
 
 The goal is **task diversity, not exhaustiveness**: each category shows a small, deliberately varied palette of tools the academic community actually uses (*core*), with further options collapsed underneath (*extended*). For depth in specific areas, see the companion [AI for Science indexes](https://michalie.github.io/) — Biological Foundation Models, Autonomous Science Agents, and privacy-first Coding & Data Agents.
 
@@ -24,11 +24,23 @@ The goal is **task diversity, not exhaustiveness**: each category shows a small,
 - [Autonomous Research Agents](#autonomous-research-agents) (7)
 - [Browser Automation Agents](#browser-automation-agents) (2)
 - [Writing & Translation](#writing-translation) (7)
-- [AI Manuscript Review & Disclosure](#ai-manuscript-review-disclosure) (8)
+- [AI Manuscript Review & Disclosure](#ai-manuscript-review-disclosure) (10)
 - [Visual & Presentation Creation](#visual-presentation-creation) (4)
 - [Scientific Image Generation](#scientific-image-generation) (3)
 - [Code Assistants](#code-assistants) (5)
 - [Ideation & Grant Funding](#ideation-grant-funding) (5)
+- [Transcription & Qualitative Analysis](#transcription-qualitative-analysis) (6)
+- [Systematic Review & Evidence Synthesis](#systematic-review-evidence-synthesis) (5)
+- [OCR & Document Digitization](#ocr-document-digitization) (5)
+- [Staying Current](#staying-current) (5)
+- [Conference Prep — Posters & Talk Practice](#conference-prep-—-posters-talk-practice) (5)
+- [LaTeX & Academic Language](#latex-academic-language) (5)
+- [Survey & Experiment Design](#survey-experiment-design) (4)
+- [Research Communication & Accessibility](#research-communication-accessibility) (6)
+- [Integrity Screening & Forensics](#integrity-screening-forensics) (5)
+- [Lab Bench & Protocols](#lab-bench-protocols) (4)
+- [Patents & Tech Transfer](#patents-tech-transfer) (5)
+- [Journal Selection & Publishing](#journal-selection-publishing) (1)
 
 ## General-Purpose AI Assistants
 
@@ -243,6 +255,8 @@ The goal is **task diversity, not exhaustiveness**: each category shows a small,
 | [Enago AI Disclosure](https://www.enago.com/ai-disclosure-statement-generator/) | Enago | Free | Generate an AI Disclosure Statement for your manuscript that you can use while submitting your manuscript to a publisher. |
 | [Proofig + PubShield](https://www.proofig.com/pubshield/) | Proofig AI / Turnitin | Institutional | Image integrity AI (Proofig) paired with iThenticate text-similarity screening via PubShield. Brings figure-duplication detection and plagiarism checks into a single pre-publication workflow used by publishers and institutions. |
 | [Prophy](https://www.prophy.ai/) | Prophy | — | Semantic reviewer-matching system used by editors to find subject-matter referees for a submitted manuscript. Goes beyond keyword search by mapping a paper to a deep author/topic embedding space. |
+| [RegCheck](https://regcheck.app/) | Psychology of Digitalisation group, University of Bern (SNSF-funded) | Free | Upload a preregistration (or ClinicalTrials.gov link) plus the final paper; an LLM compares them dimension-by-dimension and flags deviations, quoting verbatim text from both documents so every judgement is checkable. Free, with API. |
+| [SciScore](https://sciscore.com/) | SciCrunch, Inc. | Freemium | Paste a methods section, get a 1-10 rigor score auditing blinding, randomization, power analysis, and resource identifiability (antibodies, cell lines, RRIDs) against NIH/ARRIVE guidelines. Ten free reports yearly via ORCID sign-in. |
 | [Stanford Agentic Reviewer](https://paperreview.ai/) | Stanford ML Group | Free | Free AI peer review system by Andrew Ng's team providing rapid, actionable feedback. Grounds reviews in latest arXiv research; correlation with human reviewers (0.42) matches inter-human agreement (0.41). |
 
 <details><summary>More tools for this task (4)</summary>
@@ -331,6 +345,223 @@ The goal is **task diversity, not exhaustiveness**: each category shows a small,
 
 </details>
 
+## Transcription & Qualitative Analysis
+
+*The task: turn interviews and focus groups into text, then into coded themes — with sensitive data kept safe.*
+
+| Tool | Provider | Access | Description |
+|---|---|---|---|
+| [Evidano](https://www.evidano.com/) | Evidano | Freemium | Uploads interview transcripts, documents, audio/video and runs thematic analysis with supporting quotes, frequency and cross-segment analysis, plus a chatbot over the data. Also fields an AI avatar that conducts semi-structured voice interviews in 100+ languages. Free tier available. |
+| [MAXQDA AI Assist](https://www.maxqda.com/ai-assist) | VERBI GmbH (Germany) | Institutional | AI add-on inside the MAXQDA CAQDAS: suggests codes and subcodes for text passages with explanatory comments, summarizes documents and coded segments, and answers questions about coded data with responses linked to text sections. Claims zero data retention and EU-based processing. |
+| [noScribe](https://noscribe.de/en/) | Kai Dröge (open-source, GPL-3.0) | Free | Transcribes interview audio fully offline on the researcher's own computer using Whisper plus pyannote speaker diarization; marks pauses, overlaps and filler words per qualitative-research conventions; includes an audio-aligned correction editor. ~60 languages; Windows/macOS/Linux. |
+| [QualCoder](https://qualcoder.org/) | Colin Curtain (open-source, LGPLv3) | Free | Free open-source CAQDAS (text, PDF, image, audio, video coding) with AI-assisted coding and AI chat over data. Uniquely, the underlying prompts are visible and editable; backends include OpenAI GPT-4 or Blablador, the Helmholtz Society's free no-data-stored academic LLM service. |
+
+<details><summary>More tools for this task (2)</summary>
+
+| Tool | Provider | Access | Description |
+|---|---|---|---|
+| [Amberscript](https://www.amberscript.com/en/business-solutions-use-cases/transcription-services-qualitative-research/) | Amberscript (Netherlands) | Paid | Cloud transcription for research interviews: machine drafts in minutes (90+ languages, ~85% accuracy) or human-verified transcripts (>99%, 18+ languages) with NDA-bound transcribers. Data stored only in Western Europe; GDPR, ISO 27001/9001. Word/TXT export, speech-to-text API. |
+| [aTrain](https://business-analytics.uni-graz.at/en/research/atrain/) | University of Graz (BANDAS Center) | Free | Offline transcription of speech recordings with speaker detection (faster-whisper, 57 languages); exports transcripts with clickable timestamps directly importable into ATLAS.ti and MAXQDA. Installs from the Microsoft Store; no data ever sent to the internet. |
+
+</details>
+
+## Systematic Review & Evidence Synthesis
+
+*The task: screen thousands of abstracts, extract evidence, and keep a review living — PRISMA-style.*
+
+| Tool | Provider | Access | Description |
+|---|---|---|---|
+| [ASReview](https://asreview.nl/) | Utrecht University (open source) | Free | Runs active-learning screening locally: the model learns from your include/exclude decisions and reorders remaining records, with simulation mode to benchmark savings on your own dataset. Fully open source; data never leaves your machine. |
+| [Covidence](https://www.covidence.org/) | Covidence (not-for-profit, Cochrane partnership) | Institutional | Manages the full PRISMA pipeline in one workspace: import, dedupe, dual screening, full-text review, data extraction, and quality assessment, with team roles and export to analysis. De-facto standard licensed by many university libraries. |
+| [Nested Knowledge](https://nested-knowledge.com/) | Nested Knowledge, Inc. | Freemium | Combines screening (Robot Screener), smart tagging, meta-analytical extraction, and PRISMA reporting with living-review updates: searches re-run automatically and interactive evidence maps and synthesis visualizations stay current and shareable. |
+| [Rayyan](https://www.rayyan.ai/) | Rayyan Systems, Inc. | Freemium | Screen titles/abstracts in blinded reviewer pairs with AI relevance ranking, resolve up to 200k duplicates, run risk-of-bias assessment, and auto-generate PRISMA flow diagrams; free tier covers core screening. |
+
+<details><summary>More tools for this task (1)</summary>
+
+| Tool | Provider | Access | Description |
+|---|---|---|---|
+| [DistillerSR](https://www.distillersr.com/) | DistillerSR Inc. (Evidence Partners) | Paid | Runs audit-trailed literature reviews at regulatory grade: AI reranking of references, automatic study classifiers, generative extraction linked back to source text, and error-checking of human screening decisions, all with traceable human-in-the-loop validation. |
+
+</details>
+
+## OCR & Document Digitization
+
+*The task: turn handwriting, archives, equations and PDFs into editable, analyzable text and LaTeX.*
+
+| Tool | Provider | Access | Description |
+|---|---|---|---|
+| [Marker](https://github.com/datalab-to/marker) | Datalab | Free | Open-source pipeline converting PDF, DOCX, PPTX, EPUB, and images to Markdown, JSON, or HTML with equations, tables, and reading order preserved — for building searchable or LLM-ready corpora from paper collections; runs locally. |
+| [Mathpix](https://mathpix.com/) | Mathpix Inc. | Freemium | Screenshot-to-LaTeX OCR: converts images of equations, handwriting, chemistry structures, tables, and full PDFs into LaTeX, Markdown, DOCX, or CSV via the Snip desktop tool and editor. One keyboard shortcut turns any on-screen formula into paste-ready code. |
+| [Transkribus](https://www.transkribus.org/pricing) | READ-COOP SCE (European cooperative, Austria) | Freemium | Uploads scans of handwritten or printed historical documents and gets searchable transcriptions; trains custom recognition models for a specific hand, script, or language; recognizes tables and form fields. |
+
+<details><summary>More tools for this task (2)</summary>
+
+| Tool | Provider | Access | Description |
+|---|---|---|---|
+| [eScriptorium](https://escriptorium.eu/about/) | École Pratique des Hautes Études (EPHE) + Inria ALMAnaCH (France) | Free | Open-source web platform for segmenting and transcribing manuscripts and archival documents using the kraken HTR engine; researchers train or fine-tune their own recognition models and export ALTO/PAGE XML; self-hostable, IIIF-compatible. |
+| [Handwriting OCR](https://www.handwritingocr.com/handwritten-laboratory-notes-ocr) | Handwriting OCR Ltd (UK) | Freemium | Uploads pages of contemporary handwriting — lab notebooks, field observation sheets, questionnaires, cursive letters — and returns searchable editable text; handles mixed hands, faded ink, and converts embedded equations to LaTeX. |
+
+</details>
+
+## Staying Current
+
+*The task: keep up with new papers without reading feeds all day — trained, personalized monitoring.*
+
+| Tool | Provider | Access | Description |
+|---|---|---|---|
+| [LitSuggest](https://www.ncbi.nlm.nih.gov/research/litsuggest/) | NCBI / National Library of Medicine (NIH) | Free | Train a personal machine-learning classifier by marking PubMed articles relevant or irrelevant; the system then scores new PubMed papers, sends an automated weekly digest per project, and supports shared collaborative curation. |
+| [R Discovery](https://discovery.researcher.life/) | Cactus Communications (Editage) | Freemium | Personalized reading feed over 250M+ papers: set research interests, get daily article recommendations and new-paper alerts, listen to audio versions, translate papers into 30+ languages, and chat with PDFs on mobile or web. |
+| [Scholar Inbox](https://www.scholar-inbox.com/) | University of Tübingen (Autonomous Vision Group / Tübingen AI Center) | Free | Daily or weekly digest of new arXiv, bioRxiv, chemRxiv and medRxiv papers ranked by a recommender trained on the user's own ratings; includes semantic search, figure-preview skimming, collections, and a conference poster-session planner. |
+
+<details><summary>More tools for this task (2)</summary>
+
+| Tool | Provider | Access | Description |
+|---|---|---|---|
+| [Paper Digest](https://www.paperdigest.org/daily-paper-digest/) | Paper Digest (New York, US) | Freemium | Daily email digest of new papers from arXiv, PubMed, bioRxiv, medRxiv and ClinicalTrials.gov, filtered by user-set areas, keywords and authors, with a machine-generated one-sentence summary per paper and impact-based ranking. |
+| [Stork](https://www.storkapp.me/) | — | Freemium | Enter keywords and authors once; receive daily or weekly email alerts of matching new papers and preprints from PubMed and other sources, plus NIH grant-award alerts, with optional in-email translation of titles and abstracts. |
+
+</details>
+
+## Conference Prep — Posters & Talk Practice
+
+*The task: get from accepted paper to poster, slides rehearsed, and delivery polished.*
+
+| Tool | Provider | Access | Description |
+|---|---|---|---|
+| [Paper2Poster](https://github.com/Paper2Poster/Paper2Poster) | Paper2Poster (open-source, NeurIPS 2025) | Free | Multi-agent pipeline that converts a paper PDF into an editable PowerPoint conference poster: parses the paper into assets, plans a panel layout, renders and self-corrects with VLM feedback. Runs locally or via API models; Docker supported. |
+| [Yoodli](https://yoodli.ai/use-cases/public-speaking) | Yoodli | Freemium | Records a practice talk via webcam or uploaded video and scores filler words, pacing, eye contact, clarity, and structure, benchmarking each rehearsal against the last; AI follow-up questions simulate audience Q&A after a conference talk. |
+
+<details><summary>More tools for this task (3)</summary>
+
+| Tool | Provider | Access | Description |
+|---|---|---|---|
+| [ChatSlide](https://www.chatslide.ai/guides/research-poster-presentation-ai-guide) | ChatSlide AI | Freemium | Upload a paper or paste an abstract; generates a single-page academic poster (A0 or 36x48 in) with sectioned layout, charts rendered from your data, and PubMed/Scholar citation lookup. Exports print-locked PDF or editable pptx. |
+| [PowerPoint Speaker Coach](https://support.microsoft.com/en-us/office/rehearse-your-slide-show-with-speaker-coach-cd7fc941-5c3b-498c-a225-83ef3f64f07b) | Microsoft | Free | Rehearse a talk against your actual slide deck inside PowerPoint (web, Windows, Mac, mobile); flags pacing, pitch, filler words, monotone delivery, and reading text off slides, then produces a rehearsal report with statistics. |
+| [VirtualSpeech](https://virtualspeech.com/practice/presentation-skills) | VirtualSpeech Ltd | Paid | Rehearse a talk in simulated rooms (conference room, lecture hall, press conference — 13 environments) via browser or VR headset; AI scores body language, eye contact, pace, and filler words, and asks questions generated from your presentation content. |
+
+</details>
+
+## LaTeX & Academic Language
+
+*The task: AI inside the scholarly writing toolchain — LaTeX editing, published-language feedback.*
+
+| Tool | Provider | Access | Description |
+|---|---|---|---|
+| [OpenAI Prism](https://prism.openai.com/) | OpenAI | Free | Free AI-native LaTeX workspace on GPT-5.2: whole-document writing and proofreading assistance, reference management, image-to-LaTeX for photographed equations and whiteboard sketches, agentic literature search with citation suggestions, and real-time collaboration with unlimited collaborators. |
+| [Overleaf AI Assist](https://www.overleaf.com/about/ai-features) | Overleaf (Digital Science) | Freemium | AI built into the standard collaborative LaTeX editor: explains and fixes LaTeX compile errors, generates tables and equations from images or prompts (TeXGPT), and gives Writefull-powered language feedback trained on published papers. Free daily allowances on all plans. |
+| [Writefull](https://www.writefull.com/) | Digital Science (sister company of Overleaf) | Freemium | Language feedback for scientific text from models trained on millions of published journal articles, delivered inside Overleaf (edits in LaTeX source), Word, or a standalone Revise uploader. Adds paraphrasing, abstract/title generation, and TeXGPT table/equation code generation. |
+
+<details><summary>More tools for this task (2)</summary>
+
+| Tool | Provider | Access | Description |
+|---|---|---|---|
+| [Papers AI](https://papers.ai/) | Digital Science (built by the Overleaf team) | Freemium | Offline-first AI research workspace: write in LaTeX, Typst, Markdown or Word alongside Jupyter notebooks and CSVs, with a context-aware assistant that reads drafts, data and references together. Compiles locally in-browser; can run entirely on local models via Ollama/LM Studio/vLLM. |
+| [Trinka](https://www.trinka.ai/features/latex-grammar-checker) | Trinka AI (Enago / Crimson Interactive) | Freemium | Upload a .tex file and get it proofread with LaTeX commands untouched: returns a corrected LaTeX file plus a Word file with tracked changes, a language-quality score, and revision breakdown. Style-guide aware (APA, AMA, IEEE). |
+
+</details>
+
+## Survey & Experiment Design
+
+*The task: design instruments and experiments well before collecting a single data point — including simulated piloting.*
+
+| Tool | Provider | Access | Description |
+|---|---|---|---|
+| [Expected Parrot](https://www.expectedparrot.com) | Expected Parrot, Inc. | Freemium | Open-source Python DSL for building surveys and experiments, running them on panels of LLM-simulated respondents across many models, then re-fielding the identical instrument to real humans ('Humanize') and analyzing both in one results object. |
+| [NC3Rs Experimental Design Assistant](https://eda.nc3rs.org.uk/) | NC3Rs (UK) | Free | Free web tool where researchers diagram an in vivo experiment and receive automated bespoke critique: statistical-method recommendations, randomization and blinding support, sample-size calculation, and a shareable design report for funders and ethical review. |
+| [Qualtrics AI](https://www.qualtrics.com/support/survey-platform/distributions-module/synthetic-panels/) | Qualtrics | Institutional | Survey platform most universities already license: ExpertReview audits draft questionnaires for methodology errors, PII risk, and accessibility before launch; Synthetic Panels answer a survey with a first-party AI model trained on real survey responses. |
+
+<details><summary>More tools for this task (1)</summary>
+
+| Tool | Provider | Access | Description |
+|---|---|---|---|
+| [Synthetic Users](https://www.syntheticusers.com/) | Synthetic Users Inc. | Paid | Runs no-code simulated qualitative studies: multi-agent AI participants with persistent persona profiles answer interviews, concept tests, and usability-style questions in minutes, at $2-60 per interview instead of recruiting humans. |
+
+</details>
+
+## Research Communication & Accessibility
+
+*The task: consume research by ear and communicate it beyond the paper — audio, podcast, plain language.*
+
+| Tool | Provider | Access | Description |
+|---|---|---|---|
+| [Audemic Scholar](https://audemic.io/) | Audemic | Paid | Reads uploaded or reference-manager-imported papers aloud with synchronized text highlighting; reorder sections, capture highlights and notes. Dyslexia-friendly fonts, background color options, and adjustable pacing support researchers with dyslexia, ADHD, or visual impairment. |
+| [Cassyni](https://cassyni.com/) | Cassyni (founders of Mendeley, Publons, Kopernio) | Freemium | Runs and records research seminars, then AI-enhances them: transcripts, slide extraction, semantic chapters, resolved references to cited papers, and a DOI per talk — turning seminars into citable, searchable scholarly objects researchers can browse. |
+| [Kudos](https://www.growkudos.com/) | Kudos (growkudos.com) | Freemium | Researcher creates a free showcase page explaining a publication in plain language; Kudos's AI service drafts the summary and a paid campaign promotes it via email, social media, and themed showcases, with tracked views, Altmetric scores, and citations. |
+| [Listening](https://www.listening.com/) | Listening (listening.com) | Paid | Converts paper PDFs into natural-sounding audio that automatically skips citations, references, and footnotes; listen by section (abstract, results) at up to 4x speed. Mobile apps and Chrome extension for consuming a reading backlog while commuting. |
+| [Wondercraft](https://www.wondercraft.ai/tools/research-paper-to-podcast-generator) | Wondercraft Limited | Freemium | Turns an uploaded paper or URL into a conversational podcast episode; edit the script word-by-word, choose or clone voices, add team review flows, then export WAV or publish toward Spotify and Apple Podcasts. Free tier includes starter credits. |
+
+<details><summary>More tools for this task (1)</summary>
+
+| Tool | Provider | Access | Description |
+|---|---|---|---|
+| [ElevenReader](https://elevenreader.io/) | ElevenLabs | Freemium | Free reader app from ElevenLabs that voices PDFs, preprints, and web articles with realistic neural voices, reading abbreviations naturally ('e.g.' as 'for example'). 10 free hours monthly; Ultra ($99/yr) adds smart imports that strip headers and footers. |
+
+</details>
+
+## Integrity Screening & Forensics
+
+*The task: screen the literature — and your own reference list — for fabrication, manipulation and AI-generated text.*
+
+| Tool | Provider | Access | Description |
+|---|---|---|---|
+| [Argos](https://www.scitility.com/) | Scitility PBC | Freemium | Screens a reference list for retracted and high-risk articles before submission and sends alerts when papers in your citation network are retracted; computes daily risk scores from author histories and retraction cascades across 50M+ articles. |
+| [Pangram](https://www.pangram.com/) | Pangram (Brooklyn, NY, founded 2023) | Freemium | Classifies text as human- or AI-written with per-document and per-sentence results via web dashboard and API; 20 free checks daily. Reports a 1-in-10,000 false-positive rate, with an independent University of Chicago evaluation. |
+| [Problematic Paper Screener](https://www.irit.fr/~Guillaume.Cabanac/problematic-paper-screener) | Guillaume Cabanac, IRIT / Universite de Toulouse (with Labbe & Magazinov) | Free | Browsable dashboard screening 130M+ papers with detectors for tortured phrases, SCIgen/Mathgen text, citejacking, retracted references, and problematic cell lines. Check a DOI before citing it, or trawl your field for flagged papers. |
+| [statcheck](https://statcheck.io/) | Michele Nuijten & Sacha Epskamp (Tilburg University) | Free | Upload a PDF, DOCX, or HTML manuscript; it recomputes every APA-style statistical result (t, F, r, chi-square, Z, Q) and flags p-values inconsistent with the reported test statistic and degrees of freedom. |
+
+<details><summary>More tools for this task (1)</summary>
+
+| Tool | Provider | Access | Description |
+|---|---|---|---|
+| [Imagetwin](https://imagetwin.ai/pricing) | Imagetwin (imagetwin.ai) | Paid | Scans figures (western blots, microscopy, photos) for duplications, manipulations, and AI-generated images; matches against a 150M+ published-figure database to catch cross-paper reuse. Pay-per-scan from EUR 29 makes lab-level pre-submission screening feasible. |
+
+</details>
+
+## Lab Bench & Protocols
+
+*The task: draft, troubleshoot and execute protocols at the bench — hands-free, robot-ready, reagent-smart.*
+
+| Tool | Provider | Access | Description |
+|---|---|---|---|
+| [BenchSci](https://www.benchsci.com/) | BenchSci (Toronto) | Free | Finds validated antibodies and reagents by AI-decoding figures and usage evidence from 20M+ publications and 14M commercial products; filter by application, species reactivity, and validation status before ordering. Free for verified academic and nonprofit researchers. |
+| [OpentronsAI](https://opentrons.com/ai) | Opentrons | Free | Generates executable, inspectable Python protocols for Opentrons liquid-handling robots from a natural-language description of the experiment, with in-chat simulation, verification, and deck-map visualization. Sign-up works even without owning a robot. |
+| [protocols.io AI](https://group.springernature.com/gp/group/media/press-releases/new-ai-capabilities-on-protocolsio/27837624) | Springer Nature | Freemium | Drafts structured protocols from prompts or Word/PDF uploads, suggests error-reduction and troubleshooting fixes, translates private protocols across 36 languages, and summarizes reviewer feedback — inside the standard platform for publishing versioned, citable methods. |
+
+<details><summary>More tools for this task (1)</summary>
+
+| Tool | Provider | Access | Description |
+|---|---|---|---|
+| [SciNote AI](https://www.scinote.net/product/ai-and-automations/) | SciNote (EU, Slovenia) | Freemium | Electronic lab notebook whose AI converts PDF-based SOPs and protocols into structured, reusable ELN templates and auto-updates task/project progress from user activity; includes inventory management and compliance tools. Core ELN is open source; free plan for individuals. |
+
+</details>
+
+## Patents & Tech Transfer
+
+*The task: prior-art checks, patent landscapes and invention disclosures. Caution: unfiled inventions are confidential — check your TTO's policy before pasting disclosure text into third-party AI.*
+
+| Tool | Provider | Access | Description |
+|---|---|---|---|
+| [Google Patents](https://patents.google.com/) | Google | Free | Free worldwide patent full-text search with ML features: machine-classified CPC code suggestions, 'Similar' documents ranked by a full-text model, one-click 'Find prior art' scoped to before the priority date, SMILES chemical-structure search, and Google Scholar non-patent literature integration. |
+| [PQAI](https://projectpq.ai/) | Project PQAI (nonprofit initiative, AT&T / Georgia IP Alliance) | Free | Paste a plain-language invention description; deep-learning models trained on examiner citation data return ranked prior art from USPTO, EPO and open-access journals, plus concept extraction and CPC/IPC code suggestions. Open-source (MIT), free web search and API. |
+| [The Lens](https://about.lens.org/) | The Lens Limited (Australian non-profit, formerly Cambia) | Freemium | Links 155M+ patent records with 270M+ scholarly works: landscape dashboards, patent-to-paper citation mapping, PatSeq search for DNA/protein sequences inside patents, freedom-to-operate style filtering. Free personal accounts for academic researchers (exports up to 50,000 records); institutional toolkit for universities. |
+
+<details><summary>More tools for this task (2)</summary>
+
+| Tool | Provider | Access | Description |
+|---|---|---|---|
+| [CAS SciFinder Prior Art](https://www.cas.org/resources/cas-insights/prior-art-search-and-analysis-scientific-ip-strategies) | CAS (American Chemical Society) | Institutional | Inside CAS SciFinder: paste 200+ characters of invention text (claims or abstract) and AI algorithm streams return similar patents and non-patent literature published before your priority date, drawing on CAS's human-curated chemistry collection including Markush structures. |
+| [PatSnap](https://www.patsnap.com/) | PatSnap | Paid | AI innovation-intelligence platform: patent landscape maps, novelty and FTO search agents (Eureka), drafting agents, litigation and market data, biosequence and chemical structure search. Tech transfer offices use it to judge whether an invention's space is commercially active before funding proof-of-concept. |
+
+</details>
+
+## Journal Selection & Publishing
+
+*The task: pick the right venue — open-access options, fit, and legitimacy.*
+
+| Tool | Provider | Access | Description |
+|---|---|---|---|
+| [B!SON](https://service.tib.eu/bison/) | TIB Hannover & SLUB Dresden | Free | Paste a manuscript's title, abstract, and references; machine-learning similarity against DOAJ article and citation data ranks quality-assured open-access journals publishing similar work, with transparent per-journal reasoning and an open API. |
+
 ## Watchlist
 
 Captured but not yet vetted against the admission gate.
@@ -340,6 +571,14 @@ Captured but not yet vetted against the admission gate.
 - [Literature Insights (Gemini for Science)](https://labs.google/science) — [sweep 2026-08-18] Fetched labs.google/science: Literature Insights listed, built with Gemini Notebook; tables, reports, slide decks, infographics confirmed. Access is 'Express interest' only — no open availability. Audio/video overviews not confirmed.
 - [Nature Research Assistant](https://natureresearchassistant.com/) — [sweep 2026-08-18] Fetched site: Springer Nature confirmed, still beta; new users must join waiting list, no pricing disclosed. Summaries, paper chat, figure descriptions with audio all confirmed on page.
 - [Potato](https://potato.ai/) — [sweep 2026-08-18] potato.ai fetched: first product 'The Optimizer' opening for early access with selected teams; beta request page; app at app.potatodemo.com. University list mostly matches; Harvard and Wiley RAG not confirmed on current page.
+- [Laser AI](https://www.laser.ai/) — [discovery 2026-08-18] Unique use case: AI-suggested extraction designed for the living-review-to-guideline pipeline (GRADE ecosystem via Evidence Prime) Adoption: Site lists McMaster University and IQWiG (German HTA agency) among clients; no independent Methods-mention count obtainable (name too ambiguous to query) Demo/contact-only access, plans from $3,000 — hence candidate. Extraction time-saving claims (53%) are vendor figures; HQ location not confirmed from fetched pages.
+- [Transcription Pearl](https://github.com/mhumphries2323/Transcription_Pearl) — [discovery 2026-08-18] Unique use case: Peer-review-backed LLM transcription workflow: the accompanying study found LLMs beat specialized HTR (Transkribus) on 18th/19th-c. English documents — the easter egg of this area Adoption: Companion paper published in Historical Methods (2025, DOI 10.1080/01615440.2025.2500309) and arXiv:2411.03340; GitHub repo public Beta; last commit Nov 2024 — maintenance uncertain. Requires own API keys and Python. CC BY-NC 4.0. Candidate until freshness confirmed.
+- [Paper2Video](https://github.com/showlab/Paper2Video) — [discovery 2026-08-18] Unique use case: Automatic pre-recorded conference-talk video generation from a paper — relevant for virtual conferences requiring submitted videos Adoption: NeurIPS 2025 SEA workshop acceptance; 2.4k GitHub stars MIT license but demanding: LaTeX sources as input, Gemini/OpenAI keys, ~48GB-VRAM GPU for talking head (lighter slides-only mode exists). Research-grade, not turnkey.
+- [Protocol Builder](https://protocolbuilderpro.com/) — [discovery 2026-08-18] Unique use case: structured IRB protocol and consent-form authoring with compliance templates Adoption: Sold to IRBs and GME programs; BRANY is an established IRB/compliance services organization; site current (screenshots dated March 2026) Demo-only, no public pricing — hence candidate. US clinical-research centric; EU ethics-committee fit unverified.
+- [PaperTok](https://www.papertok.com) — [discovery 2026-08-18] Unique use case: Paper to short-form social video for public science communication Adoption: CHI 2026 paper (Barcelona, April 2026); TechXplore coverage June 2026 Academic prototype, live site with generate button; requires user's paid Google Gemini subscription. Privacy policy and durability unverified.
+- [RefCheckAI](https://sydney-informatics-hub.github.io/RefCheckAI/) — [discovery 2026-08-18] Unique use case: Semantic citation verification — whether the cited paper supports the claim, not merely whether the reference exists (scite shows citation context but does not classify your own manuscript's claims) Adoption: University-built (Sydney Informatics Hub, NCI/NVIDIA-supported CodeFest); model weights and training data published for download Early access — web app via registration/email only. Classification accuracy not independently benchmarked. CC BY-NC 4.0.
+- [Genemod](https://genemod.net/) — [discovery 2026-08-18] Unique use case: Conversational agent acting over lab inventory and sample records (the inventory/ordering AI slot), or null if judged too close to generic ELN AI Adoption: Capterra and FitGap listings; own academic-labs pricing packages Weakest vetting: genemod.net pages repeatedly failed direct fetch (oversized pages); AI-agent and pricing claims come from genemod.net snippets via search. ~$199/month, 14-day trial, annual contract; no confirmed permanent free tier.
+- [InventGenie](https://www.inventgenie.com/for-researchers) — [discovery 2026-08-18] Unique use case: AI drafting of the invention disclosure itself, aimed explicitly at university researchers and tech transfer — the only researcher-facing (not attorney-facing) drafting tool found Real but young company; no independent academic adoption found; no free tier. Confidentiality caution: check TTO policy before pasting unfiled invention details into third-party AI (UC Berkeley OTL advises exactly this).
 
 ## Retired
 

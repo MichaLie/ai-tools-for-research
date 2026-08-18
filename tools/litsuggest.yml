@@ -1,0 +1,19 @@
+name: LitSuggest
+category: staying-current
+provider: NCBI / National Library of Medicine (NIH)
+url: https://www.ncbi.nlm.nih.gov/research/litsuggest/
+description: Train a personal machine-learning classifier by marking PubMed articles
+  relevant or irrelevant; the system then scores new PubMed papers, sends an automated
+  weekly digest per project, and supports shared collaborative curation.
+access: free
+domain: life-sciences
+status: active
+tier: core
+added: 2026-08
+last_verified: '2026-08-18'
+notes: '[discovery 2026-08-18] Unique use case: Building your own trainable literature-triage
+  model — a personal classifier for systematic monitoring/curation, not just a keyword
+  alert; free from NIH Adoption: Published system (Allot et al., Nucleic Acids Research
+  2021, W352–W358); still cited in recent curation workflows; no discontinuation notices
+  found PubMed-only. Page is a single-page app, so features verified from the NAR
+  paper and searches rather than the live UI; interface is dated.'

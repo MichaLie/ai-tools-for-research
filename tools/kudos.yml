@@ -1,0 +1,20 @@
+name: Kudos
+category: communication-accessibility
+provider: Kudos (growkudos.com)
+url: https://www.growkudos.com/
+description: Researcher creates a free showcase page explaining a publication in plain
+  language; Kudos's AI service drafts the summary and a paid campaign promotes it
+  via email, social media, and themed showcases, with tracked views, Altmetric scores,
+  and citations.
+access: freemium
+domain: general
+status: active
+tier: core
+added: 2026-08
+last_verified: '2026-08-18'
+notes: '[discovery 2026-08-18] Unique use case: Publishing and promoting plain-language
+  summaries of published papers with impact tracking Adoption: Kudos blog documents
+  AI Summaries rollout with publishers and author-verdict testing; university partnership
+  coverage (Sheffield Hallam) seen in search results Free account is self-write; AI-drafted
+  summary confirmed in the $499 researcher campaign and publisher services. Self-serve
+  AI drafting on free tier unconfirmed.'

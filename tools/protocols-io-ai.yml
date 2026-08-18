@@ -1,0 +1,21 @@
+name: protocols.io AI
+category: lab-bench-protocols
+provider: Springer Nature
+url: https://group.springernature.com/gp/group/media/press-releases/new-ai-capabilities-on-protocolsio/27837624
+description: Drafts structured protocols from prompts or Word/PDF uploads, suggests
+  error-reduction and troubleshooting fixes, translates private protocols across 36
+  languages, and summarizes reviewer feedback — inside the standard platform for publishing
+  versioned, citable methods.
+access: freemium
+domain: general
+status: active
+tier: core
+added: 2026-08
+last_verified: '2026-08-18'
+notes: '[discovery 2026-08-18] Unique use case: AI-assisted authoring and troubleshooting
+  of citable, versioned wet-lab protocols in the community-standard protocol repository
+  (23,000+ public protocols) Adoption: Springer Nature press release 2025-12-17; Nature
+  Protocols partnership page; librarian licensing page confirms free accounts plus
+  institutional plans Homepage blocks WebFetch (403); could not confirm which tier
+  gets which AI features — press release notes some areas require subscription. AI
+  launch was Dec 2025, so features are new.'

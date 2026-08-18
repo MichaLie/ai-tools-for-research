@@ -1,0 +1,20 @@
+name: eScriptorium
+category: ocr-document-digitization
+provider: École Pratique des Hautes Études (EPHE) + Inria ALMAnaCH (France)
+url: https://escriptorium.eu/about/
+description: Open-source web platform for segmenting and transcribing manuscripts
+  and archival documents using the kraken HTR engine; researchers train or fine-tune
+  their own recognition models and export ALTO/PAGE XML; self-hostable, IIIF-compatible.
+access: free
+domain: general
+status: active
+tier: extended
+added: 2026-08
+last_verified: '2026-08-18'
+notes: '[discovery 2026-08-18] Unique use case: Fully open-source, self-hosted HTR
+  with owned models and data — no per-page credits, works for right-to-left and non-Latin
+  scripts via kraken Adoption: UT Austin library blog feature (texlibris.lib.utexas.edu);
+  step-by-step training guide maintained by Mannheim University Library; used in published
+  models papers (Journal of Open Humanities Data) MIT license. Requires self-hosting
+  or access to an institutional instance — more setup friction than Transkribus. Developed
+  in France (EU).'

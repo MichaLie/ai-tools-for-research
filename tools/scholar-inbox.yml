@@ -1,0 +1,20 @@
+name: Scholar Inbox
+category: staying-current
+provider: University of Tübingen (Autonomous Vision Group / Tübingen AI Center)
+url: https://www.scholar-inbox.com/
+description: Daily or weekly digest of new arXiv, bioRxiv, chemRxiv and medRxiv papers
+  ranked by a recommender trained on the user's own ratings; includes semantic search,
+  figure-preview skimming, collections, and a conference poster-session planner.
+access: free
+domain: general
+status: active
+tier: core
+added: 2026-08
+last_verified: '2026-08-18'
+notes: '[discovery 2026-08-18] Unique use case: An open academic-built personal recommender
+  you train by voting on papers, spanning preprint servers plus ML/CV/NLP conference
+  proceedings — with a conference planner nothing else offers Adoption: ACL 2025 system-demo
+  paper (arXiv:2504.08385) reporting 23,000 registered and 8,000 monthly-active researchers;
+  featured by Tübingen AI Center, which states developers plan to keep it free Corpus
+  is ML/CS-centric though bio/med preprints are indexed; site is a JS app, details
+  verified from the paper and Tübingen AI Center page.'

@@ -1,0 +1,18 @@
+name: ChatSlide
+category: conference-prep
+provider: ChatSlide AI
+url: https://www.chatslide.ai/guides/research-poster-presentation-ai-guide
+description: Upload a paper or paste an abstract; generates a single-page academic
+  poster (A0 or 36x48 in) with sectioned layout, charts rendered from your data, and
+  PubMed/Scholar citation lookup. Exports print-locked PDF or editable pptx.
+access: freemium
+domain: general
+status: active
+tier: extended
+added: 2026-08
+last_verified: '2026-08-18'
+notes: '[discovery 2026-08-18] Unique use case: No-code hosted paper-to-poster with
+  print-size and editable-pptx export (the accessible counterpart to Paper2Poster)
+  Adoption: Self-reported use at 750+ universities — unverified externally Free tier
+  is 100 signup credits; paid from $99/yr. States GDPR compliance and has a privacy
+  policy. Small SF startup; adoption claims are its own.'

@@ -1,0 +1,19 @@
+name: Marker
+category: ocr-document-digitization
+provider: Datalab
+url: https://github.com/datalab-to/marker
+description: Open-source pipeline converting PDF, DOCX, PPTX, EPUB, and images to
+  Markdown, JSON, or HTML with equations, tables, and reading order preserved — for
+  building searchable or LLM-ready corpora from paper collections; runs locally.
+access: free
+domain: general
+status: active
+tier: core
+added: 2026-08
+last_verified: '2026-08-18'
+notes: '[discovery 2026-08-18] Unique use case: Local, batch, no-cloud conversion
+  of entire paper libraries to structured Markdown — data never leaves the machine
+  Adoption: 38.8k GitHub stars, active commits; consistently top-ranked in 2026 open-source
+  PDF-parser comparisons (vs MinerU, Docling) Code Apache 2.0; model weights non-commercial
+  above $5M revenue. Hosted Datalab API exists for those who don''t want to self-run.
+  Needs Python + GPU for speed.'

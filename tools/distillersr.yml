@@ -1,0 +1,20 @@
+name: DistillerSR
+category: systematic-review-evidence-synthesis
+provider: DistillerSR Inc. (Evidence Partners)
+url: https://www.distillersr.com/
+description: 'Runs audit-trailed literature reviews at regulatory grade: AI reranking
+  of references, automatic study classifiers, generative extraction linked back to
+  source text, and error-checking of human screening decisions, all with traceable
+  human-in-the-loop validation.'
+access: paid
+domain: general
+status: active
+tier: extended
+added: 2026-08
+last_verified: '2026-08-18'
+notes: '[discovery 2026-08-18] Unique use case: regulatory-grade, fully audit-trailed
+  AI extraction and screening quality control (pharma/medical-device evidence requirements)
+  Adoption: Europe PMC: 1,374 Methods-section mentions; listed in King''s College
+  London libguide; site claims 80% of top pharma/device companies Contact-sales pricing
+  (academic tier exists, figures unpublished); heavier than most student projects
+  need — overlaps Covidence for basic workflows.'

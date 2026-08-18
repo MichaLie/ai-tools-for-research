@@ -1,0 +1,20 @@
+name: noScribe
+category: transcription-qualitative-analysis
+provider: Kai Dröge (open-source, GPL-3.0)
+url: https://noscribe.de/en/
+description: Transcribes interview audio fully offline on the researcher's own computer
+  using Whisper plus pyannote speaker diarization; marks pauses, overlaps and filler
+  words per qualitative-research conventions; includes an audio-aligned correction
+  editor. ~60 languages; Windows/macOS/Linux.
+access: free
+domain: general
+status: active
+tier: core
+added: 2026-08
+last_verified: '2026-08-18'
+notes: '[discovery 2026-08-18] Unique use case: GDPR-safe transcription of sensitive
+  interview data — nothing leaves the machine, with transcript conventions (pauses,
+  overlap, disfluencies) built for qualitative social research Adoption: Recommended
+  in Temple University and University of Notre Dame qualitative-research libguides;
+  developed by a sociologist for qualitative research 1h audio takes 1-3h CPU processing
+  (faster with NVIDIA GPU). Donations-funded open source.'

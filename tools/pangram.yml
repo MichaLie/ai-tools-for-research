@@ -1,0 +1,20 @@
+name: Pangram
+category: integrity-screening-forensics
+provider: Pangram (Brooklyn, NY, founded 2023)
+url: https://www.pangram.com/
+description: Classifies text as human- or AI-written with per-document and per-sentence
+  results via web dashboard and API; 20 free checks daily. Reports a 1-in-10,000 false-positive
+  rate, with an independent University of Chicago evaluation.
+access: freemium
+domain: general
+status: active
+tier: core
+added: 2026-08
+last_verified: '2026-08-18'
+notes: '[discovery 2026-08-18] Unique use case: AI-text detection with the only independently
+  evaluated sub-0.5% false-positive rate — usable for editorial screening where accusation
+  stakes are high Adoption: arXiv technical report 2402.14873; a 2025 University of
+  Chicago evaluation (seen via search + vendor third-party-evals page) found it the
+  only detector meeting an FPR<=0.005 policy cap All AI-text detection is probabilistic
+  — never sole evidence against an author. Headline accuracy figures are vendor-reported;
+  one independent academic eval, which I saw summarized, not in full.'

@@ -1,0 +1,21 @@
+name: QualCoder
+category: transcription-qualitative-analysis
+provider: Colin Curtain (open-source, LGPLv3)
+url: https://qualcoder.org/
+description: Free open-source CAQDAS (text, PDF, image, audio, video coding) with
+  AI-assisted coding and AI chat over data. Uniquely, the underlying prompts are visible
+  and editable; backends include OpenAI GPT-4 or Blablador, the Helmholtz Society's
+  free no-data-stored academic LLM service.
+access: free
+domain: general
+status: active
+tier: core
+added: 2026-08
+last_verified: '2026-08-18'
+notes: '[discovery 2026-08-18] Unique use case: Zero-cost, transparent AI-assisted
+  qualitative coding — inspectable prompts plus a free EU academic LLM backend (Blablador)
+  that stores no data; supports REFI-QDA exchange with commercial CAQDAS Adoption:
+  Libguides at George Washington, University of Arizona, Temple, and University of
+  Illinois; v4.0 released 2026 (actively maintained on GitHub) Desktop app, rougher
+  UI than commercial CAQDAS; Blablador output quality below GPT-4 per its own docs.
+  GitHub: https://github.com/ccbogel/QualCoder'

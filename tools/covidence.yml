@@ -1,0 +1,18 @@
+name: Covidence
+category: systematic-review-evidence-synthesis
+provider: Covidence (not-for-profit, Cochrane partnership)
+url: https://www.covidence.org/
+description: 'Manages the full PRISMA pipeline in one workspace: import, dedupe, dual
+  screening, full-text review, data extraction, and quality assessment, with team
+  roles and export to analysis. De-facto standard licensed by many university libraries.'
+access: institutional
+domain: general
+status: active
+tier: core
+added: 2026-08
+last_verified: '2026-08-18'
+notes: '[discovery 2026-08-18] Adoption: Europe PMC: 22,854 Methods-section mentions
+  — the most-cited SR platform; institutional licenses common; Cochrane partnership
+  referenced on site No free tier beyond a 500-record trial; personal plan $339/year
+  per review. Check whether the university already licenses it before recommending
+  purchase.'

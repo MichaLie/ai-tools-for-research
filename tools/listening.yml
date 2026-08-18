@@ -1,0 +1,19 @@
+name: Listening
+category: communication-accessibility
+provider: Listening (listening.com)
+url: https://www.listening.com/
+description: Converts paper PDFs into natural-sounding audio that automatically skips
+  citations, references, and footnotes; listen by section (abstract, results) at up
+  to 4x speed. Mobile apps and Chrome extension for consuming a reading backlog while
+  commuting.
+access: paid
+domain: general
+status: active
+tier: core
+added: 2026-08
+last_verified: '2026-08-18'
+notes: '[discovery 2026-08-18] Unique use case: Full-text listening to academic PDFs
+  with citation/footnote skipping and section-level navigation Adoption: Site claims
+  50,000+ users; iOS/Android app-store presence; frequently compared in academic TTS
+  roundups; no libguide sighting $12.99/mo or $39/yr promo; no free tier on pricing
+  page (third-party listing mentions 1-week trial). GDPR posture unverified.'

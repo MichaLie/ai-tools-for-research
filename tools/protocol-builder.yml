@@ -1,0 +1,19 @@
+name: Protocol Builder
+category: survey-experiment-design
+provider: BRANY
+url: https://protocolbuilderpro.com/
+description: Drafts clinical research protocols and informed-consent forms section-by-section
+  from institutional templates; the built-in AI assistant completes sections, generates
+  consent drafts from protocol text, and rewrites consent language at an 8th-grade
+  reading level.
+access: institutional
+domain: life-sciences
+status: candidate
+tier: extended
+added: 2026-08
+last_verified: '2026-08-18'
+notes: '[discovery 2026-08-18] Unique use case: structured IRB protocol and consent-form
+  authoring with compliance templates Adoption: Sold to IRBs and GME programs; BRANY
+  is an established IRB/compliance services organization; site current (screenshots
+  dated March 2026) Demo-only, no public pricing — hence candidate. US clinical-research
+  centric; EU ethics-committee fit unverified.'

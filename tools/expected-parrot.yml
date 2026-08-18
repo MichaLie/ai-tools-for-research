@@ -1,0 +1,22 @@
+name: Expected Parrot
+category: survey-experiment-design
+provider: Expected Parrot, Inc.
+url: https://www.expectedparrot.com
+description: Open-source Python DSL for building surveys and experiments, running
+  them on panels of LLM-simulated respondents across many models, then re-fielding
+  the identical instrument to real humans ('Humanize') and analyzing both in one results
+  object.
+access: freemium
+domain: general
+status: active
+tier: core
+added: 2026-08
+last_verified: '2026-08-18'
+notes: '[discovery 2026-08-18] Unique use case: Programmatic pretesting of survey
+  instruments and factorial experiments on simulated respondents before spending real
+  participants, with a built-in AI-to-human validation bridge Adoption: MIT-licensed
+  on GitHub/PyPI; co-founded by economist John Horton (citation: Horton & Horton 2024
+  whitepaper); docs carry a Papers & Citations page; own docs warn simulated responses
+  reflect training data, not real populations Free Coop credits at signup, extra free
+  credits for researchers on request, or bypass credits entirely with your own API
+  keys. YC F25 company.'

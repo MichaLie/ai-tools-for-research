@@ -1,0 +1,18 @@
+name: Paper2Poster
+category: conference-prep
+provider: Paper2Poster (open-source, NeurIPS 2025)
+url: https://github.com/Paper2Poster/Paper2Poster
+description: 'Multi-agent pipeline that converts a paper PDF into an editable PowerPoint
+  conference poster: parses the paper into assets, plans a panel layout, renders and
+  self-corrects with VLM feedback. Runs locally or via API models; Docker supported.'
+access: free
+domain: general
+status: active
+tier: core
+added: 2026-08
+last_verified: '2026-08-18'
+notes: '[discovery 2026-08-18] Unique use case: Fully automated paper-PDF-to-editable-pptx
+  poster generation, open source and locally runnable Adoption: Accepted to NeurIPS
+  2025 Datasets & Benchmarks track; 3.9k GitHub stars; independent blog coverage (BrightCoding,
+  Dec 2025) MIT license; needs an OpenAI API key or local vLLM models plus LibreOffice/poppler
+  — technical setup, not point-and-click.'

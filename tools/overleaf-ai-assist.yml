@@ -1,0 +1,21 @@
+name: Overleaf AI Assist
+category: latex-academic-language
+provider: Overleaf (Digital Science)
+url: https://www.overleaf.com/about/ai-features
+description: 'AI built into the standard collaborative LaTeX editor: explains and
+  fixes LaTeX compile errors, generates tables and equations from images or prompts
+  (TeXGPT), and gives Writefull-powered language feedback trained on published papers.
+  Free daily allowances on all plans.'
+access: freemium
+domain: general
+status: active
+tier: core
+added: 2026-08
+last_verified: '2026-08-18'
+notes: '[discovery 2026-08-18] Unique use case: LaTeX error diagnosis and repair inside
+  the editor 20M+ researchers already write in — no copy-pasting code into a chatbot
+  Adoption: Official overleaf.com/about/ai-features page (fetched); docs.overleaf.com
+  AI-features pages; Overleaf blog ''Overleaf AI now a part of Overleaf plans'' (July
+  2026); Overleaf itself appears across university libguides (e.g. Bristol) Since
+  July 2026 included in all plans with daily caps (quota resets ~72h); paid plans
+  raise allowances. Error assist uses OpenAI as third party.'

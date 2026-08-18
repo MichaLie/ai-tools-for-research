@@ -1,0 +1,20 @@
+name: Google Patents
+category: patents-tech-transfer
+provider: Google
+url: https://patents.google.com/
+description: 'Free worldwide patent full-text search with ML features: machine-classified
+  CPC code suggestions, ''Similar'' documents ranked by a full-text model, one-click
+  ''Find prior art'' scoped to before the priority date, SMILES chemical-structure
+  search, and Google Scholar non-patent literature integration.'
+access: free
+domain: general
+status: active
+tier: core
+added: 2026-08
+last_verified: '2026-08-18'
+notes: '[discovery 2026-08-18] Unique use case: Zero-cost first-look prior-art check
+  with priority-date-aware ''Find prior art'' across patents, Scholar and Books simultaneously
+  Adoption: Standard entry in university patent libguides (Michigan State, Iowa State,
+  Texas A&M, Pitt appeared in searches); Google Research blog documents the Prior
+  Art Finder Help page (support.google.com/faqs/answer/7049475) confirms features;
+  main page is a JS app so feature claims verified via help page and libguides.'

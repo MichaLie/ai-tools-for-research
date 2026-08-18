@@ -1,0 +1,20 @@
+name: Synthetic Users
+category: survey-experiment-design
+provider: Synthetic Users Inc.
+url: https://www.syntheticusers.com/
+description: 'Runs no-code simulated qualitative studies: multi-agent AI participants
+  with persistent persona profiles answer interviews, concept tests, and usability-style
+  questions in minutes, at $2-60 per interview instead of recruiting humans.'
+access: paid
+domain: general
+status: active
+tier: extended
+added: 2026-08
+last_verified: '2026-08-18'
+notes: '[discovery 2026-08-18] Unique use case: Turnkey simulated qualitative interviews
+  for early problem discovery and concept testing without recruitment Adoption: Publishes
+  a /science validation section claiming 85-92% synthetic-organic parity; widely debated:
+  NN/g article ''Synthetic Users: If, When, and How'' explicitly warns against substituting
+  for real users Controversial by design: NN/g documents sycophancy and uniformly
+  positive feedback; defensible for hypothesis generation and piloting, not for validation
+  claims. Free demo, no ongoing free tier confirmed.'

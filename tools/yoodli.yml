@@ -1,0 +1,20 @@
+name: Yoodli
+category: conference-prep
+provider: Yoodli
+url: https://yoodli.ai/use-cases/public-speaking
+description: Records a practice talk via webcam or uploaded video and scores filler
+  words, pacing, eye contact, clarity, and structure, benchmarking each rehearsal
+  against the last; AI follow-up questions simulate audience Q&A after a conference
+  talk.
+access: freemium
+domain: general
+status: active
+tier: core
+added: 2026-08
+last_verified: '2026-08-18'
+notes: '[discovery 2026-08-18] Unique use case: Quantified delivery feedback across
+  repeated rehearsals of the same conference talk, plus simulated Q&A Adoption: Recommended
+  on University of Hawai''i–West O''ahu official Distance Learning student-resources
+  page (fetched); UW career-center resource page seen in search results Free tier
+  is only 5 lifetime sessions; Pro $8/mo billed annually. Paid Advanced tier needed
+  to exclude data from AI training.'

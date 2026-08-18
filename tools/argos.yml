@@ -1,0 +1,20 @@
+name: Argos
+category: integrity-screening-forensics
+provider: Scitility PBC
+url: https://www.scitility.com/
+description: Screens a reference list for retracted and high-risk articles before
+  submission and sends alerts when papers in your citation network are retracted;
+  computes daily risk scores from author histories and retraction cascades across
+  50M+ articles.
+access: freemium
+domain: general
+status: active
+tier: core
+added: 2026-08
+last_verified: '2026-08-18'
+notes: '[discovery 2026-08-18] Unique use case: retraction-risk screening of references
+  plus proactive retraction-cascade alerts Adoption: Oncotarget lists Argos on its
+  scientific-integrity process page; Duke Medical Center Library blog covers it among
+  retraction-identification tools Free account ''for the entire scientific community'';
+  institutional tier priced on request. Public benefit corporation. 2025 statistics
+  on site.'

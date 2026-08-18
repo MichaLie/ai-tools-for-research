@@ -1,0 +1,20 @@
+name: Transcription Pearl
+category: ocr-document-digitization
+provider: Wilfrid Laurier University (Humphries & Leddy, Dept. of History)
+url: https://github.com/mhumphries2323/Transcription_Pearl
+description: Free desktop app that batch-transcribes archival page images through
+  OpenAI, Gemini, or Claude APIs, showing each transcription beside its source image
+  for correction and export — LLM-based mass transcription for historians.
+access: free
+domain: general
+status: candidate
+tier: extended
+added: 2026-08
+last_verified: '2026-08-18'
+notes: '[discovery 2026-08-18] Unique use case: Peer-review-backed LLM transcription
+  workflow: the accompanying study found LLMs beat specialized HTR (Transkribus) on
+  18th/19th-c. English documents — the easter egg of this area Adoption: Companion
+  paper published in Historical Methods (2025, DOI 10.1080/01615440.2025.2500309)
+  and arXiv:2411.03340; GitHub repo public Beta; last commit Nov 2024 — maintenance
+  uncertain. Requires own API keys and Python. CC BY-NC 4.0. Candidate until freshness
+  confirmed.'

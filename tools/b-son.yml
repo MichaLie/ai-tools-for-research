@@ -1,0 +1,20 @@
+name: B!SON
+category: journal-selection-publishing
+provider: TIB Hannover & SLUB Dresden
+url: https://service.tib.eu/bison/
+description: Paste a manuscript's title, abstract, and references; machine-learning
+  similarity against DOAJ article and citation data ranks quality-assured open-access
+  journals publishing similar work, with transparent per-journal reasoning and an
+  open API.
+access: free
+domain: general
+status: active
+tier: core
+added: 2026-08
+last_verified: '2026-08-18'
+notes: '[discovery 2026-08-18] Unique use case: manuscript-driven open-access journal
+  selection (no journal-selection tool in catalog) Adoption: SLUB Dresden library
+  service page; DOAJ blog feature dated 2026-07-08 confirming monthly data updates;
+  institutions can host custom instances Open source, German library-run, privacy-friendly
+  — strong EU/GDPR fit. Landing page is a JS app; capability details verified via
+  DOAJ/TIB pages.'

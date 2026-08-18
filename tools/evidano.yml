@@ -1,0 +1,22 @@
+name: Evidano
+category: transcription-qualitative-analysis
+provider: Evidano
+url: https://www.evidano.com/
+description: Uploads interview transcripts, documents, audio/video and runs thematic
+  analysis with supporting quotes, frequency and cross-segment analysis, plus a chatbot
+  over the data. Also fields an AI avatar that conducts semi-structured voice interviews
+  in 100+ languages. Free tier available.
+access: freemium
+domain: general
+status: active
+tier: core
+added: 2026-08
+last_verified: '2026-08-18'
+notes: '[discovery 2026-08-18] Unique use case: AI-conducted voice interviews — an
+  avatar interviewer collects qualitative data autonomously, then the same platform
+  analyzes it; no other vetted tool covers AI-led data collection Adoption: Formal
+  software review by Christina Silver''s CAQDAS Networking Project (University of
+  Surrey, 2024, as AILYZE); site claims use at University of Texas, Cornell, University
+  of Zambia Renamed from AILYZE (ailyze.com now 308-redirects to evidano.com). Claims
+  GDPR/SOC2/HECVAT compliance; avatar interviews and transcription are paid add-ons.
+  Company leadership not stated on site.'

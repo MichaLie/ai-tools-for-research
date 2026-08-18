@@ -1,0 +1,20 @@
+name: Trinka
+category: latex-academic-language
+provider: Trinka AI (Enago / Crimson Interactive)
+url: https://www.trinka.ai/features/latex-grammar-checker
+description: 'Upload a .tex file and get it proofread with LaTeX commands untouched:
+  returns a corrected LaTeX file plus a Word file with tracked changes, a language-quality
+  score, and revision breakdown. Style-guide aware (APA, AMA, IEEE).'
+access: freemium
+domain: general
+status: active
+tier: extended
+added: 2026-08
+last_verified: '2026-08-18'
+notes: '[discovery 2026-08-18] Unique use case: Batch proofreading of a whole .tex
+  manuscript outside any editor, with tracked-changes Word output co-authors can review
+  — bridges LaTeX and Word-based collaborators Adoption: Official Trinka feature and
+  news pages (fetched); G2 review presence seen in search; no libguide sighting confirmed
+  Credit-based: 1 credit per 5,000 words, 4 free credits/month on Basic. Parent Enago
+  also behind catalog''s ''Enago AI Disclosure'' — different product. Broader Trinka
+  overlaps Paperpal; propose only the LaTeX proofreader angle.'
