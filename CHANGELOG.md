@@ -78,3 +78,12 @@ You.com deprecated (consumer answer engine gone, developer API only);
 Transcription Pearl rejected (unmaintained since 2024-11, superseded by Archive
 Studio); citationchaser and Prophy → needs-review. All four 2026-08-18
 needs-review items resolved. 11 candidates re-vetted and kept, reason in notes.
+
+## Unreleased — journal-reformatting follow-up 2026-09-11
+
+Paper Pivot captured as a candidate (waitlist, in development) as the only
+genuine journal-reformatting product found; CheckMyManuscript rejected as a
+checker, not a reformatter. Writing & Translation blurb now states the honest
+market position and points to coding agents (Claude Code, Codex) for
+guideline-driven reformatting, so the task stays on the palette without a
+placeholder entry.

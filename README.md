@@ -453,7 +453,7 @@ Tasks grouped by research stage:
 
 ## Writing & Translation
 
-*The task: draft, polish and translate scholarly text.*
+*The task: draft, polish and translate scholarly text, and get the manuscript into the journal's shape. No mature dedicated reformatting tool exists yet; a coding agent given the author-guidelines URL does the job under your supervision.*
 
 | Tool | Provider | Access | Description |
 |---|---|---|---|
@@ -663,6 +663,7 @@ Noticed but not properly vetted yet — waitlisted, too young, or missing a priv
 [sweep 2026-09-11] Access is request/invite-gated per Ascent Bio docs (alpha program) and blog (request an access link); no public pricing. Per gate 2 waitlist tools are candidate, not active. Revert to active if self-serve signup is confirmed.
 - [Genemod](https://genemod.net/) — [discovery 2026-08-18] Unique use case: Conversational agent acting over lab inventory and sample records (the inventory/ordering AI slot), or null if judged too close to generic ELN AI Adoption: Capterra and FitGap listings; own academic-labs pricing packages Weakest vetting: genemod.net pages repeatedly failed direct fetch (oversized pages); AI-agent and pricing claims come from genemod.net snippets via search. ~$199/month, 14-day trial, annual contract; no confirmed permanent free tier.
 [sweep 2026-09-11] Still cannot fetch genemod.net directly. Alive, but Capterra now shows contact-for-pricing with no trial/free version; fails gate 4 (transparent pricing) and gate 2 is unverified. Keep candidate.
+- [Paper Pivot](https://paperpivot.com/) — [capture 2026-09-11] Fetched paperpivot.com: landing page + terms of service only; "currently in development", waitlist signup, no company name, /pricing and /privacy 404 (privacy-policy link exists on the landing page, not checked). Closest thing to a dedicated journal-reformatting tool after FormatMyPaper turned out to be satire. Fails gate 2 (usable this week) and gate 4 (no named organisation) today; re-vet at next sweep. CheckMyManuscript ($5/manuscript, 95 compliance checks, anonymous operator) rejected as a checker, not a reformatter.
 - [RefereeBio](https://refereebio.com/) — [grok-gap-hunt 2026-08-18, independently verified] All section-10 claims confirmed on homepage (free Starter month: 3 reviews/3 revision checks/3 edits, no card; AI-provider clause). No legal entity or team named; keep candidate.
 [sweep 2026-09-11] Still no legal entity, founders, address or jurisdiction on /about, /legal or /security; self-described 'early access'. Fails gate 4 (recommendable to students). Keep candidate.
 - [RefCheckAI](https://sydney-informatics-hub.github.io/RefCheckAI/) — [discovery 2026-08-18] Unique use case: Semantic citation verification — whether the cited paper supports the claim, not merely whether the reference exists (scite shows citation context but does not classify your own manuscript's claims) Adoption: University-built (Sydney Informatics Hub, NCI/NVIDIA-supported CodeFest); model weights and training data published for download Early access — web app via registration/email only. Classification accuracy not independently benchmarked. CC BY-NC 4.0.

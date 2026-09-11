@@ -1,0 +1,19 @@
+name: Paper Pivot
+category: writing-translation
+provider: null
+url: https://paperpivot.com/
+description: Give it a journal URL and a manuscript in Word, LaTeX or Markdown; it retrieves
+  the submission guidelines, reformats structure and citations, generates cover letter
+  and required statements, and logs every change for your approval. Waitlist only.
+access: waitlist
+domain: general
+status: candidate
+tier: extended
+added: 2026-09
+last_verified: '2026-09-11'
+notes: '[capture 2026-09-11] Fetched paperpivot.com: landing page + terms of service only; "currently
+  in development", waitlist signup, no company name, /pricing and /privacy 404 (privacy-policy
+  link exists on the landing page, not checked). Closest thing to a dedicated journal-reformatting
+  tool after FormatMyPaper turned out to be satire. Fails gate 2 (usable this week) and gate 4
+  (no named organisation) today; re-vet at next sweep. CheckMyManuscript ($5/manuscript, 95
+  compliance checks, anonymous operator) rejected as a checker, not a reformatter.'

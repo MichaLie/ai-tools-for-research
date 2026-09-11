@@ -1,6 +1,6 @@
 # Task-coverage map — AI Tools for Scientific Research
 
-Generated from the catalog data: 176 tools, 35 task categories; newest verification 2026-09-11.
+Generated from the catalog data: 177 tools, 35 task categories; newest verification 2026-09-11.
 Purpose: input for external gap-hunting — which academic/research tasks
 augmentable by AI are NOT yet represented below?
 
@@ -120,8 +120,8 @@ Task: track animals and quantify behavior from your own videos — markerless po
 ### De-identification & Data Sharing (4 tools)
 Task: anonymize tables and transcripts so data can be shared or sent to a cloud model — with formal guarantees, GDPR in mind.
 
-### Writing & Translation (6 tools)
-Task: draft, polish and translate scholarly text.
+### Writing & Translation (7 tools)
+Task: draft, polish and translate scholarly text, and get the manuscript into the journal's shape. No mature dedicated reformatting tool exists yet; a coding agent given the author-guidelines URL does the job under your supervision.
 
 ### Visual & Presentation Creation (4 tools)
 Task: turn text into diagrams, posters and slide decks.

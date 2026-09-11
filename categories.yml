@@ -117,7 +117,9 @@ data-deidentification:
   stage: collect
 writing-translation:
   title: Writing & Translation
-  blurb: 'The task: draft, polish and translate scholarly text.'
+  blurb: 'The task: draft, polish and translate scholarly text, and get the manuscript into
+    the journal''s shape. No mature dedicated reformatting tool exists yet; a coding agent
+    given the author-guidelines URL does the job under your supervision.'
   stage: write
 visual-presentation-creation:
   title: Visual & Presentation Creation
