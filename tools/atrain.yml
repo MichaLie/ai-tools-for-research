@@ -11,7 +11,7 @@ domain: general
 status: active
 tier: extended
 added: 2026-08
-last_verified: '2026-08-18'
+last_verified: '2026-09-11'
 notes: '[discovery 2026-08-18] Unique use case: Offline transcription that hands off
   straight into CAQDAS software with linked timestamps — audio playback from inside
   the coding environment Adoption: Peer-reviewed methods paper (Journal of Behavioral

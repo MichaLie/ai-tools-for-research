@@ -2,12 +2,15 @@ name: Grok
 category: general-purpose-ai-assistants
 provider: xAI
 url: https://grok.com/
-description: Real-time AI with X/Twitter integration and Deep Search for academic
-  research. Features 65% reduction in hallucinations (Grok 4.1) and multi-step reasoning
-  for cross-source evidence synthesis.
+description: xAI's assistant with real-time X/Twitter and web search plus DeepSearch
+  multi-step research mode. Free tier on grok.com and inside X (lighter model, limited
+  usage); SuperGrok subscriptions unlock the newest models (Grok 4.6 as of Aug 2026).
 access: freemium
 domain: general
 status: active
 tier: extended
 added: 2026-02
-last_verified: '2026-08-18'
+last_verified: '2026-09-11'
+notes: '[sweep 2026-09-11] Fetch blocked (403); alive per search. Description referenced
+  Grok 4.1 and a ''65% hallucination reduction'' figure that no reachable page supports
+  — replaced with version-neutral capability text; current flagship is Grok 4.6.'

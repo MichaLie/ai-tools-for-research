@@ -1,6 +1,6 @@
 name: Imagetwin
 category: integrity-screening-forensics
-provider: Imagetwin (imagetwin.ai)
+provider: ImageTwin AI GmbH
 url: https://imagetwin.ai/pricing
 description: Scans figures (western blots, microscopy, photos) for duplications, manipulations,
   and AI-generated images; matches against a 150M+ published-figure database to catch
@@ -11,11 +11,14 @@ domain: life-sciences
 status: active
 tier: extended
 added: 2026-08
-last_verified: '2026-08-18'
+last_verified: '2026-09-11'
 notes: '[discovery 2026-08-18] Unique use case: Cross-paper figure matching against
   150M+ published figures, purchasable as a EUR 29 one-off scan — no publisher subscription
   needed (Proofig''s catalog entry is manuscript-level screening) Adoption: Mass General
   Brigham Research Computing licenses it for its researchers (rc.partners.org page,
   fetched), including honest guidance on limitations MGB flags a notable false-negative
   rate; scatterplots/FACS not covered. Differentiation vs Proofig taken from vendor
-  pages, not independently benchmarked.'
+  pages, not independently benchmarked.
+
+  [sweep 2026-09-11] Verified; provider corrected to legal name ImageTwin AI GmbH
+  as shown on pricing page. EUR 29 single scan and 150M+ figures still supported.'

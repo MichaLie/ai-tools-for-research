@@ -1,13 +1,18 @@
-name: q.e.d.
+name: QED Science
 category: ai-manuscript-review-disclosure
 provider: QED Science
 url: https://www.qedscience.com/
-description: Critical Thinking AI analyzing manuscripts by breaking them into constituent
-  claims, identifying logical gaps, and comparing against hundreds of papers for novelty
-  assessment. Used by scientists at 1,000+ institutions.
+description: Critical Thinking AI that breaks a manuscript or grant into its constituent
+  claims, flags logical and methodological gaps, and ranks novelty against studies
+  in the field (QED Score). Free for academic researchers; enterprise tier for pharma/biotech.
+  In use at 1,500 institutions in 70+ countries.
 access: freemium
 domain: general
 status: active
 tier: extended
 added: 2026-02
-last_verified: '2026-08-18'
+last_verified: '2026-09-11'
+notes: '[sweep 2026-09-11] ''1,000+ institutions'' -> ''1,500 institutions / 70+ countries''
+  per QED Science press release 2026-06-24 (own blog). Site now brands the product
+  ''QED Science'' / ''QED Score''; ''q.e.d.'' no longer visible - consider renaming
+  entry. access freemium confirmed.'

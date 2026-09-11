@@ -3,11 +3,14 @@ category: code-assistants
 provider: Anthropic
 url: https://claude.com/product/claude-code
 description: Terminal-based agentic coding tool for code generation, debugging, and
-  repository-wide modifications through natural language. CLAUDE.md configuration
-  for project conventions. Tool Search Tool reduces context by 37%.
+  repository-wide modifications through natural language, also available in IDEs,
+  Slack and the web. CLAUDE.md configuration for project conventions.
 access: paid
 domain: general
 status: active
 tier: core
 added: 2026-02
-last_verified: '2026-08-18'
+last_verified: '2026-09-11'
+notes: '[sweep 2026-09-11] URL/provider/access unchanged. Dropped ''Tool Search Tool
+  reduces context by 37%'' from description: figure is from the API platform docs,
+  not supported on the Claude Code product page.'

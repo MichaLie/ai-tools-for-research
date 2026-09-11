@@ -2,7 +2,7 @@ name: Semantic Scholar
 category: literature-discovery-analysis
 provider: Allen Institute for AI (Ai2)
 url: https://www.semanticscholar.org/
-description: Free AI-powered discovery tool with 225M+ papers. Features TLDR summaries,
+description: Free AI-powered discovery tool with 237M+ papers. Features TLDR summaries,
   Semantic Reader for augmented PDF reading, and Highly Influential Citations for
   identifying foundational works. Open API available.
 access: free
@@ -10,4 +10,5 @@ domain: general
 status: active
 tier: core
 added: 2026-02
-last_verified: '2026-08-18'
+last_verified: '2026-09-11'
+notes: '[sweep 2026-09-11] Paper count updated 225M+ -> 237M+ (homepage 237,954,876).'

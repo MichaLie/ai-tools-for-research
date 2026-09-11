@@ -1,6 +1,6 @@
 name: SciNote AI
 category: lab-bench-protocols
-provider: SciNote (EU, Slovenia)
+provider: SciNote LLC (Middleton, WI, USA; EU hub in Slovenia; owned by Gilson)
 url: https://www.scinote.net/product/ai-and-automations/
 description: Electronic lab notebook whose AI converts PDF-based SOPs and protocols
   into structured, reusable ELN templates and auto-updates task/project progress from
@@ -11,9 +11,13 @@ domain: life-sciences
 status: active
 tier: extended
 added: 2026-08
-last_verified: '2026-08-18'
+last_verified: '2026-09-11'
 notes: '[discovery 2026-08-18] Unique use case: AI parsing of legacy PDF SOPs into
   structured, executable ELN templates Adoption: Open-source repo scinote-eln/scinote-web
   on GitHub; coverage in Scientific Computing World and Lab Manager; Ascenscia voice-assistant
   partnership EU HQ (+386 Slovenia) — good GDPR angle, but Trust Center details not
-  verified. AI features likely premium-only; tier assignment unconfirmed.'
+  verified. AI features likely premium-only; tier assignment unconfirmed.
+
+  [sweep 2026-09-11] Provider corrected: SciNote LLC is US-headquartered (Middleton,
+  WI) with an EU/Slovenia hub, owned by Gilson. AI features are still limited beta
+  by early-access request; open-source core confirmed (MPL 2.0).'

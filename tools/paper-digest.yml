@@ -10,7 +10,7 @@ domain: general
 status: active
 tier: extended
 added: 2026-08
-last_verified: '2026-08-18'
+last_verified: '2026-09-11'
 notes: '[discovery 2026-08-18] Unique use case: One digest covering journals, preprints
   AND clinical-trial registrations, each item compressed to a single machine-written
   highlight sentence Adoption: Listed in the Breda University of Applied Sciences

@@ -8,13 +8,18 @@ description: Extracts data from study PDFs by suggesting text passages and table
   pipelines.
 access: paid
 domain: general
-status: candidate
+status: active
 tier: extended
 added: 2026-08
-last_verified: '2026-08-18'
+last_verified: '2026-09-11'
 notes: '[discovery 2026-08-18] Unique use case: AI-suggested extraction designed for
   the living-review-to-guideline pipeline (GRADE ecosystem via Evidence Prime) Adoption:
   Site lists McMaster University and IQWiG (German HTA agency) among clients; no independent
   Methods-mention count obtainable (name too ambiguous to query) Demo/contact-only
   access, plans from $3,000 — hence candidate. Extraction time-saving claims (53%)
-  are vendor figures; HQ location not confirmed from fetched pages.'
+  are vendor figures; HQ location not confirmed from fetched pages.
+
+  [sweep 2026-09-11] Pricing page now public ($3,000/project or $3,000/user/yr, enterprise
+  custom) so gate 4 (transparent pricing) and gate 2 (purchasable subscription) pass;
+  still sales-contact enrollment, no free tier. Promote to active/extended; 53%/45%
+  time-saving figures remain vendor claims.'

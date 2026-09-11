@@ -7,10 +7,15 @@ description: 'Forward and backward citation chasing via the Lens.org API: input 
   and download all lists as RIS for systematic-review identification.'
 access: free
 domain: general
-status: active
+status: needs-review
 tier: core
 added: 2026-08
 last_verified: '2026-08-18'
 notes: '[grok-gap-hunt 2026-08-18, independently verified] Shiny app, free, no login
   seen. Lens.org aggregates PubMed, PMC, CrossRef, Microsoft Academic Graph, CORE.
-  Matches report exactly.'
+  Matches report exactly.
+
+  [sweep 2026-09-11] Shiny app at estech.shinyapps.io unreachable today (4 attempts,
+  connect then hang — looks like a sleeping/over-quota shinyapps instance). GitHub
+  repo alive but last commit 2025-03. Recheck in 1-2 weeks; if still down, set status
+  needs-review in catalog and look for an OpenAlex-based successor.'

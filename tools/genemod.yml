@@ -10,11 +10,15 @@ domain: life-sciences
 status: candidate
 tier: extended
 added: 2026-08
-last_verified: '2026-08-18'
+last_verified: '2026-09-11'
 notes: '[discovery 2026-08-18] Unique use case: Conversational agent acting over lab
   inventory and sample records (the inventory/ordering AI slot), or null if judged
   too close to generic ELN AI Adoption: Capterra and FitGap listings; own academic-labs
   pricing packages Weakest vetting: genemod.net pages repeatedly failed direct fetch
   (oversized pages); AI-agent and pricing claims come from genemod.net snippets via
   search. ~$199/month, 14-day trial, annual contract; no confirmed permanent free
-  tier.'
+  tier.
+
+  [sweep 2026-09-11] Still cannot fetch genemod.net directly. Alive, but Capterra
+  now shows contact-for-pricing with no trial/free version; fails gate 4 (transparent
+  pricing) and gate 2 is unverified. Keep candidate.'

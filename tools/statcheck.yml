@@ -10,7 +10,7 @@ domain: general
 status: active
 tier: core
 added: 2026-08
-last_verified: '2026-08-18'
+last_verified: '2026-09-11'
 notes: '[discovery 2026-08-18] Unique use case: recomputation-based consistency check
   of reported statistics — a spellchecker for stats Adoption: Used in the review workflow
   of Psychological Science and Journal of Experimental Social Psychology; R package

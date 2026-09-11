@@ -2,12 +2,17 @@ name: Claude Code Interpreter
 category: data-analysis
 provider: Anthropic
 url: https://claude.com/blog/create-files
-description: Server-side container environment for Python/Node.js execution, data
-  manipulation, and visualization. Integrates with Model Context Protocol (MCP) for
-  connecting to external data sources and tools.
+description: Claude creates and edits Excel, Word, PowerPoint and PDF files and runs
+  data analysis (cleaning, statistics, charts) by writing and executing code in a
+  sandboxed container ('Claude's computer') inside Claude.ai and the desktop app;
+  available on paid plans.
 access: paid
 domain: general
 status: active
 tier: extended
 added: 2026-02
-last_verified: '2026-08-18'
+last_verified: '2026-09-11'
+notes: '[sweep 2026-09-11] Description rewritten to what the linked page supports:
+  file creation + data analysis in ''Claude''s computer'', paid plans only; dropped
+  unsupported MCP and Node.js claims. API code-execution tool docs moved from docs.claude.com
+  to platform.claude.com (302).'

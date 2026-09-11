@@ -1,17 +1,23 @@
-name: 4o Image Generation
+name: ChatGPT Images (gpt-image-2.5)
 category: scientific-image-generation
 provider: OpenAI
-url: https://openai.com/index/introducing-4o-image-generation/
-description: Native GPT-4o image generation with accurate text rendering, scientific
-  visualization with explanatory annotations, and infographic generation. 87% photographic
-  convincingness vs. DALL-E 3's 62%.
+url: https://openai.com/index/introducing-chatgpt-images-2-5/
+description: 'ChatGPT''s native image model (gpt-image-2.5, released 2026-09-08):
+  generates and edits images with accurate text rendering, reference-image preservation
+  and multi-turn editing; usable for annotated scientific figures and infographics.
+  Instant mode on all ChatGPT tiers including free.'
 access: freemium
 domain: general
-status: needs-review
+status: active
 tier: extended
 added: 2026-02
-last_verified: '2026-08-18'
+last_verified: '2026-09-11'
 notes: '[sweep 2026-08-18] description flagged: Announcement page exists (openai.com
   blocks fetch; confirmed via search). Superseded: ChatGPT Images 2.0 / GPT Image
   2 replaced 4o image gen as ChatGPT''s image model on 2026-04-21. Entry should be
-  updated.'
+  updated.
+
+  [sweep 2026-09-11] 4o image gen superseded twice: ChatGPT Images 2.0 (2026-04-21)
+  then Images 2.5 (2026-09-08). Recommend renaming entry/slug to ''ChatGPT Images
+  (gpt-image-2.5)'', new URL, drop the 87%/62% convincingness figures (from the 2025
+  4o post, not on any current page). Resolves needs-review.'

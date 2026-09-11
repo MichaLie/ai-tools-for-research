@@ -6,14 +6,18 @@ url: https://github.com/pangaea-data-publisher/qualianon
 description: Anonymizes or pseudonymizes qualitative text data such as interview transcripts,
   with user-controlled replacements and separation of identifiers, original data,
   and edited materials — the German FDZ (Qualiservice) archival workflow.
-access: unknown
+access: free
 domain: general
 status: active
 tier: extended
 added: 2026-08
-last_verified: '2026-08-18'
+last_verified: '2026-09-11'
 notes: '[grok-gap-hunt 2026-08-18, independently verified] Report discrepancy: None
   material. v1.5.0 (2025) confirmed. ''Deliberately semi-automatic'' phrasing not
   verbatim on fetched pages, but consistent with the stated user-controlled replacement
   design. GitHub repo and qualiservice.org tools page both fetched 2026-08-18; provider,
-  version, and free-OSS status confirmed.'
+  version, and free-OSS status confirmed.
+
+  [sweep 2026-09-11] Free download via GitHub Releases, repo active (last push 2026-04-23);
+  access set to free. Note: repo has no LICENSE file, so ''open-source'' status is
+  informal.'

@@ -2,13 +2,15 @@ name: DeepL
 category: writing-translation
 provider: DeepL SE
 url: https://www.deepl.com/en/translator
-description: AI translation service renowned for contextually accurate translations,
-  particularly strong for European languages. Pro glossary feature maintains consistent
-  terminology across academic fields. 73% rate translations as more contextually accurate
-  than alternatives.
+description: AI translation service known for contextually accurate output, particularly
+  strong for European languages. Free web translator; Pro glossary feature keeps terminology
+  consistent across a manuscript or field.
 access: freemium
 domain: general
 status: active
 tier: core
 added: 2026-02
-last_verified: '2026-08-18'
+last_verified: '2026-09-11'
+notes: '[sweep 2026-09-11] Dropped unsupported ''73%'' statistic from description;
+  page now cites ''200,000+ businesses'' and case-study figures instead. Everything
+  else unchanged.'

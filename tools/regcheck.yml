@@ -10,7 +10,7 @@ domain: general
 status: active
 tier: core
 added: 2026-08
-last_verified: '2026-08-18'
+last_verified: '2026-09-11'
 notes: '[discovery 2026-08-18] Unique use case: Preregistration-vs-paper consistency
   checking — automating a review step editors demonstrably skip; nothing else in or
   near the catalog does this Adoption: arXiv paper 2601.13330 (Cummins et al.); featured

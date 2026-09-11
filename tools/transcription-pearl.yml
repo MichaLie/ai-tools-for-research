@@ -7,14 +7,19 @@ description: Free desktop app that batch-transcribes archival page images throug
   for correction and export — LLM-based mass transcription for historians.
 access: free
 domain: general
-status: candidate
+status: deprecated
 tier: extended
 added: 2026-08
-last_verified: '2026-08-18'
+last_verified: '2026-09-11'
 notes: '[discovery 2026-08-18] Unique use case: Peer-review-backed LLM transcription
   workflow: the accompanying study found LLMs beat specialized HTR (Transkribus) on
   18th/19th-c. English documents — the easter egg of this area Adoption: Companion
   paper published in Historical Methods (2025, DOI 10.1080/01615440.2025.2500309)
   and arXiv:2411.03340; GitHub repo public Beta; last commit Nov 2024 — maintenance
   uncertain. Requires own API keys and Python. CC BY-NC 4.0. Candidate until freshness
-  confirmed.'
+  confirmed.
+
+  [sweep 2026-09-11] Candidate rejected on gate 5 (alive/maintained): no commits since
+  2024-11-11 (22 months), still 1.0 beta, and superseded by the same authors'' Archive
+  Studio (May 2025). Suggest capturing Archive Studio as the candidate for this use
+  case instead; its own maintenance cadence not yet verified.'

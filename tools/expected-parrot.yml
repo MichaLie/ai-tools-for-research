@@ -11,7 +11,7 @@ domain: general
 status: active
 tier: core
 added: 2026-08
-last_verified: '2026-08-18'
+last_verified: '2026-09-11'
 notes: '[discovery 2026-08-18] Unique use case: Programmatic pretesting of survey
   instruments and factorial experiments on simulated respondents before spending real
   participants, with a built-in AI-to-human validation bridge Adoption: MIT-licensed

@@ -5,12 +5,17 @@ url: https://amnesia.openaire.eu/
 description: Anonymizes tabular datasets with formal k-anonymity and km-anonymity
   guarantees via a graphical interface, so shared data no longer counts as personal
   data under GDPR. Runs entirely on-premise; REST API available.
-access: unknown
+access: free
 domain: general
 status: active
 tier: core
 added: 2026-08
-last_verified: '2026-08-18'
+last_verified: '2026-09-11'
 notes: '[grok-gap-hunt 2026-08-18, independently verified] Both homepage and about
   page fetched 2026-08-18; k-/km-anonymity, on-premise operation, demo-only caveat
-  all confirmed.'
+  all confirmed.
+
+  [sweep 2026-09-11] access unknown -> free: features page states fully open source
+  and free of charge for any use; homepage + REST API confirmed; k-/km-anonymity now
+  only on docs/tutorial PDFs, not homepage. A ''Subscriptions'' page exists (not fetched)
+  — likely hosted/support tier.'

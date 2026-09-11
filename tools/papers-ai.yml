@@ -11,11 +11,15 @@ domain: general
 status: active
 tier: extended
 added: 2026-08
-last_verified: '2026-08-18'
+last_verified: '2026-09-11'
 notes: '[discovery 2026-08-18] Unique use case: AI-assisted scholarly writing that
   never sends data to the cloud (local models, local compile) — the GDPR/sensitive-data
   option; also the only AI-assisted Typst workflow found Adoption: Digital Science
   press release, launch 4 Aug 2026 (fetched); product page live with free tier (fetched);
   too new for libguides Two weeks old at review time — no independent adoption evidence
   yet. Distinct from ReadCube Papers despite the name. Paid-tier pricing not published
-  on fetched pages.'
+  on fetched pages.
+
+  [sweep 2026-09-11] Alive; paid tier now published: Plus GBP 10/month (5x AI allowance)
+  alongside Free — supersedes the ''pricing not published'' note. Description still
+  accurate.'

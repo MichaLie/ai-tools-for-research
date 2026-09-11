@@ -11,7 +11,7 @@ domain: general
 status: active
 tier: core
 added: 2026-08
-last_verified: '2026-08-18'
+last_verified: '2026-09-11'
 notes: '[discovery 2026-08-18] Unique use case: AI-conducted voice interviews — an
   avatar interviewer collects qualitative data autonomously, then the same platform
   analyzes it; no other vetted tool covers AI-led data collection Adoption: Formal

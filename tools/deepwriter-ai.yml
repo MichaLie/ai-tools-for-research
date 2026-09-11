@@ -2,12 +2,15 @@ name: Deepwriter AI
 category: writing-translation
 provider: Deepwriter
 url: https://deepwriter.com/
-description: Multi-agent writing system with Abraxas reasoning engine maintaining
-  coherence across 275+ page documents. Real-time web searches, PDF analysis, and
-  automatic citation management. Outputs editable LaTeX.
-access: freemium
+description: Multi-agent long-form writing system (Abraxas reasoning engine) that
+  keeps documents coherent up to 275 pages, with optional web deep research, uploads
+  of up to 20 source files, citation handling, and LaTeX export. Plans from $159.99/month.
+access: paid
 domain: general
 status: active
 tier: extended
 added: 2026-02
-last_verified: '2026-08-18'
+last_verified: '2026-09-11'
+notes: '[sweep 2026-09-11] access freemium -> paid: pricing page lists no free plan
+  (Starter $159.99/mo); ''275+ pages'' corrected to ''up to 275 pages'' per pricing
+  page. Free signup exists but no free tier is advertised.'

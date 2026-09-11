@@ -10,11 +10,14 @@ domain: general
 status: active
 tier: extended
 added: 2026-08
-last_verified: '2026-08-18'
+last_verified: '2026-09-11'
 notes: '[discovery 2026-08-18] Unique use case: Batch proofreading of a whole .tex
   manuscript outside any editor, with tracked-changes Word output co-authors can review
   — bridges LaTeX and Word-based collaborators Adoption: Official Trinka feature and
   news pages (fetched); G2 review presence seen in search; no libguide sighting confirmed
   Credit-based: 1 credit per 5,000 words, 4 free credits/month on Basic. Parent Enago
   also behind catalog''s ''Enago AI Disclosure'' — different product. Broader Trinka
-  overlaps Paperpal; propose only the LaTeX proofreader angle.'
+  overlaps Paperpal; propose only the LaTeX proofreader angle.
+
+  [sweep 2026-09-11] Domain blocked for fetch; page confirmed live via search (exact
+  URL and title), credit model unchanged.'

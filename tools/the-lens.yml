@@ -1,6 +1,7 @@
 name: The Lens
 category: patents-tech-transfer
-provider: The Lens Limited (Australian non-profit, formerly Cambia)
+provider: The Lens Limited (Australian non-profit, wholly owned subsidiary of SPIE;
+  formerly Cambia)
 url: https://about.lens.org/
 description: 'Links 155M+ patent records with 270M+ scholarly works: landscape dashboards,
   patent-to-paper citation mapping, PatSeq search for DNA/protein sequences inside
@@ -11,11 +12,16 @@ domain: general
 status: active
 tier: core
 added: 2026-08
-last_verified: '2026-08-18'
+last_verified: '2026-09-11'
 notes: '[discovery 2026-08-18] Unique use case: Seeing which patents cite your own
   papers, and finding biological sequences buried in patents (PatSeq) — the scholarly-patent
   bridge no general assistant or single-corpus tool covers Adoption: Listed on WIPO
   Inspire; peer-reviewed review article in PMC; explicit cost-free academic personal
   accounts and Lens Equitable Access Program Ownership moved to non-profit The Lens
   Limited June 2026. Strength is authoritative linked data, not generative AI — release
-  notes show few AI features; commercial individual use is $1,000/yr.'
+  notes show few AI features; commercial individual use is $1,000/yr.
+
+  [sweep 2026-09-11] The Lens Limited is now a wholly owned subsidiary of SPIE (relaunch
+  announced 2026-06-26); platform, free personal accounts and 50,000-record exports
+  unchanged, so status stays active rather than acquired. $1,000/yr commercial figure
+  not re-verified.'

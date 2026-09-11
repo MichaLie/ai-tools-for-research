@@ -2,12 +2,17 @@ name: ResearchRabbit
 category: citation-networks-reference-management
 provider: Litmaps
 url: https://www.researchrabbit.ai/
-description: AI-powered paper discovery through citation chains and semantic similarity,
-  presenting results as visual network maps. Free Zotero two-way sync; finds related
-  research that keyword searches miss.
+description: AI-powered paper discovery through citation chains and semantic similarity
+  over 310M+ articles, shown as visual network maps. Free plan with unlimited searches;
+  Zotero importer (two-way sync in development); RR+ from $10/month adds larger seed
+  sets and alerts.
 access: freemium
 domain: general
 status: active
 tier: core
 added: 2026-02
-last_verified: '2026-08-18'
+last_verified: '2026-09-11'
+notes: '[sweep 2026-09-11] ''Free Zotero two-way sync'' no longer accurate: official
+  guide says the Zotero Importer is import-only with two-way sync in development.
+  Pricing verified (Free / RR+ $10-12.50 per month). Provider legal name is Litmap
+  Ltd.'

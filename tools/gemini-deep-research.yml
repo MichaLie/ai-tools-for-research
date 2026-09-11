@@ -2,12 +2,16 @@ name: Gemini Deep Research
 category: deep-research-agents
 provider: Google
 url: https://gemini.google/overview/deep-research/
-description: Google's agentic research feature analyzing 100+ sources with 1M token
-  context. Supports multimodal inputs including PDFs, images, audio, and video for
-  comprehensive research synthesis.
+description: Google's agentic research mode that browses up to hundreds of websites
+  and synthesizes a report within a 1M-token context; accepts uploaded files and Workspace
+  data (Gmail, Drive, Chat). Included in the free Gemini tier with lower usage limits
+  than Pro.
 access: freemium
 domain: general
 status: active
 tier: core
 added: 2026-02
-last_verified: '2026-08-18'
+last_verified: '2026-09-11'
+notes: '[sweep 2026-09-11] Page no longer claims ''100+ sources'' (now ''hundreds
+  of websites'') nor lists PDF/image/audio/video inputs; description rewritten to
+  what the page supports. Freemium confirmed (Deep Research listed on Free plan).'

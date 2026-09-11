@@ -1,17 +1,22 @@
 name: Pipette.bio
 category: autonomous-research-agents
-provider: Pipette.bio
+provider: Variome Analytics
 url: https://pipette.bio/
-description: Bioinformatics AI agent for genomics, transcriptomics, and proteomics
-  analysis through conversation (no coding). Supports RNA-seq, single-cell, ChIP/ATAC-seq,
-  variant calling, and GWAS. Free during beta.
+description: Bioinformatics AI agent that plans and runs genomics, transcriptomics,
+  single-cell, ChIP-seq, variant-calling and metagenomics analyses from natural-language
+  requests, on 150+ open-source tools with reproducibility bundles. Free tier (20
+  credits/month); paid packs and lab plans.
 access: freemium
 domain: life-sciences
 status: active
 tier: extended
 added: 2026-02
-last_verified: '2026-08-18'
+last_verified: '2026-09-11'
 notes: '[sweep 2026-08-18] description flagged: Homepage and pricing page fetched:
   conversational bioinformatics agent confirmed; free intro credits, packs $25-100,
   team plans $49-99/seat/mo. ''Free during beta'' in description is outdated — paid
-  pricing is live.'
+  pricing is live.
+
+  [sweep 2026-09-11] Provider now stated on site as Variome Analytics; ''Free during
+  beta'' removed — free tier is 20 credits/month plus paid packs/lab plans; /pricing
+  page 404s so specific prices not re-verified.'

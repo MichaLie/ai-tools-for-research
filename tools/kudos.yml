@@ -1,6 +1,6 @@
 name: Kudos
 category: communication-accessibility
-provider: Kudos (growkudos.com)
+provider: Kudos Innovations Ltd
 url: https://www.growkudos.com/
 description: Researcher creates a free showcase page explaining a publication in plain
   language; Kudos's AI service drafts the summary and a paid campaign promotes it
@@ -11,10 +11,13 @@ domain: general
 status: active
 tier: core
 added: 2026-08
-last_verified: '2026-08-18'
+last_verified: '2026-09-11'
 notes: '[discovery 2026-08-18] Unique use case: Publishing and promoting plain-language
   summaries of published papers with impact tracking Adoption: Kudos blog documents
   AI Summaries rollout with publishers and author-verdict testing; university partnership
   coverage (Sheffield Hallam) seen in search results Free account is self-write; AI-drafted
   summary confirmed in the $499 researcher campaign and publisher services. Self-serve
-  AI drafting on free tier unconfirmed.'
+  AI drafting on free tier unconfirmed.
+
+  [sweep 2026-09-11] provider normalised to legal name Kudos Innovations Ltd (site
+  footer); otherwise unchanged.'

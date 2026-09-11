@@ -1,5 +1,6 @@
 name: Stork
 category: staying-current
+provider: Xu Cui (indie)
 url: https://www.storkapp.me/
 description: Enter keywords and authors once; receive daily or weekly email alerts
   of matching new papers and preprints from PubMed and other sources, plus NIH grant-award
@@ -9,10 +10,14 @@ domain: life-sciences
 status: active
 tier: extended
 added: 2026-08
-last_verified: '2026-08-18'
+last_verified: '2026-09-11'
 notes: '[discovery 2026-08-18] Unique use case: Tracks NIH grant awards alongside
   papers — monitoring who just got funded in your field, not only who just published
   Adoption: Recommended in ResearchGate community threads on best literature-alert
   services; iOS app live; site active 2016–2026 Company identity not stated on site
   — a transparency caveat for students. Exact Pro/membership prices not captured.
-  Bundled AI-writing tools not vetted here.'
+  Bundled AI-writing tools not vetted here.
+
+  [sweep 2026-09-11] Alive. Pricing captured: features $12/mo each or academic membership
+  $1,310-1,512/yr. Operator identified only via App Store seller (Xu Cui); iOS app
+  last updated 2019, so ''iOS app live'' is stale.'

@@ -3,11 +3,14 @@ category: visual-presentation-creation
 provider: Napkin AI
 url: https://www.napkin.ai/
 description: Transforms text into professional diagrams, flowcharts, mind maps, and
-  infographics. AI interprets relationships and hierarchy to produce appropriate visuals.
-  5M+ users; generous free tier (500 weekly credits).
+  infographics, plus Napkin Slides for decks. AI interprets relationships and hierarchy
+  to produce appropriate visuals. Generous free tier (500 weekly credits); Plus $9,
+  Pro $22 per month.
 access: freemium
 domain: general
 status: active
 tier: core
 added: 2026-02
-last_verified: '2026-08-18'
+last_verified: '2026-09-11'
+notes: '[sweep 2026-09-11] Dropped ''5M+ users'' (press-only, not on product page);
+  500 weekly credits still on pricing page; added Napkin Slides.'

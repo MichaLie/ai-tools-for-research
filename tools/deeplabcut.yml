@@ -10,7 +10,7 @@ domain: life-sciences
 status: active
 tier: core
 added: 2026-08
-last_verified: '2026-08-18'
+last_verified: '2026-09-11'
 notes: '[grok-gap-hunt 2026-08-18, independently verified] LGPL-3.0. v3.0.1 released
   2026-07-28. mlabofai.org/deeplabcut landing live; unpublished SuperAnimal models
   non-commercial, matching report.'

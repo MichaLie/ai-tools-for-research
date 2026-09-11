@@ -4,17 +4,20 @@ provider: Project PQAI (nonprofit initiative, AT&T / Georgia IP Alliance)
 url: https://projectpq.ai/
 description: Paste a plain-language invention description; deep-learning models trained
   on examiner citation data return ranked prior art from USPTO, EPO and open-access
-  journals, plus concept extraction and CPC/IPC code suggestions. Open-source (MIT),
-  free web search and API.
+  journals, plus concept extraction and CPC/IPC code suggestions. Open-source (MIT);
+  free web search, paid API tiers.
 access: free
 domain: general
 status: active
 tier: core
 added: 2026-08
-last_verified: '2026-08-18'
+last_verified: '2026-09-11'
 notes: '[discovery 2026-08-18] Unique use case: Free, open-source semantic prior-art
   search an academic can run before submitting an invention disclosure; API is explicitly
   pitched at university tech transfer offices Adoption: Unified Patents support article
   describes it; site has a ''For University Tech Transfer Offices'' page; active GitHub
   org (pqaidevteam); 2025-2026 dated content Coverage is USPTO/EPO + DOAJ, not all
-  jurisdictions; results are a first-pass screen, not a professional novelty search.'
+  jurisdictions; results are a first-pass screen, not a professional novelty search.
+
+  [sweep 2026-09-11] Site now lists API access as paid (tiered); web search still
+  free. Description adjusted; MIT license not re-checked this sweep.'

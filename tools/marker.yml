@@ -10,7 +10,7 @@ domain: general
 status: active
 tier: core
 added: 2026-08
-last_verified: '2026-08-18'
+last_verified: '2026-09-11'
 notes: '[discovery 2026-08-18] Unique use case: Local, batch, no-cloud conversion
   of entire paper libraries to structured Markdown — data never leaves the machine
   Adoption: 38.8k GitHub stars, active commits; consistently top-ranked in 2026 open-source

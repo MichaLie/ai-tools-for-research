@@ -11,8 +11,12 @@ domain: general
 status: candidate
 tier: extended
 added: 2026-05
-last_verified: '2026-08-18'
+last_verified: '2026-09-11'
 notes: '[sweep 2026-08-18] Fetched labs.google/science and research.google ERA blog.
   ''Computational Discovery'' built with AlphaEvolve+ERA; ERA Nature paper May 19
   2026 and CDC-forecasting claim confirmed. Access via ''Express interest'' / gradual
-  trusted-tester rollout.'
+  trusted-tester rollout.
+
+  [sweep 2026-09-11] Still ''Express interest'' only (gate 2, usable this week, fails);
+  Nature paper and CDC-forecasting claim reconfirmed. Keep candidate until self-serve
+  access opens.'

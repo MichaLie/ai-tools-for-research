@@ -11,7 +11,7 @@ domain: general
 status: active
 tier: core
 added: 2026-08
-last_verified: '2026-08-18'
+last_verified: '2026-09-11'
 notes: '[discovery 2026-08-18] Unique use case: Producing a publishable, edited outreach
   podcast episode from a paper (vs. NotebookLM''s non-editable private overviews)
   General podcast studio with a dedicated research-paper workflow; free 150 credits,

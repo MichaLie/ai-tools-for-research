@@ -11,7 +11,7 @@ domain: general
 status: active
 tier: core
 added: 2026-08
-last_verified: '2026-08-18'
+last_verified: '2026-09-11'
 notes: '[discovery 2026-08-18] Unique use case: STEM-specific OCR — equations, handwritten
   math, and chemical structures to compilable LaTeX; sole representative of the ''get
   this formula out of a PDF'' task Adoption: Referenced as the OCR component in a

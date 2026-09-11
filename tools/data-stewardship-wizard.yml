@@ -11,7 +11,7 @@ domain: general
 status: active
 tier: core
 added: 2026-08
-last_verified: '2026-08-18'
+last_verified: '2026-09-11'
 notes: '[grok-gap-hunt 2026-08-18, independently verified] Homepage confirms ELIXIR
   CZ, CTU Prague, OSS (GitHub/Docker Hub). Specific ''ELIXIR cloud + Czech instances''
   hosting not itemized on homepage; Codevence Solutions named as partner.'

@@ -11,7 +11,7 @@ domain: general
 status: active
 tier: core
 added: 2026-08
-last_verified: '2026-08-18'
+last_verified: '2026-09-11'
 notes: '[discovery 2026-08-18] Unique use case: A full AI-first LaTeX editor free
   with any ChatGPT account — the whole-document AI context (not per-sentence) plus
   built-in arXiv literature agent Adoption: HKUST Library news page recommending it

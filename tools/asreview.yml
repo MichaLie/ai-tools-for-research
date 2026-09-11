@@ -10,7 +10,7 @@ domain: general
 status: active
 tier: core
 added: 2026-08
-last_verified: '2026-08-18'
+last_verified: '2026-09-11'
 notes: '[discovery 2026-08-18] Unique use case: transparent, simulatable machine-learning
   screening you can audit and run offline — the only open-source option with a validation/simulation
   framework Adoption: Europe PMC: 313 Methods-section mentions; site reports 638k+

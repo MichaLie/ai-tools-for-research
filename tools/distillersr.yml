@@ -11,7 +11,7 @@ domain: general
 status: active
 tier: extended
 added: 2026-08
-last_verified: '2026-08-18'
+last_verified: '2026-09-11'
 notes: '[discovery 2026-08-18] Unique use case: regulatory-grade, fully audit-trailed
   AI extraction and screening quality control (pharma/medical-device evidence requirements)
   Adoption: Europe PMC: 1,374 Methods-section mentions; listed in King''s College

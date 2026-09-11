@@ -2,12 +2,14 @@ name: Scite
 category: literature-discovery-analysis
 provider: Research Solutions
 url: https://scite.ai/
-description: Smart Citations platform showing whether papers support, contrast, or
-  merely mention cited work. 1.4B+ citations indexed with deep learning classification
-  to evaluate the reception of scientific claims.
+description: Smart Citations platform showing whether later papers support, contrast,
+  or merely mention cited work. 1.6B+ citations from 317M+ full-text articles, classified
+  by deep learning to evaluate how a claim, paper, or author has been received.
 access: paid
 domain: general
 status: active
 tier: core
 added: 2026-02
-last_verified: '2026-08-18'
+last_verified: '2026-09-11'
+notes: '[sweep 2026-09-11] citation count updated 1.4B+ -> 1.6B+ (317M+ full-text
+  articles) per scite.ai homepage.'

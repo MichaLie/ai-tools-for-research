@@ -2,15 +2,20 @@ name: SciSpace (Typeset)
 category: literature-discovery-analysis
 provider: SciSpace
 url: https://scispace.com/
-description: All-in-one research platform with 280M papers, semantic search, Chat
-  with PDF, and AI columns for systematic comparison. Includes 40,000+ journal formatting
-  templates and plagiarism checking.
+description: 'All-in-one research platform: semantic literature search over 280M+
+  papers, Chat with PDF, AI comparison columns and Deep Review for systematic-review
+  synthesis. Includes journal formatting templates (Typeset) and plagiarism/AI checks.
+  Free tier; Premium from $12/month.'
 access: freemium
 domain: general
 status: active
 tier: core
 added: 2026-02
-last_verified: '2026-08-18'
+last_verified: '2026-09-11'
 notes: '[sweep 2026-08-18] typeset.io 301-redirects to scispace.com, which bot-blocks
   fetcher. 2026 pricing reviews and official pricing page (scispace.com/typeset-pricing/)
-  confirm active freemium product: free tier, Premium $12/mo, team plans.'
+  confirm active freemium product: free tier, Premium $12/mo, team plans.
+
+  [sweep 2026-09-11] dropped ''40,000+ journal templates'' (SciSpace''s own template
+  pages say 800+); 280M+ retained but only confirmable via third-party 2026 reviews
+  - product pages bot-block. Pricing $12/mo Premium reconfirmed via reviews.'

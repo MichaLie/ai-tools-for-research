@@ -11,9 +11,13 @@ domain: life-sciences
 status: candidate
 tier: extended
 added: 2026-08
-last_verified: '2026-08-18'
+last_verified: '2026-09-11'
 notes: '[discovery 2026-08-18] Unique use case: structured IRB protocol and consent-form
   authoring with compliance templates Adoption: Sold to IRBs and GME programs; BRANY
   is an established IRB/compliance services organization; site current (screenshots
   dated March 2026) Demo-only, no public pricing — hence candidate. US clinical-research
-  centric; EU ethics-committee fit unverified.'
+  centric; EU ethics-committee fit unverified.
+
+  [sweep 2026-09-11] Still demo-only with no public pricing or self-serve trial —
+  fails gate 2 (usable this week); gates 1, 3, 4, 5 pass. Keep candidate until a trial
+  or institutional purchase path is verifiable.'

@@ -2,12 +2,14 @@ name: AnswerThis
 category: literature-discovery-analysis
 provider: AnswerThis
 url: https://answerthis.io/
-description: Generates literature reviews from 250M academic papers with line-by-line
-  citations. Features Research Gap Finder, citation maps, and Zotero/Mendeley integration.
-  Reports 50% average productivity increase.
+description: Generates literature reviews with line-by-line citations over 300M+ papers,
+  trials and PDFs; includes research-gap identification, citation mapping, systematic-review
+  tools and an AI writer with 2,000+ citation styles. Free starter tier.
 access: freemium
 domain: general
 status: active
 tier: extended
 added: 2026-02
-last_verified: '2026-08-18'
+last_verified: '2026-09-11'
+notes: '[sweep 2026-09-11] Alive, same provider/URL. Corpus claim now 300M+ (was 250M);
+  ''50% productivity'' claim gone from page, dropped. Access still freemium.'

@@ -2,12 +2,17 @@ name: Instrumentl
 category: ideation-grant-funding
 provider: Instrumentl
 url: https://www.instrumentl.com/
-description: Grant discovery, tracking and lightweight proposal support with a database
-  of 400,000+ active funding opportunities. Strong for academic researchers and larger
-  nonprofits managing complex grant portfolios. Plans from ~$179/month (billed annually).
+description: Grant discovery, tracking and lightweight proposal support with a large
+  funder database (interactive 990 reports) and a curated feed of active opportunities.
+  Strong for academic researchers and larger nonprofits managing complex grant portfolios.
+  Single-user plans from ~$179/month (billed annually); 14-day trial.
 access: paid
 domain: general
 status: active
 tier: core
 added: 2026-05
-last_verified: '2026-08-18'
+last_verified: '2026-09-11'
+notes: '[sweep 2026-09-11] Site blocks fetch (403); alive per search, $55M Summit
+  Partners investment reported. Third-party sources describe 400,000+ funders / 20,000+
+  opportunities — the old ''400,000+ active funding opportunities'' figure mislabels
+  the count, so it was dropped pending product-page confirmation.'

@@ -10,7 +10,7 @@ domain: general
 status: active
 tier: core
 added: 2026-08
-last_verified: '2026-08-18'
+last_verified: '2026-09-11'
 notes: '[grok-gap-hunt 2026-08-18, independently verified] Homepage self-describes
   as web service to ''programatically assess'' FAIRness, supporting the API claim;
   explicit API docs and pricing statement not on the fetched page. Source on GitHub.'

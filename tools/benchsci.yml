@@ -3,7 +3,7 @@ category: lab-bench-protocols
 provider: BenchSci (Toronto)
 url: https://www.benchsci.com/
 description: Finds validated antibodies and reagents by AI-decoding figures and usage
-  evidence from 20M+ publications and 14M commercial products; filter by application,
+  evidence from millions of publications and commercial products; filter by application,
   species reactivity, and validation status before ordering. Free for verified academic
   and nonprofit researchers.
 access: free
@@ -11,7 +11,7 @@ domain: life-sciences
 status: active
 tier: core
 added: 2026-08
-last_verified: '2026-08-18'
+last_verified: '2026-09-11'
 notes: '[discovery 2026-08-18] Unique use case: Antibody/reagent selection grounded
   in AI-decoded published figures — directly attacks the antibody reproducibility
   crisis; nothing else in the catalog covers reagent choice Adoption: re3data.org
@@ -19,4 +19,10 @@ notes: '[discovery 2026-08-18] Unique use case: Antibody/reagent selection groun
   live on benchsci.com; Stanford and Harvard listed as users Company now leads with
   enterprise agentic platform EMET; academic antibody-search sign-up still linked
   but current UI/scope not testable without institutional login. Requires affiliation
-  verification.'
+  verification.
+
+  [sweep 2026-09-11] Dropped ''20M+ publications / 14M products'' — homepage now says
+  38M+ publications, 16M antibodies (EMET platform figures, not academic-tier specific).
+  Academic landing page 308-redirects to app.benchsci.com (ASCEND shell); free academic
+  access still only supported by older blog/re3data sources, not testable without
+  affiliated login — re-verify next sweep.'

@@ -11,8 +11,13 @@ domain: general
 status: candidate
 tier: extended
 added: 2026-08
-last_verified: '2026-08-18'
+last_verified: '2026-09-11'
 notes: '[discovery 2026-08-18] Unique use case: Paper to short-form social video for
   public science communication Adoption: CHI 2026 paper (Barcelona, April 2026); TechXplore
   coverage June 2026 Academic prototype, live site with generate button; requires
-  user''s paid Google Gemini subscription. Privacy policy and durability unverified.'
+  user''s paid Google Gemini subscription. Privacy policy and durability unverified.
+
+  [sweep 2026-09-11] Candidate vetted: passes gates 1, 3, 5; gate 2 marginal (needs
+  user''s paid Gemini subscription); FAILS gate 4 — no privacy policy on site, academic
+  prototype with no durability commitment. Keep candidate; re-check if a privacy policy
+  appears.'

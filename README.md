@@ -5,7 +5,7 @@ for my courses and workshops on AI in science, which makes it opinionated on
 purpose: for each research task you get a handful of tools people really use,
 not everything that exists.
 
-Right now: 160 tools across 35 task areas. Last checked against the live web on 18 August 2026.
+Right now: 160 tools across 35 task areas. Last checked against the live web on 11 September 2026.
 
 This space moves fast. Tools rename, merge and die constantly, so if something
 you need is missing, check back in a week or open an issue. For real depth in
@@ -29,12 +29,12 @@ history is part of the story.
 Tasks grouped by research stage:
 
 - **Everyday AI** · [General-Purpose AI Assistants](#general-purpose-ai-assistants) (8) · [Office Suite AI Integrations](#office-suite-ai-integrations) (2) · [Browser Automation Agents](#browser-automation-agents) (2)
-- **Discover & Learn** · [AI-Powered Search Engines](#ai-powered-search-engines) (2) · [Deep Research Agents](#deep-research-agents) (5) · [Literature Discovery & Analysis](#literature-discovery-analysis) (8) · [Publisher & Database AI Assistants](#publisher-database-ai-assistants) (4) · [Citation Networks & Reference Management](#citation-networks-reference-management) (3) · [Grounded Knowledge & Specialized Databases](#grounded-knowledge-specialized-databases) (1) · [Systematic Review & Evidence Synthesis](#systematic-review-evidence-synthesis) (9) · [Staying Current](#staying-current) (5)
+- **Discover & Learn** · [AI-Powered Search Engines](#ai-powered-search-engines) (1) · [Deep Research Agents](#deep-research-agents) (5) · [Literature Discovery & Analysis](#literature-discovery-analysis) (8) · [Publisher & Database AI Assistants](#publisher-database-ai-assistants) (4) · [Citation Networks & Reference Management](#citation-networks-reference-management) (3) · [Grounded Knowledge & Specialized Databases](#grounded-knowledge-specialized-databases) (1) · [Systematic Review & Evidence Synthesis](#systematic-review-evidence-synthesis) (10) · [Staying Current](#staying-current) (5)
 - **Plan & Design** · [Ideation & Grant Funding](#ideation-grant-funding) (5) · [Survey & Experiment Design](#survey-experiment-design) (4) · [Data Management & FAIR](#data-management-fair) (4)
 - **Collect & Analyze** · [Data Analysis](#data-analysis) (4) · [Autonomous Research Agents](#autonomous-research-agents) (7) · [Code Assistants](#code-assistants) (5) · [Transcription & Qualitative Analysis](#transcription-qualitative-analysis) (8) · [OCR & Document Digitization](#ocr-document-digitization) (6) · [Lab Bench & Protocols](#lab-bench-protocols) (4) · [Instrument Data Interpretation](#instrument-data-interpretation) (2) · [Bioimage Analysis](#bioimage-analysis) (3) · [Behavioral Video Analysis](#behavioral-video-analysis) (3) · [De-identification & Data Sharing](#de-identification-data-sharing) (4)
-- **Write & Illustrate** · [Writing & Translation](#writing-translation) (7) · [Visual & Presentation Creation](#visual-presentation-creation) (4) · [Scientific Image Generation](#scientific-image-generation) (3) · [LaTeX & Academic Language](#latex-academic-language) (5)
+- **Write & Illustrate** · [Writing & Translation](#writing-translation) (6) · [Visual & Presentation Creation](#visual-presentation-creation) (4) · [Scientific Image Generation](#scientific-image-generation) (3) · [LaTeX & Academic Language](#latex-academic-language) (5)
 - **Review & Publish** · [AI Manuscript Review & Disclosure](#ai-manuscript-review-disclosure) (10) · [Integrity Screening & Forensics](#integrity-screening-forensics) (5) · [Journal Selection & Publishing](#journal-selection-publishing) (1)
-- **Share & Impact** · [Conference Prep — Posters & Talk Practice](#conference-prep-—-posters-talk-practice) (5) · [Research Communication & Accessibility](#research-communication-accessibility) (6) · [Patents & Tech Transfer](#patents-tech-transfer) (5) · [Impact & Policy Tracking](#impact-policy-tracking) (1)
+- **Share & Impact** · [Conference Prep — Posters & Talk Practice](#conference-prep-—-posters-talk-practice) (5) · [Research Communication & Accessibility](#research-communication-accessibility) (6) · [Patents & Tech Transfer](#patents-tech-transfer) (6) · [Impact & Policy Tracking](#impact-policy-tracking) (1)
 
 ## General-Purpose AI Assistants
 
@@ -42,19 +42,19 @@ Tasks grouped by research stage:
 
 | Tool | Provider | Access | Description |
 |---|---|---|---|
-| [ChatGPT](https://chatgpt.com/) | OpenAI | Freemium | Conversational AI with Deep Research for multi-step synthesis of 100+ sources, Code Interpreter for Python-based data analysis, and advanced reasoning. ChatGPT Plus includes image generation (4o) and file analysis capabilities. |
+| [ChatGPT](https://chatgpt.com/) | OpenAI | Freemium | Conversational AI with Deep Research for multi-step source synthesis, Python-based data analysis, and reasoning models. Free tier; paid Go, Plus and Pro plans add image generation, file analysis and higher usage limits. |
 | [Claude](https://claude.ai/) | Anthropic | Freemium | Advanced AI assistant with 200K token context window, Code Interpreter, and Claude for Life Sciences integrations (Benchling, BioRender, PubMed, 10x Genomics). Excels at long-document analysis and nuanced scientific writing. |
 | [Gemini](https://gemini.google.com/) | Google | Freemium | Multimodal AI with 1M token context, Deep Research mode analyzing 100+ sources, and integration with Google Workspace. Supports PDFs, images, audio, and video analysis for comprehensive research workflows. |
-| [Microsoft Copilot](https://copilot.microsoft.com/) | Microsoft | Freemium | AI assistant integrated with Microsoft 365, featuring Researcher agent for grant proposals and policy analysis, and Analyst agent with Python execution for data queries. Academic pricing available at $18/user/month. |
+| [Microsoft Copilot](https://copilot.microsoft.com/) | Microsoft | Freemium | Free consumer AI chat at copilot.microsoft.com. The Microsoft 365 Copilot add-on ($18/user/month academic offering for faculty, staff and students) adds the Researcher agent for grant proposals and policy analysis and the Analyst agent with Python execution for data queries. |
 
 <details><summary>More tools for this task (4)</summary>
 
 | Tool | Provider | Access | Description |
 |---|---|---|---|
 | [Google AI Studio](https://aistudio.google.com/) | Google | Free | Free browser-based platform for experimenting with Gemini models. Provides researchers direct API access to test prompts, build prototypes, and embed Deep Research capabilities into applications. |
-| [Grok](https://grok.com/) | xAI | Freemium | Real-time AI with X/Twitter integration and Deep Search for academic research. Features 65% reduction in hallucinations (Grok 4.1) and multi-step reasoning for cross-source evidence synthesis. |
-| [Le Chat (Mistral Large)](https://chat.mistral.ai/) \* | Mistral AI | — | Multilingual AI with Deep Research mode, 256K context window, and Projects for organizing research workspaces. Offers on-premises data connectors for institutions with strict data governance requirements. |
+| [Grok](https://grok.com/) | xAI | Freemium | xAI's assistant with real-time X/Twitter and web search plus DeepSearch multi-step research mode. Free tier on grok.com and inside X (lighter model, limited usage); SuperGrok subscriptions unlock the newest models (Grok 4.6 as of Aug 2026). |
 | [LM Council](https://lmcouncil.ai/) | — | Freemium | Multi-model consensus tool that queries multiple AI models simultaneously (GPT-5, Claude, Gemini, Grok), with anonymous peer review and ranking. Reduces individual model biases through collective evaluation. |
+| [Vibe (Mistral, formerly Le Chat)](https://chat.mistral.ai/) | Mistral AI | Freemium | Mistral's assistant, renamed from Le Chat to Vibe in May 2026: Chat (turn-based), Work (multi-step agent across Google Workspace, Outlook, SharePoint, Slack, GitHub) and Code (CLI, VS Code, web) modes. Free tier; Pro EUR 17.99/month, Team EUR 29.99/user/month; European alternative to US assistants. |
 
 </details>
 
@@ -73,7 +73,7 @@ Tasks grouped by research stage:
 
 | Tool | Provider | Access | Description |
 |---|---|---|---|
-| [Claude for Chrome](https://claude.com/blog/claude-for-chrome) | Anthropic | Paid | Chrome extension enabling Claude to read, click, and navigate web content. Features workflow recording to teach custom processes and integrates with Claude Code for terminal-to-browser workflows. Pro/Max/Teams/Enterprise. |
+| [Claude in Chrome](https://claude.com/chrome) | Anthropic | Paid | Chrome extension in which Claude reads pages, clicks, types and fills forms with approval, works across tabs and runs background tasks; integrates with Claude Code (build in terminal, verify in browser). Generally available on all paid plans (Pro/Max/Team/Enterprise). |
 | [Comet](https://www.perplexity.ai/comet) | Perplexity AI | Freemium | AI-powered Chromium browser with Background Assistants completing multiple research tasks asynchronously. Highlights any text for instant explanations; Email Assistant handles scheduling and drafts (Max subscribers). |
 
 ## AI-Powered Search Engines
@@ -84,14 +84,6 @@ Tasks grouped by research stage:
 |---|---|---|---|
 | [Perplexity](https://www.perplexity.ai/) | Perplexity AI | Freemium | Answer engine with Deep Research achieving 93.9% factuality accuracy. Academic focus mode prioritizes peer-reviewed sources. Generates reports with inline citations in under 3 minutes. |
 
-<details><summary>More tools for this task (1)</summary>
-
-| Tool | Provider | Access | Description |
-|---|---|---|---|
-| [You.com](https://you.com/) \* | You.com | Paid | AI search with ARI (Advanced Research and Insights) agent scanning 400+ sources simultaneously. Produces research reports with verified citations, interactive graphs, and visualizations. Named TIME's Best Inventions 2025. |
-
-</details>
-
 ## Deep Research Agents
 
 *The task: delegate a multi-hour literature synthesis and get back a cited report.*
@@ -99,15 +91,15 @@ Tasks grouped by research stage:
 | Tool | Provider | Access | Description |
 |---|---|---|---|
 | [ChatGPT Deep Research](https://openai.com/index/introducing-deep-research/) | OpenAI | Freemium | Built-in ChatGPT feature that conducts multi-step internet research, synthesizing hundreds of sources into comprehensive reports. Reduces hours of manual research to minutes with full source attribution. |
-| [Claude Research](https://claude.com/blog/research) | Anthropic | Paid | Claude's research capability with PubMed integration and extended thinking for complex scientific analysis. Part of Claude for Life Sciences suite with specialized biomedical tool integrations. |
-| [Gemini Deep Research](https://gemini.google/overview/deep-research/) | Google | Freemium | Google's agentic research feature analyzing 100+ sources with 1M token context. Supports multimodal inputs including PDFs, images, audio, and video for comprehensive research synthesis. |
-| [STORM](https://storm.genie.stanford.edu/) | Stanford OVAL Lab | Free | LLM system generating Wikipedia-style articles with citations from scratch. Simulates multi-perspective expert conversations, achieving 99% factual accuracy. Co-STORM extension enables human-AI collaborative research. |
+| [Claude Research](https://claude.com/blog/research) | Anthropic | Paid | Agentic research mode in Claude: runs many searches across the web and connected tools, then returns a cited report. Available on all paid plans (Pro, Max, Team, Enterprise) on web, desktop, and mobile. |
+| [Gemini Deep Research](https://gemini.google/overview/deep-research/) | Google | Freemium | Google's agentic research mode that browses up to hundreds of websites and synthesizes a report within a 1M-token context; accepts uploaded files and Workspace data (Gmail, Drive, Chat). Included in the free Gemini tier with lower usage limits than Pro. |
+| [STORM](https://storm.genie.stanford.edu/) | Stanford OVAL Lab | Free | LLM system that researches a topic and writes a Wikipedia-style, fully cited article by simulating multi-perspective expert conversations. Co-STORM mode lets you join the discussion for human-AI collaborative knowledge curation. Free web demo; MIT-licensed code. |
 
 <details><summary>More tools for this task (1)</summary>
 
 | Tool | Provider | Access | Description |
 |---|---|---|---|
-| [Falcon Deep Research](https://www.futurehouse.org/) \* | FutureHouse | Freemium | Specialized AI for deep literature synthesis from FutureHouse (nonprofit AI biology lab), hosted on Edison Scientific platform. Surveys extensive scientific databases to compile comprehensive reviews. Outperforms PhD-level researchers in head-to-head literature search accuracy benchmarks. |
+| [Edison Literature (formerly Falcon)](https://platform.edisonscientific.com/) | Edison Scientific | Freemium | Deep literature-research agent (PaperQA3) on the Edison Scientific platform: searches and reads full text, figures, and tables of 150M+ papers and patents and returns cited syntheses. Successor to FutureHouse's Falcon; academics get about 20 free calls per day. |
 
 </details>
 
@@ -117,19 +109,19 @@ Tasks grouped by research stage:
 
 | Tool | Provider | Access | Description |
 |---|---|---|---|
-| [Consensus](https://consensus.app/) | Consensus | Freemium | AI academic search across 220M+ peer-reviewed papers with Consensus Meter visualizing study agreement/disagreement. Scholar Agent (GPT-5) provides line-by-line citations to prevent hallucinations. |
-| [Elicit](https://elicit.com/) | Elicit | Freemium | Automates systematic literature reviews across 138M papers with semantic search. AI-powered screening saves 80%+ of manual time; extracts data from tables with 94-99% accuracy. Generates mini-PRISMA diagrams. |
-| [SciSpace (Typeset)](https://scispace.com/) | SciSpace | Freemium | All-in-one research platform with 280M papers, semantic search, Chat with PDF, and AI columns for systematic comparison. Includes 40,000+ journal formatting templates and plagiarism checking. |
-| [Scite](https://scite.ai/) | Research Solutions | Paid | Smart Citations platform showing whether papers support, contrast, or merely mention cited work. 1.4B+ citations indexed with deep learning classification to evaluate the reception of scientific claims. |
-| [Semantic Scholar](https://www.semanticscholar.org/) | Allen Institute for AI (Ai2) | Free | Free AI-powered discovery tool with 225M+ papers. Features TLDR summaries, Semantic Reader for augmented PDF reading, and Highly Influential Citations for identifying foundational works. Open API available. |
+| [Consensus](https://consensus.app/) | Consensus | Freemium | AI academic search across 220M+ peer-reviewed papers with Consensus Meter visualizing study agreement/disagreement. Research Agent (formerly Scholar Agent, built on GPT-5) answers multi-step questions with citation-backed, paper-grounded output. |
+| [Elicit](https://elicit.com/) | Elicit | Freemium | Automates systematic literature reviews across 125M+ papers: semantic search, AI screening and data extraction (users report up to 80% time savings; 99.4% extraction accuracy) with PRISMA 2020 support. Free tier; Pro $49/month, Scale $169/month. |
+| [SciSpace (Typeset)](https://scispace.com/) | SciSpace | Freemium | All-in-one research platform: semantic literature search over 280M+ papers, Chat with PDF, AI comparison columns and Deep Review for systematic-review synthesis. Includes journal formatting templates (Typeset) and plagiarism/AI checks. Free tier; Premium from $12/month. |
+| [Scite](https://scite.ai/) | Research Solutions | Paid | Smart Citations platform showing whether later papers support, contrast, or merely mention cited work. 1.6B+ citations from 317M+ full-text articles, classified by deep learning to evaluate how a claim, paper, or author has been received. |
+| [Semantic Scholar](https://www.semanticscholar.org/) | Allen Institute for AI (Ai2) | Free | Free AI-powered discovery tool with 237M+ papers. Features TLDR summaries, Semantic Reader for augmented PDF reading, and Highly Influential Citations for identifying foundational works. Open API available. |
 
 <details><summary>More tools for this task (3)</summary>
 
 | Tool | Provider | Access | Description |
 |---|---|---|---|
-| [AlphaXiv](https://www.alphaxiv.org/) | alphaXiv | Free | Interactive platform transforming arXiv preprints with paragraph-level commenting, AI-powered Q&A (Mistral OCR + Claude), and SOTA benchmark leaderboards. Backed by Sebastian Thrun and Yann LeCun. |
-| [AnswerThis](https://answerthis.io/) | AnswerThis | Freemium | Generates literature reviews from 250M academic papers with line-by-line citations. Features Research Gap Finder, citation maps, and Zotero/Mendeley integration. Reports 50% average productivity increase. |
-| [GXL](https://gxl.ai/) | GXL (Generative Expert Labs) | — | Deep biomedical literature index covering 8M+ papers across bioRxiv, medRxiv and PubMed Central, including figures, tables and supplemental data. Used to pull specific assay precedents, figures and supplements directly into research workflows (e.g. Benchling notebooks via MCP). |
+| [AlphaXiv](https://www.alphaxiv.org/) | alphaXiv | Free | Comment and chat layer over arXiv preprints: line-by-line discussion threads, AI chat grounded in the paper, one-click blog-style overviews, Chrome extension and MCP server. Free; $7M seed (Nov 2025) with Eric Schmidt and Sebastian Thrun among angels. |
+| [AnswerThis](https://answerthis.io/) | AnswerThis | Freemium | Generates literature reviews with line-by-line citations over 300M+ papers, trials and PDFs; includes research-gap identification, citation mapping, systematic-review tools and an AI writer with 2,000+ citation styles. Free starter tier. |
+| [GXL](https://gxl.ai/) | GXL (Generative Expert Labs) | — | Deep biomedical literature index covering 8M+ papers across bioRxiv, medRxiv and PubMed Central, including figures, tables and supplemental data. Its Paperclip CLI and MCP server expose the corpus to AI agents (e.g. Benchling notebooks via Benchling's AI Connectors). |
 
 </details>
 
@@ -140,14 +132,14 @@ Tasks grouped by research stage:
 | Tool | Provider | Access | Description |
 |---|---|---|---|
 | [JSTOR AI Research Tool](https://about.jstor.org/products/jstor-platform/features-and-tools/research-tool/) | Ithaka (JSTOR) | Institutional | Free to JSTOR-participating institutions. Surfaces key points and arguments from articles, book chapters and research reports; recommends related topics and content; supports natural-language Q&A grounded in the document with inline references. Particularly strong for humanities, arts and social sciences. |
-| [Scopus AI / AI Discovery](https://www.elsevier.com/products/scopus/scopus-ai) | Elsevier | Institutional | GenAI research assistant integrated into Scopus, drawing on 27,000+ journals from 7,000+ publishers. Delivers referenced summaries, concept maps, emerging themes, foundational papers, and downloadable Deep Research agentic reports. RAG architecture grounded only in curated Scopus content to minimise hallucinations. |
+| [Scopus with AI](https://www.elsevier.com/products/scopus/scopus-ai) | Elsevier | Institutional | GenAI research assistant integrated into Scopus (now branded 'Scopus with AI'), drawing on content from 7,000+ publishers. Delivers referenced summaries, concept maps, emerging themes, foundational papers, and downloadable Deep Research agentic reports; RAG grounded only in curated Scopus content. |
 | [Web of Science Research Assistant](https://clarivate.com/academia-government/scientific-and-academic-research/research-discovery-and-referencing/web-of-science/web-of-science-research-assistant/) | Clarivate | Institutional | Agentic AI assistant grounded in 120+ years of Web of Science Core Collection data. Task-based guides (Topic Explorer, Find a Journal, Literature Review 2.0) walk researchers through multi-step workflows with interactive visualisations and referenced responses. Natural language search in multiple languages. |
 
 <details><summary>More tools for this task (1)</summary>
 
 | Tool | Provider | Access | Description |
 |---|---|---|---|
-| [ScienceDirect AI](https://www.elsevier.com/products/sciencedirect/sciencedirect-ai) | Elsevier | Paid | Workflow companion across millions of full-text peer-reviewed articles and book chapters. Reading Assistant chats with a document and links claims to exact source passages; Compare Experiments builds side-by-side tables of goals, methods and results across selected papers. Also available on PDFs in Mendeley via LeapSpace. |
+| [LeapSpace (formerly ScienceDirect AI)](https://www.elsevier.com/products/leapspace) | Elsevier | Paid | Elsevier's AI research workspace (successor to ScienceDirect AI) over 100M+ academic records incl. 23M+ full-text articles: chat with documents, compare evidence across papers, Trust Cards and Claim Radar for provenance, Writing Coach. Individual subscription with free trial, or institutional licence. |
 
 </details>
 
@@ -157,7 +149,7 @@ Tasks grouped by research stage:
 
 | Tool | Provider | Access | Description |
 |---|---|---|---|
-| [ResearchRabbit](https://www.researchrabbit.ai/) | Litmaps | Freemium | AI-powered paper discovery through citation chains and semantic similarity, presenting results as visual network maps. Free Zotero two-way sync; finds related research that keyword searches miss. |
+| [ResearchRabbit](https://www.researchrabbit.ai/) | Litmaps | Freemium | AI-powered paper discovery through citation chains and semantic similarity over 310M+ articles, shown as visual network maps. Free plan with unlimited searches; Zotero importer (two-way sync in development); RR+ from $10/month adds larger seed sets and alerts. |
 | [Zotero](https://www.zotero.org/) | Digital Scholar | Free | Free, open-source reference manager with browser integration and Word/LibreOffice/Google Docs plugins. AI plugins (Aria, Beaver) add GPT powered paper chat and agentic search with sentence-level citations. |
 
 <details><summary>More tools for this task (1)</summary>
@@ -174,7 +166,7 @@ Tasks grouped by research stage:
 
 | Tool | Provider | Access | Description |
 |---|---|---|---|
-| [NotebookLM](https://notebook.google/) | Google | Freemium | Virtual research assistant analyzing up to 50 sources (500K words each). Features Deep Research integration, automatic citations, and unique AI-generated podcast summaries. Pro tier offers 500 notebooks with 300 sources each. |
+| [Gemini Notebook (formerly NotebookLM)](https://notebook.google/) | Google | Freemium | Google's source-grounded research notebook (NotebookLM, renamed Gemini Notebook in July 2026): upload papers and notes, chat with automatic citations, Deep Research integration, and AI-generated podcast-style Audio Overviews. Free tier; Google AI Plus/Pro plans raise notebook and source limits. |
 
 ## Systematic Review & Evidence Synthesis
 
@@ -183,17 +175,18 @@ Tasks grouped by research stage:
 | Tool | Provider | Access | Description |
 |---|---|---|---|
 | [ASReview](https://asreview.nl/) | Utrecht University (open source) | Free | Runs active-learning screening locally: the model learns from your include/exclude decisions and reorders remaining records, with simulation mode to benchmark savings on your own dataset. Fully open source; data never leaves your machine. |
-| [citationchaser](https://estech.shinyapps.io/citationchaser/) | Neal R. Haddaway (with M.J. Grainger, C.T. Gray) | Free | Forward and backward citation chasing via the Lens.org API: input known relevant articles, retrieve everything they reference and everything citing them, and download all lists as RIS for systematic-review identification. |
+| [citationchaser](https://estech.shinyapps.io/citationchaser/) \* | Neal R. Haddaway (with M.J. Grainger, C.T. Gray) | Free | Forward and backward citation chasing via the Lens.org API: input known relevant articles, retrieve everything they reference and everything citing them, and download all lists as RIS for systematic-review identification. |
 | [Covidence](https://www.covidence.org/) | Covidence (not-for-profit, Cochrane partnership) | Institutional | Manages the full PRISMA pipeline in one workspace: import, dedupe, dual screening, full-text review, data extraction, and quality assessment, with team roles and export to analysis. De-facto standard licensed by many university libraries. |
 | [Nested Knowledge](https://nested-knowledge.com/) | Nested Knowledge, Inc. | Freemium | Combines screening (Robot Screener), smart tagging, meta-analytical extraction, and PRISMA reporting with living-review updates: searches re-run automatically and interactive evidence maps and synthesis visualizations stay current and shareable. |
 | [Polyglot (TERA)](https://tera-tools.com/) | Institute for Evidence-Based Healthcare (IEBH), Bond University | Freemium | Translates a PubMed or Ovid MEDLINE search string into syntax for Embase, CINAHL, PsycINFO, Scopus, Web of Science, Cochrane and more. Part of Bond IEBH's TERA evidence-synthesis suite (SearchRefiner, Deduplicator, Screenatron, Disputatron). |
 | [Rayyan](https://www.rayyan.ai/) | Rayyan Systems, Inc. | Freemium | Screen titles/abstracts in blinded reviewer pairs with AI relevance ranking, resolve up to 200k duplicates, run risk-of-bias assessment, and auto-generate PRISMA flow diagrams; free tier covers core screening. |
 
-<details><summary>More tools for this task (3)</summary>
+<details><summary>More tools for this task (4)</summary>
 
 | Tool | Provider | Access | Description |
 |---|---|---|---|
 | [DistillerSR](https://www.distillersr.com/) | DistillerSR Inc. (Evidence Partners) | Paid | Runs audit-trailed literature reviews at regulatory grade: AI reranking of references, automatic study classifiers, generative extraction linked back to source text, and error-checking of human screening decisions, all with traceable human-in-the-loop validation. |
+| [Laser AI](https://www.laser.ai/) | Evidence Prime (makers of GRADEpro) | Paid | Extracts data from study PDFs by suggesting text passages and table values for reviewer confirmation, deduplicates references, and standardizes screening with reusable guides and vocabularies; built for living evidence synthesis feeding guideline pipelines. |
 | [PubReMiner](https://hgserver2.amc.nl/cgi-bin/miner/miner2.cgi) | Jan Koster, AMC (Amsterdam UMC) | Free | Runs a PubMed query and returns frequency tables of journals, authors and words in the result set — for refining search terms, finding active experts, or choosing a target journal. |
 | [Yale MeSH Analyzer](https://mesh.med.yale.edu/) | Harvey Cushing/John Hay Whitney Medical Library, Yale University | Free | Paste up to 20 PMIDs to get a side-by-side grid of each article's MeSH headings, subheadings, major-topic flags and author keywords; exports Excel or HTML for building search strategies. |
 
@@ -214,7 +207,7 @@ Tasks grouped by research stage:
 | Tool | Provider | Access | Description |
 |---|---|---|---|
 | [Paper Digest](https://www.paperdigest.org/daily-paper-digest/) | Paper Digest (New York, US) | Freemium | Daily email digest of new papers from arXiv, PubMed, bioRxiv, medRxiv and ClinicalTrials.gov, filtered by user-set areas, keywords and authors, with a machine-generated one-sentence summary per paper and impact-based ranking. |
-| [Stork](https://www.storkapp.me/) | — | Freemium | Enter keywords and authors once; receive daily or weekly email alerts of matching new papers and preprints from PubMed and other sources, plus NIH grant-award alerts, with optional in-email translation of titles and abstracts. |
+| [Stork](https://www.storkapp.me/) | Xu Cui (indie) | Freemium | Enter keywords and authors once; receive daily or weekly email alerts of matching new papers and preprints from PubMed and other sources, plus NIH grant-award alerts, with optional in-email translation of titles and abstracts. |
 
 </details>
 
@@ -224,16 +217,16 @@ Tasks grouped by research stage:
 
 | Tool | Provider | Access | Description |
 |---|---|---|---|
-| [Granted AI](https://grantedai.com/) | Granted AI | Freemium | Full-lifecycle grant platform: discovery across 85,000+ grants from 144 sources, funder research over 133,000+ foundations, AI-coached drafting from uploaded RFPs, simulated committee review and compliance checks. Free tier available; paid plans from $29/month. |
-| [Instrumentl](https://www.instrumentl.com/) | Instrumentl | Paid | Grant discovery, tracking and lightweight proposal support with a database of 400,000+ active funding opportunities. Strong for academic researchers and larger nonprofits managing complex grant portfolios. Plans from ~$179/month (billed annually). |
-| [Research Kick](https://www.chatacademia.com/) | ChatAcademia | Paid | AI research ideation tool identifying research gaps across 1B+ papers from Semantic Scholar, Google Scholar, Scite, and PubMed. GPT-4o with proprietary reasoning to prevent hallucinations. Used by 2,000+ academics. |
+| [ChatAcademia (formerly Research Kick)](https://www.chatacademia.com/) | ChatAcademia | Paid | AI research-ideation workspace (formerly Research Kick): detects research gaps and scores novelty 0-10 with literature evidence across 300M+ papers from 8+ databases, searches US/EU/UK grants, and syncs with Zotero and Mendeley. 7-day trial, then $15-45/month. |
+| [Granted AI](https://grantedai.com/) | Granted AI | Freemium | Full-lifecycle grant platform: discovery across 140,000+ grants from 144 sources, funder research over 133,000+ foundations, AI-coached drafting from uploaded RFPs, simulated committee review and compliance checks. Free tier available; paid plans from $29/month. |
+| [Instrumentl](https://www.instrumentl.com/) | Instrumentl | Paid | Grant discovery, tracking and lightweight proposal support with a large funder database (interactive 990 reports) and a curated feed of active opportunities. Strong for academic researchers and larger nonprofits managing complex grant portfolios. Single-user plans from ~$179/month (billed annually); 14-day trial. |
 
 <details><summary>More tools for this task (2)</summary>
 
 | Tool | Provider | Access | Description |
 |---|---|---|---|
-| [Grantable](https://grantable.co/) | Grantable | Freemium | Chat-first AI 'coworker' that remembers your organisation, past proposals and funder context. Built-in prospecting via GrantGraph (11M+ data points from 990 filings, public records and web research) covering 130,000+ funders. Pricing from $24/month. |
-| [GrantBoost](https://www.grantboost.io/) | GrantBoost | Paid | Template-based AI grant writing for nonprofit and research grants. Pick a grant type, fill in organisational details and the AI drafts proposal sections. Works best for common, well-known grant categories. Pricing from $19.99/month. |
+| [Grantable](https://grantable.co/) | Grantable | Freemium | Chat-first AI grant 'coworker' that remembers your organisation, past proposals and funder context. GrantGraph prospecting screens 990 filings and giving histories; scheduled funder scans, RFP checklists, section drafting. Free tier (5 chats/day); Starter $50/month, $25 for nonprofits. |
+| [GrantBoost](https://www.grantboost.io/) | GrantBoost | Paid | Template-based AI grant writing for nonprofit and research grants. Pick a grant type, fill in organisational details and the AI drafts proposal sections. Works best for common, well-known grant categories. Free trial; plans from $32/month. |
 
 </details>
 
@@ -281,15 +274,15 @@ Tasks grouped by research stage:
 
 | Tool | Provider | Access | Description |
 |---|---|---|---|
-| [Benchling AI](https://www.benchling.com/ai) | Benchling | Freemium | ELN-grounded AI for the lab: Deep Research, Compose, Ask and Data Entry agents convert protocols, PDFs and instrument outputs into structured notebook entries and query internal data + public literature with citations. Includes AlphaFold 2, Chai-1 and Boltz-2 models. Free for academic users (.edu). |
-| [ChatGPT Code Interpreter](https://help.openai.com/en/articles/8437071-code-interpreter) | OpenAI | Freemium | Sandboxed Python environment within ChatGPT for data exploration, statistical analysis, and visualization. Supports up to 20 files (512MB each) with automatic error resolution and interactive chart generation. |
+| [Benchling AI](https://www.benchling.com/ai) | Benchling | Freemium | ELN-grounded AI agents for the lab: answer questions across your Benchling data, import PDFs and CRO reports as structured records, draft notebook entries and study reports, and run AlphaFold 2, Chai-1 and Boltz-2 structure prediction in-platform. Credit-based; free for academic scientists. |
+| [ChatGPT Data Analysis (Code Interpreter)](https://help.openai.com/en/articles/8437071-data-analysis-with-chatgpt) | OpenAI | Freemium | Sandboxed Python environment inside ChatGPT (now branded 'data analysis', formerly Code Interpreter / Advanced Data Analysis) for data exploration, statistical analysis, and interactive charts. Uploads up to 512 MB per file; free plan capped at 3 file uploads per day. |
 | [Julius](https://julius.ai/) | Julius AI | Freemium | AI data analysis platform handling datasets up to 32GB through natural language queries. Automatically determines appropriate statistical tests and generates publication-ready visualizations. 50% student/educator discount. |
 
 <details><summary>More tools for this task (1)</summary>
 
 | Tool | Provider | Access | Description |
 |---|---|---|---|
-| [Claude Code Interpreter](https://claude.com/blog/create-files) | Anthropic | Paid | Server-side container environment for Python/Node.js execution, data manipulation, and visualization. Integrates with Model Context Protocol (MCP) for connecting to external data sources and tools. |
+| [Claude Code Interpreter](https://claude.com/blog/create-files) | Anthropic | Paid | Claude creates and edits Excel, Word, PowerPoint and PDF files and runs data analysis (cleaning, statistics, charts) by writing and executing code in a sandboxed container ('Claude's computer') inside Claude.ai and the desktop app; available on paid plans. |
 
 </details>
 
@@ -301,18 +294,18 @@ Tasks grouped by research stage:
 
 | Tool | Provider | Access | Description |
 |---|---|---|---|
-| [BIOS / BioAgents](https://ai.bio.xyz/) | bio.xyz (Bio Protocol) | Free | Multi-agent system ranked #1 on BixBench for biological analysis. Combines literature analysis with data scientist agents for autonomous deep research in biological sciences. Supports decentralized science funding mechanisms. |
-| [Kosmos](https://edisonscientific.com/) | Edison Scientific | Paid | AI scientist running autonomous 12-hour discovery campaigns with parallel data analysis and literature search. Executes ~42,000 lines of code and reads 1,500 papers per run. Validated discoveries in metabolomics, neuroscience, and genetics. |
+| [BIOS / BioAgents](https://ai.bio.xyz/) | bio.xyz (Bio Protocol) | Free | AI scientist at chat.bio.xyz: a research agent plans literature questions and answers with citations across papers, patents and trials; its data-analysis agent ranked #1 on BixBench (Jan 2026). Landing page now also pitches prompt-to-protein-binder design with an autonomous wet lab. Free access. |
+| [Kosmos](https://edisonscientific.com/) | Edison Scientific | Paid | AI scientist running autonomous multi-hour discovery campaigns with parallel data analysis and literature search; a single run reads ~1,500 papers and executes ~42,000 lines of analysis code. Validated discoveries in metabolomics, neuroscience, and genetics. $200 per run; some free credits for academics. |
 
 <details><summary>More tools for this task (5)</summary>
 
 | Tool | Provider | Access | Description |
 |---|---|---|---|
 | [AIVA](https://chat.aivaportal.com/) | Mamidi Health | — | Conversational AI platform for genomics enabling natural language queries on genomic data. Integrates LLMs for analysis, literature search, and evidence-based clinical interpretations from sequencing data. |
-| [Faraday](https://www.ascentbio.ai/) | Ascent Bio | — | AI scientist for drug discovery, building knowledge corpus from files, databases, and tools. Specializes in molecule design and targeted protein degradation therapeutics with end-to-end traceability. |
-| [Heureka](https://www.heurekalabs.co/) | Heureka Labs | — | AI Research Companion (ARC) for hypothesis generation, experiment design, and data analysis through natural conversation. QuartzReport delivers automated analysis with publication-ready figures. |
-| [K-Dense](https://www.k-dense.ai/) | K-Dense (Biostate AI spinout) | Freemium | Multi-agent system compressing research cycles from years to days. Harvard-validated: completed transcriptomic aging study in weeks vs. years. 29.2% BixBench accuracy (surpassing GPT-5's 22.9%) with hallucination elimination. |
-| [Pipette.bio](https://pipette.bio/) | Pipette.bio | Freemium | Bioinformatics AI agent for genomics, transcriptomics, and proteomics analysis through conversation (no coding). Supports RNA-seq, single-cell, ChIP/ATAC-seq, variant calling, and GWAS. Free during beta. |
+| [Heureka Bench](https://www.heurekalabs.co/) | Heureka Labs | Free | Heureka Bench: local-first desktop notebook with the ARC research agent and a proprietary biology model (Archimedes) for multi-omics data analysis, hypothesis generation, experiment design, QC and literature curation. Free macOS/Windows download, no subscription; optional cloud compute. |
+| [K-Dense](https://www.k-dense.ai/) | K-Dense Inc. | Freemium | Multi-agent system that plans and executes end-to-end scientific analyses (literature, code in sandboxes, reports) across 250+ databases and 200+ scientific data formats. Free Instant tier, per-run caps of $9-29, Plus $199/mo; academic labs get the Team plan at 90% off; BYOK and agent-skills components are open source. |
+| [Pipette.bio](https://pipette.bio/) | Variome Analytics | Freemium | Bioinformatics AI agent that plans and runs genomics, transcriptomics, single-cell, ChIP-seq, variant-calling and metagenomics analyses from natural-language requests, on 150+ open-source tools with reproducibility bundles. Free tier (20 credits/month); paid packs and lab plans. |
+| [Potato](https://potato.ai/) | Happy Potato, Inc. | Freemium | AI co-scientist for wet-lab work: generates protocols from stated intent, explores related literature and reviews papers on a free individual workspace; paid Optimizer tiers add guided and Bayesian experimental-design rounds and robot-ready outputs. |
 
 </details>
 
@@ -324,15 +317,15 @@ Tasks grouped by research stage:
 
 | Tool | Provider | Access | Description |
 |---|---|---|---|
-| [Claude Code](https://claude.com/product/claude-code) | Anthropic | Paid | Terminal-based agentic coding tool for code generation, debugging, and repository-wide modifications through natural language. CLAUDE.md configuration for project conventions. Tool Search Tool reduces context by 37%. |
-| [Cursor](https://cursor.com/) | Anysphere (SpaceX) | Freemium | AI-first code editor (VS Code fork) with natural language code generation and Tab completion. Cursor 2.0 supports 8 parallel AI agents on same task. Valued at $9.9B with full VS Code extension compatibility. |
-| [GitHub Copilot](https://github.com/features/copilot) | GitHub (Microsoft) | Freemium | AI pair programmer providing real-time code suggestions in VS Code, JetBrains, Eclipse, and Xcode. Agent mode for multi-file changes with test validation; contributes 46% of code for active users. Accelerates coding by 55%. |
+| [Claude Code](https://claude.com/product/claude-code) | Anthropic | Paid | Terminal-based agentic coding tool for code generation, debugging, and repository-wide modifications through natural language, also available in IDEs, Slack and the web. CLAUDE.md configuration for project conventions. |
+| [Cursor](https://cursor.com/) | Anysphere (SpaceX) | Freemium | AI-first code editor (VS Code fork) with natural-language code generation, Tab completion and parallel background agents; full VS Code extension compatibility. Free Hobby tier, Pro from $20/month. |
+| [GitHub Copilot](https://github.com/features/copilot) | GitHub (Microsoft) | Freemium | AI pair programmer providing real-time code suggestions in VS Code, Visual Studio, JetBrains, Eclipse, Xcode and Vim/Neovim. Agent mode delegates multi-file tasks to Copilot, Claude or Codex agents; free tier with 2,000 completions/month; GitHub reports up to 55% faster coding. |
 
 <details><summary>More tools for this task (2)</summary>
 
 | Tool | Provider | Access | Description |
 |---|---|---|---|
-| [Codex](https://openai.com/codex/) | OpenAI | Paid | Agentic coding platform operating in isolated cloud sandboxes with your GitHub repository. Writes features, fixes bugs, explains code, and creates pull requests. GPT-5.2-Codex includes vision for interpreting diagrams. |
+| [Codex](https://openai.com/codex/) | OpenAI | Freemium | Agentic coding platform that runs tasks in isolated cloud sandboxes on your GitHub repository, or locally via CLI, desktop app and IDE extensions. Writes features, fixes bugs, explains code and opens pull requests. Included with ChatGPT plans; limited trial on Free. |
 | [Google Antigravity](https://antigravity.google/) | Google | Free | Agent-first development platform from Google that lets AI agents take actions across an IDE, terminal and browser. Hosts Science Skills for connecting research workflows to 30+ life-science databases. Launched alongside Gemini for Science (May 2026). |
 
 </details>
@@ -385,7 +378,7 @@ Tasks grouped by research stage:
 
 | Tool | Provider | Access | Description |
 |---|---|---|---|
-| [BenchSci](https://www.benchsci.com/) | BenchSci (Toronto) | Free | Finds validated antibodies and reagents by AI-decoding figures and usage evidence from 20M+ publications and 14M commercial products; filter by application, species reactivity, and validation status before ordering. Free for verified academic and nonprofit researchers. |
+| [BenchSci](https://www.benchsci.com/) | BenchSci (Toronto) | Free | Finds validated antibodies and reagents by AI-decoding figures and usage evidence from millions of publications and commercial products; filter by application, species reactivity, and validation status before ordering. Free for verified academic and nonprofit researchers. |
 | [OpentronsAI](https://opentrons.com/ai) | Opentrons | Free | Generates executable, inspectable Python protocols for Opentrons liquid-handling robots from a natural-language description of the experiment, with in-chat simulation, verification, and deck-map visualization. Sign-up works even without owning a robot. |
 | [protocols.io AI](https://group.springernature.com/gp/group/media/press-releases/new-ai-capabilities-on-protocolsio/27837624) | Springer Nature | Freemium | Drafts structured protocols from prompts or Word/PDF uploads, suggests error-reduction and troubleshooting fixes, translates private protocols across 36 languages, and summarizes reviewer feedback — inside the standard platform for publishing versioned, citable methods. |
 
@@ -393,7 +386,7 @@ Tasks grouped by research stage:
 
 | Tool | Provider | Access | Description |
 |---|---|---|---|
-| [SciNote AI](https://www.scinote.net/product/ai-and-automations/) | SciNote (EU, Slovenia) | Freemium | Electronic lab notebook whose AI converts PDF-based SOPs and protocols into structured, reusable ELN templates and auto-updates task/project progress from user activity; includes inventory management and compliance tools. Core ELN is open source; free plan for individuals. |
+| [SciNote AI](https://www.scinote.net/product/ai-and-automations/) | SciNote LLC (Middleton, WI, USA; EU hub in Slovenia; owned by Gilson) | Freemium | Electronic lab notebook whose AI converts PDF-based SOPs and protocols into structured, reusable ELN templates and auto-updates task/project progress from user activity; includes inventory management and compliance tools. Core ELN is open source; free plan for individuals. |
 
 </details>
 
@@ -436,7 +429,7 @@ Tasks grouped by research stage:
 
 | Tool | Provider | Access | Description |
 |---|---|---|---|
-| [SLEAP](https://sleap.ai/) | Talmo Lab, Salk Institute | Free | Multi-animal pose estimation and identity tracking from video: GUI labeling with human-in-the-loop training, deep-learning inference at up to 600+ FPS, PyTorch backend since v1.5. |
+| [SLEAP](https://sleap.ai/) | Talmo Lab, Salk Institute | Free | Multi-animal pose estimation and identity tracking from video: GUI labeling with human-in-the-loop training, deep-learning inference at 800+ FPS, PyTorch backend since v1.5. |
 
 </details>
 
@@ -446,15 +439,15 @@ Tasks grouped by research stage:
 
 | Tool | Provider | Access | Description |
 |---|---|---|---|
-| [Amnesia](https://amnesia.openaire.eu/) | OpenAIRE / ATHENA Research Center | — | Anonymizes tabular datasets with formal k-anonymity and km-anonymity guarantees via a graphical interface, so shared data no longer counts as personal data under GDPR. Runs entirely on-premise; REST API available. |
-| [Textwash](https://www.textwash.eu/) | Bennett Kleinberg + jocapps GmbH (OSS original: Kleinberg, Tilburg/UCL) | — | Removes personal data from interviews, documents, and logs using a small on-device AI model (16 configurable entity types, contextual not keyword-based), in English, German, Dutch, French, Spanish, Italian. Free GPL-3.0 Python CLI covers English and Dutch. |
+| [Amnesia](https://amnesia.openaire.eu/) | OpenAIRE / ATHENA Research Center | Free | Anonymizes tabular datasets with formal k-anonymity and km-anonymity guarantees via a graphical interface, so shared data no longer counts as personal data under GDPR. Runs entirely on-premise; REST API available. |
+| [Textwash](https://www.textwash.eu/) | Bennett Kleinberg + jocapps GmbH (OSS original: Kleinberg, Tilburg/UCL) | Freemium | Removes personal data from interviews, documents, and logs using a small on-device AI model (16 configurable entity types, contextual not keyword-based), in English, German, Dutch, French, Spanish, Italian. Free GPL-3.0 Python CLI covers English and Dutch. |
 
 <details><summary>More tools for this task (2)</summary>
 
 | Tool | Provider | Access | Description |
 |---|---|---|---|
 | [Presidio](https://presidio.dataprivacystack.org/) | Data Privacy Stack (community-owned; originally Microsoft) | — | Detects and anonymizes PII (names, credit cards, SSNs, and custom entities) in text and images via configurable NER/regex pipelines that run locally. MIT-licensed; originally built at Microsoft, now community-maintained under Data Privacy Stack. |
-| [QualiAnon](https://github.com/pangaea-data-publisher/qualianon) | Qualiservice research data center, University of Bremen (with TU Munich and PANGAEA) | — | Anonymizes or pseudonymizes qualitative text data such as interview transcripts, with user-controlled replacements and separation of identifiers, original data, and edited materials — the German FDZ (Qualiservice) archival workflow. |
+| [QualiAnon](https://github.com/pangaea-data-publisher/qualianon) | Qualiservice research data center, University of Bremen (with TU Munich and PANGAEA) | Free | Anonymizes or pseudonymizes qualitative text data such as interview transcripts, with user-controlled replacements and separation of identifiers, original data, and edited materials — the German FDZ (Qualiservice) archival workflow. |
 
 </details>
 
@@ -464,17 +457,16 @@ Tasks grouped by research stage:
 
 | Tool | Provider | Access | Description |
 |---|---|---|---|
-| [DeepL](https://www.deepl.com/en/translator) | DeepL SE | Freemium | AI translation service renowned for contextually accurate translations, particularly strong for European languages. Pro glossary feature maintains consistent terminology across academic fields. 73% rate translations as more contextually accurate than alternatives. |
-| [FormatMyPaper](https://formatmypaper.com/) | FormatMyPaper | — | Automates manuscript formatting for journal submission. Users paste paper and select target journal; AI handles formatting according to specific requirements. Claims 10+ hours saved per submission. |
+| [DeepL](https://www.deepl.com/en/translator) | DeepL SE | Freemium | AI translation service known for contextually accurate output, particularly strong for European languages. Free web translator; Pro glossary feature keeps terminology consistent across a manuscript or field. |
 | [Grammarly](https://www.grammarly.com/) | Superhuman | Freemium | AI writing assistant with grammar checking, plagiarism detection (16B+ web pages), and academic tone detection trained on scholarly writing. 2025 AI agents help find credible sources and check originality. |
-| [Jenni](https://jenni.ai/) | Jenni AI | Freemium | Integrated research, reference, and writing workspace with AI autocomplete maintaining paragraph-level coherence. Auto-generates citations in 1,700+ styles with direct links to source PDFs. |
+| [Jenni](https://jenni.ai/) | Jenni AI | Freemium | Integrated research, reference, and writing workspace with AI autocomplete grounded in uploaded sources or Zotero/Mendeley imports; traceable citations linked to PDF locations in 10,000+ citation styles; exports to .docx and LaTeX. Free tier, no card required. |
 | [Paperpal](https://paperpal.com/) | Cactus Communications | Freemium | Academic writing AI trained on 250M+ research papers. AI Research Finder returns summarized answers with insertable citations. Offers 30+ pre-submission journal checks aligned with publisher guidelines. |
 
 <details><summary>More tools for this task (2)</summary>
 
 | Tool | Provider | Access | Description |
 |---|---|---|---|
-| [Deepwriter AI](https://deepwriter.com/) | Deepwriter | Freemium | Multi-agent writing system with Abraxas reasoning engine maintaining coherence across 275+ page documents. Real-time web searches, PDF analysis, and automatic citation management. Outputs editable LaTeX. |
+| [Deepwriter AI](https://deepwriter.com/) | Deepwriter | Paid | Multi-agent long-form writing system (Abraxas reasoning engine) that keeps documents coherent up to 275 pages, with optional web deep research, uploads of up to 20 source files, citation handling, and LaTeX export. Plans from $159.99/month. |
 | [QuillBot](https://quillbot.com/) | Learneo | Freemium | Paraphrasing tool with dedicated Academic mode maintaining scholarly language. Features context-preserving rewrites, citation generator (APA, MLA, Chicago), and QuillBot Flow unified workspace. |
 
 </details>
@@ -486,14 +478,14 @@ Tasks grouped by research stage:
 | Tool | Provider | Access | Description |
 |---|---|---|---|
 | [Gamma](https://gamma.app/) | Gamma Tech, Inc. | Freemium | AI presentation tool generating polished slides from outlines or raw content. 2025 Gamma Agent update added real-time web research with citations. Transforms research notes into presentations with GPT-Image-1 integration. |
-| [Napkin](https://www.napkin.ai/) | Napkin AI | Freemium | Transforms text into professional diagrams, flowcharts, mind maps, and infographics. AI interprets relationships and hierarchy to produce appropriate visuals. 5M+ users; generous free tier (500 weekly credits). |
+| [Napkin](https://www.napkin.ai/) | Napkin AI | Freemium | Transforms text into professional diagrams, flowcharts, mind maps, and infographics, plus Napkin Slides for decks. AI interprets relationships and hierarchy to produce appropriate visuals. Generous free tier (500 weekly credits); Plus $9, Pro $22 per month. |
 
 <details><summary>More tools for this task (2)</summary>
 
 | Tool | Provider | Access | Description |
 |---|---|---|---|
 | [Beautiful.ai](https://www.beautiful.ai/) | Beautiful Slides, Inc. | Paid | AI applying design principles in real-time with Smart Slide technology automatically adjusting layouts. Free access for students with verified .edu emails. Integrates with PowerPoint, Google Slides, Slack, and Dropbox. |
-| [NotebookLM (Slide Decks)](https://notebooklm.google.com/) | Google Labs | Freemium | Built-in feature generating infographics and slide decks from source material. Automatically creates visual summaries of research with accurate citations from uploaded sources. |
+| [Gemini Notebook (Slide Decks)](https://notebook.google/) | Google | Freemium | Built-in feature of Gemini Notebook (formerly NotebookLM) that turns uploaded sources into slide decks and infographics, with citations back to the sources; PPTX export and per-slide editing added Feb 2026. Free tier; higher limits with Google AI Pro/Ultra. |
 
 </details>
 
@@ -503,13 +495,13 @@ Tasks grouped by research stage:
 
 | Tool | Provider | Access | Description |
 |---|---|---|---|
-| [BioRender](https://www.biorender.com/) | BioRender | Freemium | Web-based scientific illustration platform with 40,000+ peer-reviewed icons and 5,000+ templates for life sciences. 3D protein visualization with PDB integration. Exports at 600 DPI for journal standards. Premium required for publication rights. |
+| [BioRender](https://www.biorender.com/) | BioRender | Freemium | Web-based scientific illustration platform with 50,000+ peer-reviewed icons and 5,000+ templates for life sciences; 3D protein visualization from PDB structures or uploaded files; high-resolution JPEG/PNG/PDF export. Paid plan required for publication rights ($35/mo academic individual). |
 
 <details><summary>More tools for this task (2)</summary>
 
 | Tool | Provider | Access | Description |
 |---|---|---|---|
-| [4o Image Generation](https://openai.com/index/introducing-4o-image-generation/) \* | OpenAI | Freemium | Native GPT-4o image generation with accurate text rendering, scientific visualization with explanatory annotations, and infographic generation. 87% photographic convincingness vs. DALL-E 3's 62%. |
+| [ChatGPT Images (gpt-image-2.5)](https://openai.com/index/introducing-chatgpt-images-2-5/) | OpenAI | Freemium | ChatGPT's native image model (gpt-image-2.5, released 2026-09-08): generates and edits images with accurate text rendering, reference-image preservation and multi-turn editing; usable for annotated scientific figures and infographics. Instant mode on all ChatGPT tiers including free. |
 | [Nano Banana Pro (Gemini)](https://deepmind.google/models/gemini-image/pro/) | Google DeepMind | Paid | State-of-the-art image generation with legible text in multiple languages, up to 4K resolution, and real-time Google Search integration for accurate diagrams and educational visuals. SynthID watermarked. |
 
 </details>
@@ -541,7 +533,7 @@ Tasks grouped by research stage:
 |---|---|---|---|
 | [Enago AI Disclosure](https://www.enago.com/ai-disclosure-statement-generator/) | Enago | Free | Generate an AI Disclosure Statement for your manuscript that you can use while submitting your manuscript to a publisher. |
 | [Proofig + PubShield](https://www.proofig.com/pubshield/) | Proofig AI / Turnitin | Institutional | Image integrity AI (Proofig) paired with iThenticate text-similarity screening via PubShield. Brings figure-duplication detection and plagiarism checks into a single pre-publication workflow used by publishers and institutions. |
-| [Prophy](https://www.prophy.ai/) | Prophy | — | Semantic reviewer-matching system used by editors to find subject-matter referees for a submitted manuscript. Goes beyond keyword search by mapping a paper to a deep author/topic embedding space. |
+| [Prophy](https://www.prophy.ai/) \* | Prophy | — | Semantic reviewer-matching platform used by publishers and funding agencies to find conflict-free referees for a manuscript or proposal, ranked across 101M+ researcher profiles and 196M+ papers; integrates with Editorial Manager. Demo-request access, no public pricing. |
 | [RegCheck](https://regcheck.app/) | Psychology of Digitalisation group, University of Bern (SNSF-funded) | Free | Upload a preregistration (or ClinicalTrials.gov link) plus the final paper; an LLM compares them dimension-by-dimension and flags deviations, quoting verbatim text from both documents so every judgement is checkable. Free, with API. |
 | [SciScore](https://sciscore.com/) | SciCrunch, Inc. | Freemium | Paste a methods section, get a 1-10 rigor score auditing blinding, randomization, power analysis, and resource identifiability (antibodies, cell lines, RRIDs) against NIH/ARRIVE guidelines. Ten free reports yearly via ORCID sign-in. |
 | [Stanford Agentic Reviewer](https://paperreview.ai/) | Stanford ML Group | Free | Free AI peer review system by Andrew Ng's team providing rapid, actionable feedback. Grounds reviews in latest arXiv research; correlation with human reviewers (0.42) matches inter-human agreement (0.41). |
@@ -550,10 +542,10 @@ Tasks grouped by research stage:
 
 | Tool | Provider | Access | Description |
 |---|---|---|---|
-| [Manusights](https://manusights.com/) | Manusights | Freemium | Pre-submission manuscript diagnostic with free readiness scan plus $29 paid report. Verifies citations against live databases and analyses figures. Anthropic Privacy Partner with zero-retention processing. |
-| [q.e.d.](https://www.qedscience.com/) | QED Science | Freemium | Critical Thinking AI analyzing manuscripts by breaking them into constituent claims, identifying logical gaps, and comparing against hundreds of papers for novelty assessment. Used by scientists at 1,000+ institutions. |
-| [Review-it](https://review-it.ai/) | Review-it AI | Paid | AI peer review tool for manuscript evaluation and screening. Part of growing ecosystem as 50%+ of researchers now use AI during peer review, primarily for surface-level tasks and gap identification. |
-| [Reviewer3](https://reviewer3.com/) | Reviewer3 | Paid | AI peer review platform generating evaluations based on EQUATOR guidelines and journal-specific requirements. Multiple specialized reviewers examine study design, results, and limitations with PDF-anchored feedback. |
+| [Manusights](https://manusights.com/) | Manusights | Freemium | Pre-submission manuscript diagnostic: free Readiness Scan in minutes plus a $39 Full Review in about 30 minutes. Verifies citations claim-by-claim against live databases with a retraction gate and analyses figures. Anthropic privacy partner; manuscripts not used for model training. |
+| [QED Science](https://www.qedscience.com/) | QED Science | Freemium | Critical Thinking AI that breaks a manuscript or grant into its constituent claims, flags logical and methodological gaps, and ranks novelty against studies in the field (QED Score). Free for academic researchers; enterprise tier for pharma/biotech. In use at 1,500 institutions in 70+ countries. |
+| [Review-it](https://review-it.ai/) | Review-it AI | Paid | Uploads a manuscript, thesis or proposal (PDF/DOCX) and returns an AI peer review with strengths, weaknesses and suggested fixes, plus a pre-submission checklist (scope, citations, desk-rejection risk), journal finder and a reference checker for fake or broken citations. Per-document from $6.99; unlimited $59/month. |
+| [Reviewer3](https://reviewer3.com/) | Reviewer3 | Paid | AI peer review platform: integrity checks (hallucinated or retracted citations, AI-generated text), claim-by-claim evidence decomposition, and panel review of study design, data and scope, with modes for author self-review, reviewer support and editorial triage. Claims 98.5% accuracy separating real from fabricated citations. |
 
 </details>
 
@@ -564,15 +556,15 @@ Tasks grouped by research stage:
 | Tool | Provider | Access | Description |
 |---|---|---|---|
 | [Argos](https://www.scitility.com/) | Scitility PBC | Freemium | Screens a reference list for retracted and high-risk articles before submission and sends alerts when papers in your citation network are retracted; computes daily risk scores from author histories and retraction cascades across 50M+ articles. |
-| [Pangram](https://www.pangram.com/) | Pangram (Brooklyn, NY, founded 2023) | Freemium | Classifies text as human- or AI-written with per-document and per-sentence results via web dashboard and API; 20 free checks daily. Reports a 1-in-10,000 false-positive rate, with an independent University of Chicago evaluation. |
-| [Problematic Paper Screener](https://www.irit.fr/~Guillaume.Cabanac/problematic-paper-screener) | Guillaume Cabanac, IRIT / Universite de Toulouse (with Labbe & Magazinov) | Free | Browsable dashboard screening 130M+ papers with detectors for tortured phrases, SCIgen/Mathgen text, citejacking, retracted references, and problematic cell lines. Check a DOI before citing it, or trawl your field for flagged papers. |
+| [Pangram](https://www.pangram.com/) | Pangram Labs (Brooklyn, NY, founded 2023) | Freemium | Classifies text as human- or AI-written with per-document and per-sentence results via web dashboard and API; 20 free checks daily. Reports a 1-in-10,000 false-positive rate, with an independent University of Chicago evaluation. |
+| [Problematic Paper Screener](https://www.irit.fr/~Guillaume.Cabanac/problematic-paper-screener) | Guillaume Cabanac, IRIT / Universite de Toulouse (with Labbe & Magazinov) | Free | Browsable dashboard screening the literature with detectors for tortured phrases, SCIgen/Mathgen text, citejacking, Seek & Blastn nucleotide errors, problematic cell lines, and retracted or concerning references. Check a DOI before citing it, or trawl your field for flagged papers. |
 | [statcheck](https://statcheck.io/) | Michele Nuijten & Sacha Epskamp (Tilburg University) | Free | Upload a PDF, DOCX, or HTML manuscript; it recomputes every APA-style statistical result (t, F, r, chi-square, Z, Q) and flags p-values inconsistent with the reported test statistic and degrees of freedom. |
 
 <details><summary>More tools for this task (1)</summary>
 
 | Tool | Provider | Access | Description |
 |---|---|---|---|
-| [Imagetwin](https://imagetwin.ai/pricing) | Imagetwin (imagetwin.ai) | Paid | Scans figures (western blots, microscopy, photos) for duplications, manipulations, and AI-generated images; matches against a 150M+ published-figure database to catch cross-paper reuse. Pay-per-scan from EUR 29 makes lab-level pre-submission screening feasible. |
+| [Imagetwin](https://imagetwin.ai/pricing) | ImageTwin AI GmbH | Paid | Scans figures (western blots, microscopy, photos) for duplications, manipulations, and AI-generated images; matches against a 150M+ published-figure database to catch cross-paper reuse. Pay-per-scan from EUR 29 makes lab-level pre-submission screening feasible. |
 
 </details>
 
@@ -611,7 +603,7 @@ Tasks grouped by research stage:
 |---|---|---|---|
 | [Audemic Scholar](https://audemic.io/) | Audemic | Paid | Reads uploaded or reference-manager-imported papers aloud with synchronized text highlighting; reorder sections, capture highlights and notes. Dyslexia-friendly fonts, background color options, and adjustable pacing support researchers with dyslexia, ADHD, or visual impairment. |
 | [Cassyni](https://cassyni.com/) | Cassyni (founders of Mendeley, Publons, Kopernio) | Freemium | Runs and records research seminars, then AI-enhances them: transcripts, slide extraction, semantic chapters, resolved references to cited papers, and a DOI per talk — turning seminars into citable, searchable scholarly objects researchers can browse. |
-| [Kudos](https://www.growkudos.com/) | Kudos (growkudos.com) | Freemium | Researcher creates a free showcase page explaining a publication in plain language; Kudos's AI service drafts the summary and a paid campaign promotes it via email, social media, and themed showcases, with tracked views, Altmetric scores, and citations. |
+| [Kudos](https://www.growkudos.com/) | Kudos Innovations Ltd | Freemium | Researcher creates a free showcase page explaining a publication in plain language; Kudos's AI service drafts the summary and a paid campaign promotes it via email, social media, and themed showcases, with tracked views, Altmetric scores, and citations. |
 | [Listening](https://www.listening.com/) | Listening (listening.com) | Paid | Converts paper PDFs into natural-sounding audio that automatically skips citations, references, and footnotes; listen by section (abstract, results) at up to 4x speed. Mobile apps and Chrome extension for consuming a reading backlog while commuting. |
 | [Wondercraft](https://www.wondercraft.ai/tools/research-paper-to-podcast-generator) | Wondercraft Limited | Freemium | Turns an uploaded paper or URL into a conversational podcast episode; edit the script word-by-word, choose or clone voices, add team review flows, then export WAV or publish toward Spotify and Apple Podcasts. Free tier includes starter credits. |
 
@@ -630,14 +622,15 @@ Tasks grouped by research stage:
 | Tool | Provider | Access | Description |
 |---|---|---|---|
 | [Google Patents](https://patents.google.com/) | Google | Free | Free worldwide patent full-text search with ML features: machine-classified CPC code suggestions, 'Similar' documents ranked by a full-text model, one-click 'Find prior art' scoped to before the priority date, SMILES chemical-structure search, and Google Scholar non-patent literature integration. |
-| [PQAI](https://projectpq.ai/) | Project PQAI (nonprofit initiative, AT&T / Georgia IP Alliance) | Free | Paste a plain-language invention description; deep-learning models trained on examiner citation data return ranked prior art from USPTO, EPO and open-access journals, plus concept extraction and CPC/IPC code suggestions. Open-source (MIT), free web search and API. |
-| [The Lens](https://about.lens.org/) | The Lens Limited (Australian non-profit, formerly Cambia) | Freemium | Links 155M+ patent records with 270M+ scholarly works: landscape dashboards, patent-to-paper citation mapping, PatSeq search for DNA/protein sequences inside patents, freedom-to-operate style filtering. Free personal accounts for academic researchers (exports up to 50,000 records); institutional toolkit for universities. |
+| [PQAI](https://projectpq.ai/) | Project PQAI (nonprofit initiative, AT&T / Georgia IP Alliance) | Free | Paste a plain-language invention description; deep-learning models trained on examiner citation data return ranked prior art from USPTO, EPO and open-access journals, plus concept extraction and CPC/IPC code suggestions. Open-source (MIT); free web search, paid API tiers. |
+| [The Lens](https://about.lens.org/) | The Lens Limited (Australian non-profit, wholly owned subsidiary of SPIE; formerly Cambia) | Freemium | Links 155M+ patent records with 270M+ scholarly works: landscape dashboards, patent-to-paper citation mapping, PatSeq search for DNA/protein sequences inside patents, freedom-to-operate style filtering. Free personal accounts for academic researchers (exports up to 50,000 records); institutional toolkit for universities. |
 
-<details><summary>More tools for this task (2)</summary>
+<details><summary>More tools for this task (3)</summary>
 
 | Tool | Provider | Access | Description |
 |---|---|---|---|
 | [CAS SciFinder Prior Art](https://www.cas.org/resources/cas-insights/prior-art-search-and-analysis-scientific-ip-strategies) | CAS (American Chemical Society) | Institutional | Inside CAS SciFinder: paste 200+ characters of invention text (claims or abstract) and AI algorithm streams return similar patents and non-patent literature published before your priority date, drawing on CAS's human-curated chemistry collection including Markush structures. |
+| [InventGenie](https://www.inventgenie.com/for-researchers) | InventGenie (Calgary, Canada) | Paid | Turns research papers, notes and technical input into structured invention-disclosure building blocks: draft patent claims, specification text and figure suggestions, formatted for tech-transfer review, with multi-inventor collaboration. Pay-per-draft or monthly seat pricing (free trial); attorney review still required before filing. |
 | [PatSnap](https://www.patsnap.com/) | PatSnap | Paid | AI innovation-intelligence platform: patent landscape maps, novelty and FTO search agents (Eureka), drafting agents, litigation and market data, biosequence and chemical structure search. Tech transfer offices use it to judge whether an invention's space is commercially active before funding proof-of-concept. |
 
 </details>
@@ -655,26 +648,41 @@ Tasks grouped by research stage:
 Noticed but not properly vetted yet — waitlisted, too young, or missing a privacy policy.
 
 - [AlphaEvolve + ERA](https://labs.google/science) — [sweep 2026-08-18] Fetched labs.google/science and research.google ERA blog. 'Computational Discovery' built with AlphaEvolve+ERA; ERA Nature paper May 19 2026 and CDC-forecasting claim confirmed. Access via 'Express interest' / gradual trusted-tester rollout.
+[sweep 2026-09-11] Still 'Express interest' only (gate 2, usable this week, fails); Nature paper and CDC-forecasting claim reconfirmed. Keep candidate until self-serve access opens.
 - [Gemini Co-Scientist](https://labs.google/science) — [sweep 2026-08-18] description flagged: Fetched labs.google/science and blog.google I/O 2026 post: Co-Scientist Nature paper confirmed, but Stanford liver-fibrosis/Vorinostat result was published in Advanced Science, not Nature. Access via 'Express interest' waitlist. Google-branded (blog.google/labs.google), not DeepMind.
+[sweep 2026-09-11] Gate 2 fails: still 'Express interest' waitlist on labs.google/science (gradual rollout, no open access as of Sept 2026) — keep candidate. Description fix: Stanford vorinostat result is Advanced Science 2025, not Nature; Co-Scientist paper itself is in Nature (blog.google).
 - [Literature Insights (Gemini for Science)](https://labs.google/science) — [sweep 2026-08-18] Fetched labs.google/science: Literature Insights listed, built with Gemini Notebook; tables, reports, slide decks, infographics confirmed. Access is 'Express interest' only — no open availability. Audio/video overviews not confirmed.
+[sweep 2026-09-11] Gate 2 fails: still 'Express interest' waitlist, gradual rollout — keep candidate. Audio/video overviews now confirmed on blog.google I/O post (previous caveat resolved). Description accurate.
 - [Nature Research Assistant](https://natureresearchassistant.com/) — [sweep 2026-08-18] Fetched site: Springer Nature confirmed, still beta; new users must join waiting list, no pricing disclosed. Summaries, paper chat, figure descriptions with audio all confirmed on page.
-- [Laser AI](https://www.laser.ai/) — [discovery 2026-08-18] Unique use case: AI-suggested extraction designed for the living-review-to-guideline pipeline (GRADE ecosystem via Evidence Prime) Adoption: Site lists McMaster University and IQWiG (German HTA agency) among clients; no independent Methods-mention count obtainable (name too ambiguous to query) Demo/contact-only access, plans from $3,000 — hence candidate. Extraction time-saving claims (53%) are vendor figures; HQ location not confirmed from fetched pages.
+[sweep 2026-09-11] Still beta + waiting list, no pricing: fails gate 2 (usable this week). Keep candidate; re-check next sweep. New 'Manuscript Adviser' feature and publisher-agnostic scope now on page.
 - [PowerGPT](https://power-gpt.net/) — [grok-gap-hunt 2026-08-18, independently verified] CONFIRMED: no privacy policy, ToS, or data-handling statement on homepage or /others (footer = contacts only) -> candidate. '0 daily users' still shown. arXiv:2509.12471 real, matches (94.1% vs 55.4%).
+[sweep 2026-09-11] candidate re-vetted: gates 1,2,3,5 pass; gate 4 (recommendable - privacy policy/transparent terms) still fails, '0 daily users' counter unchanged. Keep candidate; promote only if a privacy/data statement appears.
 - [Protocol Builder](https://protocolbuilderpro.com/) — [discovery 2026-08-18] Unique use case: structured IRB protocol and consent-form authoring with compliance templates Adoption: Sold to IRBs and GME programs; BRANY is an established IRB/compliance services organization; site current (screenshots dated March 2026) Demo-only, no public pricing — hence candidate. US clinical-research centric; EU ethics-committee fit unverified.
-- [Potato](https://potato.ai/) — [sweep 2026-08-18] potato.ai fetched: first product 'The Optimizer' opening for early access with selected teams; beta request page; app at app.potatodemo.com. University list mostly matches; Harvard and Wiley RAG not confirmed on current page.
-- [Transcription Pearl](https://github.com/mhumphries2323/Transcription_Pearl) — [discovery 2026-08-18] Unique use case: Peer-review-backed LLM transcription workflow: the accompanying study found LLMs beat specialized HTR (Transkribus) on 18th/19th-c. English documents — the easter egg of this area Adoption: Companion paper published in Historical Methods (2025, DOI 10.1080/01615440.2025.2500309) and arXiv:2411.03340; GitHub repo public Beta; last commit Nov 2024 — maintenance uncertain. Requires own API keys and Python. CC BY-NC 4.0. Candidate until freshness confirmed.
+[sweep 2026-09-11] Still demo-only with no public pricing or self-serve trial — fails gate 2 (usable this week); gates 1, 3, 4, 5 pass. Keep candidate until a trial or institutional purchase path is verifiable.
+- [Faraday](https://www.ascentbio.ai/) — [sweep 2026-08-18] ascent.bio rendered empty; live site is ascentbio.ai (fetched): Faraday AI scientist, 40+ institutions, signup via accounts.platform.ascentbio.ai. platform.ascentbio.ai/faraday showed 'down for maintenance'. No pricing found; public beta per blog.
+[sweep 2026-09-11] Access is request/invite-gated per Ascent Bio docs (alpha program) and blog (request an access link); no public pricing. Per gate 2 waitlist tools are candidate, not active. Revert to active if self-serve signup is confirmed.
 - [Genemod](https://genemod.net/) — [discovery 2026-08-18] Unique use case: Conversational agent acting over lab inventory and sample records (the inventory/ordering AI slot), or null if judged too close to generic ELN AI Adoption: Capterra and FitGap listings; own academic-labs pricing packages Weakest vetting: genemod.net pages repeatedly failed direct fetch (oversized pages); AI-agent and pricing claims come from genemod.net snippets via search. ~$199/month, 14-day trial, annual contract; no confirmed permanent free tier.
+[sweep 2026-09-11] Still cannot fetch genemod.net directly. Alive, but Capterra now shows contact-for-pricing with no trial/free version; fails gate 4 (transparent pricing) and gate 2 is unverified. Keep candidate.
 - [RefereeBio](https://refereebio.com/) — [grok-gap-hunt 2026-08-18, independently verified] All section-10 claims confirmed on homepage (free Starter month: 3 reviews/3 revision checks/3 edits, no card; AI-provider clause). No legal entity or team named; keep candidate.
+[sweep 2026-09-11] Still no legal entity, founders, address or jurisdiction on /about, /legal or /security; self-described 'early access'. Fails gate 4 (recommendable to students). Keep candidate.
 - [RefCheckAI](https://sydney-informatics-hub.github.io/RefCheckAI/) — [discovery 2026-08-18] Unique use case: Semantic citation verification — whether the cited paper supports the claim, not merely whether the reference exists (scite shows citation context but does not classify your own manuscript's claims) Adoption: University-built (Sydney Informatics Hub, NCI/NVIDIA-supported CodeFest); model weights and training data published for download Early access — web app via registration/email only. Classification accuracy not independently benchmarked. CC BY-NC 4.0.
+[sweep 2026-09-11] Alive, unchanged. Still early-access via registration/email only, so fails gate 2 (usable this week). Keep candidate; page brands it 'AI Reference Checker'.
 - [Paper2Video](https://github.com/showlab/Paper2Video) — [discovery 2026-08-18] Unique use case: Automatic pre-recorded conference-talk video generation from a paper — relevant for virtual conferences requiring submitted videos Adoption: NeurIPS 2025 SEA workshop acceptance; 2.4k GitHub stars MIT license but demanding: LaTeX sources as input, Gemini/OpenAI keys, ~48GB-VRAM GPU for talking head (lighter slides-only mode exists). Research-grade, not turnkey.
+[sweep 2026-09-11] vetted: alive (last commit 2026-03-05) but fails gate 2 (usable this week): needs LaTeX sources, two paid API keys and a 48GB GPU with no hosted demo; research artifact rather than a tool students can run. Keep candidate; revisit if a hosted service appears.
 - [PaperTok](https://www.papertok.com) — [discovery 2026-08-18] Unique use case: Paper to short-form social video for public science communication Adoption: CHI 2026 paper (Barcelona, April 2026); TechXplore coverage June 2026 Academic prototype, live site with generate button; requires user's paid Google Gemini subscription. Privacy policy and durability unverified.
-- [InventGenie](https://www.inventgenie.com/for-researchers) — [discovery 2026-08-18] Unique use case: AI drafting of the invention disclosure itself, aimed explicitly at university researchers and tech transfer — the only researcher-facing (not attorney-facing) drafting tool found Real but young company; no independent academic adoption found; no free tier. Confidentiality caution: check TTO policy before pasting unfiled invention details into third-party AI (UC Berkeley OTL advises exactly this).
+[sweep 2026-09-11] Candidate vetted: passes gates 1, 3, 5; gate 2 marginal (needs user's paid Gemini subscription); FAILS gate 4 — no privacy policy on site, academic prototype with no durability commitment. Keep candidate; re-check if a privacy policy appears.
 
 ## Retired
 
 Kept for the record.
 
 - **ChatGPT Atlas** (deprecated) — Discontinued by OpenAI around 2026-08-09; the standalone Atlas browser was folded into the ChatGPT desktop app. Kept for the historical record.
+- **You.com** (deprecated) — [sweep 2026-08-18] description flagged: Fetched you.com twice: now an enterprise/developer API platform (Search, Contents, Research, Finance APIs); no ARI or consumer answer engine mentioned. 2026 reporting confirms pivot; consumer plans gone. Usage-billed with one-time trial credits.
+[sweep 2026-09-11] Resolved needs-review: the consumer AI search/ARI product the entry described no longer exists; you.com is a usage-billed retrieval/research API for developers (pivot confirmed 2026). Deprecated with epitaph — not usable by students as an AI search engine. If a developer-API category ever exists, it could be re-listed there.
+- **Transcription Pearl** (deprecated) — [discovery 2026-08-18] Unique use case: Peer-review-backed LLM transcription workflow: the accompanying study found LLMs beat specialized HTR (Transkribus) on 18th/19th-c. English documents — the easter egg of this area Adoption: Companion paper published in Historical Methods (2025, DOI 10.1080/01615440.2025.2500309) and arXiv:2411.03340; GitHub repo public Beta; last commit Nov 2024 — maintenance uncertain. Requires own API keys and Python. CC BY-NC 4.0. Candidate until freshness confirmed.
+[sweep 2026-09-11] Candidate rejected on gate 5 (alive/maintained): no commits since 2024-11-11 (22 months), still 1.0 beta, and superseded by the same authors' Archive Studio (May 2025). Suggest capturing Archive Studio as the candidate for this use case instead; its own maintenance cadence not yet verified.
+- **FormatMyPaper** (deprecated) — Core as sole representative of the journal-reformatting use case (Michaela, 2026-08-18): no other tool in the catalog covers submission-requirements formatting.
+[sweep 2026-09-11] Epitaph: FormatMyPaper is a satire site by Ubadah Sabbagh (Oct 2025), not a product — no formatting happens, testimonials are fabricated. Fails gate 4 (real organization) and gate 3 (does nothing). Was core as sole journal-reformatting representative; that use case now has no representative — Michaela to decide on a replacement (e.g. SciSpace/Typeset journal templates, Overleaf journal templates) or drop the task.
 
 ---
 

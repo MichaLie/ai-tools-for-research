@@ -11,11 +11,15 @@ domain: general
 status: active
 tier: core
 added: 2026-08
-last_verified: '2026-08-18'
+last_verified: '2026-09-11'
 notes: '[discovery 2026-08-18] Unique use case: Zero-cost, transparent AI-assisted
   qualitative coding — inspectable prompts plus a free EU academic LLM backend (Blablador)
   that stores no data; supports REFI-QDA exchange with commercial CAQDAS Adoption:
   Libguides at George Washington, University of Arizona, Temple, and University of
   Illinois; v4.0 released 2026 (actively maintained on GitHub) Desktop app, rougher
   UI than commercial CAQDAS; Blablador output quality below GPT-4 per its own docs.
-  GitHub: https://github.com/ccbogel/QualCoder'
+  GitHub: https://github.com/ccbogel/QualCoder
+
+  [sweep 2026-09-11] correction to 2026-08-18 note: 4.0 is a Beta pre-release; latest
+  stable release is 3.8.2 (2026-02-26). Repo active (commit 2026-09-10). No field
+  changes.'

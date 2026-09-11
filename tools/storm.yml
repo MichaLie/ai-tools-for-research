@@ -2,12 +2,17 @@ name: STORM
 category: deep-research-agents
 provider: Stanford OVAL Lab
 url: https://storm.genie.stanford.edu/
-description: LLM system generating Wikipedia-style articles with citations from scratch.
-  Simulates multi-perspective expert conversations, achieving 99% factual accuracy.
-  Co-STORM extension enables human-AI collaborative research.
+description: LLM system that researches a topic and writes a Wikipedia-style, fully
+  cited article by simulating multi-perspective expert conversations. Co-STORM mode
+  lets you join the discussion for human-AI collaborative knowledge curation. Free
+  web demo; MIT-licensed code.
 access: free
 domain: general
 status: active
 tier: core
 added: 2026-02
-last_verified: '2026-08-18'
+last_verified: '2026-09-11'
+notes: '[sweep 2026-09-11] Dropped unsupported ''99% factual accuracy'' figure; not
+  on demo page or repo. Demo alive but repo activity last noted Jan 2025 — research
+  prototype, watch for demo shutdown. storm-project.stanford.edu could not be fetched
+  (network policy).'

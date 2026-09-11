@@ -10,7 +10,7 @@ domain: general
 status: active
 tier: extended
 added: 2026-08
-last_verified: '2026-08-18'
+last_verified: '2026-09-11'
 notes: '[discovery 2026-08-18] Unique use case: Fully open-source, self-hosted HTR
   with owned models and data — no per-page credits, works for right-to-left and non-Latin
   scripts via kraken Adoption: UT Austin library blog feature (texlibris.lib.utexas.edu);

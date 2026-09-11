@@ -2,14 +2,22 @@ name: FormatMyPaper
 category: writing-translation
 provider: FormatMyPaper
 url: https://formatmypaper.com/
-description: Automates manuscript formatting for journal submission. Users paste paper
-  and select target journal; AI handles formatting according to specific requirements.
-  Claims 10+ hours saved per submission.
-access: unknown
+description: 'Satirical non-tool: the page looks like an AI journal-formatting service
+  (22 journals, 99.7% accuracy, MIT/Stanford testimonials) but has no backend; the
+  ''Format My Paper Now'' button is a static link to a page reading ''You can just
+  preprint your work. Abolish journals.'''
+access: free
 domain: general
-status: active
-tier: core
+status: deprecated
+tier: extended
 added: 2026-02
-last_verified: '2026-08-18'
+last_verified: '2026-09-11'
 notes: 'Core as sole representative of the journal-reformatting use case (Michaela,
-  2026-08-18): no other tool in the catalog covers submission-requirements formatting.'
+  2026-08-18): no other tool in the catalog covers submission-requirements formatting.
+
+  [sweep 2026-09-11] Epitaph: FormatMyPaper is a satire site by Ubadah Sabbagh (Oct
+  2025), not a product — no formatting happens, testimonials are fabricated. Fails
+  gate 4 (real organization) and gate 3 (does nothing). Was core as sole journal-reformatting
+  representative; that use case now has no representative — Michaela to decide on
+  a replacement (e.g. SciSpace/Typeset journal templates, Overleaf journal templates)
+  or drop the task.'

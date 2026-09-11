@@ -1,17 +1,24 @@
-name: NotebookLM
+name: Gemini Notebook (formerly NotebookLM)
 category: grounded-knowledge-specialized-databases
 provider: Google
 url: https://notebook.google/
-description: Virtual research assistant analyzing up to 50 sources (500K words each).
-  Features Deep Research integration, automatic citations, and unique AI-generated
-  podcast summaries. Pro tier offers 500 notebooks with 300 sources each.
+description: 'Google''s source-grounded research notebook (NotebookLM, renamed Gemini
+  Notebook in July 2026): upload papers and notes, chat with automatic citations,
+  Deep Research integration, and AI-generated podcast-style Audio Overviews. Free
+  tier; Google AI Plus/Pro plans raise notebook and source limits.'
 access: freemium
 domain: general
 status: active
 tier: core
 added: 2026-02
-last_verified: '2026-08-18'
+last_verified: '2026-09-11'
 notes: '[sweep 2026-08-18] description flagged: Renamed Gemini Notebook (Wikipedia:
   July 16, 2026); notebooklm.google 301s to notebook.google, app login at notebook.google.com.
   Free plus paid Plus tier confirmed; ''500 notebooks Pro tier'' and 50-source limits
-  unverified.'
+  unverified.
+
+  [sweep 2026-09-11] Rename to Gemini Notebook confirmed on notebook.google page title;
+  propose updating name field. Numeric limits (50 sources / 500K words / 500 notebooks)
+  still not verifiable from the product page — dropped from description, plan structure
+  described qualitatively. Third-party guides report a compute-based usage quota introduced
+  2026-09-02.'

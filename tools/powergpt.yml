@@ -12,8 +12,12 @@ domain: general
 status: candidate
 tier: extended
 added: 2026-08
-last_verified: '2026-08-18'
+last_verified: '2026-09-11'
 notes: '[grok-gap-hunt 2026-08-18, independently verified] CONFIRMED: no privacy policy,
   ToS, or data-handling statement on homepage or /others (footer = contacts only)
   -> candidate. ''0 daily users'' still shown. arXiv:2509.12471 real, matches (94.1%
-  vs 55.4%).'
+  vs 55.4%).
+
+  [sweep 2026-09-11] candidate re-vetted: gates 1,2,3,5 pass; gate 4 (recommendable
+  - privacy policy/transparent terms) still fails, ''0 daily users'' counter unchanged.
+  Keep candidate; promote only if a privacy/data statement appears.'

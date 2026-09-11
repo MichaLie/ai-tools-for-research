@@ -2,12 +2,16 @@ name: Codex
 category: code-assistants
 provider: OpenAI
 url: https://openai.com/codex/
-description: Agentic coding platform operating in isolated cloud sandboxes with your
-  GitHub repository. Writes features, fixes bugs, explains code, and creates pull
-  requests. GPT-5.2-Codex includes vision for interpreting diagrams.
-access: paid
+description: Agentic coding platform that runs tasks in isolated cloud sandboxes on
+  your GitHub repository, or locally via CLI, desktop app and IDE extensions. Writes
+  features, fixes bugs, explains code and opens pull requests. Included with ChatGPT
+  plans; limited trial on Free.
+access: freemium
 domain: general
 status: active
 tier: extended
 added: 2026-02
-last_verified: '2026-08-18'
+last_verified: '2026-09-11'
+notes: '[sweep 2026-09-11] openai.com/codex blocks fetchers (403); product confirmed
+  by search. Dropped stale ''GPT-5.2-Codex'' model reference; access paid -> freemium
+  (Free plan has limited trial access, CloudZero pricing guide updated 2026-09-04).'

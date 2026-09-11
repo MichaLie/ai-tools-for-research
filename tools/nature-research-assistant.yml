@@ -11,7 +11,11 @@ domain: general
 status: candidate
 tier: extended
 added: 2026-05
-last_verified: '2026-08-18'
+last_verified: '2026-09-11'
 notes: '[sweep 2026-08-18] Fetched site: Springer Nature confirmed, still beta; new
   users must join waiting list, no pricing disclosed. Summaries, paper chat, figure
-  descriptions with audio all confirmed on page.'
+  descriptions with audio all confirmed on page.
+
+  [sweep 2026-09-11] Still beta + waiting list, no pricing: fails gate 2 (usable this
+  week). Keep candidate; re-check next sweep. New ''Manuscript Adviser'' feature and
+  publisher-agnostic scope now on page.'

@@ -3,12 +3,15 @@ category: literature-discovery-analysis
 provider: GXL (Generative Expert Labs)
 url: https://gxl.ai/
 description: Deep biomedical literature index covering 8M+ papers across bioRxiv,
-  medRxiv and PubMed Central, including figures, tables and supplemental data. Used
-  to pull specific assay precedents, figures and supplements directly into research
-  workflows (e.g. Benchling notebooks via MCP).
+  medRxiv and PubMed Central, including figures, tables and supplemental data. Its
+  Paperclip CLI and MCP server expose the corpus to AI agents (e.g. Benchling notebooks
+  via Benchling's AI Connectors).
 access: unknown
 domain: life-sciences
 status: active
 tier: extended
 added: 2026-05
-last_verified: '2026-08-18'
+last_verified: '2026-09-11'
+notes: '[sweep 2026-09-11] gxl.ai 403 to fetch; product now surfaced as Paperclip
+  (paperclip.gxl.ai, CLI + MCP). 8M+ still stated on GXL''s GitHub. Access model still
+  not published; keep unknown.'

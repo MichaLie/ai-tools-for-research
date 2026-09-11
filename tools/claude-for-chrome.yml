@@ -1,13 +1,18 @@
-name: Claude for Chrome
+name: Claude in Chrome
 category: browser-automation-agents
 provider: Anthropic
-url: https://claude.com/blog/claude-for-chrome
-description: Chrome extension enabling Claude to read, click, and navigate web content.
-  Features workflow recording to teach custom processes and integrates with Claude
-  Code for terminal-to-browser workflows. Pro/Max/Teams/Enterprise.
+url: https://claude.com/chrome
+description: Chrome extension in which Claude reads pages, clicks, types and fills
+  forms with approval, works across tabs and runs background tasks; integrates with
+  Claude Code (build in terminal, verify in browser). Generally available on all paid
+  plans (Pro/Max/Team/Enterprise).
 access: paid
 domain: general
 status: active
 tier: core
 added: 2026-02
-last_verified: '2026-08-18'
+last_verified: '2026-09-11'
+notes: '[sweep 2026-09-11] Product is now branded ''Claude in Chrome'' (GA 2026-08-26,
+  all paid plans); canonical page moved from blog post to claude.com/chrome; ''workflow
+  recording'' claim not on product page, dropped. Consider renaming file/name to ''Claude
+  in Chrome''.'

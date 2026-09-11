@@ -10,7 +10,7 @@ domain: general
 status: active
 tier: core
 added: 2026-08
-last_verified: '2026-08-18'
+last_verified: '2026-09-11'
 notes: '[discovery 2026-08-18] Unique use case: An open academic-built personal recommender
   you train by voting on papers, spanning preprint servers plus ML/CV/NLP conference
   proceedings — with a conference planner nothing else offers Adoption: ACL 2025 system-demo

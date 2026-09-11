@@ -1,13 +1,18 @@
-name: NotebookLM (Slide Decks)
+name: Gemini Notebook (Slide Decks)
 category: visual-presentation-creation
-provider: Google Labs
-url: https://notebooklm.google.com/
-description: Built-in feature generating infographics and slide decks from source
-  material. Automatically creates visual summaries of research with accurate citations
-  from uploaded sources.
+provider: Google
+url: https://notebook.google/
+description: Built-in feature of Gemini Notebook (formerly NotebookLM) that turns
+  uploaded sources into slide decks and infographics, with citations back to the sources;
+  PPTX export and per-slide editing added Feb 2026. Free tier; higher limits with
+  Google AI Pro/Ultra.
 access: freemium
 domain: general
 status: active
 tier: extended
 added: 2026-02
-last_verified: '2026-08-18'
+last_verified: '2026-09-11'
+notes: '[sweep 2026-09-11] NotebookLM renamed Gemini Notebook (2026-07-16, 9to5google);
+  canonical URL now notebook.google.com (old domain 301s). Recommend name ''Gemini
+  Notebook (Slide Decks)'' and provider Google; not verified whether Google Labs branding
+  persists.'

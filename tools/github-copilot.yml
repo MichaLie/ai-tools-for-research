@@ -2,12 +2,16 @@ name: GitHub Copilot
 category: code-assistants
 provider: GitHub (Microsoft)
 url: https://github.com/features/copilot
-description: AI pair programmer providing real-time code suggestions in VS Code, JetBrains,
-  Eclipse, and Xcode. Agent mode for multi-file changes with test validation; contributes
-  46% of code for active users. Accelerates coding by 55%.
+description: AI pair programmer providing real-time code suggestions in VS Code, Visual
+  Studio, JetBrains, Eclipse, Xcode and Vim/Neovim. Agent mode delegates multi-file
+  tasks to Copilot, Claude or Codex agents; free tier with 2,000 completions/month;
+  GitHub reports up to 55% faster coding.
 access: freemium
 domain: general
 status: active
 tier: core
 added: 2026-02
-last_verified: '2026-08-18'
+last_verified: '2026-09-11'
+notes: '[sweep 2026-09-11] Dropped unsupported ''46% of code'' figure; ''up to 55%''
+  still on page. New Max ($100/mo) tier and agent delegation to Claude/Codex agents
+  added on page; access stays freemium.'

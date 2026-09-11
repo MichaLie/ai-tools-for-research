@@ -11,8 +11,12 @@ domain: general
 status: candidate
 tier: extended
 added: 2026-05
-last_verified: '2026-08-18'
+last_verified: '2026-09-11'
 notes: '[sweep 2026-08-18] Fetched labs.google/science: Literature Insights listed,
   built with Gemini Notebook; tables, reports, slide decks, infographics confirmed.
   Access is ''Express interest'' only — no open availability. Audio/video overviews
-  not confirmed.'
+  not confirmed.
+
+  [sweep 2026-09-11] Gate 2 fails: still ''Express interest'' waitlist, gradual rollout
+  — keep candidate. Audio/video overviews now confirmed on blog.google I/O post (previous
+  caveat resolved). Description accurate.'

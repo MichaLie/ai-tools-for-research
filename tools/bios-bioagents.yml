@@ -2,15 +2,22 @@ name: BIOS / BioAgents
 category: autonomous-research-agents
 provider: bio.xyz (Bio Protocol)
 url: https://ai.bio.xyz/
-description: 'Multi-agent system ranked #1 on BixBench for biological analysis. Combines
-  literature analysis with data scientist agents for autonomous deep research in biological
-  sciences. Supports decentralized science funding mechanisms.'
+description: 'AI scientist at chat.bio.xyz: a research agent plans literature questions
+  and answers with citations across papers, patents and trials; its data-analysis
+  agent ranked #1 on BixBench (Jan 2026). Landing page now also pitches prompt-to-protein-binder
+  design with an autonomous wet lab. Free access.'
 access: free
 domain: life-sciences
 status: active
 tier: core
 added: 2026-02
-last_verified: '2026-08-18'
+last_verified: '2026-09-11'
 notes: '[sweep 2026-08-18] bio.tools is ELIXIR''s registry, unrelated. Real product:
   BIOS landing ai.bio.xyz, app chat.bio.xyz (free tier, API). Landing now pitches
-  protein-binder design from a prompt; BixBench/deep-research framing from their blog.'
+  protein-binder design from a prompt; BixBench/deep-research framing from their blog.
+
+  [sweep 2026-09-11] Landing pivoted to prompt-to-binder design + autonomous lab;
+  BixBench #1 claim still on Jan-2026 blog; ''decentralized science funding'' line
+  dropped from description; BioAgents GitHub repo appears archived (search snippet,
+  not fetched) — consider renaming entry to ''BIOS''. chat.bio.xyz rate-limited (429),
+  free access taken from landing page.'

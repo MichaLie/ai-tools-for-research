@@ -10,7 +10,7 @@ domain: general
 status: active
 tier: core
 added: 2026-08
-last_verified: '2026-08-18'
+last_verified: '2026-09-11'
 notes: '[discovery 2026-08-18] Unique use case: Fully automated paper-PDF-to-editable-pptx
   poster generation, open source and locally runnable Adoption: Accepted to NeurIPS
   2025 Datasets & Benchmarks track; 3.9k GitHub stars; independent blog coverage (BrightCoding,

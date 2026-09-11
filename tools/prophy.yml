@@ -2,16 +2,23 @@ name: Prophy
 category: ai-manuscript-review-disclosure
 provider: Prophy
 url: https://www.prophy.ai/
-description: Semantic reviewer-matching system used by editors to find subject-matter
-  referees for a submitted manuscript. Goes beyond keyword search by mapping a paper
-  to a deep author/topic embedding space.
+description: Semantic reviewer-matching platform used by publishers and funding agencies
+  to find conflict-free referees for a manuscript or proposal, ranked across 101M+
+  researcher profiles and 196M+ papers; integrates with Editorial Manager. Demo-request
+  access, no public pricing.
 access: unknown
 domain: general
-status: active
+status: needs-review
 tier: core
 added: 2026-05
-last_verified: '2026-08-18'
+last_verified: '2026-09-11'
 notes: '[sweep 2026-08-18] prophy.science 301s to prophy.ai, which bot-blocks fetchers
   (403). blog.prophy.ai and search confirm Referee Finder for publishers/funders,
   ~96M profiles, Editorial Manager integration. Pricing/access not visible anywhere
-  fetched.'
+  fetched.
+
+  [sweep 2026-09-11] Alive, URL/provider correct, numbers now 101M+ profiles / 196M+
+  papers. Open question for Michaela: site offers only ''Request a demo'' (B2B for
+  publishers/funders), so gate 2 (usable this week) looks failed for a student — decide
+  whether it stays active/core as the editor-side exemplar with access left ''unknown'',
+  or moves to candidate. Not resolvable by fetching.'

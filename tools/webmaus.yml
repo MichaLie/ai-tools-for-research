@@ -10,7 +10,7 @@ domain: general
 status: active
 tier: extended
 added: 2026-08
-last_verified: '2026-08-18'
+last_verified: '2026-09-11'
 notes: '[grok-gap-hunt 2026-08-18, independently verified] Report discrepancy: Report''s
   ''free academic'' terms and ''ELAN tiers'' output not explicitly stated on any page
   fetched this session; TextGrid output and CLARIN research-infrastructure hosting

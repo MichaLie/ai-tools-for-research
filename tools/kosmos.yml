@@ -2,12 +2,17 @@ name: Kosmos
 category: autonomous-research-agents
 provider: Edison Scientific
 url: https://edisonscientific.com/
-description: AI scientist running autonomous 12-hour discovery campaigns with parallel
-  data analysis and literature search. Executes ~42,000 lines of code and reads 1,500
-  papers per run. Validated discoveries in metabolomics, neuroscience, and genetics.
+description: AI scientist running autonomous multi-hour discovery campaigns with parallel
+  data analysis and literature search; a single run reads ~1,500 papers and executes
+  ~42,000 lines of analysis code. Validated discoveries in metabolomics, neuroscience,
+  and genetics. $200 per run; some free credits for academics.
 access: paid
 domain: general
 status: active
 tier: core
 added: 2026-02
-last_verified: '2026-08-18'
+last_verified: '2026-09-11'
+notes: '[sweep 2026-09-11] dropped unsupported ''12-hour'' figure; 42,000 lines /
+  1,500 papers still stated on the Nov-2025 announcement (advances.edisonscientific.com);
+  $200/run + academic free credits per same page. edisonscientific.com/pricing now
+  404 - current price list unverifiable; access kept paid.'

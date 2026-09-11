@@ -2,19 +2,24 @@ name: Problematic Paper Screener
 category: integrity-screening-forensics
 provider: Guillaume Cabanac, IRIT / Universite de Toulouse (with Labbe & Magazinov)
 url: https://www.irit.fr/~Guillaume.Cabanac/problematic-paper-screener
-description: Browsable dashboard screening 130M+ papers with detectors for tortured
-  phrases, SCIgen/Mathgen text, citejacking, retracted references, and problematic
-  cell lines. Check a DOI before citing it, or trawl your field for flagged papers.
+description: Browsable dashboard screening the literature with detectors for tortured
+  phrases, SCIgen/Mathgen text, citejacking, Seek & Blastn nucleotide errors, problematic
+  cell lines, and retracted or concerning references. Check a DOI before citing it,
+  or trawl your field for flagged papers.
 access: free
 domain: general
 status: active
 tier: core
 added: 2026-08
-last_verified: '2026-08-18'
+last_verified: '2026-09-11'
 notes: '[discovery 2026-08-18] Unique use case: The only public tool for checking
   whether a specific published paper is flagged for tortured phrases, mass-produced
   text, or reliance on retracted work — post-publication integrity screening for readers,
   not publishers Adoption: Peer-reviewed description (arXiv 2210.04895); coverage
   in The Conversation, Science, TechXplore; coverage credits it with contributing
   to 1000+ retractions Landing URL redirects to an Oracle APEX app (dbrech.irit.fr/pls/apex/f?p=9999)
-  — data verified fresh, last update 2026-08-13. Academic side project, not a company.'
+  — data verified fresh, last update 2026-08-13. Academic side project, not a company.
+
+  [sweep 2026-09-11] Landing redirect chain still works; APEX app alive, data last
+  updated 2026-08-13. ''130M+ papers'' figure not shown on the page — dropped per
+  anti-fabrication rule; added Seek & Blastn detector.'

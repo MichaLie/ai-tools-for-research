@@ -11,10 +11,14 @@ domain: general
 status: candidate
 tier: extended
 added: 2026-08
-last_verified: '2026-08-18'
+last_verified: '2026-09-11'
 notes: '[discovery 2026-08-18] Unique use case: Semantic citation verification — whether
   the cited paper supports the claim, not merely whether the reference exists (scite
   shows citation context but does not classify your own manuscript''s claims) Adoption:
   University-built (Sydney Informatics Hub, NCI/NVIDIA-supported CodeFest); model
   weights and training data published for download Early access — web app via registration/email
-  only. Classification accuracy not independently benchmarked. CC BY-NC 4.0.'
+  only. Classification accuracy not independently benchmarked. CC BY-NC 4.0.
+
+  [sweep 2026-09-11] Alive, unchanged. Still early-access via registration/email only,
+  so fails gate 2 (usable this week). Keep candidate; page brands it ''AI Reference
+  Checker''.'

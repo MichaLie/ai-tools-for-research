@@ -10,9 +10,14 @@ domain: general
 status: candidate
 tier: extended
 added: 2026-08
-last_verified: '2026-08-18'
+last_verified: '2026-09-11'
 notes: '[discovery 2026-08-18] Unique use case: Automatic pre-recorded conference-talk
   video generation from a paper — relevant for virtual conferences requiring submitted
   videos Adoption: NeurIPS 2025 SEA workshop acceptance; 2.4k GitHub stars MIT license
   but demanding: LaTeX sources as input, Gemini/OpenAI keys, ~48GB-VRAM GPU for talking
-  head (lighter slides-only mode exists). Research-grade, not turnkey.'
+  head (lighter slides-only mode exists). Research-grade, not turnkey.
+
+  [sweep 2026-09-11] vetted: alive (last commit 2026-03-05) but fails gate 2 (usable
+  this week): needs LaTeX sources, two paid API keys and a 48GB GPU with no hosted
+  demo; research artifact rather than a tool students can run. Keep candidate; revisit
+  if a hosted service appears.'

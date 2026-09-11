@@ -10,4 +10,8 @@ domain: general
 status: active
 tier: core
 added: 2026-02
-last_verified: '2026-08-18'
+last_verified: '2026-09-11'
+notes: '[sweep 2026-09-11] Product page blocks fetch; alive per search. Comet made
+  free on all platforms March 2026 (agent credits limited on free tier) — access freemium
+  still correct. ''Email Assistant (Max subscribers)'' claim could not be re-verified
+  against the page.'

@@ -1,18 +1,23 @@
-name: Falcon Deep Research
+name: Edison Literature (formerly Falcon)
 category: deep-research-agents
-provider: FutureHouse
-url: https://www.futurehouse.org/
-description: Specialized AI for deep literature synthesis from FutureHouse (nonprofit
-  AI biology lab), hosted on Edison Scientific platform. Surveys extensive scientific
-  databases to compile comprehensive reviews. Outperforms PhD-level researchers in
-  head-to-head literature search accuracy benchmarks.
+provider: Edison Scientific
+url: https://platform.edisonscientific.com/
+description: 'Deep literature-research agent (PaperQA3) on the Edison Scientific platform:
+  searches and reads full text, figures, and tables of 150M+ papers and patents and
+  returns cited syntheses. Successor to FutureHouse''s Falcon; academics get about
+  20 free calls per day.'
 access: freemium
 domain: general
-status: needs-review
+status: active
 tier: extended
 added: 2026-02
-last_verified: null
+last_verified: '2026-09-11'
 notes: '[sweep 2026-08-18] description flagged: Falcon branding absent from futurehouse.org
   and edisonscientific.com (both fetched). Successor is ''Edison Literature'' (PaperQA3,
   announced 2026-02-18) on platform.edisonscientific.com; academics get ~20 free calls/day.
-  Edison Scientific spun out of FutureHouse Nov 2025.'
+  Edison Scientific spun out of FutureHouse Nov 2025.
+
+  [sweep 2026-09-11] resolved needs-review: Falcon is gone; successor is Edison Literature
+  (PaperQA3) by Edison Scientific (spun out of FutureHouse). Recommend renaming name
+  to ''Edison Literature'' and slug accordingly (Michaela''s call); kosmos.yml already
+  covers the same provider, so check both stay distinct use cases.'

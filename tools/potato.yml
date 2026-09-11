@@ -1,16 +1,24 @@
 name: Potato
 category: autonomous-research-agents
-provider: Potato AI
+provider: Happy Potato, Inc.
 url: https://potato.ai/
-description: AI research assistant for experiment design and execution in life sciences.
-  In use at Stanford, MIT, Caltech, UC Berkeley, Scripps, and Harvard. RAG with scientific
-  literature including Wiley publications.
-access: waitlist
-domain: general
-status: candidate
+description: 'AI co-scientist for wet-lab work: generates protocols from stated intent,
+  explores related literature and reviews papers on a free individual workspace; paid
+  Optimizer tiers add guided and Bayesian experimental-design rounds and robot-ready
+  outputs.'
+access: freemium
+domain: life-sciences
+status: active
 tier: extended
 added: 2026-02
-last_verified: '2026-08-18'
+last_verified: '2026-09-11'
 notes: '[sweep 2026-08-18] potato.ai fetched: first product ''The Optimizer'' opening
   for early access with selected teams; beta request page; app at app.potatodemo.com.
-  University list mostly matches; Harvard and Wiley RAG not confirmed on current page.'
+  University list mostly matches; Harvard and Wiley RAG not confirmed on current page.
+
+  [sweep 2026-09-11] Free Open Access plan now openly sign-uppable -> passes gate
+  2; real entity (Happy Potato, Inc., Seattle), privacy policy and pricing on site
+  -> gate 4; alive. Recommend promote to active/extended, access freemium, domain
+  life-sciences. Description rewritten: Stanford/MIT/Harvard list and Wiley RAG not
+  on current site. Caveat: privacy policy allows Potato to use inputs/outputs to improve
+  its own services.'

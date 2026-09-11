@@ -11,7 +11,7 @@ domain: general
 status: active
 tier: core
 added: 2026-08
-last_verified: '2026-08-18'
+last_verified: '2026-09-11'
 notes: '[discovery 2026-08-18] Unique use case: LaTeX error diagnosis and repair inside
   the editor 20M+ researchers already write in — no copy-pasting code into a chatbot
   Adoption: Official overleaf.com/about/ai-features page (fetched); docs.overleaf.com

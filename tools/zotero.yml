@@ -10,4 +10,6 @@ domain: general
 status: active
 tier: core
 added: 2026-02
-last_verified: '2026-08-18'
+last_verified: '2026-09-11'
+notes: '[sweep 2026-09-11] Domain blocked for fetch; alive per official blog/forum
+  search results (Zotero 8, Jan 2026). Description names no version, nothing to change.'

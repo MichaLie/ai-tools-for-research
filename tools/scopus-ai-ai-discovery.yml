@@ -1,14 +1,17 @@
-name: Scopus AI / AI Discovery
+name: Scopus with AI
 category: publisher-database-ai-assistants
 provider: Elsevier
 url: https://www.elsevier.com/products/scopus/scopus-ai
-description: GenAI research assistant integrated into Scopus, drawing on 27,000+ journals
-  from 7,000+ publishers. Delivers referenced summaries, concept maps, emerging themes,
-  foundational papers, and downloadable Deep Research agentic reports. RAG architecture
-  grounded only in curated Scopus content to minimise hallucinations.
+description: GenAI research assistant integrated into Scopus (now branded 'Scopus
+  with AI'), drawing on content from 7,000+ publishers. Delivers referenced summaries,
+  concept maps, emerging themes, foundational papers, and downloadable Deep Research
+  agentic reports; RAG grounded only in curated Scopus content.
 access: institutional
 domain: general
 status: active
 tier: core
 added: 2026-05
-last_verified: '2026-08-18'
+last_verified: '2026-09-11'
+notes: '[sweep 2026-09-11] Elsevier product page now titled ''Scopus with AI'' (URL
+  unchanged); ''27,000+ journals'' not on page, dropped. Consider renaming entry to
+  ''Scopus with AI'' (currently ''Scopus AI / AI Discovery'').'

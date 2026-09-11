@@ -1,6 +1,6 @@
 # Task-coverage map — AI Tools for Scientific Research
 
-Generated from the catalog data: 176 tools, 35 task categories; newest verification 2026-08-18.
+Generated from the catalog data: 176 tools, 35 task categories; newest verification 2026-09-11.
 Purpose: input for external gap-hunting — which academic/research tasks
 augmentable by AI are NOT yet represented below?
 
@@ -20,7 +20,7 @@ Task: AI inside the documents, spreadsheets and slides you already work in.
 ### Browser Automation Agents (2 tools)
 Task: let AI operate the browser — forms, portals, repetitive web work.
 
-### AI-Powered Search Engines (2 tools)
+### AI-Powered Search Engines (1 tool)
 Task: ask the web a question and get a sourced answer instead of a list of links.
 
 ### Deep Research Agents (7 tools)
@@ -89,7 +89,7 @@ Specific use cases already covered:
 - GDPR-safe transcription of sensitive interview data — nothing leaves the machine, with transcript conventions (pauses, overlap, disfluencies) built for qualitative social research
 - Zero-cost, transparent AI-assisted qualitative coding — inspectable prompts plus a free EU academic LLM backend (Blablador) that stores no data; supports REFI-QDA exchange with commercial CAQDAS
 
-### OCR & Document Digitization (7 tools)
+### OCR & Document Digitization (6 tools)
 Task: turn handwriting, archives, equations and PDFs into editable, analyzable text and LaTeX.
 Specific use cases already covered:
 - Fully open-source, self-hosted HTR with owned models and data — no per-page credits, works for right-to-left and non-Latin scripts via kraken
@@ -120,7 +120,7 @@ Task: track animals and quantify behavior from your own videos — markerless po
 ### De-identification & Data Sharing (4 tools)
 Task: anonymize tables and transcripts so data can be shared or sent to a cloud model — with formal guarantees, GDPR in mind.
 
-### Writing & Translation (7 tools)
+### Writing & Translation (6 tools)
 Task: draft, polish and translate scholarly text.
 
 ### Visual & Presentation Creation (4 tools)
@@ -184,7 +184,6 @@ Task: prior-art checks, patent landscapes and invention disclosures. Caution: un
 Specific use cases already covered:
 - Chemistry-aware prior-art search over curated substance/Markush indexing — inside a database most chemistry-active universities already license, so no new procurement
 - Zero-cost first-look prior-art check with priority-date-aware 'Find prior art' across patents, Scholar and Books simultaneously
-- AI drafting of the invention disclosure itself, aimed explicitly at university researchers and tech transfer — the only researcher-facing (not attorney-facing) drafting tool found Real but young company; no independent academic adoption found; no free tier. Confidentiality caution: check TTO policy before pasting unfiled invention details into third-party AI (UC Berkeley OTL advises exactly this)
 - TTO-grade commercial landscape triage — 'who is active in this space and is it heating up' — before deciding to file
 - Free, open-source semantic prior-art search an academic can run before submitting an invention disclosure; API is explicitly pitched at university tech transfer offices
 - Seeing which patents cite your own papers, and finding biological sequences buried in patents (PatSeq) — the scholarly-patent bridge no general assistant or single-corpus tool covers

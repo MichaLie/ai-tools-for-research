@@ -2,12 +2,15 @@ name: ChatGPT
 category: general-purpose-ai-assistants
 provider: OpenAI
 url: https://chatgpt.com/
-description: Conversational AI with Deep Research for multi-step synthesis of 100+
-  sources, Code Interpreter for Python-based data analysis, and advanced reasoning.
-  ChatGPT Plus includes image generation (4o) and file analysis capabilities.
+description: Conversational AI with Deep Research for multi-step source synthesis,
+  Python-based data analysis, and reasoning models. Free tier; paid Go, Plus and Pro
+  plans add image generation, file analysis and higher usage limits.
 access: freemium
 domain: general
 status: active
 tier: core
 added: 2026-02
-last_verified: '2026-08-18'
+last_verified: '2026-09-11'
+notes: '[sweep 2026-09-11] chatgpt.com blocks fetch (403); alive per search. Dropped
+  stale ''4o'' model name and unverified ''100+ sources'' figure; plan names (Go/Plus/Pro)
+  from third-party pricing roundups, not the product page.'

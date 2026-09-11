@@ -2,12 +2,18 @@ name: Reviewer3
 category: ai-manuscript-review-disclosure
 provider: Reviewer3
 url: https://reviewer3.com/
-description: AI peer review platform generating evaluations based on EQUATOR guidelines
-  and journal-specific requirements. Multiple specialized reviewers examine study
-  design, results, and limitations with PDF-anchored feedback.
+description: 'AI peer review platform: integrity checks (hallucinated or retracted
+  citations, AI-generated text), claim-by-claim evidence decomposition, and panel
+  review of study design, data and scope, with modes for author self-review, reviewer
+  support and editorial triage. Claims 98.5% accuracy separating real from fabricated
+  citations.'
 access: paid
 domain: general
 status: active
 tier: extended
 added: 2026-02
-last_verified: '2026-08-18'
+last_verified: '2026-09-11'
+notes: '[sweep 2026-09-11] Positioning changed on homepage (integrity/claim verification
+  focus; EQUATOR/journal-specific wording gone) — description rewritten. Pricing page
+  unreadable; third-party reports a free first review + $19/review + $29/mo, which
+  would make access freemium — confirm on site before changing.'

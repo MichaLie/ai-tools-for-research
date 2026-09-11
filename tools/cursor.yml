@@ -2,15 +2,20 @@ name: Cursor
 category: code-assistants
 provider: Anysphere (SpaceX)
 url: https://cursor.com/
-description: AI-first code editor (VS Code fork) with natural language code generation
-  and Tab completion. Cursor 2.0 supports 8 parallel AI agents on same task. Valued
-  at $9.9B with full VS Code extension compatibility.
+description: AI-first code editor (VS Code fork) with natural-language code generation,
+  Tab completion and parallel background agents; full VS Code extension compatibility.
+  Free Hobby tier, Pro from $20/month.
 access: freemium
 domain: general
 status: active
 tier: core
 added: 2026-02
-last_verified: '2026-08-18'
+last_verified: '2026-09-11'
 notes: '[sweep 2026-08-18] description flagged: Fetched cursor.com and /pricing: free
   Hobby tier, Pro $20/mo. SpaceX''s $60B acquisition of Anysphere closed 2026-08-14
-  (CNBC, site itself) — the ''$9.9B valuation'' claim is now wrong.'
+  (CNBC, site itself) — the ''$9.9B valuation'' claim is now wrong.
+
+  [sweep 2026-09-11] Product page blocked for fetch; existence, pricing and SpaceX
+  acquisition (closed 2026-08-14) confirmed by search. Removed stale ''$9.9B valuation''
+  and unverifiable ''Cursor 2.0 / 8 parallel agents'' figures from description. Provider
+  ''Anysphere (SpaceX)'' still correct.'

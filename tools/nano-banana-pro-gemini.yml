@@ -10,4 +10,8 @@ domain: general
 status: active
 tier: extended
 added: 2026-02
-last_verified: '2026-08-18'
+last_verified: '2026-09-11'
+notes: '[sweep 2026-09-11] Page alive, claims supported. access paid -> freemium:
+  reachable via the free Gemini app with a limited daily quota (third-party guides;
+  DeepMind page lists Gemini-app availability without pricing). Note Nano Banana 2
+  / 2 Lite now exist; Pro remains the current high-fidelity model page.'

@@ -10,7 +10,7 @@ domain: life-sciences
 status: active
 tier: core
 added: 2026-08
-last_verified: '2026-08-18'
+last_verified: '2026-09-11'
 notes: '[grok-gap-hunt 2026-08-18, independently verified] GPLv3+. Latest stable 6.0.14
   released 2026-04-07 (GitLab API; 6.0.15a0 pre-release 2026-04-30). eLife 2026 paper
   DOI 10.7554/eLife.107602 linked on site.'

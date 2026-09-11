@@ -3,11 +3,15 @@ category: literature-discovery-analysis
 provider: Consensus
 url: https://consensus.app/
 description: AI academic search across 220M+ peer-reviewed papers with Consensus Meter
-  visualizing study agreement/disagreement. Scholar Agent (GPT-5) provides line-by-line
-  citations to prevent hallucinations.
+  visualizing study agreement/disagreement. Research Agent (formerly Scholar Agent,
+  built on GPT-5) answers multi-step questions with citation-backed, paper-grounded
+  output.
 access: freemium
 domain: general
 status: active
 tier: core
 added: 2026-02
-last_verified: '2026-08-18'
+last_verified: '2026-09-11'
+notes: '[sweep 2026-09-11] Scholar Agent renamed Research Agent per Consensus help
+  center (search snippet; help.consensus.app blocks fetch). 220M+ and Consensus Meter
+  still on homepage. GPT-5 basis from OpenAI case-study snippet, not fetched.'

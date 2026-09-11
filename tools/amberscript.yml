@@ -11,7 +11,7 @@ domain: general
 status: active
 tier: extended
 added: 2026-08
-last_verified: '2026-08-18'
+last_verified: '2026-09-11'
 notes: '[discovery 2026-08-18] Unique use case: EU-hosted transcription with an optional
   professional human-correction tier for verbatim accuracy — the step between DIY
   Whisper and a transcription bureau Adoption: University of Barcelona case study

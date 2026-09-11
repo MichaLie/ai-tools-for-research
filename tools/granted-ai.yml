@@ -2,7 +2,7 @@ name: Granted AI
 category: ideation-grant-funding
 provider: Granted AI
 url: https://grantedai.com/
-description: 'Full-lifecycle grant platform: discovery across 85,000+ grants from
+description: 'Full-lifecycle grant platform: discovery across 140,000+ grants from
   144 sources, funder research over 133,000+ foundations, AI-coached drafting from
   uploaded RFPs, simulated committee review and compliance checks. Free tier available;
   paid plans from $29/month.'
@@ -11,4 +11,6 @@ domain: general
 status: active
 tier: core
 added: 2026-05
-last_verified: '2026-08-18'
+last_verified: '2026-09-11'
+notes: '[sweep 2026-09-11] Grant count updated 85,000+ -> 140,000+; other numbers
+  and pricing unchanged.'

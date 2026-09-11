@@ -1,17 +1,23 @@
-name: Heureka
+name: Heureka Bench
 category: autonomous-research-agents
 provider: Heureka Labs
 url: https://www.heurekalabs.co/
-description: AI Research Companion (ARC) for hypothesis generation, experiment design,
-  and data analysis through natural conversation. QuartzReport delivers automated
-  analysis with publication-ready figures.
-access: unknown
+description: 'Heureka Bench: local-first desktop notebook with the ARC research agent
+  and a proprietary biology model (Archimedes) for multi-omics data analysis, hypothesis
+  generation, experiment design, QC and literature curation. Free macOS/Windows download,
+  no subscription; optional cloud compute.'
+access: free
 domain: general
 status: active
 tier: extended
 added: 2026-02
-last_verified: '2026-08-18'
+last_verified: '2026-09-11'
 notes: '[sweep 2026-08-18] description flagged: heureka.ai DNS-dead. heurekalabs.co
   live: Heureka Bench desktop app with ARC agent and Archimedes model, direct Mac/Windows
   downloads, ''no subscription''. QuartzReport not mentioned anywhere; pricing page
-  could not be retrieved.'
+  could not be retrieved.
+
+  [sweep 2026-09-11] access unknown->free (no-subscription desktop app, verified on
+  homepage); description rewritten around Heureka Bench/ARC, QuartzReport dropped
+  (not on any page). Consider renaming entry to ''Heureka Bench''. Company: Heureka
+  Labs UG (Hamburg, per Startup City Hamburg listing).'

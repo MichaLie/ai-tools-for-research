@@ -1,14 +1,19 @@
-name: ScienceDirect AI
+name: LeapSpace (formerly ScienceDirect AI)
 category: publisher-database-ai-assistants
 provider: Elsevier
-url: https://www.elsevier.com/products/sciencedirect/sciencedirect-ai
-description: Workflow companion across millions of full-text peer-reviewed articles
-  and book chapters. Reading Assistant chats with a document and links claims to exact
-  source passages; Compare Experiments builds side-by-side tables of goals, methods
-  and results across selected papers. Also available on PDFs in Mendeley via LeapSpace.
+url: https://www.elsevier.com/products/leapspace
+description: 'Elsevier''s AI research workspace (successor to ScienceDirect AI) over
+  100M+ academic records incl. 23M+ full-text articles: chat with documents, compare
+  evidence across papers, Trust Cards and Claim Radar for provenance, Writing Coach.
+  Individual subscription with free trial, or institutional licence.'
 access: paid
 domain: general
 status: active
 tier: extended
 added: 2026-05
-last_verified: '2026-08-18'
+last_verified: '2026-09-11'
+notes: '[sweep 2026-09-11] ScienceDirect AI has been folded into LeapSpace (customers
+  auto-upgraded, Q1 2026); old URL now serves the LeapSpace page. Recommend renaming
+  entry to ''LeapSpace'' (name/slug change needs Michaela) and pointing url to elsevier.com/products/leapspace.
+  Reading Assistant / Compare Experiments / Mendeley wording no longer on page. Access
+  stays paid (trial + subscription), not a free tier.'

@@ -10,6 +10,6 @@ domain: general
 status: deprecated
 tier: extended
 added: 2026-02
-last_verified: '2026-08-18'
+last_verified: '2026-09-11'
 notes: Discontinued by OpenAI around 2026-08-09; the standalone Atlas browser was
   folded into the ChatGPT desktop app. Kept for the historical record.

@@ -2,17 +2,22 @@ name: Gemini Co-Scientist
 category: deep-research-agents
 provider: Google
 url: https://labs.google/science
-description: Part of the Gemini for Science suite launched at Google I/O on May 19,
-  2026 (Nature-validated). A multi-agent 'idea tournament' generates, debates and
-  scores hypotheses with clickable citations to primary sources. Stanford used it
-  to identify Vorinostat as a candidate for liver fibrosis (Nature, May 2026).
+description: Part of Google's Gemini for Science suite (Google I/O, May 2026; Co-Scientist
+  paper published in Nature). A multi-agent 'idea tournament' generates, debates and
+  scores hypotheses with citations to primary sources. Stanford used it to identify
+  vorinostat as a candidate for liver fibrosis (Advanced Science, 2025).
 access: waitlist
 domain: general
 status: candidate
 tier: extended
 added: 2026-05
-last_verified: '2026-08-18'
+last_verified: '2026-09-11'
 notes: '[sweep 2026-08-18] description flagged: Fetched labs.google/science and blog.google
   I/O 2026 post: Co-Scientist Nature paper confirmed, but Stanford liver-fibrosis/Vorinostat
   result was published in Advanced Science, not Nature. Access via ''Express interest''
-  waitlist. Google-branded (blog.google/labs.google), not DeepMind.'
+  waitlist. Google-branded (blog.google/labs.google), not DeepMind.
+
+  [sweep 2026-09-11] Gate 2 fails: still ''Express interest'' waitlist on labs.google/science
+  (gradual rollout, no open access as of Sept 2026) — keep candidate. Description
+  fix: Stanford vorinostat result is Advanced Science 2025, not Nature; Co-Scientist
+  paper itself is in Nature (blog.google).'

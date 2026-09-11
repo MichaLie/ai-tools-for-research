@@ -1,13 +1,18 @@
-name: ChatGPT Code Interpreter
+name: ChatGPT Data Analysis (Code Interpreter)
 category: data-analysis
 provider: OpenAI
-url: https://help.openai.com/en/articles/8437071-code-interpreter
-description: Sandboxed Python environment within ChatGPT for data exploration, statistical
-  analysis, and visualization. Supports up to 20 files (512MB each) with automatic
-  error resolution and interactive chart generation.
+url: https://help.openai.com/en/articles/8437071-data-analysis-with-chatgpt
+description: Sandboxed Python environment inside ChatGPT (now branded 'data analysis',
+  formerly Code Interpreter / Advanced Data Analysis) for data exploration, statistical
+  analysis, and interactive charts. Uploads up to 512 MB per file; free plan capped
+  at 3 file uploads per day.
 access: freemium
 domain: general
 status: active
 tier: core
 added: 2026-02
-last_verified: '2026-08-18'
+last_verified: '2026-09-11'
+notes: '[sweep 2026-09-11] OpenAI help article renamed ''Data analysis with ChatGPT''
+  (same article ID); ''20 files'' is the per-GPT limit, not per conversation, so dropped.
+  Consider renaming entry to ''ChatGPT Data Analysis''. Figures from help-center search
+  snippets; direct fetch blocked (403).'

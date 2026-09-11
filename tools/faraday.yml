@@ -5,13 +5,17 @@ url: https://www.ascentbio.ai/
 description: AI scientist for drug discovery, building knowledge corpus from files,
   databases, and tools. Specializes in molecule design and targeted protein degradation
   therapeutics with end-to-end traceability.
-access: unknown
+access: waitlist
 domain: life-sciences
-status: active
+status: candidate
 tier: extended
 added: 2026-02
-last_verified: '2026-08-18'
+last_verified: '2026-09-11'
 notes: '[sweep 2026-08-18] ascent.bio rendered empty; live site is ascentbio.ai (fetched):
   Faraday AI scientist, 40+ institutions, signup via accounts.platform.ascentbio.ai.
   platform.ascentbio.ai/faraday showed ''down for maintenance''. No pricing found;
-  public beta per blog.'
+  public beta per blog.
+
+  [sweep 2026-09-11] Access is request/invite-gated per Ascent Bio docs (alpha program)
+  and blog (request an access link); no public pricing. Per gate 2 waitlist tools
+  are candidate, not active. Revert to active if self-serve signup is confirmed.'

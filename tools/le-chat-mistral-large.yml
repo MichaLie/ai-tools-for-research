@@ -1,16 +1,23 @@
-name: Le Chat (Mistral Large)
+name: Vibe (Mistral, formerly Le Chat)
 category: general-purpose-ai-assistants
 provider: Mistral AI
 url: https://chat.mistral.ai/
-description: Multilingual AI with Deep Research mode, 256K context window, and Projects
-  for organizing research workspaces. Offers on-premises data connectors for institutions
-  with strict data governance requirements.
-access: unknown
+description: 'Mistral''s assistant, renamed from Le Chat to Vibe in May 2026: Chat
+  (turn-based), Work (multi-step agent across Google Workspace, Outlook, SharePoint,
+  Slack, GitHub) and Code (CLI, VS Code, web) modes. Free tier; Pro EUR 17.99/month,
+  Team EUR 29.99/user/month; European alternative to US assistants.'
+access: freemium
 domain: general
-status: needs-review
+status: active
 tier: extended
 added: 2026-02
-last_verified: null
+last_verified: '2026-09-11'
 notes: '[sweep 2026-08-18] description flagged: Le Chat renamed to Vibe May 28 2026
   (help.mistral.ai confirms; same URL, accounts carried over). Vibe pricing: Pro $14.99,
-  Team $24.99, Enterprise. Free tier post-rename not confirmed. Name/description outdated.'
+  Team $24.99, Enterprise. Free tier post-rename not confirmed. Name/description outdated.
+
+  [sweep 2026-09-11] needs-review resolved: rename Le Chat -> Vibe confirmed (help.mistral.ai
+  article; heise 2026-05-29); same URL chat.mistral.ai; free tier confirmed (heise),
+  Pro EUR 17.99/Team EUR 29.99 (EUR prices differ from the USD figures noted 2026-08-18).
+  Recommend renaming file/name to ''Vibe (Mistral)''; 256K-context and Deep Research
+  claims not re-verified and dropped.'

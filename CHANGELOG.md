@@ -58,3 +58,23 @@ Search-strategy construction added as use cases under Systematic Review
 PowerGPT and RefereeBio enter as candidates (no privacy policy / early
 access). BioSketch Builder rejected on the recommendable-gate. Catalog:
 176 tools / 35 task categories.
+
+## Unreleased — verification sweep 2026-09-11
+
+Second full sweep (10 parallel agents): all 176 tools re-checked — 150 fetched
+directly, 25 bot-blocked sites confirmed alive via search, 1 unreachable
+(citationchaser Shiny app). 58 descriptions corrected, mostly by dropping
+figures the product page no longer supports; 6 URL, 11 provider and 10 access
+corrections. Product renames recorded in `name` (file slugs unchanged):
+NotebookLM → Gemini Notebook (2 entries), Le Chat → Vibe, Falcon → Edison
+Literature, ScienceDirect AI → LeapSpace, Claude for Chrome → Claude in Chrome,
+4o Image Generation → ChatGPT Images, Scopus AI → Scopus with AI, Research Kick →
+ChatAcademia, Code Interpreter → Data Analysis, Heureka → Heureka Bench, q.e.d.
+→ QED Science. Status changes: Potato, Laser AI and InventGenie promoted
+(candidate → active/extended, all five gates pass); Faraday active → candidate
+(invite-only alpha); FormatMyPaper deprecated (satire site with no backend — it
+held the core slot for journal reformatting, so that task is now unrepresented);
+You.com deprecated (consumer answer engine gone, developer API only);
+Transcription Pearl rejected (unmaintained since 2024-11, superseded by Archive
+Studio); citationchaser and Prophy → needs-review. All four 2026-08-18
+needs-review items resolved. 11 candidates re-vetted and kept, reason in notes.
