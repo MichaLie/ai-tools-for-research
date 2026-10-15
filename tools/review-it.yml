@@ -2,18 +2,21 @@ name: Review-it
 category: ai-manuscript-review-disclosure
 provider: Review-it AI
 url: https://review-it.ai/
-description: Uploads a manuscript, thesis or proposal (PDF/DOCX) and returns an AI
-  peer review with strengths, weaknesses and suggested fixes, plus a pre-submission
-  checklist (scope, citations, desk-rejection risk), journal finder and a reference
-  checker for fake or broken citations. Per-document from $6.99; unlimited $59/month.
+description: Review academic documents for strengths, weaknesses, structural improvements,
+  and suitable journals. The service offers AI-assisted feedback for manuscript revision;
+  consult its current plans before uploading a document.
 access: paid
 domain: general
 status: active
 tier: extended
 added: 2026-02
-last_verified: '2026-09-11'
-notes: '[sweep 2026-09-11] Alive (rendered in browser; plain fetch returns empty SPA
-  shell). Description rewritten capability-first with verified pricing; removed the
-  50%-of-researchers Nature statistic, which is not about the product. Small vendor
-  with no independent coverage found — gate 4 evidence is thin but pricing/privacy
-  statements are on the page.'
+last_verified: '2026-10-15'
+notes: '[sweep 2026-09-11] Alive (rendered in browser; plain fetch returns empty SPA shell).
+  Description rewritten capability-first with verified pricing; removed the 50%-of-researchers
+  Nature statistic, which is not about the product. Small vendor with no independent coverage
+  found — gate 4 evidence is thin but pricing/privacy statements are on the page.
+
+
+  [sweep 2026-10-15] Current official metadata confirms peer review and journal matching.
+  Removed unverified per-document/monthly prices and additional checks not confirmed in the
+  retrieved content. Sources: https://review-it.ai/'

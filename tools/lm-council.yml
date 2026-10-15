@@ -1,15 +1,20 @@
 name: LM Council
 category: general-purpose-ai-assistants
 url: https://lmcouncil.ai/
-description: Multi-model consensus tool that queries multiple AI models simultaneously
-  (GPT-5, Claude, Gemini, Grok), with anonymous peer review and ranking. Reduces individual
-  model biases through collective evaluation.
+description: Compare responses from multiple language models and let models discuss a question
+  with one another. Useful for examining how different systems approach the same research
+  or writing task.
 access: freemium
 domain: general
 status: active
 tier: extended
 added: 2026-02
-last_verified: '2026-09-11'
-notes: '[sweep 2026-08-18] lmcouncil.com DNS-dead; lmcouncil.ai live (''Compare Frontier
-  AI Systems Side-by-Side''). Multi-model councils with free and Pro tiers confirmed;
-  terms say solo developer, unnamed. Anonymous peer-review claim not confirmed on-site.'
+last_verified: '2026-10-15'
+notes: '[sweep 2026-08-18] lmcouncil.com DNS-dead; lmcouncil.ai live (''Compare Frontier AI
+  Systems Side-by-Side''). Multi-model councils with free and Pro tiers confirmed; terms say
+  solo developer, unnamed. Anonymous peer-review claim not confirmed on-site.
+
+
+  [sweep 2026-10-15] The official metadata describes model comparison and model-to-model discussion.
+  Removed the stale model list and the unsupported claim that consensus reduces bias. Sources:
+  https://lmcouncil.ai/'

@@ -2,22 +2,23 @@ name: ChatAcademia (formerly Research Kick)
 category: ideation-grant-funding
 provider: ChatAcademia
 url: https://www.chatacademia.com/
-description: 'AI research-ideation workspace (formerly Research Kick): detects research
-  gaps and scores novelty 0-10 with literature evidence across 300M+ papers from 8+
-  databases, searches US/EU/UK grants, and syncs with Zotero and Mendeley. 7-day trial,
-  then $15-45/month.'
+description: Develop research questions, assess gaps and novelty, find literature and grants,
+  and organize evidence in ChatAcademia. The workspace also offers data-analysis planning,
+  claim checks, and manuscript-review tools; a free trial is available.
 access: paid
 domain: general
 status: active
 tier: core
 added: 2026-02
-last_verified: '2026-09-11'
+last_verified: '2026-10-15'
 notes: '[sweep 2026-08-18] description flagged: Both catalog URLs redirect to chatacademia.com;
-  founder (Mushtaq Bilal) confirmed rebrand of Research Kick Chat to ChatAcademia.
-  Description stale: old name, GPT-4o claim. Now $15-45/mo plans, free trial, 8+ databases,
-  grant search.
+  founder (Mushtaq Bilal) confirmed rebrand of Research Kick Chat to ChatAcademia. Description
+  stale: old name, GPT-4o claim. Now $15-45/mo plans, free trial, 8+ databases, grant search.
 
-  [sweep 2026-09-11] description rewritten to current ChatAcademia facts (300M+ papers,
-  8+ databases, $15-45/mo, 7-day trial); dropped stale GPT-4o / 1B+ / 2,000+ academics
-  claims. Recommend renaming name field to ''ChatAcademia'' (slug change is Michaela''s
-  call).'
+  [sweep 2026-09-11] description rewritten to current ChatAcademia facts (300M+ papers, 8+
+  databases, $15-45/mo, 7-day trial); dropped stale GPT-4o / 1B+ / 2,000+ academics claims.
+  Recommend renaming name field to ''ChatAcademia'' (slug change is Michaela''s call).
+
+
+  [sweep 2026-10-15] Current product covers a broader research workflow. Removed the dated
+  database counts and price range. Sources: https://www.chatacademia.com/'

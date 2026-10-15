@@ -1,24 +1,27 @@
-name: RefCheckAI
+name: AI Reference Checker (RefCheckAI)
 category: integrity-screening-forensics
 provider: Sydney Informatics Hub, University of Sydney
 url: https://sydney-informatics-hub.github.io/RefCheckAI/
-description: Checks whether each citation statement is actually supported by the cited
-  source, classifying claims as supported, partially supported, not supported, or
-  uncertain, with evidence snippets. Fine-tuned open Llama 3.1 model; free for non-commercial
-  use.
+description: Checks whether each citation statement is actually supported by the cited source,
+  classifying claims as supported, partially supported, not supported, or uncertain, with
+  evidence snippets. Fine-tuned open Llama 3.1 model; free for non-commercial use.
 access: free
 domain: general
 status: candidate
 tier: extended
 added: 2026-08
-last_verified: '2026-09-11'
-notes: '[discovery 2026-08-18] Unique use case: Semantic citation verification — whether
-  the cited paper supports the claim, not merely whether the reference exists (scite
-  shows citation context but does not classify your own manuscript''s claims) Adoption:
-  University-built (Sydney Informatics Hub, NCI/NVIDIA-supported CodeFest); model
-  weights and training data published for download Early access — web app via registration/email
-  only. Classification accuracy not independently benchmarked. CC BY-NC 4.0.
+last_verified: '2026-10-15'
+notes: '[discovery 2026-08-18] Unique use case: Semantic citation verification — whether the
+  cited paper supports the claim, not merely whether the reference exists (scite shows citation
+  context but does not classify your own manuscript''s claims) Adoption: University-built
+  (Sydney Informatics Hub, NCI/NVIDIA-supported CodeFest); model weights and training data
+  published for download Early access — web app via registration/email only. Classification
+  accuracy not independently benchmarked. CC BY-NC 4.0.
 
-  [sweep 2026-09-11] Alive, unchanged. Still early-access via registration/email only,
-  so fails gate 2 (usable this week). Keep candidate; page brands it ''AI Reference
-  Checker''.'
+  [sweep 2026-09-11] Alive, unchanged. Still early-access via registration/email only, so
+  fails gate 2 (usable this week). Keep candidate; page brands it ''AI Reference Checker''.
+
+
+  [sweep 2026-10-15] The official page brands the tool AI Reference Checker. Early-adopter
+  access still requires contact/registration; downloadable research assets are available,
+  but general hosted access is not verified. Retained candidate. Sources: https://sydney-informatics-hub.github.io/RefCheckAI/'

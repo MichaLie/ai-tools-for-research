@@ -2,12 +2,16 @@ name: Claude
 category: general-purpose-ai-assistants
 provider: Anthropic
 url: https://claude.ai/
-description: Advanced AI assistant with 200K token context window, Code Interpreter,
-  and Claude for Life Sciences integrations (Benchling, BioRender, PubMed, 10x Genomics).
-  Excels at long-document analysis and nuanced scientific writing.
+description: Read and draft documents, search the web, create files, and run code with Claude.
+  Free access has usage limits; paid plans add Claude Code, Claude Science, and integrations
+  with Chrome and Microsoft 365.
 access: freemium
 domain: general
 status: active
 tier: core
 added: 2026-02
-last_verified: '2026-09-11'
+last_verified: '2026-10-15'
+notes: '[sweep 2026-10-15] Current pricing includes file creation and code execution in Free
+  and Claude Science in Pro. Removed the fixed context-window limit and unsupported comparative
+  writing claim. Sources: https://claude.ai/; https://claude.com/pricing?content_language=English;
+  https://claude.com/product/claude-science'

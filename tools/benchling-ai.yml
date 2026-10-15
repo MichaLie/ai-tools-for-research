@@ -2,16 +2,20 @@ name: Benchling AI
 category: data-analysis
 provider: Benchling
 url: https://www.benchling.com/ai
-description: 'ELN-grounded AI agents for the lab: answer questions across your Benchling
-  data, import PDFs and CRO reports as structured records, draft notebook entries
-  and study reports, and run AlphaFold 2, Chai-1 and Boltz-2 structure prediction
-  in-platform. Credit-based; free for academic scientists.'
+description: Query Benchling records, import PDFs and external reports as structured data,
+  draft notebook entries and study reports, and run protein structure models within the notebook.
+  Free access is available to academic scientists.
 access: freemium
 domain: life-sciences
 status: active
 tier: core
 added: 2026-05
-last_verified: '2026-09-11'
+last_verified: '2026-10-15'
 notes: '[sweep 2026-09-11] Agent line-up on product page changed (Deep Research/Compose/Ask/Data
-  Entry gone; Notebook Check, SQL Writer, Experiment Optimization listed); description
-  rewritten from page. Models and free academic access confirmed.'
+  Entry gone; Notebook Check, SQL Writer, Experiment Optimization listed); description rewritten
+  from page. Models and free academic access confirmed.
+
+
+  [sweep 2026-10-15] The live page confirms the notebook, import, structure-model, and free
+  academic workflows. Shortened the existing 41-word description to meet the catalog limit.
+  Sources: https://www.benchling.com/ai'

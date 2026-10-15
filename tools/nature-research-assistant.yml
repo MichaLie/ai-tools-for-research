@@ -2,20 +2,23 @@ name: Nature Research Assistant
 category: publisher-database-ai-assistants
 provider: Springer Nature
 url: https://natureresearchassistant.com/
-description: AI assistant (beta) built on a peer-reviewed academic corpus to help
-  researchers read, contextualise and write research papers. Generates summaries,
-  supports chat over papers, and provides detailed figure descriptions with audio
-  playback. Built with researchers; aimed at trustworthy, integrity-preserving use.
+description: Read and discuss research papers using summaries, paper chat, figure walkthroughs,
+  and related-paper suggestions. Manuscript Adviser offers communication feedback; the Springer
+  Nature service remains in beta with a waiting list.
 access: waitlist
 domain: general
 status: candidate
 tier: extended
 added: 2026-05
-last_verified: '2026-09-11'
-notes: '[sweep 2026-08-18] Fetched site: Springer Nature confirmed, still beta; new
-  users must join waiting list, no pricing disclosed. Summaries, paper chat, figure
-  descriptions with audio all confirmed on page.
+last_verified: '2026-10-15'
+notes: '[sweep 2026-08-18] Fetched site: Springer Nature confirmed, still beta; new users
+  must join waiting list, no pricing disclosed. Summaries, paper chat, figure descriptions
+  with audio all confirmed on page.
 
-  [sweep 2026-09-11] Still beta + waiting list, no pricing: fails gate 2 (usable this
-  week). Keep candidate; re-check next sweep. New ''Manuscript Adviser'' feature and
-  publisher-agnostic scope now on page.'
+  [sweep 2026-09-11] Still beta + waiting list, no pricing: fails gate 2 (usable this week).
+  Keep candidate; re-check next sweep. New ''Manuscript Adviser'' feature and publisher-agnostic
+  scope now on page.
+
+
+  [sweep 2026-10-15] The product explicitly requires new users to join the waiting list. Gate
+  2 still fails; retained candidate. Sources: https://natureresearchassistant.com/'

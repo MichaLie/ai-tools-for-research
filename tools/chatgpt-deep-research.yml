@@ -2,12 +2,18 @@ name: ChatGPT Deep Research
 category: deep-research-agents
 provider: OpenAI
 url: https://openai.com/index/introducing-deep-research/
-description: Built-in ChatGPT feature that conducts multi-step internet research,
-  synthesizing hundreds of sources into comprehensive reports. Reduces hours of manual
-  research to minutes with full source attribution.
+description: Delegate a multi-step investigation across the web, uploaded files, and supported
+  connected sources, then inspect a report with citations. Source availability and usage limits
+  depend on your plan and workspace settings.
 access: freemium
 domain: general
 status: active
 tier: core
 added: 2026-02
-last_verified: '2026-09-11'
+last_verified: '2026-10-15'
+notes: '[core review 2026-10-15] Keep core as the delegated cited-report exemplar. Illinois
+  explicitly includes Deep Research in its ChatGPT Edu license. Gemini also has strong feature-specific
+  university provision; this is an editorial tie-break, not proof of higher adoption or better
+  results. Connected-source access is not exclusive to competing services. Sources: https://webstore.illinois.edu/shop/product.aspx?zpid=7177;
+  https://library.smu.edu.sg/topics-insights/lost-ai-search-maze-heres-your-guide-choosing-right-tool-updated-september-2026;
+  https://help.openai.com/en/articles/10500283-deep-research-in-chatgpt'

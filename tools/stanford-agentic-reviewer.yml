@@ -2,12 +2,14 @@ name: Stanford Agentic Reviewer
 category: ai-manuscript-review-disclosure
 provider: Stanford ML Group
 url: https://paperreview.ai/
-description: Free AI peer review system by Andrew Ng's team providing rapid, actionable
-  feedback. Grounds reviews in latest arXiv research; correlation with human reviewers
-  (0.42) matches inter-human agreement (0.41).
+description: Submit a research paper to Stanford Agentic Reviewer for AI-generated review
+  feedback. The interface supports venue context and returns suggestions for revision; researchers
+  should evaluate the feedback themselves.
 access: free
 domain: general
 status: active
 tier: core
 added: 2026-02
-last_verified: '2026-09-11'
+last_verified: '2026-10-15'
+notes: '[sweep 2026-10-15] The submission interface is live. Removed correlation figures not
+  established on the fetched product page. Sources: https://paperreview.ai/'

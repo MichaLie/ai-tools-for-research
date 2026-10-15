@@ -10,7 +10,7 @@ domain: general
 status: active
 tier: core
 added: 2026-02
-last_verified: '2026-09-11'
+last_verified: '2026-10-15'
 notes: '[sweep 2026-09-11] URL/provider/access unchanged. Dropped ''Tool Search Tool
   reduces context by 37%'' from description: figure is from the API platform docs,
   not supported on the Claude Code product page.'

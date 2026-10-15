@@ -2,16 +2,22 @@ name: Consensus
 category: literature-discovery-analysis
 provider: Consensus
 url: https://consensus.app/
-description: AI academic search across 220M+ peer-reviewed papers with Consensus Meter
-  visualizing study agreement/disagreement. Research Agent (formerly Scholar Agent,
-  built on GPT-5) answers multi-step questions with citation-backed, paper-grounded
-  output.
+description: Ask a research question, compare paper-level answers, and inspect how selected
+  studies agree or disagree using the Consensus Meter. Research Agent handles deeper searches;
+  the meter’s conclusions depend on the retrieved studies.
 access: freemium
 domain: general
 status: active
 tier: core
 added: 2026-02
-last_verified: '2026-09-11'
-notes: '[sweep 2026-09-11] Scholar Agent renamed Research Agent per Consensus help
-  center (search snippet; help.consensus.app blocks fetch). 220M+ and Consensus Meter
-  still on homepage. GPT-5 basis from OpenAI case-study snippet, not fetched.'
+last_verified: '2026-10-15'
+notes: '[sweep 2026-09-11] Scholar Agent renamed Research Agent per Consensus help center
+  (search snippet; help.consensus.app blocks fetch). 220M+ and Consensus Meter still on homepage.
+  GPT-5 basis from OpenAI case-study snippet, not fetched.
+
+
+  [sweep 2026-10-15] Restored the distinctive agreement/disagreement workflow after the initial
+  rewrite became generic. Official Meter documentation confirms classification of selected
+  retrieved papers and warns that this does not cover all literature on a topic. Sources:
+  https://consensus.app/; https://help.consensus.app/en/articles/10069920-the-consensus-meter;
+  https://help.consensus.app/en/articles/12641232-research-agent; https://help.consensus.app/en/articles/10087865-subscription-plans'

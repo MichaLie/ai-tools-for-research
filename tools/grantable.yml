@@ -2,16 +2,19 @@ name: Grantable
 category: ideation-grant-funding
 provider: Grantable
 url: https://grantable.co/
-description: Chat-first AI grant 'coworker' that remembers your organisation, past
-  proposals and funder context. GrantGraph prospecting screens 990 filings and giving
-  histories; scheduled funder scans, RFP checklists, section drafting. Free tier (5
-  chats/day); Starter $50/month, $25 for nonprofits.
+description: Find relevant funders, assess opportunities, and draft grant proposals using
+  your organization’s documents and past applications. The platform supports proposal checklists
+  and grant tracking, with free and paid access.
 access: freemium
 domain: general
 status: active
 tier: extended
 added: 2026-05
-last_verified: '2026-09-11'
-notes: '[sweep 2026-09-11] Pricing changed: ''from $24/month'' gone, now Free / Starter
-  $50 ($25 nonprofit) / Pro $150. Dropped unsupported 11M-data-point and 130,000-funder
-  figures. Access freemium confirmed.'
+last_verified: '2026-10-15'
+notes: '[sweep 2026-09-11] Pricing changed: ''from $24/month'' gone, now Free / Starter $50
+  ($25 nonprofit) / Pro $150. Dropped unsupported 11M-data-point and 130,000-funder figures.
+  Access freemium confirmed.
+
+
+  [sweep 2026-10-15] Removed fixed chat allowances and subscription/discount prices from the
+  product summary. Sources: https://grantable.co/'

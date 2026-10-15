@@ -2,22 +2,25 @@ name: You.com
 category: ai-powered-search-engines
 provider: You.com
 url: https://you.com/
-description: AI search with ARI (Advanced Research and Insights) agent scanning 400+
-  sources simultaneously. Produces research reports with verified citations, interactive
-  graphs, and visualizations. Named TIME's Best Inventions 2025.
+description: Developer platform providing web search, page extraction, and research APIs for
+  AI applications. The former consumer search and ARI entry remains retired from this catalog.
 access: paid
 domain: general
 status: deprecated
 tier: extended
 added: 2026-02
-last_verified: '2026-09-11'
+last_verified: '2026-10-15'
 notes: '[sweep 2026-08-18] description flagged: Fetched you.com twice: now an enterprise/developer
-  API platform (Search, Contents, Research, Finance APIs); no ARI or consumer answer
-  engine mentioned. 2026 reporting confirms pivot; consumer plans gone. Usage-billed
-  with one-time trial credits.
+  API platform (Search, Contents, Research, Finance APIs); no ARI or consumer answer engine
+  mentioned. 2026 reporting confirms pivot; consumer plans gone. Usage-billed with one-time
+  trial credits.
 
-  [sweep 2026-09-11] Resolved needs-review: the consumer AI search/ARI product the
-  entry described no longer exists; you.com is a usage-billed retrieval/research API
-  for developers (pivot confirmed 2026). Deprecated with epitaph — not usable by students
-  as an AI search engine. If a developer-API category ever exists, it could be re-listed
-  there.'
+  [sweep 2026-09-11] Resolved needs-review: the consumer AI search/ARI product the entry described
+  no longer exists; you.com is a usage-billed retrieval/research API for developers (pivot
+  confirmed 2026). Deprecated with epitaph — not usable by students as an AI search engine.
+  If a developer-API category ever exists, it could be re-listed there.
+
+
+  [sweep 2026-10-15] The current product page still presents APIs rather than the former consumer
+  product. Retained deprecated status and replaced the obsolete consumer description. Sources:
+  https://you.com/'

@@ -1,17 +1,24 @@
-name: GXL
+name: Paperclip by GXL
 category: literature-discovery-analysis
-provider: GXL (Generative Expert Labs)
-url: https://gxl.ai/
-description: Deep biomedical literature index covering 8M+ papers across bioRxiv,
-  medRxiv and PubMed Central, including figures, tables and supplemental data. Its
-  Paperclip CLI and MCP server expose the corpus to AI agents (e.g. Benchling notebooks
-  via Benchling's AI Connectors).
-access: unknown
+provider: Generative Expert Labs, Inc.
+url: https://gxl.ai/paperclip
+description: Give research agents searchable, line-citable evidence from papers, patents,
+  trials, and scientific databases via browser, CLI, or MCP. Free and paid tiers; terms permit
+  training on submitted content, so use public research material.
+access: freemium
 domain: life-sciences
 status: active
 tier: extended
 added: 2026-05
-last_verified: '2026-09-11'
-notes: '[sweep 2026-09-11] gxl.ai 403 to fetch; product now surfaced as Paperclip
-  (paperclip.gxl.ai, CLI + MCP). 8M+ still stated on GXL''s GitHub. Access model still
-  not published; keep unknown.'
+last_verified: '2026-10-15'
+notes: '[sweep 2026-09-11] gxl.ai 403 to fetch; product now surfaced as Paperclip (paperclip.gxl.ai,
+  CLI + MCP). 8M+ still stated on GXL''s GitHub. Access model still not published; keep unknown.
+
+
+  [sweep 2026-10-15] The first proposal overlooked pricing already present on the fetched
+  product page. Free, Pro, and Enterprise tiers resolve access to freemium. The distinguishing
+  task is structured, line-citable evidence retrieval for agents. Operator, setup, privacy
+  notice, and terms are public; terms permit model training on submitted content, so the description
+  limits the recommendation to public research material. Sources: https://gxl.ai/; https://gxl.ai/paperclip;
+  https://paperclip.gxl.ai; https://paperclip.gxl.ai/install; https://gxl.ai/privacy-notice;
+  https://gxl.ai/terms-of-service'

@@ -1,21 +1,33 @@
 name: Claude Research
 category: deep-research-agents
 provider: Anthropic
-url: https://claude.com/blog/research
-description: 'Agentic research mode in Claude: runs many searches across the web and
-  connected tools, then returns a cited report. Available on all paid plans (Pro,
-  Max, Team, Enterprise) on web, desktop, and mobile.'
+url: https://claude.com/resources/articles/research
+description: Investigate a question through successive searches across the web and connected
+  sources, then inspect a cited report in Claude. Research is available on paid plans; connected-source
+  access depends on permissions and configuration.
 access: paid
 domain: general
 status: active
-tier: core
+tier: extended
 added: 2026-02
-last_verified: '2026-09-11'
+last_verified: '2026-10-15'
 notes: '[sweep 2026-08-18] description flagged: anthropic.com/news/research now 308-redirects
-  to claude.com/blog/research (fetched): Research on Max/Team/Enterprise. Research
-  is a general Claude feature, not part of Life Sciences; that suite is now superseded
-  by ''Claude Science'' (public beta).
+  to claude.com/blog/research (fetched): Research on Max/Team/Enterprise. Research is a general
+  Claude feature, not part of Life Sciences; that suite is now superseded by ''Claude Science''
+  (public beta).
 
-  [sweep 2026-09-11] description rewritten: dropped unsupported PubMed / Life Sciences
-  suite / extended-thinking claims (flagged 2026-08-18); Help Center now lists Research
-  on Pro as well as Max/Team/Enterprise.'
+  [sweep 2026-09-11] description rewritten: dropped unsupported PubMed / Life Sciences suite
+  / extended-thinking claims (flagged 2026-08-18); Help Center now lists Research on Pro as
+  well as Max/Team/Enterprise.
+
+
+  [sweep 2026-10-15] The original announcement redirects to this official resource URL; the
+  current pricing comparison also lists Research. Sources: https://claude.com/blog/research;
+  https://claude.com/resources/articles/research; https://claude.com/pricing?content_language=English
+
+
+  [core review 2026-10-15] Move to extended with Michaela''s approval: shares the delegated
+  cited-report task with ChatGPT and Gemini Deep Research. SMU explicitly recognizes Claude
+  Research Mode, supporting academic visibility, not measured uptake. Retain as an alternative
+  for existing Claude workflows; generic Claude or API-credit adoption is not evidence of
+  this specific feature. Sources: https://library.smu.edu.sg/topics-insights/lost-ai-search-maze-heres-your-guide-choosing-right-tool-updated-september-2026'

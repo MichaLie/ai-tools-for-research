@@ -2,16 +2,19 @@ name: AlphaXiv
 category: literature-discovery-analysis
 provider: alphaXiv
 url: https://www.alphaxiv.org/
-description: 'Comment and chat layer over arXiv preprints: line-by-line discussion
-  threads, AI chat grounded in the paper, one-click blog-style overviews, Chrome extension
-  and MCP server. Free; $7M seed (Nov 2025) with Eric Schmidt and Sebastian Thrun
-  among angels.'
+description: Discover and discuss arXiv papers, ask questions grounded in the literature,
+  and explore related researchers and organizations. Browser-extension and MCP access connect
+  the service to research workflows.
 access: free
 domain: general
 status: active
 tier: extended
 added: 2026-02
-last_verified: '2026-09-11'
+last_verified: '2026-10-15'
 notes: '[sweep 2026-09-11] Site alive, free. Description trimmed to verified capabilities:
-  dropped unsupported ''Mistral OCR + Claude'', ''SOTA leaderboards'' and Yann LeCun
-  backing (SiliconANGLE seed-round coverage names Schmidt and Thrun only).'
+  dropped unsupported ''Mistral OCR + Claude'', ''SOTA leaderboards'' and Yann LeCun backing
+  (SiliconANGLE seed-round coverage names Schmidt and Thrun only).
+
+
+  [sweep 2026-10-15] Updated to current research-discovery positioning and removed irrelevant
+  funding figures. Sources: https://www.alphaxiv.org/'

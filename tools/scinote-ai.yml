@@ -11,7 +11,7 @@ domain: life-sciences
 status: active
 tier: extended
 added: 2026-08
-last_verified: '2026-09-11'
+last_verified: '2026-10-15'
 notes: '[discovery 2026-08-18] Unique use case: AI parsing of legacy PDF SOPs into
   structured, executable ELN templates Adoption: Open-source repo scinote-eln/scinote-web
   on GitHub; coverage in Scientific Computing World and Lab Manager; Ascenscia voice-assistant

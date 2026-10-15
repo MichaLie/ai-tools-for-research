@@ -1,23 +1,27 @@
 name: Microsoft Copilot
 category: general-purpose-ai-assistants
 provider: Microsoft
-url: https://copilot.microsoft.com/
-description: Free consumer AI chat at copilot.microsoft.com. The Microsoft 365 Copilot
-  add-on ($18/user/month academic offering for faculty, staff and students) adds the
-  Researcher agent for grant proposals and policy analysis and the Analyst agent with
-  Python execution for data queries.
+url: https://copilot.com/
+description: Ask questions and create images, documents, spreadsheets, and presentations with
+  Microsoft Copilot. Available capabilities depend on the signed-in account, subscription,
+  and organizational settings; work and school accounts can connect organizational content.
 access: freemium
 domain: general
 status: active
 tier: core
 added: 2026-02
-last_verified: '2026-09-11'
-notes: '[sweep 2026-08-18] description flagged: URL is consumer Copilot (free; Copilot
-  Pro discontinued Oct 2025, folded into M365 Premium $19.99). Description actually
-  describes Microsoft 365 Copilot: Researcher/Analyst agents and $18 academic pricing
-  verified as M365 Copilot features.
+last_verified: '2026-10-15'
+notes: '[sweep 2026-08-18] description flagged: URL is consumer Copilot (free; Copilot Pro
+  discontinued Oct 2025, folded into M365 Premium $19.99). Description actually describes
+  Microsoft 365 Copilot: Researcher/Analyst agents and $18 academic pricing verified as M365
+  Copilot features.
 
-  [sweep 2026-09-11] Consumer URL blocks fetch (403); product confirmed via Microsoft
-  pricing + education pages. Description rewritten to separate free consumer Copilot
-  from the M365 Copilot add-on that actually carries Researcher/Analyst; $18 academic
-  price verified on microsoft.com/education.'
+  [sweep 2026-09-11] Consumer URL blocks fetch (403); product confirmed via Microsoft pricing
+  + education pages. Description rewritten to separate free consumer Copilot from the M365
+  Copilot add-on that actually carries Researcher/Analyst; $18 academic price verified on
+  microsoft.com/education.
+
+
+  [sweep 2026-10-15] The old entry URL redirects to copilot.com. Replaced the academic price
+  and Researcher/Analyst bundle claim with the current unified app and account-dependent availability.
+  Sources: https://copilot.microsoft.com/; https://copilot.com/; https://support.microsoft.com/en-us/microsoft-365-copilot/what-is-microsoft-copilot-app'

@@ -2,13 +2,16 @@ name: Web of Science Research Assistant
 category: publisher-database-ai-assistants
 provider: Clarivate
 url: https://clarivate.com/academia-government/scientific-and-academic-research/research-discovery-and-referencing/web-of-science/web-of-science-research-assistant/
-description: Agentic AI assistant grounded in 120+ years of Web of Science Core Collection
-  data. Task-based guides (Topic Explorer, Find a Journal, Literature Review 2.0)
-  walk researchers through multi-step workflows with interactive visualisations and
-  referenced responses. Natural language search in multiple languages.
+description: AI assistant for exploring topics, finding journals, and reviewing literature
+  using Web of Science content. Provides guided workflows, visualizations, and referenced
+  responses; live product-page verification was blocked during this check.
 access: institutional
 domain: general
-status: active
+status: needs-review
 tier: core
 added: 2026-05
 last_verified: '2026-09-11'
+notes: '[sweep 2026-10-15] Official product URL returned HTTP 403 in both direct and web fetches.
+  An indexed official page remains discoverable, but live verification could not be completed;
+  preserved the previous verification date. This is not a finding that the product is unavailable.
+  Sources: https://clarivate.com/academia-government/scientific-and-academic-research/research-discovery-and-referencing/web-of-science/web-of-science-research-assistant/'

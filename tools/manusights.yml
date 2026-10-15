@@ -2,21 +2,24 @@ name: Manusights
 category: ai-manuscript-review-disclosure
 provider: Manusights
 url: https://manusights.com/
-description: 'Pre-submission manuscript diagnostic: free Readiness Scan in minutes
-  plus a $39 Full Review in about 30 minutes. Verifies citations claim-by-claim against
-  live databases with a retraction gate and analyses figures. Anthropic privacy partner;
-  manuscripts not used for model training.'
+description: Check a manuscript’s submission readiness, methods, figures, and citation support,
+  then prioritize revisions. A free Readiness Scan and paid Full Review are available; the
+  service publishes manuscript-handling controls in its Trust Center.
 access: freemium
 domain: general
 status: active
 tier: extended
 added: 2026-05
-last_verified: '2026-09-11'
-notes: '[sweep 2026-08-18] description flagged: Homepage fetched: free Readiness Scan
-  + paid Full Review now $39 (description says $29) + human Expert tier. Citation
-  verification, figure analysis, Anthropic privacy/no-training claims confirmed; signup
-  open.
+last_verified: '2026-10-15'
+notes: '[sweep 2026-08-18] description flagged: Homepage fetched: free Readiness Scan + paid
+  Full Review now $39 (description says $29) + human Expert tier. Citation verification, figure
+  analysis, Anthropic privacy/no-training claims confirmed; signup open.
 
-  [sweep 2026-09-11] Description corrected: paid report is $39 (was $29, flagged already
-  in Aug); ''zero-retention'' replaced with the page''s own ''bounded retention /
-  not used for training'' wording.'
+  [sweep 2026-09-11] Description corrected: paid report is $39 (was $29, flagged already in
+  Aug); ''zero-retention'' replaced with the page''s own ''bounded retention / not used for
+  training'' wording.
+
+
+  [sweep 2026-10-15] Removed the unsupported label Anthropic privacy partner and fixed turnaround
+  promise; the site documents model-provider controls rather than that partnership claim.
+  Sources: https://manusights.com/'

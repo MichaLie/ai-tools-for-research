@@ -3,21 +3,24 @@ category: survey-experiment-design
 provider: UTHealth Houston (McWilliams School of Biomedical Informatics) + UPenn Perelman
   School of Medicine (PennCIL)
 url: https://power-gpt.net/
-description: 'Conversational power-analysis assistant wired to statistical engines:
-  guides test selection and computes a priori sample size for t-tests, ANOVA, proportions,
-  chi-square, Cox, logrank. Free, pick your institution or ''Other Institutions'';
-  no login.'
+description: 'Conversational power-analysis assistant wired to statistical engines: guides
+  test selection and computes a priori sample size for t-tests, ANOVA, proportions, chi-square,
+  Cox, logrank. Free, pick your institution or ''Other Institutions''; no login.'
 access: free
 domain: general
 status: candidate
 tier: extended
 added: 2026-08
-last_verified: '2026-09-11'
-notes: '[grok-gap-hunt 2026-08-18, independently verified] CONFIRMED: no privacy policy,
-  ToS, or data-handling statement on homepage or /others (footer = contacts only)
-  -> candidate. ''0 daily users'' still shown. arXiv:2509.12471 real, matches (94.1%
-  vs 55.4%).
+last_verified: '2026-10-15'
+notes: '[grok-gap-hunt 2026-08-18, independently verified] CONFIRMED: no privacy policy, ToS,
+  or data-handling statement on homepage or /others (footer = contacts only) -> candidate.
+  ''0 daily users'' still shown. arXiv:2509.12471 real, matches (94.1% vs 55.4%).
 
-  [sweep 2026-09-11] candidate re-vetted: gates 1,2,3,5 pass; gate 4 (recommendable
-  - privacy policy/transparent terms) still fails, ''0 daily users'' counter unchanged.
-  Keep candidate; promote only if a privacy/data statement appears.'
+  [sweep 2026-09-11] candidate re-vetted: gates 1,2,3,5 pass; gate 4 (recommendable - privacy
+  policy/transparent terms) still fails, ''0 daily users'' counter unchanged. Keep candidate;
+  promote only if a privacy/data statement appears.
+
+
+  [sweep 2026-10-15] Homepage and institution-entry guidance remain live. No privacy policy
+  or data-handling terms were found among the inspected page links. Retained candidate because
+  gate 4 remains unresolved; absence is limited to inspected surfaces. Sources: https://power-gpt.net/'
