@@ -11,7 +11,7 @@ domain: general
 status: active
 tier: core
 added: 2026-08
-last_verified: '2026-09-11'
+last_verified: '2026-10-15'
 notes: '[grok-gap-hunt 2026-08-18, independently verified] Report discrepancy: None
   on price/trial/languages. Minor additions: Pro also offers cloud API and browser
   workspace beyond on-device mode; OSS CLI supports only EN/NL, not all six languages.

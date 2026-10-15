@@ -1,0 +1,138 @@
+{
+  "reviewed_on": "2026-10-15",
+  "status": "approved_applied_to_local_proposal_not_published",
+  "report": "core-tool-review-2026-10-15.md",
+  "evidence_limit": "Institutional provision, academic recommendations, and publisher instructions; not representative usage measurement or a performance benchmark.",
+  "decisions": [
+    {
+      "slug": "claude-for-excel-word-powerpoint",
+      "name": "Claude for Microsoft 365",
+      "category": "office-suite-ai-integrations",
+      "current_status": "active",
+      "confidence": "moderate",
+      "previous_tier": "core",
+      "current_tier": "extended"
+    },
+    {
+      "slug": "microsoft-365-copilot-agent-mode",
+      "name": "Microsoft Copilot \u2014 editing in Office",
+      "category": "office-suite-ai-integrations",
+      "current_status": "active",
+      "confidence": "moderate-high",
+      "previous_tier": "core",
+      "current_tier": "core"
+    },
+    {
+      "slug": "chatgpt-deep-research",
+      "name": "ChatGPT Deep Research",
+      "category": "deep-research-agents",
+      "current_status": "active",
+      "confidence": "moderate",
+      "previous_tier": "core",
+      "current_tier": "core"
+    },
+    {
+      "slug": "claude-research",
+      "name": "Claude Research",
+      "category": "deep-research-agents",
+      "current_status": "active",
+      "confidence": "moderate-high for task overlap",
+      "previous_tier": "core",
+      "current_tier": "extended"
+    },
+    {
+      "slug": "gemini-deep-research",
+      "name": "Gemini Deep Research",
+      "category": "deep-research-agents",
+      "current_status": "active",
+      "confidence": "moderate",
+      "previous_tier": "core",
+      "current_tier": "extended"
+    },
+    {
+      "slug": "storm",
+      "name": "STORM",
+      "category": "deep-research-agents",
+      "current_status": "active",
+      "confidence": "moderate",
+      "previous_tier": "core",
+      "current_tier": "core"
+    },
+    {
+      "slug": "deepl",
+      "name": "DeepL",
+      "category": "writing-translation",
+      "current_status": "active",
+      "confidence": "high",
+      "previous_tier": "core",
+      "current_tier": "core"
+    },
+    {
+      "slug": "grammarly",
+      "name": "Grammarly",
+      "category": "writing-translation",
+      "current_status": "active",
+      "confidence": "moderate",
+      "previous_tier": "core",
+      "current_tier": "core"
+    },
+    {
+      "slug": "jenni",
+      "name": "Jenni",
+      "category": "writing-translation",
+      "current_status": "active",
+      "confidence": "moderate",
+      "previous_tier": "core",
+      "current_tier": "extended"
+    },
+    {
+      "slug": "paperpal",
+      "name": "Paperpal",
+      "category": "writing-translation",
+      "current_status": "active",
+      "confidence": "high for preflight; moderate for drafting exemplar",
+      "previous_tier": "core",
+      "current_tier": "core"
+    }
+  ],
+  "unchanged_extended": [
+    {
+      "slug": "alphaevolve-era",
+      "status": "candidate",
+      "tier": "extended"
+    },
+    {
+      "slug": "falcon-deep-research",
+      "status": "needs-review",
+      "tier": "extended"
+    },
+    {
+      "slug": "gemini-co-scientist",
+      "status": "candidate",
+      "tier": "extended"
+    },
+    {
+      "slug": "deepwriter-ai",
+      "status": "needs-review",
+      "tier": "extended"
+    },
+    {
+      "slug": "formatmypaper",
+      "status": "deprecated",
+      "tier": "extended"
+    },
+    {
+      "slug": "paper-pivot",
+      "status": "candidate",
+      "tier": "extended"
+    },
+    {
+      "slug": "quillbot",
+      "status": "active",
+      "tier": "extended"
+    }
+  ],
+  "review_baseline_commit": "88427c673376b5c5ac3df348aa2da0a4c83983eb",
+  "baseline_core_count": 10,
+  "local_core_count": 6
+}

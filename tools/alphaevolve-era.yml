@@ -2,21 +2,23 @@ name: AlphaEvolve + ERA
 category: deep-research-agents
 provider: Google DeepMind
 url: https://labs.google/science
-description: Agentic 'research engine' that auto-generates and scores thousands of
-  code variations in parallel for computational experiments. ERA (Empirical Research
-  Assistance) outperformed the U.S. CDC's COVID-19 hospitalization forecasting ensemble;
-  results published in Nature (May 19, 2026).
+description: Experimental Computational Discovery system built with AlphaEvolve and Empirical
+  Research Assistance. Generates and evaluates code variations against researcher-defined
+  optimization metrics; access remains through an expression-of-interest form.
 access: waitlist
 domain: general
 status: candidate
 tier: extended
 added: 2026-05
-last_verified: '2026-09-11'
-notes: '[sweep 2026-08-18] Fetched labs.google/science and research.google ERA blog.
-  ''Computational Discovery'' built with AlphaEvolve+ERA; ERA Nature paper May 19
-  2026 and CDC-forecasting claim confirmed. Access via ''Express interest'' / gradual
-  trusted-tester rollout.
+last_verified: '2026-10-15'
+notes: '[sweep 2026-08-18] Fetched labs.google/science and research.google ERA blog. ''Computational
+  Discovery'' built with AlphaEvolve+ERA; ERA Nature paper May 19 2026 and CDC-forecasting
+  claim confirmed. Access via ''Express interest'' / gradual trusted-tester rollout.
 
-  [sweep 2026-09-11] Still ''Express interest'' only (gate 2, usable this week, fails);
-  Nature paper and CDC-forecasting claim reconfirmed. Keep candidate until self-serve
-  access opens.'
+  [sweep 2026-09-11] Still ''Express interest'' only (gate 2, usable this week, fails); Nature
+  paper and CDC-forecasting claim reconfirmed. Keep candidate until self-serve access opens.
+
+
+  [sweep 2026-10-15] The live Google Labs page still offers Express interest. Gate 2 fails;
+  retained candidate. Removed the historical disease-forecasting result from the short product
+  description. Sources: https://labs.google/science'

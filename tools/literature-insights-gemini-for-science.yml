@@ -2,21 +2,24 @@ name: Literature Insights (Gemini for Science)
 category: literature-discovery-analysis
 provider: Google
 url: https://labs.google/science
-description: Chat interface over scientific literature that builds structured tables
-  with custom searchable attributes for side-by-side comparison and generates reports,
-  slide decks, infographics and audio/video overviews. Helps identify research gaps
-  across a curated corpus.
+description: Chat interface over scientific literature that builds structured tables with
+  custom searchable attributes for side-by-side comparison and generates reports, slide decks,
+  infographics and audio/video overviews. Helps identify research gaps across a curated corpus.
 access: waitlist
 domain: general
 status: candidate
 tier: extended
 added: 2026-05
-last_verified: '2026-09-11'
-notes: '[sweep 2026-08-18] Fetched labs.google/science: Literature Insights listed,
-  built with Gemini Notebook; tables, reports, slide decks, infographics confirmed.
-  Access is ''Express interest'' only — no open availability. Audio/video overviews
-  not confirmed.
+last_verified: '2026-10-15'
+notes: '[sweep 2026-08-18] Fetched labs.google/science: Literature Insights listed, built
+  with Gemini Notebook; tables, reports, slide decks, infographics confirmed. Access is ''Express
+  interest'' only — no open availability. Audio/video overviews not confirmed.
 
-  [sweep 2026-09-11] Gate 2 fails: still ''Express interest'' waitlist, gradual rollout
-  — keep candidate. Audio/video overviews now confirmed on blog.google I/O post (previous
-  caveat resolved). Description accurate.'
+  [sweep 2026-09-11] Gate 2 fails: still ''Express interest'' waitlist, gradual rollout —
+  keep candidate. Audio/video overviews now confirmed on blog.google I/O post (previous caveat
+  resolved). Description accurate.
+
+
+  [sweep 2026-10-15] Live Google Labs page confirms literature search, extraction tables,
+  and generated artifacts, but access is still Express interest. Gate 2 fails; retained candidate.
+  Sources: https://labs.google/science'

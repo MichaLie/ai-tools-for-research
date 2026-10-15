@@ -10,7 +10,7 @@ domain: general
 status: active
 tier: core
 added: 2026-08
-last_verified: '2026-09-11'
+last_verified: '2026-10-15'
 notes: '[discovery 2026-08-18] Unique use case: AI-text detection with the only independently
   evaluated sub-0.5% false-positive rate — usable for editorial screening where accusation
   stakes are high Adoption: arXiv technical report 2402.14873; a 2025 University of

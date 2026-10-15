@@ -2,14 +2,18 @@ name: ChatGPT Atlas
 category: browser-automation-agents
 provider: OpenAI
 url: https://chatgpt.com/atlas
-description: AI-native Chromium browser with sidebar ChatGPT assistant maintaining
-  context across all open tabs. Agent Mode completes full workflows (competitive research,
-  event planning) while you work on other tasks. Currently macOS only.
+description: Discontinued standalone browser from OpenAI. Its browser-based agent capabilities
+  moved into ChatGPT and Codex; retained here as a historical entry.
 access: unknown
 domain: general
 status: deprecated
 tier: extended
 added: 2026-02
-last_verified: '2026-09-11'
-notes: Discontinued by OpenAI around 2026-08-09; the standalone Atlas browser was
-  folded into the ChatGPT desktop app. Kept for the historical record.
+last_verified: '2026-10-15'
+notes: 'Discontinued by OpenAI around 2026-08-09; the standalone Atlas browser was folded
+  into the ChatGPT desktop app. Kept for the historical record.
+
+
+  [sweep 2026-10-15] Official OpenAI support confirms Atlas shut down on 9 August 2026. The
+  old URL now serves the generic ChatGPT interface, which is not evidence of a browser relaunch.
+  Sources: https://chatgpt.com/atlas; https://help.openai.com/en/articles/20001371'

@@ -2,21 +2,23 @@ name: OpenAI Prism
 category: latex-academic-language
 provider: OpenAI
 url: https://prism.openai.com/
-description: 'Free AI-native LaTeX workspace on GPT-5.2: whole-document writing and
-  proofreading assistance, reference management, image-to-LaTeX for photographed equations
-  and whiteboard sketches, agentic literature search with citation suggestions, and
-  real-time collaboration with unlimited collaborators.'
+description: Write and collaborate on scientific documents in a browser-based LaTeX workspace
+  with integrated AI. Supports document-level editing, equations, references, and shared projects;
+  available free with a personal ChatGPT account.
 access: free
 domain: general
 status: active
 tier: core
 added: 2026-08
-last_verified: '2026-09-11'
-notes: '[discovery 2026-08-18] Unique use case: A full AI-first LaTeX editor free
-  with any ChatGPT account — the whole-document AI context (not per-sentence) plus
-  built-in arXiv literature agent Adoption: HKUST Library news page recommending it
-  to academic writers (fetched); Engadget and The Decoder launch coverage seen in
-  search; app live at prism.openai.com (fetched, sign-in shell) Built on acquired
-  Crixet platform. Cloud-only; HKUST cautions on uploading unpublished/sensitive work
-  and possible future paywalling of advanced features. openai.com/prism blocks bot
-  fetching (403).'
+last_verified: '2026-10-15'
+notes: '[discovery 2026-08-18] Unique use case: A full AI-first LaTeX editor free with any
+  ChatGPT account — the whole-document AI context (not per-sentence) plus built-in arXiv literature
+  agent Adoption: HKUST Library news page recommending it to academic writers (fetched); Engadget
+  and The Decoder launch coverage seen in search; app live at prism.openai.com (fetched, sign-in
+  shell) Built on acquired Crixet platform. Cloud-only; HKUST cautions on uploading unpublished/sensitive
+  work and possible future paywalling of advanced features. openai.com/prism blocks bot fetching
+  (403).
+
+
+  [sweep 2026-10-15] Official launch page and live application confirm the workspace. Removed
+  the fixed underlying-model claim. Sources: https://prism.openai.com/; https://openai.com/index/introducing-prism/'

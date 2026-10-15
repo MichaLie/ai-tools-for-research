@@ -2,12 +2,23 @@ name: Grammarly
 category: writing-translation
 provider: Superhuman
 url: https://www.grammarly.com/
-description: AI writing assistant with grammar checking, plagiarism detection (16B+
-  web pages), and academic tone detection trained on scholarly writing. 2025 AI agents
-  help find credible sources and check originality.
+description: Correct grammar, spelling, clarity, and tone as you write emails, forms, proposals,
+  and drafts across applications. Free and paid plans offer different features; institutional
+  settings may restrict generative assistance.
 access: freemium
 domain: general
 status: active
 tier: core
 added: 2026-02
-last_verified: '2026-09-11'
+last_verified: '2026-10-15'
+notes: '[sweep 2026-10-15] Removed the unverified plagiarism-corpus size and academic-training
+  claim. Sources: https://www.grammarly.com/
+
+
+  [core review 2026-10-15] Keep core for ongoing language correction across everyday research
+  communication, rather than manuscript generation. Michigan maintains a group license but
+  disables AI functionality; CU Denver offers real-time communication support. Counterevidence:
+  Iowa State ended its contract on 19 July 2026 because other writing tools reduced its value.
+  Moderate-confidence retention; Paperpal also overlaps in editing. Sources: https://software.umich.edu/titles/grammarly;
+  https://www.ucdenver.edu/offices/office-of-information-technology/news-initiatives/office-of-information-technology-denver-news-grammarly-now-available-in-software-store;
+  https://grammarly.engl.iastate.edu/'

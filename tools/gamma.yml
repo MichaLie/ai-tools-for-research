@@ -2,12 +2,14 @@ name: Gamma
 category: visual-presentation-creation
 provider: Gamma Tech, Inc.
 url: https://gamma.app/
-description: AI presentation tool generating polished slides from outlines or raw
-  content. 2025 Gamma Agent update added real-time web research with citations. Transforms
-  research notes into presentations with GPT-Image-1 integration.
+description: Turn outlines or source content into presentations, documents, and websites,
+  then revise their layout and visuals with AI assistance. Free and paid plans provide different
+  creation and export limits.
 access: freemium
 domain: general
 status: active
 tier: core
 added: 2026-02
-last_verified: '2026-09-11'
+last_verified: '2026-10-15'
+notes: '[sweep 2026-10-15] Official homepage retrieved through web browsing after direct bot
+  blocking. Removed the dated image-model integration and release-year claim. Sources: https://gamma.app/'

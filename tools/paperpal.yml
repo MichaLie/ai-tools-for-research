@@ -2,12 +2,23 @@ name: Paperpal
 category: writing-translation
 provider: Cactus Communications
 url: https://paperpal.com/
-description: Academic writing AI trained on 250M+ research papers. AI Research Finder
-  returns summarized answers with insertable citations. Offers 30+ pre-submission
-  journal checks aligned with publisher guidelines.
+description: Draft academic manuscripts using saved sources, predictive writing, and insertable
+  citations, then check language and submission readiness. Reference-library imports and journal-oriented
+  preflight checks connect drafting with publication preparation; features vary by plan.
 access: freemium
 domain: general
 status: active
 tier: core
 added: 2026-02
-last_verified: '2026-09-11'
+last_verified: '2026-10-15'
+notes: '[sweep 2026-10-15] The current page describes language models trained on millions
+  of articles, not the old claim of 250M training papers. Removed that unsupported training-data
+  claim. Sources: https://paperpal.com/
+
+
+  [core review 2026-10-15] Keep core for source-supported manuscript preparation and submission
+  preflight. Cambridge''s Nationalities Papers explicitly recommends Paperpal Preflight; this
+  supports that workflow, not adoption of every newer writing feature. Current library-grounded
+  drafting and predictive writing overlap Jenni. This is not a head-to-head quality test;
+  preflight checking does not fill the automatic journal-reformatting gap. Sources: https://www.cambridge.org/core/journals/nationalities-papers/information/author-instructions/submitting-your-materials;
+  https://paperpal.com/tools/reference-manager; https://support.paperpal.com/support/solutions/articles/3000126445-what-all-can-paperpal-be-used-for-'

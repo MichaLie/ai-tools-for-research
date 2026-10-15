@@ -2,16 +2,19 @@ name: BioRender
 category: scientific-image-generation
 provider: BioRender
 url: https://www.biorender.com/
-description: Web-based scientific illustration platform with 50,000+ peer-reviewed
-  icons and 5,000+ templates for life sciences; 3D protein visualization from PDB
-  structures or uploaded files; high-resolution JPEG/PNG/PDF export. Paid plan required
-  for publication rights ($35/mo academic individual).
+description: Create scientific illustrations, graphs, and slides with BioRender’s icon and
+  template libraries. Leo by BioRender adds AI-assisted figure creation with editable elements;
+  free access and paid publication-oriented plans serve different needs.
 access: freemium
 domain: life-sciences
 status: active
 tier: core
 added: 2026-02
-last_verified: '2026-09-11'
-notes: '[sweep 2026-09-11] Icon count updated 40,000+ -> 50,000+; ''600 DPI'' not
-  found on features or pricing page, dropped (kept ''high-resolution''). Pricing page
-  verified: free tier 3 figures, publication rights from $35/mo academic. Still freemium.'
+last_verified: '2026-10-15'
+notes: '[sweep 2026-09-11] Icon count updated 40,000+ -> 50,000+; ''600 DPI'' not found on
+  features or pricing page, dropped (kept ''high-resolution''). Pricing page verified: free
+  tier 3 figures, publication rights from $35/mo academic. Still freemium.
+
+
+  [sweep 2026-10-15] Updated to include the current Leo offering and removed unsupported exact
+  library counts and monthly publication price. Sources: https://www.biorender.com/'

@@ -2,17 +2,22 @@ name: Kosmos
 category: autonomous-research-agents
 provider: Edison Scientific
 url: https://edisonscientific.com/
-description: AI scientist running autonomous multi-hour discovery campaigns with parallel
-  data analysis and literature search; a single run reads ~1,500 papers and executes
-  ~42,000 lines of analysis code. Validated discoveries in metabolomics, neuroscience,
-  and genetics. $200 per run; some free credits for academics.
+description: Run scientific investigations that combine literature review, data analysis,
+  and hypothesis development, with options to steer ongoing work. Edison’s platform displayed
+  a temporary outage during this check; current access needs re-verification.
 access: paid
 domain: general
-status: active
+status: needs-review
 tier: core
 added: 2026-02
 last_verified: '2026-09-11'
-notes: '[sweep 2026-09-11] dropped unsupported ''12-hour'' figure; 42,000 lines /
-  1,500 papers still stated on the Nov-2025 announcement (advances.edisonscientific.com);
-  $200/run + academic free credits per same page. edisonscientific.com/pricing now
-  404 - current price list unverifiable; access kept paid.'
+notes: '[sweep 2026-09-11] dropped unsupported ''12-hour'' figure; 42,000 lines / 1,500 papers
+  still stated on the Nov-2025 announcement (advances.edisonscientific.com); $200/run + academic
+  free credits per same page. edisonscientific.com/pricing now 404 - current price list unverifiable;
+  access kept paid.
+
+
+  [sweep 2026-10-15] The marketing site is live and describes the current R&D platform, but
+  its Try Kosmos route leads to the Edison service-outage page. Preserved the prior verification
+  date; removed historical run averages and the unconfirmed per-run price. Sources: https://edisonscientific.com/;
+  https://platform.edisonscientific.com/; https://platform.edisonscientific.com/get-kosmos'

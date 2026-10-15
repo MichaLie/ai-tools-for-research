@@ -69,7 +69,8 @@ def build_readme(categories, tools):
         "not everything that exists.",
         "",
         f"Right now: {len(active)} tools across {len(categories)} task areas."
-        f" Last checked against the live web on {last_verified}.",
+        f" Latest successful public-source check: {last_verified}.",
+        "Individual verification dates vary; flagged entries still need review.",
         "",
         "This space moves fast. Tools rename, merge and die constantly, so if something",
         "you need is missing, check back in a week or open an issue. For real depth in",
@@ -219,31 +220,42 @@ def build_coverage(categories, tools):
         "Purpose: input for external gap-hunting — which academic/research tasks",
         "augmentable by AI are NOT yet represented below?",
         "",
+        "Available coverage counts active entries only. Pending and unconfirmed tools",
+        "are listed separately; retired tools do not fill a current task gap.",
+        "Examples use current descriptions, not historical discovery notes.",
+        "",
         "Scope rules: research workflow only — teaching/grading and general office admin",
         "are deliberately excluded. Depth areas covered by companion indexes (not this",
         "catalog): biological foundation models, autonomous science agents at scale,",
         "privacy-first coding/data agents (https://michalie.github.io/).",
         "",
-        "## Covered task types",
+        "## Current task coverage",
         "",
     ]
     for slug, meta in categories.items():
-        n = sum(1 for t in tools if t["category"] == slug and t["status"] != "deprecated")
+        cat_tools = [t for t in tools if t["category"] == slug]
+        active = [t for t in cat_tools if t["status"] == "active"]
+        pending = [t for t in cat_tools if t["status"] in ("candidate", "needs-review")]
+        retired = [t for t in cat_tools if t["status"] in ("deprecated", "acquired")]
+        n = len(active)
         unit = "tool" if n == 1 else "tools"
-        lines.append(f"### {meta['title']} ({n} {unit})")
+        lines.append(f"### {meta['title']} ({n} active {unit})")
         lines.append("Task: " + _re.sub(r"^The task: ", "", meta.get("blurb", "")))
-        ucs = []
-        for t in tools:
-            if t["category"] != slug:
-                continue
-            m = _re.search(r"Unique use case: (.+?)(?: Adoption:| \[|$)", t.get("notes") or "")
-            if m:
-                ucs.append(m.group(1).strip().rstrip(".").rstrip(";"))
-        if ucs:
-            lines.append("Specific use cases already covered:")
-            lines += [f"- {u}" for u in ucs]
         lines.append("")
-    lines += ["## Edges already checked and found EMPTY", ""]
+        lines.append("Available examples:" if active else "No active example is currently listed.")
+        for t in active:
+            desc = t["description"].replace("\n", " ")
+            lines.append(f"- [{t['name']}]({t['url']}) ({t['tier']}) — {desc}")
+        if pending:
+            lines += ["", "Pending or unconfirmed — excluded from available coverage:"]
+            for t in pending:
+                desc = t["description"].replace("\n", " ")
+                lines.append(f"- [{t['name']}]({t['url']}) ({t['status']}) — {desc}")
+        if retired:
+            lines += ["", "Retired — excluded from coverage: " + ", ".join(t["name"] for t in retired) + "."]
+        lines.append("")
+    lines += ["## Previously reported gaps", "",
+              "These historical gap findings are not re-verified by this build.", ""]
     lines += [f"- {e}" if not e.startswith(" ") else e for e in EMPTY_EDGES]
     lines += [
         "",
@@ -366,7 +378,8 @@ __STAGEDARK__
   deliberately varied selection of the tools academics actually use — breadth over
   depth; for depth in specific areas, see the companion
   <a href="https://michalie.github.io/" target="_blank" rel="noopener">AI for Science
-  indexes</a>. Every entry verified against the live web on <span class="date">__VERIFIED__</span>.
+  indexes</a>. Latest successful public-source check: <span class="date">__VERIFIED__</span>.
+  Individual verification dates vary; entries marked “needs review” remain unresolved.
   This territory expands and shifts by the week — if you don't find a tool for your
   use case today, come back next week; the map will have moved.</p>
   <nav id="map" aria-label="Task map"></nav>

@@ -2,22 +2,24 @@ name: K-Dense
 category: autonomous-research-agents
 provider: K-Dense Inc.
 url: https://www.k-dense.ai/
-description: Multi-agent system that plans and executes end-to-end scientific analyses
-  (literature, code in sandboxes, reports) across 250+ databases and 200+ scientific
-  data formats. Free Instant tier, per-run caps of $9-29, Plus $199/mo; academic labs
-  get the Team plan at 90% off; BYOK and agent-skills components are open source.
+description: Plan and execute scientific research tasks with agents that search literature,
+  run analyses, and produce reports. Hosted plans include a free Instant level; separate open-source
+  tools support user-provided models and research workflows.
 access: freemium
 domain: life-sciences
 status: active
 tier: extended
 added: 2026-02
-last_verified: '2026-09-11'
-notes: '[sweep 2026-08-18] biostate.ai is parent company page; it states ''K-Dense
-  is a Biostate AI spinout''. k-dense.ai/pricing fetched: free instant tier, runs
-  capped $9-29, Plus $199/mo, academics 90% off Team. BixBench/Harvard claims match
-  launch coverage.
+last_verified: '2026-10-15'
+notes: '[sweep 2026-08-18] biostate.ai is parent company page; it states ''K-Dense is a Biostate
+  AI spinout''. k-dense.ai/pricing fetched: free instant tier, runs capped $9-29, Plus $199/mo,
+  academics 90% off Team. BixBench/Harvard claims match launch coverage.
 
-  [sweep 2026-09-11] Site rebranded to K-Dense Inc. (Accel/Google AI Futures Fund
-  backing), Biostate spinout wording gone from site; BixBench/Harvard/GPT-5 numbers
-  no longer on product page — description rewritten to current pricing and capabilities.
-  Access still freemium.'
+  [sweep 2026-09-11] Site rebranded to K-Dense Inc. (Accel/Google AI Futures Fund backing),
+  Biostate spinout wording gone from site; BixBench/Harvard/GPT-5 numbers no longer on product
+  page — description rewritten to current pricing and capabilities. Access still freemium.
+
+
+  [sweep 2026-10-15] Verified current hosted pricing, free Instant level, and open-source
+  offerings; removed lengthy volatile database, format, and pricing figures. Sources: https://www.k-dense.ai/;
+  https://www.k-dense.ai/pricing'

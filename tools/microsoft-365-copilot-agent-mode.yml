@@ -1,14 +1,24 @@
-name: Microsoft 365 Copilot — Agent Mode
+name: Microsoft Copilot — editing in Office
 category: office-suite-ai-integrations
 provider: Microsoft
 url: https://www.microsoft.com/microsoft-365/copilot
-description: 'Agent Mode is now GA in Word, Excel and PowerPoint (April 2026): Copilot
-  takes multi-step, app-native actions on documents, spreadsheets and decks. Users
-  can choose Claude or ChatGPT as the underlying model. Included with Microsoft 365
-  Copilot, Premium, Personal and Family plans.'
+description: Create and revise editable Word documents, Excel workbooks, and PowerPoint presentations
+  directly in Office with Copilot. Formerly called Agent Mode; available editing features
+  depend on the app, subscription, rollout, and organizational settings.
 access: paid
 domain: general
 status: active
 tier: core
 added: 2026-05
-last_verified: '2026-09-11'
+last_verified: '2026-10-15'
+notes: '[sweep 2026-10-15] Microsoft now describes the former Agent Mode as editing with Copilot.
+  Removed the blanket all-plans availability and model-choice claims. Sources: https://www.microsoft.com/microsoft-365/copilot;
+  https://support.microsoft.com/en-us/office/copilot-frontier/get-started-editing-with-copilot-in-office;
+  https://support.microsoft.com/en-us/word/edit-with-copilot-in-word
+
+
+  [core review 2026-10-15] Keep core as the Office-production exemplar. Iowa and Illinois
+  document institutional provision of integrated Microsoft 365 Copilot, distinct from Copilot
+  Chat. This supports the product workflow, not measured uptake of every new editing mode
+  or comparative output quality. Sources: https://ai.uiowa.edu/university-supported-ai-tools;
+  https://genai.illinois.edu/ai-apps/'

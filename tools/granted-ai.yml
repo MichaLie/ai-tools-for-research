@@ -2,15 +2,18 @@ name: Granted AI
 category: ideation-grant-funding
 provider: Granted AI
 url: https://grantedai.com/
-description: 'Full-lifecycle grant platform: discovery across 140,000+ grants from
-  144 sources, funder research over 133,000+ foundations, AI-coached drafting from
-  uploaded RFPs, simulated committee review and compliance checks. Free tier available;
-  paid plans from $29/month.'
+description: Find funding opportunities and funder profiles, track applications, and draft
+  proposals from uploaded requirements. AI coaching, compliance checks, and simulated review
+  support application preparation; free and paid access are available.
 access: freemium
 domain: general
 status: active
 tier: core
 added: 2026-05
-last_verified: '2026-09-11'
-notes: '[sweep 2026-09-11] Grant count updated 85,000+ -> 140,000+; other numbers
-  and pricing unchanged.'
+last_verified: '2026-10-15'
+notes: '[sweep 2026-09-11] Grant count updated 85,000+ -> 140,000+; other numbers and pricing
+  unchanged.
+
+
+  [sweep 2026-10-15] Removed volatile database totals and the subscription price while preserving
+  the verified workflow. Sources: https://grantedai.com/'

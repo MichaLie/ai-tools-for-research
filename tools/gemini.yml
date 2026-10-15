@@ -2,12 +2,15 @@ name: Gemini
 category: general-purpose-ai-assistants
 provider: Google
 url: https://gemini.google.com/
-description: Multimodal AI with 1M token context, Deep Research mode analyzing 100+
-  sources, and integration with Google Workspace. Supports PDFs, images, audio, and
-  video analysis for comprehensive research workflows.
+description: Analyze documents and multimodal inputs, draft text, and research questions with
+  Google’s AI assistant. Deep Research combines web sources and optional connected Workspace
+  content into reports; free and paid plans have different limits.
 access: freemium
 domain: general
 status: active
 tier: core
 added: 2026-02
-last_verified: '2026-09-11'
+last_verified: '2026-10-15'
+notes: '[sweep 2026-10-15] Removed fixed context-window and source-count claims; checked the
+  official overview and Deep Research page. Sources: https://gemini.google.com/; https://gemini.google/overview/;
+  https://gemini.google/overview/deep-research/'

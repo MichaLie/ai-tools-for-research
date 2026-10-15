@@ -2,15 +2,23 @@ name: Jenni
 category: writing-translation
 provider: Jenni AI
 url: https://jenni.ai/
-description: Integrated research, reference, and writing workspace with AI autocomplete
-  grounded in uploaded sources or Zotero/Mendeley imports; traceable citations linked
-  to PDF locations in 10,000+ citation styles; exports to .docx and LaTeX. Free tier,
-  no card required.
+description: Draft incrementally with AI autocomplete grounded in uploaded sources or imported
+  reference libraries, insert traceable citations, and export to Word or LaTeX. Free and paid
+  plans support this integrated research-writing workflow.
 access: freemium
 domain: general
 status: active
-tier: core
+tier: extended
 added: 2026-02
-last_verified: '2026-09-11'
+last_verified: '2026-10-15'
 notes: '[sweep 2026-09-11] Citation-style count updated 1,700+ -> 10,000+; added source-grounding
-  and export capabilities now on page. Still freemium, provider Jenni AI.'
+  and export capabilities now on page. Still freemium, provider Jenni AI.
+
+
+  [core review 2026-10-15] Move to extended with Michaela''s approval: source-aware drafting
+  and citations now overlap Paperpal, which additionally represents publisher-recommended
+  preflight. The American University of Sharjah explicitly recommends Jenni for academic autocomplete
+  and citations, so academic use is acknowledged. Preserve its inline drafting and LaTeX export
+  as useful alternative features; reference imports do not imply live Zotero/Mendeley field
+  synchronization after export. Sources: https://aihub.aus.edu/research-with-ai/; https://paperpal.com/tools/reference-manager;
+  https://docs.jenni.ai/docs/export-and-import/exporting/'

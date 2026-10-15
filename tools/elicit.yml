@@ -2,15 +2,18 @@ name: Elicit
 category: literature-discovery-analysis
 provider: Elicit
 url: https://elicit.com/
-description: 'Automates systematic literature reviews across 125M+ papers: semantic
-  search, AI screening and data extraction (users report up to 80% time savings; 99.4%
-  extraction accuracy) with PRISMA 2020 support. Free tier; Pro $49/month, Scale $169/month.'
+description: Find papers, screen studies, extract data, and produce research reports with
+  AI-assisted evidence workflows. Researchers can customize covered studies and extraction
+  questions; free access and paid plans serve different workloads.
 access: freemium
 domain: general
 status: active
 tier: core
 added: 2026-02
-last_verified: '2026-09-11'
-notes: '[sweep 2026-09-11] Homepage now says 125M+ papers (pricing page still 138M);
-  old ''94-99% accuracy'' replaced by page''s 99.4% extraction figure; plan prices
-  added from /pricing.'
+last_verified: '2026-10-15'
+notes: '[sweep 2026-09-11] Homepage now says 125M+ papers (pricing page still 138M); old ''94-99%
+  accuracy'' replaced by page''s 99.4% extraction figure; plan prices added from /pricing.
+
+
+  [sweep 2026-10-15] Removed stale corpus/pricing figures and a case-study accuracy result
+  that should not read as a universal extraction guarantee. Sources: https://elicit.com/'

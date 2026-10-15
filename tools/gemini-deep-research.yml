@@ -2,16 +2,27 @@ name: Gemini Deep Research
 category: deep-research-agents
 provider: Google
 url: https://gemini.google/overview/deep-research/
-description: Google's agentic research mode that browses up to hundreds of websites
-  and synthesizes a report within a 1M-token context; accepts uploaded files and Workspace
-  data (Gmail, Drive, Chat). Included in the free Gemini tier with lower usage limits
-  than Pro.
+description: Plan and delegate an investigation using the web, uploaded files, and optionally
+  connected Google Workspace sources, then inspect a cited report. Available sources and usage
+  limits depend on your account and plan.
 access: freemium
 domain: general
 status: active
-tier: core
+tier: extended
 added: 2026-02
-last_verified: '2026-09-11'
-notes: '[sweep 2026-09-11] Page no longer claims ''100+ sources'' (now ''hundreds
-  of websites'') nor lists PDF/image/audio/video inputs; description rewritten to
-  what the page supports. Freemium confirmed (Deep Research listed on Free plan).'
+last_verified: '2026-10-15'
+notes: '[sweep 2026-09-11] Page no longer claims ''100+ sources'' (now ''hundreds of websites'')
+  nor lists PDF/image/audio/video inputs; description rewritten to what the page supports.
+  Freemium confirmed (Deep Research listed on Free plan).
+
+
+  [sweep 2026-10-15] Verified the current official product page; removed the fixed context-window
+  limit. Sources: https://gemini.google/overview/deep-research/
+
+
+  [core review 2026-10-15] Move to extended with Michaela''s approval to retain one delegated
+  cited-report exemplar. Michigan documents Deep Research in university accounts; SMU recommends
+  institutionally provided Gemini. Adoption evidence is strong and does not establish ChatGPT
+  as the winner. Gemini is an equally defensible core alternative for a Google-supported teaching
+  audience. Sources: https://teamdynamix.umich.edu/TDClient/30/Portal/KB/PrintArticle?ID=13789;
+  https://library.smu.edu.sg/topics-insights/lost-ai-search-maze-heres-your-guide-choosing-right-tool-updated-september-2026'

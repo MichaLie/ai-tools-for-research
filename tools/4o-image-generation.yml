@@ -11,7 +11,7 @@ domain: general
 status: active
 tier: extended
 added: 2026-02
-last_verified: '2026-09-11'
+last_verified: '2026-10-15'
 notes: '[sweep 2026-08-18] description flagged: Announcement page exists (openai.com
   blocks fetch; confirmed via search). Superseded: ChatGPT Images 2.0 / GPT Image
   2 replaced 4o image gen as ChatGPT''s image model on 2026-04-21. Entry should be

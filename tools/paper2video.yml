@@ -2,22 +2,34 @@ name: Paper2Video
 category: conference-prep
 provider: Show Lab, NUS (open-source)
 url: https://github.com/showlab/Paper2Video
-description: 'Generates a complete conference presentation video from a paper: slides,
-  synchronized subtitles, synthesized narration, cursor movements, and optional talking-head
-  presenter from a reference photo and 10-second voice sample.'
+description: Convert LaTeX paper sources into a conference-talk video with slides, narration,
+  subtitles, and synchronized cursor movements. Open-source local software; setup and model
+  compute are required, with a 48GB GPU recommended and an optional talking-head presenter.
 access: free
 domain: general
-status: candidate
-tier: extended
+status: active
+tier: core
 added: 2026-08
-last_verified: '2026-09-11'
-notes: '[discovery 2026-08-18] Unique use case: Automatic pre-recorded conference-talk
-  video generation from a paper — relevant for virtual conferences requiring submitted
-  videos Adoption: NeurIPS 2025 SEA workshop acceptance; 2.4k GitHub stars MIT license
-  but demanding: LaTeX sources as input, Gemini/OpenAI keys, ~48GB-VRAM GPU for talking
-  head (lighter slides-only mode exists). Research-grade, not turnkey.
+last_verified: '2026-10-15'
+notes: '[discovery 2026-08-18] Unique use case: Automatic pre-recorded conference-talk video
+  generation from a paper — relevant for virtual conferences requiring submitted videos Adoption:
+  NeurIPS 2025 SEA workshop acceptance; 2.4k GitHub stars MIT license but demanding: LaTeX
+  sources as input, Gemini/OpenAI keys, ~48GB-VRAM GPU for talking head (lighter slides-only
+  mode exists). Research-grade, not turnkey.
 
-  [sweep 2026-09-11] vetted: alive (last commit 2026-03-05) but fails gate 2 (usable
-  this week): needs LaTeX sources, two paid API keys and a 48GB GPU with no hosted
-  demo; research artifact rather than a tool students can run. Keep candidate; revisit
-  if a hosted service appears.'
+  [sweep 2026-09-11] vetted: alive (last commit 2026-03-05) but fails gate 2 (usable this
+  week): needs LaTeX sources, two paid API keys and a 48GB GPU with no hosted demo; research
+  artifact rather than a tool students can run. Keep candidate; revisit if a hosted service
+  appears.
+
+
+  [sweep 2026-10-15] Editorial re-vetting corrects the earlier hosted-only admission assumption.
+  The public NUS/Show Lab repository and MIT license provide an installable research-software
+  route, with API or local models and a mode omitting the talking head; documentation recommends
+  a 48GB GPU. This meets the same specialist-software access standard used for Paper2Poster.
+  The distinct task is a full prerecorded conference talk, rather than a poster or rehearsal
+  feedback. It is the sole representative of that task and becomes core under the catalog
+  rule; Conference Prep rises from two to three core tools, with no displacement. No end-to-end
+  generation was run. Model-service costs and data handling depend on the chosen backend.
+  Sources: https://github.com/showlab/Paper2Video; https://raw.githubusercontent.com/showlab/Paper2Video/main/LICENSE;
+  https://github.com/Paper2Poster/Paper2Poster'

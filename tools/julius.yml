@@ -2,12 +2,15 @@ name: Julius
 category: data-analysis
 provider: Julius AI
 url: https://julius.ai/
-description: AI data analysis platform handling datasets up to 32GB through natural
-  language queries. Automatically determines appropriate statistical tests and generates
-  publication-ready visualizations. 50% student/educator discount.
+description: Analyze data and spreadsheets through conversational requests, then create charts,
+  reports, and presentations. Julius also supports data connections and app-building tools;
+  review its current plans for usage and access limits.
 access: freemium
 domain: general
 status: active
 tier: core
 added: 2026-02
-last_verified: '2026-09-11'
+last_verified: '2026-10-15'
+notes: '[sweep 2026-10-15] The current platform has expanded beyond data analysis. Removed
+  the unverified 32GB limit, student discount, and automatic-test-selection promise. Sources:
+  https://julius.ai/'

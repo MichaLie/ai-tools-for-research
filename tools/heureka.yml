@@ -11,7 +11,7 @@ domain: general
 status: active
 tier: extended
 added: 2026-02
-last_verified: '2026-09-11'
+last_verified: '2026-10-15'
 notes: '[sweep 2026-08-18] description flagged: heureka.ai DNS-dead. heurekalabs.co
   live: Heureka Bench desktop app with ARC agent and Archimedes model, direct Mac/Windows
   downloads, ''no subscription''. QuartzReport not mentioned anywhere; pricing page

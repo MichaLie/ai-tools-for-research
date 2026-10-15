@@ -2,12 +2,16 @@ name: AIVA
 category: autonomous-research-agents
 provider: Mamidi Health
 url: https://chat.aivaportal.com/
-description: Conversational AI platform for genomics enabling natural language queries
-  on genomic data. Integrates LLMs for analysis, literature search, and evidence-based
-  clinical interpretations from sequencing data.
-access: unknown
+description: Query genomic datasets, annotate variants, search literature, and create visualizations
+  through a conversational interface. A free account offers limited use; uploading samples
+  requires trial or paid access.
+access: freemium
 domain: life-sciences
 status: active
 tier: extended
 added: 2026-02
-last_verified: '2026-09-11'
+last_verified: '2026-10-15'
+notes: '[sweep 2026-10-15] Official subscription documentation resolves unknown access: Free,
+  Trial, Plus, Pro, and Enterprise tiers are listed, with uploads unavailable on Free. The
+  documentation identifies Mamidi Health. Sources: https://chat.aivaportal.com/; https://docs.aivaportal.com/quick-start/;
+  https://docs.aivaportal.com/getting-started/subscription-tiers/'

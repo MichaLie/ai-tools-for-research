@@ -2,20 +2,23 @@ name: Qualtrics AI
 category: survey-experiment-design
 provider: Qualtrics
 url: https://www.qualtrics.com/support/survey-platform/distributions-module/synthetic-panels/
-description: 'Survey platform most universities already license: ExpertReview audits
-  draft questionnaires for methodology errors, PII risk, and accessibility before
-  launch; Synthetic Panels answer a survey with a first-party AI model trained on
-  real survey responses.'
+description: Create and evaluate surveys in Qualtrics, including simulated responses through
+  Synthetic Panels. The documented panel represents the United States general population;
+  availability depends on institutional licensing and enabled features.
 access: institutional
 domain: general
 status: active
 tier: core
 added: 2026-08
-last_verified: '2026-09-11'
-notes: '[discovery 2026-08-18] Unique use case: AI methodology review and synthetic
-  piloting inside the survey platform academics already field studies from Adoption:
-  Ubiquitous institutional licensing; Duke CTSI runs Qualtrics survey-design training
-  (seen in search); support docs confirm Synthetic Panels is a shipped, documented
-  feature Synthetic Panels gated to newer pricing plans plus purchased credits, US
-  general population, English only; academic licenses may lack it. ExpertReview is
-  broadly available. Verify campus entitlements.'
+last_verified: '2026-10-15'
+notes: '[discovery 2026-08-18] Unique use case: AI methodology review and synthetic piloting
+  inside the survey platform academics already field studies from Adoption: Ubiquitous institutional
+  licensing; Duke CTSI runs Qualtrics survey-design training (seen in search); support docs
+  confirm Synthetic Panels is a shipped, documented feature Synthetic Panels gated to newer
+  pricing plans plus purchased credits, US general population, English only; academic licenses
+  may lack it. ExpertReview is broadly available. Verify campus entitlements.
+
+
+  [sweep 2026-10-15] The current Synthetic Panels documentation limits the represented population
+  to the United States. Removed the unsupported claim that most universities already license
+  the relevant features. Sources: https://www.qualtrics.com/support/survey-platform/distributions-module/synthetic-panels/'

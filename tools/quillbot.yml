@@ -2,12 +2,14 @@ name: QuillBot
 category: writing-translation
 provider: Learneo
 url: https://quillbot.com/
-description: Paraphrasing tool with dedicated Academic mode maintaining scholarly
-  language. Features context-preserving rewrites, citation generator (APA, MLA, Chicago),
-  and QuillBot Flow unified workspace.
+description: Paraphrase, check grammar, summarize text, and generate citations in a writing
+  workspace. Free access has limits, while Premium expands the available modes and usage.
 access: freemium
 domain: general
 status: active
 tier: extended
 added: 2026-02
-last_verified: '2026-09-11'
+last_verified: '2026-10-15'
+notes: '[sweep 2026-10-15] The official pricing page was retrieved with web browsing after
+  direct bot blocking. Removed the old Flow branding; the current navigation presents Projects.
+  Sources: https://quillbot.com/; https://quillbot.com/upgrade?collab=studentbeans'

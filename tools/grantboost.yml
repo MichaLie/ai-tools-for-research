@@ -2,19 +2,23 @@ name: GrantBoost
 category: ideation-grant-funding
 provider: GrantBoost
 url: https://www.grantboost.io/
-description: Template-based AI grant writing for nonprofit and research grants. Pick
-  a grant type, fill in organisational details and the AI drafts proposal sections.
-  Works best for common, well-known grant categories. Free trial; plans from $32/month.
-access: paid
+description: Discover matched grants, organize a funding pipeline, and draft proposals using
+  templates and your organization’s voice. A permanent limited free plan is available; paid
+  plans separate discovery from proposal-writing features.
+access: freemium
 domain: general
 status: active
 tier: extended
 added: 2026-05
-last_verified: '2026-09-11'
-notes: '[sweep 2026-08-18] grantboost.com is a parked GoDaddy for-sale domain; live
-  product at grantboost.io. Plans $32/$49/$66/mo (no free tier seen; ''$19.99'' stale).
-  Academic fit: site explicitly lists universities/research institutions seeking federal
-  grants.
+last_verified: '2026-10-15'
+notes: '[sweep 2026-08-18] grantboost.com is a parked GoDaddy for-sale domain; live product
+  at grantboost.io. Plans $32/$49/$66/mo (no free tier seen; ''$19.99'' stale). Academic fit:
+  site explicitly lists universities/research institutions seeking federal grants.
 
-  [sweep 2026-09-11] Description ''$19.99/month'' replaced with ''from $32/month''
-  (plans $32/$49/$66); free trial exists (access stays paid — trial, not a free tier).'
+  [sweep 2026-09-11] Description ''$19.99/month'' replaced with ''from $32/month'' (plans
+  $32/$49/$66); free trial exists (access stays paid — trial, not a free tier).
+
+
+  [sweep 2026-10-15] Official pricing now lists a no-expiry free plan. The entry is no longer
+  paid-only, and the lowest paid discovery plan does not include proposal drafting. Sources:
+  https://www.grantboost.io/; https://www.grantboost.io/pricing/'

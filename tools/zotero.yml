@@ -2,14 +2,18 @@ name: Zotero
 category: citation-networks-reference-management
 provider: Digital Scholar
 url: https://www.zotero.org/
-description: Free, open-source reference manager with browser integration and Word/LibreOffice/Google
-  Docs plugins. AI plugins (Aria, Beaver) add GPT powered paper chat and agentic search
-  with sentence-level citations.
+description: Collect, organize, annotate, and cite sources with a free open-source reference
+  manager. Browser capture and Word, LibreOffice, and Google Docs integrations support reference
+  management; third-party extensions provide optional AI features.
 access: free
 domain: general
 status: active
 tier: core
 added: 2026-02
-last_verified: '2026-09-11'
-notes: '[sweep 2026-09-11] Domain blocked for fetch; alive per official blog/forum
-  search results (Zotero 8, Jan 2026). Description names no version, nothing to change.'
+last_verified: '2026-10-15'
+notes: '[sweep 2026-09-11] Domain blocked for fetch; alive per official blog/forum search
+  results (Zotero 8, Jan 2026). Description names no version, nothing to change.
+
+
+  [sweep 2026-10-15] Removed specific third-party AI plugin claims that the official Zotero
+  homepage does not establish. Sources: https://www.zotero.org/'

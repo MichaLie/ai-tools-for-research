@@ -2,22 +2,26 @@ name: Vibe (Mistral, formerly Le Chat)
 category: general-purpose-ai-assistants
 provider: Mistral AI
 url: https://chat.mistral.ai/
-description: 'Mistral''s assistant, renamed from Le Chat to Vibe in May 2026: Chat
-  (turn-based), Work (multi-step agent across Google Workspace, Outlook, SharePoint,
-  Slack, GitHub) and Code (CLI, VS Code, web) modes. Free tier; Pro EUR 17.99/month,
-  Team EUR 29.99/user/month; European alternative to US assistants.'
+description: Mistral’s Vibe, formerly Le Chat, supports chat, connected work tasks, and coding.
+  Free access includes limited web searches and coding sessions; paid plans raise limits and
+  add document creation capabilities.
 access: freemium
 domain: general
 status: active
 tier: extended
 added: 2026-02
-last_verified: '2026-09-11'
-notes: '[sweep 2026-08-18] description flagged: Le Chat renamed to Vibe May 28 2026
-  (help.mistral.ai confirms; same URL, accounts carried over). Vibe pricing: Pro $14.99,
-  Team $24.99, Enterprise. Free tier post-rename not confirmed. Name/description outdated.
+last_verified: '2026-10-15'
+notes: '[sweep 2026-08-18] description flagged: Le Chat renamed to Vibe May 28 2026 (help.mistral.ai
+  confirms; same URL, accounts carried over). Vibe pricing: Pro $14.99, Team $24.99, Enterprise.
+  Free tier post-rename not confirmed. Name/description outdated.
 
   [sweep 2026-09-11] needs-review resolved: rename Le Chat -> Vibe confirmed (help.mistral.ai
-  article; heise 2026-05-29); same URL chat.mistral.ai; free tier confirmed (heise),
-  Pro EUR 17.99/Team EUR 29.99 (EUR prices differ from the USD figures noted 2026-08-18).
-  Recommend renaming file/name to ''Vibe (Mistral)''; 256K-context and Deep Research
-  claims not re-verified and dropped.'
+  article; heise 2026-05-29); same URL chat.mistral.ai; free tier confirmed (heise), Pro EUR
+  17.99/Team EUR 29.99 (EUR prices differ from the USD figures noted 2026-08-18). Recommend
+  renaming file/name to ''Vibe (Mistral)''; 256K-context and Deep Research claims not re-verified
+  and dropped.
+
+
+  [sweep 2026-10-15] Confirmed the Vibe name and current free/paid structure on Mistral’s
+  pricing page; removed region-specific prices and the historical rename date. Sources: https://chat.mistral.ai/;
+  https://mistral.ai/pricing/'

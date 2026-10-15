@@ -2,24 +2,28 @@ name: Transcription Pearl
 category: ocr-document-digitization
 provider: Wilfrid Laurier University (Humphries & Leddy, Dept. of History)
 url: https://github.com/mhumphries2323/Transcription_Pearl
-description: Free desktop app that batch-transcribes archival page images through
-  OpenAI, Gemini, or Claude APIs, showing each transcription beside its source image
-  for correction and export — LLM-based mass transcription for historians.
+description: Free desktop app that batch-transcribes archival page images through OpenAI,
+  Gemini, or Claude APIs, showing each transcription beside its source image for correction
+  and export — LLM-based mass transcription for historians.
 access: free
 domain: general
 status: deprecated
 tier: extended
 added: 2026-08
-last_verified: '2026-09-11'
-notes: '[discovery 2026-08-18] Unique use case: Peer-review-backed LLM transcription
-  workflow: the accompanying study found LLMs beat specialized HTR (Transkribus) on
-  18th/19th-c. English documents — the easter egg of this area Adoption: Companion
-  paper published in Historical Methods (2025, DOI 10.1080/01615440.2025.2500309)
-  and arXiv:2411.03340; GitHub repo public Beta; last commit Nov 2024 — maintenance
-  uncertain. Requires own API keys and Python. CC BY-NC 4.0. Candidate until freshness
-  confirmed.
+last_verified: '2026-10-15'
+notes: '[discovery 2026-08-18] Unique use case: Peer-review-backed LLM transcription workflow:
+  the accompanying study found LLMs beat specialized HTR (Transkribus) on 18th/19th-c. English
+  documents — the easter egg of this area Adoption: Companion paper published in Historical
+  Methods (2025, DOI 10.1080/01615440.2025.2500309) and arXiv:2411.03340; GitHub repo public
+  Beta; last commit Nov 2024 — maintenance uncertain. Requires own API keys and Python. CC
+  BY-NC 4.0. Candidate until freshness confirmed.
 
-  [sweep 2026-09-11] Candidate rejected on gate 5 (alive/maintained): no commits since
-  2024-11-11 (22 months), still 1.0 beta, and superseded by the same authors'' Archive
-  Studio (May 2025). Suggest capturing Archive Studio as the candidate for this use
-  case instead; its own maintenance cadence not yet verified.'
+  [sweep 2026-09-11] Candidate rejected on gate 5 (alive/maintained): no commits since 2024-11-11
+  (22 months), still 1.0 beta, and superseded by the same authors'' Archive Studio (May 2025).
+  Suggest capturing Archive Studio as the candidate for this use case instead; its own maintenance
+  cadence not yet verified.
+
+
+  [sweep 2026-10-15] Corrected a prior maintenance note: GitHub’s latest repository commit
+  is 29 April 2025, not 11 November 2024. No newer maintenance was found; retained the existing
+  retired status. Sources: https://github.com/mhumphries2323/Transcription_Pearl; https://github.com/mhumphries2323/Transcription_Pearl/commit/5fc5157a2070742cb6b4db64cf05a28d505e5b9b'

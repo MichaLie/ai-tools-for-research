@@ -1,17 +1,28 @@
-name: Claude for Excel / Word / PowerPoint
+name: Claude for Microsoft 365
 category: office-suite-ai-integrations
 provider: Anthropic
 url: https://claude.com/claude-for-microsoft-365
-description: Native sidebar add-ins for Excel, Word and PowerPoint (GA May 7, 2026;
-  Outlook in public beta). Carries full conversation context across apps, reads templates/slide
-  masters, generates native charts and tracked changes in Word. Install via Microsoft
-  AppSource; included with paid Claude plans.
+description: 'Revise Office files with shared context across applications: analyze Excel workbooks,
+  edit Word text with tracked changes, build PowerPoint slides from templates, and draft Outlook
+  replies. Requires a paid Claude plan; Outlook remains beta.'
 access: paid
 domain: general
 status: active
-tier: core
+tier: extended
 added: 2026-05
-last_verified: '2026-09-11'
-notes: '[sweep 2026-08-18] anthropic.com/claude/excel is 404. Official page fetched:
-  product is branded ''Claude for Microsoft 365''. GA May 7 2026, Outlook beta, AppSource
-  install, all-paid-plans access all confirmed.'
+last_verified: '2026-10-15'
+notes: '[sweep 2026-08-18] anthropic.com/claude/excel is 404. Official page fetched: product
+  is branded ''Claude for Microsoft 365''. GA May 7 2026, Outlook beta, AppSource install,
+  all-paid-plans access all confirmed.
+
+
+  [sweep 2026-10-15] Updated to the official suite name and current app coverage; removed
+  historical general-availability dates. Sources: https://claude.com/claude-for-microsoft-365;
+  https://claude.com/pricing?content_language=English
+
+
+  [core review 2026-10-15] Move to extended with Michaela''s approval: overlaps the core Office-production
+  task represented by Microsoft Copilot. Shared cross-file context remains a meaningful distinction;
+  feature parity is not claimed. Bowdoin documents an actual Claude Office pilot and cross-file
+  setup, so this is not an absence-of-adoption finding. Sources: https://bowdoin.teamdynamix.com/TDClient/1814/Portal/KB/Article/174810/Install-the-Claude-add-in-for-Excel-Word-and-PowerPoint;
+  https://claude.com/resources/articles/collaborate-with-claude-across-excel-powerpoint-word-and-outlook'

@@ -2,15 +2,19 @@ name: ChatGPT
 category: general-purpose-ai-assistants
 provider: OpenAI
 url: https://chatgpt.com/
-description: Conversational AI with Deep Research for multi-step source synthesis,
-  Python-based data analysis, and reasoning models. Free tier; paid Go, Plus and Pro
-  plans add image generation, file analysis and higher usage limits.
+description: Draft, research, analyze uploaded data, and create images in ChatGPT. Deep Research
+  produces source-linked reports; free access includes limited file and image capabilities,
+  with higher usage limits on paid plans.
 access: freemium
 domain: general
 status: active
 tier: core
 added: 2026-02
-last_verified: '2026-09-11'
-notes: '[sweep 2026-09-11] chatgpt.com blocks fetch (403); alive per search. Dropped
-  stale ''4o'' model name and unverified ''100+ sources'' figure; plan names (Go/Plus/Pro)
-  from third-party pricing roundups, not the product page.'
+last_verified: '2026-10-15'
+notes: '[sweep 2026-09-11] chatgpt.com blocks fetch (403); alive per search. Dropped stale
+  ''4o'' model name and unverified ''100+ sources'' figure; plan names (Go/Plus/Pro) from
+  third-party pricing roundups, not the product page.
+
+
+  [sweep 2026-10-15] Corrected the implication that image generation and file analysis require
+  a paid plan; the public entry page offers both to signed-in users. Sources: https://chatgpt.com/'

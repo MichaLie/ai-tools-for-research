@@ -2,16 +2,19 @@ name: Comet
 category: browser-automation-agents
 provider: Perplexity AI
 url: https://www.perplexity.ai/comet
-description: AI-powered Chromium browser with Background Assistants completing multiple
-  research tasks asynchronously. Highlights any text for instant explanations; Email
-  Assistant handles scheduling and drafts (Max subscribers).
+description: Browse and research with Perplexity’s AI assistant in a Chromium-based browser.
+  The assistant uses the current page and tabs as context for questions and web tasks; available
+  on desktop and mobile.
 access: freemium
 domain: general
 status: active
 tier: core
 added: 2026-02
-last_verified: '2026-09-11'
-notes: '[sweep 2026-09-11] Product page blocks fetch; alive per search. Comet made
-  free on all platforms March 2026 (agent credits limited on free tier) — access freemium
-  still correct. ''Email Assistant (Max subscribers)'' claim could not be re-verified
-  against the page.'
+last_verified: '2026-10-15'
+notes: '[sweep 2026-09-11] Product page blocks fetch; alive per search. Comet made free on
+  all platforms March 2026 (agent credits limited on free tier) — access freemium still correct.
+  ''Email Assistant (Max subscribers)'' claim could not be re-verified against the page.
+
+
+  [sweep 2026-10-15] The current product page lists Mac, Windows, iOS, and Android. Removed
+  unconfirmed Email Assistant plan restrictions. Sources: https://www.perplexity.ai/comet'

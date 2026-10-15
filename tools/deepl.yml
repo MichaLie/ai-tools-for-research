@@ -2,15 +2,20 @@ name: DeepL
 category: writing-translation
 provider: DeepL SE
 url: https://www.deepl.com/en/translator
-description: AI translation service known for contextually accurate output, particularly
-  strong for European languages. Free web translator; Pro glossary feature keeps terminology
-  consistent across a manuscript or field.
+description: Translate text or whole documents while preserving document layout, and use glossaries
+  to maintain terminology across research materials. Free and paid plans differ in document
+  translation limits and available features.
 access: freemium
 domain: general
 status: active
 tier: core
 added: 2026-02
-last_verified: '2026-09-11'
-notes: '[sweep 2026-09-11] Dropped unsupported ''73%'' statistic from description;
-  page now cites ''200,000+ businesses'' and case-study figures instead. Everything
-  else unchanged.'
+last_verified: '2026-10-15'
+notes: '[sweep 2026-09-11] Dropped unsupported ''73%'' statistic from description; page now
+  cites ''200,000+ businesses'' and case-study figures instead. Everything else unchanged.
+
+
+  [core review 2026-10-15] Keep core for whole-document translation, a distinct task from
+  editing or drafting in one language. Masaryk University provides an employee DeepL document-translation
+  service with formatting preservation. Institutional provision supports this workflow, not
+  a claim that every employee has access or that output needs no checking. Sources: https://it.muni.cz/en/services/portal-pro-zamestnance/deepl-translator'

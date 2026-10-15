@@ -2,17 +2,23 @@ name: STORM
 category: deep-research-agents
 provider: Stanford OVAL Lab
 url: https://storm.genie.stanford.edu/
-description: LLM system that researches a topic and writes a Wikipedia-style, fully
-  cited article by simulating multi-perspective expert conversations. Co-STORM mode
-  lets you join the discussion for human-AI collaborative knowledge curation. Free
-  web demo; MIT-licensed code.
+description: Explore a topic through perspective-guided questions and cited outlines. Co-STORM
+  lets you steer an expert-agent discussion and inspect an evolving mind map; this MIT-licensed
+  research prototype offers a web preview and customizable local setup.
 access: free
 domain: general
 status: active
 tier: core
 added: 2026-02
-last_verified: '2026-09-11'
-notes: '[sweep 2026-09-11] Dropped unsupported ''99% factual accuracy'' figure; not
-  on demo page or repo. Demo alive but repo activity last noted Jan 2025 — research
-  prototype, watch for demo shutdown. storm-project.stanford.edu could not be fetched
-  (network policy).'
+last_verified: '2026-10-15'
+notes: '[sweep 2026-09-11] Dropped unsupported ''99% factual accuracy'' figure; not on demo
+  page or repo. Demo alive but repo activity last noted Jan 2025 — research prototype, watch
+  for demo shutdown. storm-project.stanford.edu could not be fetched (network policy).
+
+
+  [core review 2026-10-15] Keep core for interactive perspective exploration and knowledge
+  curation, distinct from delegating a finished report. The project documents participant
+  dialogue and an evolving mind map; Lib4RI included a hands-on STORM exercise in 2024, historical
+  teaching evidence rather than current deployment scale. README news ends January 2025; retain
+  the maintenance caveat. No research job was run; local setup may incur model/retrieval costs.
+  Sources: https://raw.githubusercontent.com/stanford-oval/storm/main/README.md; https://www.lib4ri.ch/sites/default/files/media/documents/2024_11_ai_made_easy_web.pdf'

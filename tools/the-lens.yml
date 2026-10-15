@@ -12,7 +12,7 @@ domain: general
 status: active
 tier: core
 added: 2026-08
-last_verified: '2026-09-11'
+last_verified: '2026-10-15'
 notes: '[discovery 2026-08-18] Unique use case: Seeing which patents cite your own
   papers, and finding biological sequences buried in patents (PatSeq) — the scholarly-patent
   bridge no general assistant or single-corpus tool covers Adoption: Listed on WIPO

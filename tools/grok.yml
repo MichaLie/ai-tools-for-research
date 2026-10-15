@@ -1,16 +1,21 @@
 name: Grok
 category: general-purpose-ai-assistants
-provider: xAI
+provider: SpaceXSI
 url: https://grok.com/
-description: xAI's assistant with real-time X/Twitter and web search plus DeepSearch
-  multi-step research mode. Free tier on grok.com and inside X (lighter model, limited
-  usage); SuperGrok subscriptions unlock the newest models (Grok 4.6 as of Aug 2026).
+description: Ask questions, write code, and create images with an assistant that draws on
+  the web and X for current information. Free access and paid subscriptions offer different
+  usage limits.
 access: freemium
 domain: general
 status: active
 tier: extended
 added: 2026-02
-last_verified: '2026-09-11'
-notes: '[sweep 2026-09-11] Fetch blocked (403); alive per search. Description referenced
-  Grok 4.1 and a ''65% hallucination reduction'' figure that no reachable page supports
-  — replaced with version-neutral capability text; current flagship is Grok 4.6.'
+last_verified: '2026-10-15'
+notes: '[sweep 2026-09-11] Fetch blocked (403); alive per search. Description referenced Grok
+  4.1 and a ''65% hallucination reduction'' figure that no reachable page supports — replaced
+  with version-neutral capability text; current flagship is Grok 4.6.
+
+
+  [sweep 2026-10-15] The product metadata identifies SpaceXSI as the provider, corroborated
+  by its official contact page. Removed the dated Grok 4.6 claim. Sources: https://grok.com/;
+  https://x.ai/contact'
