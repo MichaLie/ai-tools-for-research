@@ -5,6 +5,7 @@ Deterministic: output depends only on the source files.
 """
 import csv
 import json
+import re
 from pathlib import Path
 
 import yaml
@@ -39,6 +40,15 @@ def fmt_date(iso):
               "August", "September", "October", "November", "December"]
     y, m, d = iso.split("-")
     return f"{int(d)} {months[int(m) - 1]} {y}"
+
+
+def gh_anchor(heading):
+    """The anchor GitHub generates for a Markdown heading (github-slugger rule):
+    lowercase, drop every character except letters, digits, spaces, hyphens and
+    underscores, then turn spaces into hyphens. "A & B" becomes "a--b" and an
+    em dash vanishes — so "Conference Prep — Posters & Talk Practice" is
+    "conference-prep--posters--talk-practice", as GitHub renders it."""
+    return re.sub(r"[^\w\s-]", "", heading.lower()).replace(" ", "-")
 
 
 def load():
@@ -101,8 +111,7 @@ def build_readme(categories, tools):
                 continue
             n = sum(1 for t in active if t["category"] == slug)
             if n:
-                anchor = meta["title"].lower().replace(" ", "-").replace("&", "").replace("--", "-")
-                links.append(f"[{meta['title']}](#{anchor}) ({n})")
+                links.append(f"[{meta['title']}](#{gh_anchor(meta['title'])}) ({n})")
         if links:
             lines.append(f"- **{stitle}** · " + " · ".join(links))
     lines.append("")
@@ -209,7 +218,6 @@ EMPTY_EDGES = [
 
 
 def build_coverage(categories, tools):
-    import re as _re
     dates = [t["last_verified"] for t in tools if t.get("last_verified")]
     verified = max(dates) if dates else "never"
     lines = [
@@ -240,7 +248,7 @@ def build_coverage(categories, tools):
         n = len(active)
         unit = "tool" if n == 1 else "tools"
         lines.append(f"### {meta['title']} ({n} active {unit})")
-        lines.append("Task: " + _re.sub(r"^The task: ", "", meta.get("blurb", "")))
+        lines.append("Task: " + re.sub(r"^The task: ", "", meta.get("blurb", "")))
         lines.append("")
         lines.append("Available examples:" if active else "No active example is currently listed.")
         for t in active:
