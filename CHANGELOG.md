@@ -160,3 +160,23 @@ are approved for this local proposal. All other tiers are unchanged.
 Catalog remains 177 records / 35 categories: 155 active, 6 needs-review,
 12 candidates and 4 retired. The main catalog displays 161 records
 (active plus needs-review).
+
+## Unreleased — generator and validator fixes 2026-11-05
+
+No catalog content changed; the 6 needs-review entries and 12 candidates from the
+2026-10-15 sweep still await a fetch-based re-check (this session's network policy
+blocked direct page fetches, so no `last_verified` date was touched).
+
+- Fix README task-map links: anchors for titles containing "&" or "—" were built
+  with a home-grown rule and pointed nowhere on GitHub. `build.py` now derives
+  anchors the way GitHub does (punctuation dropped, spaces to hyphens, double
+  hyphens kept), so all 35 map links resolve.
+- Fix README Watchlist and Retired sections: they dumped each entry's full
+  multi-paragraph maintenance log into a list item, which broke the Markdown list.
+  They now show the one-line description plus the access label; the vetting log
+  stays in the YAML file.
+- `validate.py` now enforces the AGENTS.md style guide: descriptions at most 40
+  words, no banned marketing adjectives, category blurbs starting with "The task:".
+  All 177 entries and 35 categories already comply, so this locks in the current
+  state rather than changing it.
+

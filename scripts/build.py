@@ -5,6 +5,7 @@ Deterministic: output depends only on the source files.
 """
 import csv
 import json
+import re
 from pathlib import Path
 
 import yaml
@@ -32,6 +33,12 @@ STAGES = {
     "publish": ("Review & Publish", "#008300", "#008300"),
     "impact": ("Share & Impact", "#4a3aa7", "#9085e9"),
 }
+
+
+def gh_anchor(heading):
+    """Anchor GitHub generates for a Markdown heading: lowercase, drop punctuation
+    (so '&' and '—' vanish, leaving a double hyphen), spaces become hyphens."""
+    return re.sub(r"[^\w\s-]", "", heading.lower()).replace(" ", "-")
 
 
 def fmt_date(iso):
@@ -101,8 +108,7 @@ def build_readme(categories, tools):
                 continue
             n = sum(1 for t in active if t["category"] == slug)
             if n:
-                anchor = meta["title"].lower().replace(" ", "-").replace("&", "").replace("--", "-")
-                links.append(f"[{meta['title']}](#{anchor}) ({n})")
+                links.append(f"[{meta['title']}](#{gh_anchor(meta['title'])}) ({n})")
         if links:
             lines.append(f"- **{stitle}** · " + " · ".join(links))
     lines.append("")
@@ -133,16 +139,22 @@ def build_readme(categories, tools):
             lines += [f"<details><summary>More tools for this task ({len(ext)})</summary>",
                       ""] + header + [row(t) for t in ext] + ["", "</details>", ""]
 
+    def oneline(t):
+        return t["description"].replace("\n", " ")
+
     if candidates:
-        lines += ["## Watchlist", "", "Noticed but not properly vetted yet — waitlisted,"
-                  " too young, or missing a privacy policy.", ""]
+        lines += ["## Watchlist", "", "Vetted but not admitted yet: waitlist or demo-only,"
+                  " no named operator, or no privacy policy. The full vetting log for each",
+                  "entry is in its file under [`tools/`](tools/).", ""]
         for t in candidates:
-            lines.append(f"- [{t['name']}]({t['url']}) — {t.get('notes') or t['description']}")
+            access = ("access unknown" if t["access"] == "unknown"
+                      else ACCESS_LABEL[t["access"]].lower())
+            lines.append(f"- [{t['name']}]({t['url']}) ({access}) — {oneline(t)}")
         lines.append("")
     if retired:
         lines += ["## Retired", "", "Kept for the record.", ""]
         for t in retired:
-            lines.append(f"- **{t['name']}** ({t['status']}) — {t.get('notes') or t['description']}")
+            lines.append(f"- **{t['name']}** ({t['status']}) — {oneline(t)}")
         lines.append("")
 
     lines += [

@@ -166,7 +166,7 @@ seconds whether to click. English only.
 ## Commands
 
 ```bash
-python3 scripts/validate.py   # schema + duplicates + category integrity; exit 1 on failure
+python3 scripts/validate.py   # schema, duplicates, category integrity, description style; exit 1 on failure
 python3 scripts/build.py      # regenerate README.md, docs/, exports/
 ```
 

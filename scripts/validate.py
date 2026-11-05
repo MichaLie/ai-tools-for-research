@@ -1,5 +1,6 @@
 #!/usr/bin/env python3
-"""Validate tools/*.yml against the schema in CLAUDE.md. Exit 1 on any failure."""
+"""Validate tools/*.yml and categories.yml against the schema and style rules in
+AGENTS.md. Exit 1 on any failure."""
 import re
 import sys
 from pathlib import Path
@@ -17,6 +18,8 @@ STATUS = {"active", "candidate", "needs-review", "deprecated", "acquired"}
 TIER = {"core", "extended"}
 STAGES = {"everyday", "discover", "plan", "collect", "write", "publish", "impact"}
 MAX_CORE_PER_CATEGORY = 6
+MAX_DESCRIPTION_WORDS = 40
+BANNED_WORDS = {"revolutionary", "cutting-edge", "seamless", "seamlessly", "game-changing"}
 
 
 def main() -> int:
@@ -28,6 +31,8 @@ def main() -> int:
         if cmeta.get("stage") not in STAGES:
             errors.append(f"categories.yml: {cslug} stage '{cmeta.get('stage')}'"
                           f" not one of {sorted(STAGES)}")
+        if not str(cmeta.get("blurb", "")).startswith("The task:"):
+            errors.append(f"categories.yml: {cslug} blurb must start with 'The task:'")
 
     seen_names, seen_urls = {}, {}
     files = sorted((ROOT / "tools").glob("*.yml"))
@@ -60,6 +65,14 @@ def main() -> int:
             errors.append(f"{where}: last_verified '{lv}' is not YYYY-MM-DD or null")
         if t.get("url") and not str(t["url"]).startswith("https://"):
             errors.append(f"{where}: url must start with https://")
+        desc = str(t.get("description") or "")
+        n_words = len(desc.split())
+        if n_words > MAX_DESCRIPTION_WORDS:
+            errors.append(f"{where}: description is {n_words} words"
+                          f" (max {MAX_DESCRIPTION_WORDS})")
+        for word in sorted(BANNED_WORDS):
+            if re.search(rf"\b{re.escape(word)}\b", desc, re.IGNORECASE):
+                errors.append(f"{where}: description uses banned marketing word '{word}'")
 
         name = (t.get("name") or "").casefold()
         if name in seen_names:
