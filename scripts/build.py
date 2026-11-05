@@ -399,6 +399,10 @@ __STAGEDARK__
       <option value="free">Free</option><option value="freemium">Freemium</option>
       <option value="paid">Paid</option><option value="institutional">Institutional</option>
     </select>
+    <select id="dom" aria-label="Field">
+      <option value="">Any field</option>
+      <option value="general">General</option><option value="life-sciences">Life sciences</option>
+    </select>
     <span class="count" id="count"></span>
   </div>
 </header>
@@ -410,8 +414,22 @@ const DATA = __DATA__;
 const ACCESS = {free:"Free", freemium:"Freemium", paid:"Paid",
                 institutional:"Institutional", waitlist:"Waitlist", unknown:"Access?"};
 const q = document.getElementById("q"), cat = document.getElementById("cat"),
-      acc = document.getElementById("acc"), list = document.getElementById("list"),
-      count = document.getElementById("count"), mapEl = document.getElementById("map");
+      acc = document.getElementById("acc"), dom = document.getElementById("dom"),
+      list = document.getElementById("list"), count = document.getElementById("count"),
+      mapEl = document.getElementById("map");
+// Filters live in the URL hash (#cat=…&acc=…&dom=…&q=…) so a view can be linked
+// from a slide or a syllabus; replaceState keeps typing out of the history.
+const FILTERS = { q, cat, acc, dom };
+function readHash() {
+  const p = new URLSearchParams(location.hash.slice(1));
+  for (const [k, el] of Object.entries(FILTERS)) el.value = p.get(k) || "";
+}
+function writeHash() {
+  const p = new URLSearchParams();
+  for (const [k, el] of Object.entries(FILTERS)) if (el.value.trim()) p.set(k, el.value.trim());
+  const h = p.toString();
+  history.replaceState(null, "", h ? "#" + h : location.pathname + location.search);
+}
 for (const [slug, meta] of Object.entries(DATA.categories)) {
   const o = document.createElement("option"); o.value = slug; o.textContent = meta.title;
   cat.appendChild(o);
@@ -428,11 +446,12 @@ const card = t => `<div class="tool"><div class="row1">
       </div><p class="desc">${esc(t.description)}</p></div>`;
 function render() {
   const term = q.value.trim().toLowerCase();
-  const filtering = !!(term || cat.value || acc.value);
+  const filtering = !!(term || cat.value || acc.value || dom.value);
   const match = t =>
     (t.status === "active" || t.status === "needs-review") &&
     (!cat.value || t.category === cat.value) &&
     (!acc.value || t.access === acc.value) &&
+    (!dom.value || t.domain === dom.value) &&
     (!term || (t.name + " " + (t.provider||"") + " " + t.description).toLowerCase().includes(term));
   let html = "", nCore = 0, nExt = 0, lastStage = null;
   for (const [slug, meta] of Object.entries(DATA.categories)) {
@@ -457,6 +476,7 @@ function render() {
   count.textContent = `${nCore} core · ${nExt} extended`;
   mapEl.querySelectorAll(".brick").forEach(b =>
     b.setAttribute("aria-pressed", String(b.dataset.cat === cat.value)));
+  writeHash();
 }
 function buildMap() {
   let html = "";
@@ -481,7 +501,11 @@ function buildMap() {
   }));
 }
 q.addEventListener("input", render); cat.addEventListener("change", render);
-acc.addEventListener("change", render); buildMap(); render();
+acc.addEventListener("change", render); dom.addEventListener("change", render);
+window.addEventListener("hashchange", () => { readHash(); render(); });
+buildMap(); readHash(); render();
+// after load, so the browser's own (empty) fragment scroll cannot undo it
+window.addEventListener("load", () => { if (cat.value) list.scrollIntoView(); });
 </script>
 </body>
 </html>
