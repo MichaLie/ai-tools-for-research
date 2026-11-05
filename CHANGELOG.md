@@ -160,3 +160,24 @@ are approved for this local proposal. All other tiers are unchanged.
 Catalog remains 177 records / 35 categories: 155 active, 6 needs-review,
 12 candidates and 4 retired. The main catalog displays 161 records
 (active plus needs-review).
+
+## Unreleased — outside review 2026-11-05
+
+Read-only review by a visiting Claude Code session, delivered as branch
+`claude/fervent-cray-64d8ti` for Quill to merge or reject. No tool data or
+category changed. Findings, numbers and task-gap leads:
+`audits/outside-review-2026-11-05.md`.
+
+- Fix the README task map: 22 of its 35 category links pointed at anchors GitHub
+  never generates (a heading with "&" slugs to a double hyphen; an em dash is
+  dropped). `build.py` now derives anchors with GitHub's own rule.
+- Encode five AGENTS.md rules the validator did not check: description ≤ 40
+  words, category blurbs start with "The task:", waitlist-gated tools cannot be
+  `active`, retired tools carry an epitaph, candidates cannot hold core. Three
+  editorial rules (marketing adjectives, core slot without evidence notes, more
+  than three core tools in a deep-dive category) are warnings; `--strict` turns
+  them into failures. The summary line reports status counts and the oldest
+  verification date.
+- Site: the four filters are mirrored in the URL hash
+  (`#cat=…&acc=…&dom=…&q=…`), so a slide can link straight to one task's view; a
+  new field filter isolates the life-sciences entries.
