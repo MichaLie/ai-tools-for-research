@@ -1,6 +1,6 @@
 # Task-coverage map — AI Tools for Scientific Research
 
-Generated from the catalog data: 177 tools, 35 task categories; newest verification 2026-10-15.
+Generated from the catalog data: 178 tools, 35 task categories; newest verification 2026-11-21.
 Purpose: input for external gap-hunting — which academic/research tasks
 augmentable by AI are NOT yet represented below?
 
@@ -15,7 +15,7 @@ privacy-first coding/data agents (https://michalie.github.io/).
 
 ## Current task coverage
 
-### General-Purpose AI Assistants (8 active tools)
+### General-Purpose AI Assistants (9 active tools)
 Task: an everyday thinking partner — drafting, summarizing, coding help, quick analysis at any stage of research.
 
 Available examples:
@@ -26,6 +26,7 @@ Available examples:
 - [Grok](https://grok.com/) (extended) — Ask questions, write code, and create images with an assistant that draws on the web and X for current information. Free access and paid subscriptions offer different usage limits.
 - [LM Council](https://lmcouncil.ai/) (extended) — Compare responses from multiple language models and let models discuss a question with one another. Useful for examining how different systems approach the same research or writing task.
 - [Microsoft Copilot](https://copilot.com/) (core) — Ask questions and create images, documents, spreadsheets, and presentations with Microsoft Copilot. Available capabilities depend on the signed-in account, subscription, and organizational settings; work and school accounts can connect organizational content.
+- [StudyArena](https://studyarena.com) (extended) — Compare three AI explanations of an unfamiliar concept with model names hidden, then vote and reveal the models. The free plan requires an account.
 - [Vibe (Mistral, formerly Le Chat)](https://chat.mistral.ai/) (extended) — Mistral’s Vibe, formerly Le Chat, supports chat, connected work tasks, and coding. Free access includes limited web searches and coding sessions; paid plans raise limits and add document creation capabilities.
 
 ### Office Suite AI Integrations (2 active tools)

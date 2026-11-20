@@ -1,0 +1,12 @@
+name: StudyArena
+category: general-purpose-ai-assistants
+provider: A1Base Inc.
+url: https://studyarena.com
+description: Compare three AI explanations of an unfamiliar concept with model names
+  hidden, then vote and reveal the models. The free plan requires an account.
+access: freemium
+domain: general
+status: active
+tier: extended
+added: '2026-11'
+last_verified: '2026-11-21'

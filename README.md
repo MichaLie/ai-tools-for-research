@@ -5,7 +5,7 @@ for my courses and workshops on AI in science, which makes it opinionated on
 purpose: for each research task you get a handful of tools people really use,
 not everything that exists.
 
-Right now: 161 tools across 35 task areas. Latest successful public-source check: 15 October 2026.
+Right now: 162 tools across 35 task areas. Latest successful public-source check: 21 November 2026.
 Individual verification dates vary; flagged entries still need review.
 
 This space moves fast. Tools rename, merge and die constantly, so if something
@@ -29,7 +29,7 @@ history is part of the story.
 
 Tasks grouped by research stage:
 
-- **Everyday AI** · [General-Purpose AI Assistants](#general-purpose-ai-assistants) (8) · [Office Suite AI Integrations](#office-suite-ai-integrations) (2) · [Browser Automation Agents](#browser-automation-agents) (2)
+- **Everyday AI** · [General-Purpose AI Assistants](#general-purpose-ai-assistants) (9) · [Office Suite AI Integrations](#office-suite-ai-integrations) (2) · [Browser Automation Agents](#browser-automation-agents) (2)
 - **Discover & Learn** · [AI-Powered Search Engines](#ai-powered-search-engines) (1) · [Deep Research Agents](#deep-research-agents) (5) · [Literature Discovery & Analysis](#literature-discovery-analysis) (8) · [Publisher & Database AI Assistants](#publisher-database-ai-assistants) (4) · [Citation Networks & Reference Management](#citation-networks-reference-management) (3) · [Grounded Knowledge & Specialized Databases](#grounded-knowledge-specialized-databases) (1) · [Systematic Review & Evidence Synthesis](#systematic-review-evidence-synthesis) (10) · [Staying Current](#staying-current) (5)
 - **Plan & Design** · [Ideation & Grant Funding](#ideation-grant-funding) (5) · [Survey & Experiment Design](#survey-experiment-design) (4) · [Data Management & FAIR](#data-management-fair) (4)
 - **Collect & Analyze** · [Data Analysis](#data-analysis) (4) · [Autonomous Research Agents](#autonomous-research-agents) (7) · [Code Assistants](#code-assistants) (5) · [Transcription & Qualitative Analysis](#transcription-qualitative-analysis) (8) · [OCR & Document Digitization](#ocr-document-digitization) (6) · [Lab Bench & Protocols](#lab-bench-protocols) (4) · [Instrument Data Interpretation](#instrument-data-interpretation) (2) · [Bioimage Analysis](#bioimage-analysis) (3) · [Behavioral Video Analysis](#behavioral-video-analysis) (3) · [De-identification & Data Sharing](#de-identification-data-sharing) (4)
@@ -48,13 +48,14 @@ Tasks grouped by research stage:
 | [Gemini](https://gemini.google.com/) | Google | Freemium | Analyze documents and multimodal inputs, draft text, and research questions with Google’s AI assistant. Deep Research combines web sources and optional connected Workspace content into reports; free and paid plans have different limits. |
 | [Microsoft Copilot](https://copilot.com/) | Microsoft | Freemium | Ask questions and create images, documents, spreadsheets, and presentations with Microsoft Copilot. Available capabilities depend on the signed-in account, subscription, and organizational settings; work and school accounts can connect organizational content. |
 
-<details><summary>More tools for this task (4)</summary>
+<details><summary>More tools for this task (5)</summary>
 
 | Tool | Provider | Access | Description |
 |---|---|---|---|
 | [Google AI Studio](https://aistudio.google.com/) | Google | Free | Experiment with Gemini prompts and models in a browser, prototype applications, and obtain code for API integration. Web-workspace access and API usage have separate limits and pricing considerations. |
 | [Grok](https://grok.com/) | SpaceXSI | Freemium | Ask questions, write code, and create images with an assistant that draws on the web and X for current information. Free access and paid subscriptions offer different usage limits. |
 | [LM Council](https://lmcouncil.ai/) | — | Freemium | Compare responses from multiple language models and let models discuss a question with one another. Useful for examining how different systems approach the same research or writing task. |
+| [StudyArena](https://studyarena.com) | A1Base Inc. | Freemium | Compare three AI explanations of an unfamiliar concept with model names hidden, then vote and reveal the models. The free plan requires an account. |
 | [Vibe (Mistral, formerly Le Chat)](https://chat.mistral.ai/) | Mistral AI | Freemium | Mistral’s Vibe, formerly Le Chat, supports chat, connected work tasks, and coding. Free access includes limited web searches and coding sessions; paid plans raise limits and add document creation capabilities. |
 
 </details>
